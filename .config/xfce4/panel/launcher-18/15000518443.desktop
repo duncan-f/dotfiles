@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Skype for Linux Beta
+Name[en]=Skype for Linux Beta
+Comment=Skype Internet Telephony
+Exec=/usr/bin/skypeforlinux %U
+Icon=skypeforlinux
+Terminal=false
+Type=Application
+StartupNotify=true
+Encoding=UTF-8
+Categories=Network;Application;
+MimeType=x-scheme-handler/skype;
+X-KDE-Protocols=skype
+Actions=QuitSkype;
+X-XFCE-Source=file:///usr/share/applications/skypeforlinux.desktop
+
+[Desktop Action QuitSkype]
+Name=Quit Skype
+Name[en]=Quit Skype
+Exec=/usr/bin/skypeforlinux --shutdown
+OnlyShowIn=Unity;

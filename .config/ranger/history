@@ -1,0 +1,8 @@
+open_with 0
+shell touch test
+open_with r
+shell touch test.txt
+o .config
+shell touch 
+open_with 
+delete

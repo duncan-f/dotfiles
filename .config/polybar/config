@@ -1,0 +1,311 @@
+; Doc: https://github.com/jaagr/polybar
+; Wiki: https://github.com/jaagr/polybar/wiki
+
+[colors]
+background = #2f343f
+;background = ${xrdb:URxvt*background}
+;background-alt = #2f343f
+foreground = ${xrdb:URxvt*foreground}
+;foreground = #f3f4f5
+;foreground-alt = #f3f4f5
+;secondary = #3a3a3a
+secondary = ${xrdb:URxvt*secondary}
+;underline = #943ed6
+underline = ${xrdb:URxvt*underline}
+
+[bar/default]
+;override-redirect = true
+;wm-restack = i3
+height = 24
+width = 100%
+offset-y = 0
+top = true
+fixed-center = true 
+background = ${colors.background}
+foreground = ${colors.foreground}
+monitor = ${env:MONITOR:eDP1}
+
+line-size = 3
+line-color = #f00
+
+;cursor-click = pointer
+
+padding-left = 0
+padding-right = 0
+module-margin = 1
+
+;font-0 = "Ubuntu:size=10;2"
+font-0 = "tamzen:size=12;0"
+font-1 = "FontAwesome:size=10;2"
+font-2 = "xos4terminus:size=10:weight=bold;2"
+font-3 = "MaterialDesignIcons:size=10"
+font-4 = "unifont:size=9"
+font-5 = "fixed:size=10"
+
+modules-left = i3 mpd
+modules-center = xwindow
+modules-right = redshift backlight volume battery date powermenu  
+
+tray-position = right
+tray-padding = 0 
+tray-offset-y = 0%
+tray-offset-x = 0%
+tray-detached = false
+
+[module/i3]
+type = internal/i3
+index-sort = true
+enable-click = true
+enable-scroll = true
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+format = <label-state> <label-mode>
+
+label-mode = %mode%
+label-mode-padding = 1
+label-mode-underline = ${colors.underline}
+
+label-focused =  %icon%
+label-focused-foreground = ${colors.underline}
+label-focused-underline = ${colors.underline}
+label-focused-padding = 1
+
+label-unfocused = %icon%
+label-unfocused-padding = 1
+label-unfocused-foreground = ${colors.foreground}
+label-unfocused-underline = ${colors.secondary}
+
+label-visible = %icon%
+label-visible-underline = ${colors.foreground}
+label-visible-padding = 1
+
+label-urgent = %icon%
+label-urgent-foreground = ${colors.background} 
+label-urgent-background = ${colors.underline} 
+label-urgent-underline = ${colors.underline} 
+label-urgent-padding = 1
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9; 
+ws-icon-9 = 0; 
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1 
+port = 6600
+
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 1
+
+;format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <label-time>  <label-song>"
+format-online = " <icon-repeat> <icon-random>  <label-song>  <label-time> "
+
+; Available tokens:
+;   %artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+label-song =  %artist% - %title%
+
+format-offline = <label-offline>
+
+label-offline = "  mpd is offline  "
+
+; Only applies if <icon-X> is used
+icon-play = ⏵
+icon-pause = ⏸
+icon-stop = ⏹
+icon-prev = ⏮
+icon-next = ⏭
+icon-seekb = ⏪
+icon-seekf = ⏩
+icon-random = 
+icon-repeat = 
+icon-repeatone = 
+
+; Used to display the state of random/repeat/repeatone
+; Only applies if <icon-[random|repeat|repeatone]> is used
+toggle-on-foreground = #ff
+toggle-off-foreground = #55
+
+; Only applies if <bar-progress> is used
+bar-progress-width = 10
+bar-progress-indicator = |
+bar-progress-fill = ─
+bar-progress-empty = ─
+
+label-song-maxlen = 28
+label-song-ellipsis = true
+
+[module/backlight]
+type = internal/xbacklight
+card = intel_backlight
+enable-scroll = false
+format = <ramp> <label>
+format-underline = ${colors.underline}
+
+label = %percentage%%
+
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+mount-0 = /
+mount-1 = /home
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.secondary}
+
+[module/battery]
+type = internal/battery
+
+battery = BAT0
+adapter = ADP1
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = ${colors.underline}
+label-charging = %percentage%%
+
+; Only applies if <animation-charging> is used
+;animation-charging-0 = 
+;animation-charging-1 = 
+;animation-charging-2 = 
+;animation-charging-3 = 
+;animation-charging-4 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+; Framerate in milliseconds
+animation-charging-framerate = 750
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = ${colors.underline}
+label-discharging = %percentage%%
+
+; Only applies if <ramp-capacity> is used
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-0-foreground = #BD1212
+ramp-capacity-1-foreground = #e57b19
+
+format-full = <ramp-capacity> <label-full>
+label-full = Fully charged
+format-full-underline = ${colors.underline}
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format = <label>
+format-prefix = "  "
+format-underline = ${colors.underline}
+label = %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+;format-prefix = " "
+format-underline = ${colors.underline}
+label = %percentage_used%%
+
+[module/date]
+type = internal/date
+interval = 1
+;date = %a. %b. %d,
+date-alt =  %a. %b. %d, %Y
+time =  %I:%M %p
+;time-alt = %H:%M:%S
+label = %date% %time%
+format-underline = ${colors.underline}
+click-left = ${exec /usr/bin/urxvt -e calcurse}
+
+[module/volume]
+type = internal/volume
+master-mixer = Master
+format-volume = <ramp-volume>  <label-volume> 
+format-muted =  
+label-volume = %percentage%%
+label-volume-underline = ${colors.underline}
+format-volume-underline = ${colors.underline}
+label-muted-underline = ${colors.underline}
+format-muted-underline = ${colors.underline}
+label-muted = %percentage%%
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+
+; Only applies if <bar-progress> is used
+bar-volume-width = 10
+bar-volume-indicator = |
+bar-volume-fill = ─
+bar-volume-empty = ─
+
+[module/wired]
+type = internal/network
+interface = eth0
+format-connected = <label-connected>
+format-connected-underline = ${colors.underline}
+format-disconnected = <label-disconnected>
+label-connected =  %local_ip%
+label-disconnected = 
+
+[module/powermenu]
+type = custom/menu
+label-active-font = 1
+format-spacing = 1
+label-open = "    "
+label-open-foreground = #BF616A
+label-open-underline = ${colors.underline}
+label-close = 
+label-close-foreground = #E20049
+label-separator = |
+label-separator-foreground = ${colors.secondary}
+
+menu-0-0 = Reboot
+menu-0-0-foreground = #ffcc66
+menu-0-0-exec = systemctl reboot
+menu-0-1 = Logout
+menu-0-1-foreground = #FFCC66
+menu-0-1-exec = i3-msg exit
+menu-0-2 = Power Off
+menu-0-2-foreground = #FFCC66
+menu-0-2-exec = systemctl poweroff
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+[module/redshift]
+type = custom/script
+exec = ~/.config/polybar/redshift.sh
+label-underline = ${colors.underline}
+interval = 5

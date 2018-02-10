@@ -1,0 +1,87 @@
+
+! ------------------------------------------------------------------------------
+! Colors
+! ------------------------------------------------------------------------------
+URxvt*foreground:       #f3f4f5
+URxvt*background:       [75]#000000
+URxvt*secondary:        #3a3a3a
+URxvt*underline:        #0094ce
+!URxvt*underline:        #943ed6
+URxvt*active:           #aa0000
+
+!black
+URxvt*color0:           #000000
+URxvt*color8:           #555753
+!red
+URxvt*color1:           #cc0000
+URxvt*color9:           #ef2929
+!green
+URxvt*color2:           #4e9a06
+URxvt*color10:          #8ae234
+!yellow
+URxvt*color3:           #c4a000
+URxvt*color11:          #fce94f
+!blue
+URxvt*color4:           #3465a4
+URxvt*color12:          #739fcf
+!purple
+URxvt*color5:           #75507b
+URxvt*color13:          #ad7fa8
+!cyan
+URxvt*color6:           #06989a
+URxvt*color14:          #34e2e2
+!grey
+URxvt*color7:           #d3d7cf
+URxvt*color15:          #eeeeec
+
+! ------------------------------------------------------------------------------
+! URxvt
+! ------------------------------------------------------------------------------
+URxvt*scrollBar:        false
+URxvt*utf8:             true
+!URxvt*transparent:      true
+!URxvt*shading:          25
+URxvt*cursorBlink:      true
+URxvt*cursorUnderline:  true
+URxvt*font:             xft:tamzen:normal:size=11
+URxvt*fontBold:         xft:tamzen:bold:size=11
+!URxvt*font:             xft:Ubuntu Mono:regular:size=12
+!URxvt*fontBold:         xft:Ubuntu Mono:bold:size=12
+URxvt*depth:            32
+!URxvt*urxvt:            screen-256color
+!URxvt*letterSpace:      -1
+!URxvt*intensityStyles:  false
+!URxvt*inheritPixmap:    true
+!URxvt*fading: 10
+
+!! Extensions
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.colorUL:		#4682B4
+!! url-select
+URxvt.keysym.M-u:	perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller:	C-Down
+URxvt.resize-font.bigger:	C-Up
+!! Matcher
+URxvt.url-launcher:	/usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! User: dunCan
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.fullscreen: true
+rofi.color-enabled: true
+rofi.color-window: argb:bf2f343f, argb:bf3a3a3a, argb:bf292929
+rofi.color-normal: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #9575cd
+rofi.color-active: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #268bd2
+rofi.color-urgent: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #dc322f
+
+rofi.padding:	200
+! Use extended color scheme
+

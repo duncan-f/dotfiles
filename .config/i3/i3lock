@@ -1,0 +1,51 @@
+#!/bin/bash
+ 
+#depends on: imagemagick, i3lock, scrot
+#https://www.reddit.com/r/unixporn/comments/3358vu/i3lock_unixpornworthy_lock_screen/cqilnv3
+ 
+IMAGE=/tmp/lockscreen.png
+TEXT=/tmp/locktext.png
+#ICON=$HOME/Pictures/Icons/arch_linux_logo.png
+ICON=$HOME/.config/i3/lock.png
+ 
+# ratio for rectangle to be drawn for time background on lockscreen
+rectangles=" "
+SR=$(xrandr --query | grep ' connected' | grep -o '[0-9][0-9]*x[0-9][0-9]*[^ ]*')
+for RES in $SR; do
+  SRA=(${RES//[x+]/ })
+  CX=$((${SRA[2]} + 25))
+  CY=$((${SRA[1]} - 30))
+  rectangles+="rectangle $CX,$CY $((CX+300)),$((CY-80)) "
+done
+
+# take screenshot
+scrot -z $IMAGE
+# dim & blur
+#convert $IMAGE -scale 10% -scale 1000% -fill black -colorize 40% $IMAGE
+convert $IMAGE -blur 0x5 -fill black -colorize 40% $IMAGE
+# dim
+#convert $IMAGE -fill black -colorize 40% $IMAGE
+# blur
+#convert $IMAGE -blur 0x5 $IMAGE
+
+# add transparent rectangle as background for datetime
+convert $IMAGE -draw "fill black fill-opacity 0.85 $rectangles" $IMAGE
+
+# if text imahe exists don't recreate it.
+[ -f $TEXT ] || {
+    convert -size 3000x60 xc:white -font Ubuntu -pointsize 26 -fill black -gravity center -annotate +0+0 'Type password to unlock' $TEXT;
+    convert $TEXT -alpha set -channel A -evaluate set 50% $TEXT;
+}
+
+convert $IMAGE $TEXT -gravity center -geometry +0+200 -composite $IMAGE
+convert $IMAGE $ICON -gravity center -composite -matte $IMAGE
+
+i3lock -i $IMAGE --timepos="x-90:h-ch+30" \
+        --datepos="tx+24:ty+25" \
+        --clock --datestr "%m/%d/%Y" \
+        --insidecolor=00000000 --ringcolor=ffffffff --line-uses-inside \
+        --keyhlcolor=d23c3dff --bshlcolor=d23c3dff --separatorcolor=00000000 \
+        --insidevercolor=fecf4dff --insidewrongcolor=d23c3dff \
+        --ringvercolor=ffffffff --ringwrongcolor=ffffffff --indpos="x+280:h-70" \
+        --radius=20 --ring-width=3 --veriftext="" --wrongtext="" \
+        --textcolor="ffffffff" --timecolor="ffffffff" --datecolor="ffffffff"
