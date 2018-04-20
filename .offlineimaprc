@@ -1,65 +1,68 @@
 # vim filetype=config
 # Here are settings for all accounts.
 [general]
-accounts = personal, hotmail, gmail
+accounts = work 
+#, hotmail, gmail
 starttls = yes
 ssl = yes
 autorefresh = 1
+pythonfile = ~/.config/scripts/offlineimap.py
 
 
-# This is my personal account
-[Account personal]
+# This is my work account
+[Account work]
 
-localrepository = personal-local
-remoterepository = personal-remote
+localrepository = work-local
+remoterepository = work-remote
 
-[Repository personal-remote]
+[Repository work-remote]
 type = Gmail
-remoteuser = YOUR-EMAIL@gmail.com
-remotepass = "password"
+remoteuser = faroukmokh@gmail.com
+remotepasseval = mailpasswd("work")
+#remotepass = "password"
 #remotehost = imap.gmail.com
 folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
-[Repository personal-local]
+[Repository work-local]
 type = Maildir
-localfolders = ~/.Mail/Personal
+localfolders = ~/.Mail/Work
 
 # Alternative account
-[Account hotmail]
+#[Account hotmail]
 
-localrepository = hotmail-local
-remoterepository = hotmail-remote
+#localrepository = hotmail-local
+#remoterepository = hotmail-remote
 
-[Repository hotmail-remote]
-type = IMAP
-remoteuser = YOUR-EMAIL@hotmail.com
-remotepass = "password"
-remotehost = imap-mail.outlook.com
+#[Repository hotmail-remote]
+#type = IMAP
+#remoteuser = YOUR-EMAIL@hotmail.com
+#remotepass = "password"
+#remotehost = imap-mail.outlook.com
 #remotehost = imap.hotmail.com
-sslcacertfile = /etc/ssl/certs/ca-certificates.crt
-auth_mechanisms = LOGIN
+#sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+#auth_mechanisms = LOGIN
 
-[Repository hotmail-local]
-type = Maildir
-localfolders = ~/.Mail/Hotmail
+#[Repository hotmail-local]
+#type = Maildir
+#localfolders = ~/.Mail/Hotmail
 
 
 # This is another alternative account
-[Account gmail]
+#[Account gmail]
 
-localrepository = gmail-local
-remoterepository = gmail-remote
+#localrepository = gmail-local
+#remoterepository = gmail-remote
 
-[Repository gmail-remote]
-type = Gmail
-remoteuser = YOUR-EMAIL@gmail.com
-remotepass = "password"
+#[Repository gmail-remote]
+#type = Gmail
+#remoteuser = YOUR-EMAIL@gmail.com
+#remotepass = "password"
 #Note that the line below will not sync Gmail's redundant "All Mail" box. You can add other inboxes here you don't want to sync.
-folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
-sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+#folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+#sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
-[Repository gmail-local]
-type = Maildir
-localfolders = ~/.Mail/Gmail
+#[Repository gmail-local]
+#type = Maildir
+#localfolders = ~/.Mail/Gmail
 

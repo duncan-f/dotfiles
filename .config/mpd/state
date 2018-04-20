@@ -1,8 +1,8 @@
-sw_volume: 100
+sw_volume: 96
 audio_device_state:1:pulseaudio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 598
+current: 243
 random: 1
 repeat: 0
 single: 0

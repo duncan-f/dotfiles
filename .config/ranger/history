@@ -3,6 +3,24 @@ shell touch test
 open_with r
 shell touch test.txt
 o .config
+chmod -x .vimrc
+chmod -x %f
+chmod 666 %f
+chmod 666
+shell q
+shell 
+
+rename folder.jpg
 shell touch 
+rename st-original_alpha
+find qqq
+mkdir txt
+find f
 open_with 
+search surf
+search st
+chmod 644 *.*
+find 
+open_with vim
 delete
+rename Arduinojjj

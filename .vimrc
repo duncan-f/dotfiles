@@ -25,15 +25,6 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 " filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 set encoding=utf-8
 set mouse=a
@@ -53,15 +44,20 @@ set expandtab
 " put git status, column/row number, total lines, and percentage in status
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]\ %y
 
-colorscheme monokai-phoenix
+"colorscheme dracula
+"colorscheme monokai-phoenix
 
 hi Normal ctermbg=none
 " hi StatusLine ctermbg=8 ctermfg=4 cterm=none
 
 map <C-p> :NERDTreeToggle<cr>
-map <C-r> :LLPStartPreview<cr>
-map <C-i> :PluginInstall<cr>
-map <C-u> :PluginUpdate<cr>
+map <F10> :LLPStartPreview<cr>
+map <F11> :PluginInstall<cr>
+map <F12> :PluginUpdate<cr>
+
+let g:livepreview_previewer = 'mupdf'
+let g:livepreview_engine = 'pdflatex'
+let g:tex_flavor = 'latex'
 
 autocmd FileType tex nnoremap <F5> :!xelatex<space><c-r>%<Enter>
 autocmd FileType tex inoremap ;m $$<Space><++><Esc>2T$i
@@ -73,5 +69,3 @@ autocmd FileType php,html inoremap ;em <em></em><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;p <p></p><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;div <div></div><Space><++><Esc>FbT>i
 
-let g:livepreview_previewer = 'evince'
-let g:livepreview_engine = 'pdflatex'

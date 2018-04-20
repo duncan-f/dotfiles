@@ -129,10 +129,12 @@ alias xsrc='xrdb ~/.Xresources'
 alias tcfg='vim ~/.tmux.conf'
 alias rcfg='vim ~/.config/ranger/rc.conf'
 alias ccfg='vim ~/.calcurse/conf'
-alias ncfg='vim ~/.newsboat/urls'
-alias qcfg='vim ~/.config/qutebrowser/autoconfig.yml'
+alias ncfg='vim ~/.newsboat/config'
+alias qcfg='vim ~/.config/qutebrowser/config.py'
 alias macfg='vim ~/.config/mutt/aliases'
 alias mcfg='vim ~/.config/mutt/muttrc'
+alias dcfg='vim ~/.config/dunst/dunstrc'
+alias fcfg='vim ~/.config/rofi/config'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -161,6 +163,8 @@ fi
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 export PATH="$HOME/.vim/bundle/vim-live-latex-preview/bin:$PATH"
+
+export XDG_MUSIC_DIR="~/Music/"
 
 # function to ssh easily
 sshin () {

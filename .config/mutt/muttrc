@@ -1,5 +1,6 @@
+# vim: filetype=neomuttrc
 source ~/.config/mutt/workrc
-#source ~/.config/mutt/gmailrc
+source ~/.config/mutt/homerc
 source ~/.config/mutt/muttcol
 source ~/.config/mutt/aliases
 

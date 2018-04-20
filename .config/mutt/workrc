@@ -1,12 +1,14 @@
-# vim: filetype=muttrc
-set imap_user = "your@gmail.com"                       
-set smtp_url = "smtp://your@smtp.gmail.com:587/"       
-set from = "your@gmail.com"                            
-set realname = "Your RealName"                                  
+# vim: filetype=neomuttrc
+set imap_user = "YOUR-EMAIL@domain.com"                       
+#set imap_pass = ""
+set smtp_url = "smtp://YOUR-EMAIL@smtp.domain.com:587/"       
+#set smtp_pass = ""
+set from = "YOUR-EMAIL@domain.com"                            
+set realname = "Farouk Mokhtari"                                  
 set mbox_type = Maildir
 set sendmail = "/usr/bin/msmtp -a work"
 set folder = "~/.Mail/Work"
-set folder = "imaps://imap.gmail.com:993/" 
+set folder = "imaps://imap.domain.com:993/" 
 set spoolfile = "+INBOX"                                      
 set record = /dev/null
 set mbox = "+[Gmail].All Mail"
@@ -16,7 +18,7 @@ set message_cachedir = ~/.config/mutt/gmail/cache/bodies
 set certificate_file = ~/.config/mutt/gmail/certificates  
 set ssl_starttls = yes
 set ssl_force_tls = yes
-source "gpg -d ~/.gnupg/work.gpg |"
+source "~/.config/mutt/creds/getpass work |"
 mailboxes +INBOX
 
 bind index g noop

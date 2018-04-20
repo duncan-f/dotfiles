@@ -3,15 +3,15 @@
 
 [colors]
 background = #2f343f
-;background = ${xrdb:URxvt*background}
-;background-alt = #2f343f
-foreground = ${xrdb:URxvt*foreground}
+;background = ${xrdb:*color8}
+background-alt = ${xrdb:color0}
+foreground = ${xrdb:*foreground}
 ;foreground = #f3f4f5
-;foreground-alt = #f3f4f5
+foreground-alt = #ffffff
 ;secondary = #3a3a3a
-secondary = ${xrdb:URxvt*secondary}
+secondary = ${xrdb:*secondary}
 ;underline = #943ed6
-underline = ${xrdb:URxvt*underline}
+underline = ${xrdb:*underline}
 
 [bar/default]
 ;override-redirect = true
@@ -112,7 +112,7 @@ port = 6600
 interval = 1
 
 ;format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <label-time>  <label-song>"
-format-online = " <icon-repeat> <icon-random>  <label-song>  <label-time> "
+format-online = " <icon-repeat> <icon-random> <label-song> <label-time> "
 
 ; Available tokens:
 ;   %artist%
@@ -124,7 +124,7 @@ label-song =  %artist% - %title%
 
 format-offline = <label-offline>
 
-label-offline = "  mpd is offline  "
+label-offline = "  mpd: offline  "
 
 ; Only applies if <icon-X> is used
 icon-play = ⏵
@@ -159,13 +159,13 @@ enable-scroll = false
 format = <ramp> <label>
 format-underline = ${colors.underline}
 
-label = %percentage%%
+label = "%percentage%% "
 
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑
+ramp-0 = " 🌕"
+ramp-1 = " 🌔"
+ramp-2 = " 🌓"
+ramp-3 = " 🌒"
+ramp-4 = " 🌑"
 
 [module/filesystem]
 type = internal/fs
@@ -184,32 +184,27 @@ adapter = ADP1
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = ${colors.underline}
-label-charging = %percentage%%
+label-charging = "%percentage%% "
 
 ; Only applies if <animation-charging> is used
-;animation-charging-0 = 
-;animation-charging-1 = 
-;animation-charging-2 = 
-;animation-charging-3 = 
-;animation-charging-4 = 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+animation-charging-0 = " "
+animation-charging-1 = " "
+animation-charging-2 = " "
+animation-charging-3 = " "
+animation-charging-4 = " "
 ; Framerate in milliseconds
 animation-charging-framerate = 750
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${colors.underline}
-label-discharging = %percentage%%
+label-discharging = "%percentage%% "
 
 ; Only applies if <ramp-capacity> is used
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
 ramp-capacity-0-foreground = #BD1212
 ramp-capacity-1-foreground = #e57b19
 
@@ -237,33 +232,32 @@ label = %percentage_used%%
 type = internal/date
 interval = 1
 ;date = %a. %b. %d,
-date-alt =  %a. %b. %d, %Y
-time =  %I:%M %p
+date-alt = " %a. %b. %d, %Y"
+time = " %I:%M %p"
 ;time-alt = %H:%M:%S
-label = %date% %time%
+label = " %time%%date% "
 format-underline = ${colors.underline}
-click-left = ${exec /usr/bin/urxvt -e calcurse}
 
 [module/volume]
 type = internal/volume
 master-mixer = Master
-format-volume = <ramp-volume>  <label-volume> 
-format-muted =  
-label-volume = %percentage%%
+format-volume = <ramp-volume> <label-volume>
+format-muted = "   "
+label-volume = "%percentage%% "
 label-volume-underline = ${colors.underline}
 format-volume-underline = ${colors.underline}
 label-muted-underline = ${colors.underline}
 format-muted-underline = ${colors.underline}
 label-muted = %percentage%%
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
+ramp-volume-0 = " "
+ramp-volume-1 = " "
+ramp-volume-2 = " "
+ramp-volume-3 = " "
 
 ; Only applies if <bar-progress> is used
 bar-volume-width = 10
 bar-volume-indicator = |
-bar-volume-fill = ─
+bar-volume-fill = =
 bar-volume-empty = ─
 
 [module/wired]

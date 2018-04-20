@@ -1,87 +1,142 @@
-
 ! ------------------------------------------------------------------------------
 ! Colors
 ! ------------------------------------------------------------------------------
-URxvt*foreground:       #f3f4f5
-URxvt*background:       [75]#000000
-URxvt*secondary:        #3a3a3a
-URxvt*underline:        #0094ce
-!URxvt*underline:        #943ed6
-URxvt*active:           #aa0000
+*foreground:       #839496
+*background:       #000000
+*cursorColor:      #93a1a1
+*secondary:        #3a3a3a
+*underline:        #0094ce
+!*underline:        #943ed6
+*active:           #aa0000
 
-!black
-URxvt*color0:           #000000
-URxvt*color8:           #555753
-!red
-URxvt*color1:           #cc0000
-URxvt*color9:           #ef2929
-!green
-URxvt*color2:           #4e9a06
-URxvt*color10:          #8ae234
-!yellow
-URxvt*color3:           #c4a000
-URxvt*color11:          #fce94f
-!blue
-URxvt*color4:           #3465a4
-URxvt*color12:          #739fcf
-!purple
-URxvt*color5:           #75507b
-URxvt*color13:          #ad7fa8
-!cyan
-URxvt*color6:           #06989a
-URxvt*color14:          #34e2e2
-!grey
-URxvt*color7:           #d3d7cf
-URxvt*color15:          #eeeeec
+!! black
+*color0:	        #073642
+*color8:	        #002b36
+!! red
+*color1:	        #dc322f
+*color9:	        #cb4b16
+!! green
+*color2:	        #859900
+*color10:	        #586e75
+!! yellow
+*color3:	        #b58900
+*color11:	        #657b83
+!! blue
+*color4:	        #268bd2
+*color12:      	#839496
+!! purple
+*color5:       	#d33682
+*color13:      	#6c71c4
+!! cyan
+*color6:       	#2aa198
+*color14:      	#93a1a1
+!! grey
+*color7:       	#eee8d5
+*color15:      	#fdf6e3
+ 
+
+! Dracula Xresources palette
+St.alpha:      221 
+St.font:       tamzen:pixelsize=14:antialias=true:autohint=true
+!St.foreground: #F8F8F2
+!St.background: #282A36
+!St.cursorColor: #e6e6e6
+
+!! black
+!St.color0:     #000000
+!St.color8:     #4D4D4D
+!! red
+!St.color1:     #FF5555
+!St.color9:     #FF6E67
+!! green
+!St.color2:     #50FA7B
+!St.color10:    #5AF78E
+!! yellow
+!St.color3:     #F1FA8C
+!St.color11:    #F4F99D
+!! blue
+!St.color4:     #BD93F9
+!St.color12:    #CAA9FA
+!! purple
+!St.color5:     #FF79C6
+!St.color13:    #FF92D0
+!! cyan
+!St.color6:     #8BE9FD
+!St.color14:    #9AEDFE
+!! white
+!St.color7:     #BFBFBF
+!St.color15:    #E6E6E6
+
+
+! ------------------------------------------------------------------------------
+! solarized colors
+! ------------------------------------------------------------------------------
+
+!! black
+URxvt.color0:	        #073642
+URxvt.color8:	        #002b36
+!! red
+URxvt.color1:	        #dc322f
+URxvt.color9:	        #cb4b16
+!! green
+URxvt.color2:	        #859900
+URxvt.color10:	        #586e75
+!! yellow
+URxvt.color3:	        #b58900
+URxvt.color11:	        #657b83
+!! blue
+URxvt.color4:	        #268bd2
+URxvt.color12:      	#839496
+!! purple
+URxvt.color5:       	#d33682
+URxvt.color13:      	#6c71c4
+!! cyan
+URxvt.color6:       	#2aa198
+URxvt.color14:      	#93a1a1
+!! grey
+URxvt.color7:       	#eee8d5
+URxvt.color15:      	#fdf6e3
+ 
+URxvt.foreground:       #839496
+URxvt.background:       [80]#000000
+URxvt.cursorColor:      #93a1a1
 
 ! ------------------------------------------------------------------------------
 ! URxvt
 ! ------------------------------------------------------------------------------
-URxvt*scrollBar:        false
-URxvt*utf8:             true
-!URxvt*transparent:      true
-!URxvt*shading:          25
-URxvt*cursorBlink:      true
-URxvt*cursorUnderline:  true
-URxvt*font:             xft:tamzen:normal:size=11
-URxvt*fontBold:         xft:tamzen:bold:size=11
-!URxvt*font:             xft:Ubuntu Mono:regular:size=12
-!URxvt*fontBold:         xft:Ubuntu Mono:bold:size=12
-URxvt*depth:            32
-!URxvt*urxvt:            screen-256color
-!URxvt*letterSpace:      -1
-!URxvt*intensityStyles:  false
-!URxvt*inheritPixmap:    true
-!URxvt*fading: 10
+URxvt.scrollBar:                false
+URxvt.visualBell:               false
+URxvt.urgentOnBell:             false
+URxvt.utf8:                     true
+!URxvt.transparent:      true
+!URxvt.shading:          25
+URxvt.cursorBlink:              true
+URxvt.cursorUnderline:          true
+URxvt.font:                     xft:tamzen:normal:size=11
+URxvt.fontBold:                 xft:tamzen:bold:size=11
+!URxvt.font:             xft:Ubuntu Mono:regular:size=12
+!URxvt.fontBold:         xft:Ubuntu Mono:bold:size=12
+URxvt.depth:                    32
+URxvt.urxvt:                    screen-256color
+!URxvt.letterSpace:      -1
+URxvt.intensityStyles:          false
+!URxvt.inheritPixmap:    true
+!URxvt.fading: 10
+URxvt.colorUL:          		#fdf6e3
 
 !! Extensions
-URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
-URxvt.colorUL:		#4682B4
+URxvt.perl-ext-common:          default,matcher,resize-font,url-select,keyboard-select
 !! url-select
-URxvt.keysym.M-u:	perl:url-select:select_next
-URxvt.url-select.launcher: /usr/bin/xdg-open
-URxvt.url-select.underline: true
+URxvt.keysym.M-u:               perl:url-select:select_next
+URxvt.url-select.launcher:      /usr/bin/xdg-open
+URxvt.url-select.underline:     true
 !! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-Escape:          perl:keyboard-select:activate
 !! resize-font
-URxvt.resize-font.smaller:	C-Down
-URxvt.resize-font.bigger:	C-Up
+URxvt.resize-font.smaller:      C-Down
+URxvt.resize-font.bigger:   	C-Up
 !! Matcher
-URxvt.url-launcher:	/usr/bin/xdg-open
-URxvt.matcher.button: 1
+URxvt.url-launcher:             /usr/bin/xdg-open
+URxvt.matcher.button:           1
 
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! User: dunCan
-! ------------------------------------------------------------------------------
-! Use extended color scheme
-rofi.fullscreen: true
-rofi.color-enabled: true
-rofi.color-window: argb:bf2f343f, argb:bf3a3a3a, argb:bf292929
-rofi.color-normal: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #9575cd
-rofi.color-active: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #268bd2
-rofi.color-urgent: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #dc322f
-
-rofi.padding:	200
-! Use extended color scheme
 

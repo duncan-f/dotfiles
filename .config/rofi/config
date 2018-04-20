@@ -1,0 +1,10 @@
+rofi.font: tamzen 11
+rofi.fullscreen: true
+rofi.color-enabled: true
+rofi.color-window: argb:bf000000, argb:bf3a3a3a, argb:bf292929
+rofi.color-normal: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #0094ce
+rofi.color-active: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #268bd2
+rofi.color-urgent: argb:002f343f, #f3f4f5, argb:002f343f, argb:002f343f, #dc322f
+
+rofi.padding:	200
+

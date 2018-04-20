@@ -1,5 +1,12 @@
+import os
 import subprocess
 
-def mailpasswd():
-    path = "/home/duncan/.gnupg/workoff.gpg"
-    return subprocess.check_output(["gpg", "--quiet", "--batch", "-d", path]).strip()
+home = os.path.expanduser("~")
+
+def mailpasswd(account):
+    path = "%s/.config/mutt/creds/%s.gpg" % (home, account)
+
+    try:
+        return subprocess.check_output(["gpg", "--quiet", "--batch", "-d", path]).strip()
+    except subprocess.CalledProcessError:
+        return ""

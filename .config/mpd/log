@@ -8367,3 +8367,2403 @@ Feb 06 20:40 : client: [8] opened from 127.0.0.1:36848
 Feb 06 20:40 : client: [8] closed
 Feb 06 20:40 : client: [9] opened from 127.0.0.1:36852
 Feb 06 20:40 : client: [9] closed
+Feb 08 18:50 : client: [0] opened from 127.0.0.1:47074
+Feb 08 18:50 : client: [1] opened from 127.0.0.1:47076
+Feb 08 18:52 : client: [2] opened from 127.0.0.1:47080
+Feb 08 18:52 : client: [3] opened from 127.0.0.1:47086
+Feb 08 18:52 : player: played "Cheb Khaled/Cheb Khaled-Galbi Bgha El Beida.mp3"
+Feb 08 18:52 : client: [3] closed
+Feb 08 18:52 : client: [4] opened from 127.0.0.1:47094
+Feb 08 18:52 : client: [4] closed
+Feb 08 18:52 : client: [5] opened from 127.0.0.1:47098
+Feb 08 18:52 : player: played "Cheb Khaled/Cheb Khaled-Galbi Bgha El Beida.mp3"
+Feb 08 18:52 : client: [5] closed
+Feb 08 18:52 : client: [6] opened from 127.0.0.1:47102
+Feb 08 18:52 : client: [6] closed
+Feb 08 18:53 : client: [7] opened from 127.0.0.1:47106
+Feb 08 18:53 : client: [7] closed
+Feb 08 18:53 : client: [8] opened from 127.0.0.1:47110
+Feb 08 18:53 : client: [8] closed
+Feb 08 18:53 : client: [9] opened from 127.0.0.1:47114
+Feb 08 18:53 : client: [9] closed
+Feb 08 18:53 : client: [2] closed
+Feb 08 18:53 : client: [1] closed
+Feb 08 18:55 : client: [10] opened from 127.0.0.1:47120
+Feb 08 18:55 : client: [10] closed
+Feb 08 19:00 : client: [11] opened from 127.0.0.1:47128
+Feb 08 19:00 : client: [11] closed
+Feb 08 19:26 : client: [12] opened from 127.0.0.1:47520
+Feb 08 19:26 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/08 - One.mp3"
+Feb 08 19:26 : client: [12] closed
+Feb 08 19:38 : client: [13] opened from 127.0.0.1:47856
+Feb 08 19:38 : client: [13] closed
+Feb 08 19:38 : client: [14] opened from 127.0.0.1:47858
+Feb 08 19:38 : client: [14] closed
+Feb 08 19:38 : client: [15] opened from 127.0.0.1:47860
+Feb 08 19:38 : client: [15] closed
+Feb 08 19:38 : client: [16] opened from 127.0.0.1:47862
+Feb 08 19:38 : client: [16] closed
+Feb 08 20:22 : client: [17] opened from 127.0.0.1:48220
+Feb 08 20:22 : client: [17] closed
+Feb 08 20:22 : client: [18] opened from 127.0.0.1:48224
+Feb 08 20:22 : client: [18] closed
+Feb 08 20:23 : client: [19] opened from 127.0.0.1:48232
+Feb 08 20:23 : client: [19] closed
+Feb 08 20:23 : client: [20] opened from 127.0.0.1:48236
+Feb 08 20:23 : client: [20] closed
+Feb 08 20:26 : client: [21] opened from 127.0.0.1:48242
+Feb 08 20:26 : client: [21] closed
+Feb 08 20:27 : client: [22] opened from 127.0.0.1:48248
+Feb 08 20:27 : client: [22] closed
+Feb 08 20:50 : client: [23] opened from 127.0.0.1:48274
+Feb 08 20:50 : client: [23] closed
+Feb 08 20:55 : player: played "megadeth/09 - Rust In Peace...Polaris.mp3"
+Feb 08 20:55 : client: [24] opened from 127.0.0.1:48342
+Feb 08 20:55 : client: [24] closed
+Feb 08 20:55 : client: [25] opened from 127.0.0.1:48346
+Feb 08 20:55 : client: [25] closed
+Feb 08 20:55 : client: [26] opened from 127.0.0.1:48350
+Feb 08 20:55 : client: [26] closed
+Feb 08 20:55 : client: [27] opened from 127.0.0.1:48354
+Feb 08 20:55 : client: [27] closed
+Feb 08 20:56 : client: [28] opened from 127.0.0.1:48362
+Feb 08 20:56 : client: [28] closed
+Feb 08 20:56 : client: [29] opened from 127.0.0.1:48366
+Feb 08 20:56 : client: [29] closed
+Feb 08 20:57 : client: [30] opened from 127.0.0.1:48384
+Feb 08 20:57 : client: [30] closed
+Feb 08 20:57 : client: [31] opened from 127.0.0.1:48388
+Feb 08 20:57 : client: [31] closed
+Feb 08 20:57 : client: [32] opened from 127.0.0.1:48392
+Feb 08 20:57 : client: [32] closed
+Feb 08 20:57 : client: [33] opened from 127.0.0.1:48396
+Feb 08 20:57 : client: [33] closed
+Feb 08 20:57 : client: [34] opened from 127.0.0.1:48400
+Feb 08 20:57 : client: [34] closed
+Feb 08 20:57 : client: [35] opened from 127.0.0.1:48404
+Feb 08 20:57 : client: [35] closed
+Feb 08 20:57 : client: [36] opened from 127.0.0.1:48408
+Feb 08 20:57 : client: [36] closed
+Feb 08 21:02 : client: [37] opened from 127.0.0.1:48424
+Feb 08 21:02 : client: [37] closed
+Feb 08 21:05 : client: [38] opened from 127.0.0.1:48468
+Feb 08 21:05 : client: [38] closed
+Feb 08 22:38 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/02 - Until It Sleeps.mp3"
+Feb 09 15:02 : client: [0] opened from 127.0.0.1:52432
+Feb 09 15:02 : client: [1] opened from 127.0.0.1:52436
+Feb 09 15:02 : client: [1] closed
+Feb 09 15:03 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/02 - Until It Sleeps.mp3"
+Feb 09 15:08 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 16 - I've Got To See You Again.mp3"
+Feb 09 15:12 : player: played "Radiohead/(2003) Hail to the Thief/03 Radiohead - Sail to the Moon. (Brush the Cobwebs Out of the Sky.).mp3"
+Feb 09 15:14 : player: played "The Pixies/Trompe le Monde/07 Palace of the Brine.mp3"
+Feb 09 15:19 : player: played "Radiohead/(1995) The Bends/08 Radiohead - My Iron Lung.mp3"
+Feb 09 15:22 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 06 - Moon Is In Your Eyes.mp3"
+Feb 09 15:26 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 1/16. Throw Me Away.mp3"
+Feb 09 15:28 : client: [2] opened from 127.0.0.1:52664
+Feb 09 15:28 : player: played "R.E.M/R.E.M.The Best Of Rem (In Time 1988-2003)/13. Stand.mp3"
+Feb 09 15:28 : client: [2] closed
+Feb 09 20:28 : client: [0] opened from 127.0.0.1:47170
+Feb 09 20:28 : client: [1] opened from 127.0.0.1:47174
+Feb 09 20:28 : client: [1] closed
+Feb 09 20:28 : client: [2] opened from 127.0.0.1:47178
+Feb 09 20:28 : client: [2] closed
+Feb 09 20:28 : client: [3] opened from 127.0.0.1:47182
+Feb 09 20:28 : client: [3] closed
+Feb 09 20:31 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 10 - Voyager.mp3"
+Feb 09 20:32 : client: [4] opened from 127.0.0.1:47434
+Feb 09 20:32 : player: played "Slipknot/Slipknot - 03 - Gematria [The Killing Name].mp3"
+Feb 09 20:32 : client: [4] closed
+Feb 09 20:34 : client: [5] opened from 127.0.0.1:47444
+Feb 09 20:34 : client: [5] closed
+Feb 09 20:34 : client: [6] opened from 127.0.0.1:47448
+Feb 09 20:34 : client: [6] closed
+Feb 09 20:38 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 13 - Face To Face.mp3"
+Feb 09 20:42 : client: [7] opened from 127.0.0.1:47606
+Feb 09 20:42 : client: [7] closed
+Feb 09 21:04 : client: [8] opened from 127.0.0.1:47778
+Feb 09 21:04 : client: [8] closed
+Feb 09 21:05 : player: played "megadeth/02 The Conjuring.mp3"
+Feb 09 21:07 : exception: "pulseaudio" [pulse] failed to play: disconnected
+Feb 09 21:07 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/08 - No Leaf Clover.mp3"
+Feb 09 21:11 : client: [0] opened from 127.0.0.1:33244
+Feb 09 21:15 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/08 - No Leaf Clover.mp3"
+Feb 09 21:20 : player: played "Norah Jones/Others/Norah Jones - Help Me Make It Through The Night.mp3"
+Feb 09 21:23 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 06 - Be Here To Love Me.mp3"
+Feb 09 21:26 : player: played "R.E.M/R.E.M.The Best Of Rem (In Time 1988-2003)/13. Stand.mp3"
+Feb 09 21:27 : client: [1] opened from 127.0.0.1:33380
+Feb 09 21:27 : client: [1] closed
+Feb 09 22:17 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 1/15. Right Now.mp3"
+Feb 10 10:04 : client: [0] opened from 127.0.0.1:55248
+Feb 10 10:04 : client: [1] opened from 127.0.0.1:55252
+Feb 10 10:04 : client: [1] closed
+Feb 10 10:04 : client: [2] opened from 127.0.0.1:55256
+Feb 10 10:04 : client: [2] closed
+Feb 10 10:04 : client: [3] opened from 127.0.0.1:55260
+Feb 10 10:04 : client: [3] closed
+Feb 10 10:04 : client: [4] opened from 127.0.0.1:55264
+Feb 10 10:04 : client: [4] closed
+Feb 10 10:14 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd2/DAFTPU~1.MP3"
+Feb 10 10:14 : client: [5] opened from 127.0.0.1:55506
+Feb 10 10:14 : client: [5] closed
+Feb 10 10:18 : client: [6] opened from 127.0.0.1:55578
+Feb 10 10:18 : client: [6] closed
+Feb 10 10:20 : client: [7] opened from 127.0.0.1:55588
+Feb 10 10:20 : client: [7] closed
+Feb 10 10:22 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/02-touch_it__technologic-xds.mp3"
+Feb 10 10:22 : client: [8] opened from 127.0.0.1:55618
+Feb 10 10:22 : client: [8] closed
+Feb 10 10:24 : client: [9] opened from 127.0.0.1:55668
+Feb 10 10:24 : client: [9] closed
+Feb 10 10:40 : client: [10] opened from 127.0.0.1:55976
+Feb 10 10:40 : client: [10] closed
+Feb 10 10:43 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 15 - Alive.mp3"
+Feb 10 10:43 : client: [11] opened from 127.0.0.1:56084
+Feb 10 10:43 : client: [11] closed
+Feb 10 11:55 : client: [12] opened from 127.0.0.1:57006
+Feb 10 11:55 : client: [13] opened from 127.0.0.1:57008
+Feb 10 11:56 : client: [13] closed
+Feb 10 11:57 : client: [14] opened from 127.0.0.1:57010
+Feb 10 11:57 : client: [0] closed
+Feb 10 11:57 : client: [15] opened from 127.0.0.1:57014
+Feb 10 11:59 : client: [14] closed
+Feb 10 11:59 : client: [12] closed
+Feb 10 12:01 : player: played "Cheb Khaled/Cheb Khaled-Didi.mp3"
+Feb 10 12:03 : player: played "Radiohead/(2003) Hail to the Thief/10 Radiohead - I Will. (No Man's Land.).mp3"
+Feb 10 12:07 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 3/08 - Motorbreath.mp3"
+Feb 10 12:09 : player: played "The Pixies/Bossanova/01 Cecilia Ann.mp3"
+Feb 10 12:11 : client: [16] opened from 127.0.0.1:57158
+Feb 10 12:11 : client: [16] closed
+Feb 10 12:16 : client: [17] opened from 127.0.0.1:57166
+Feb 10 12:16 : client: [17] closed
+Feb 10 12:18 : player: played "The Pixies/Live @ The BBC/05 Manta Ray.mp3"
+Feb 10 12:22 : client: [18] opened from 127.0.0.1:57270
+Feb 10 12:22 : client: [18] closed
+Feb 10 18:53 : client: [19] opened from 127.0.0.1:59434
+Feb 10 18:53 : client: [19] closed
+Feb 10 18:54 : client: [20] opened from 127.0.0.1:59436
+Feb 10 18:54 : client: [20] closed
+Feb 10 19:40 : client: [21] opened from 127.0.0.1:59720
+Feb 10 19:40 : client: [21] closed
+Feb 10 19:40 : client: [22] opened from 127.0.0.1:59724
+Feb 10 19:40 : player: played "megadeth/Megadeth - So Far So Good So What (1988) 320 Kbps/Megadeth - 04 - Mary Jane.mp3"
+Feb 10 19:40 : client: [22] closed
+Feb 10 19:55 : client: [23] opened from 127.0.0.1:60190
+Feb 10 19:55 : exception: Not playing
+Feb 10 19:55 : client: [23] closed
+Feb 10 19:55 : client: [24] opened from 127.0.0.1:60194
+Feb 10 19:55 : client: [24] closed
+Feb 10 19:55 : client: [25] opened from 127.0.0.1:60198
+Feb 10 19:55 : client: [25] closed
+Feb 10 19:56 : client: [15] closed
+Feb 10 19:56 : client: [26] opened from 127.0.0.1:60218
+Feb 10 19:57 : client: [26] closed
+Feb 10 19:57 : client: [27] opened from 127.0.0.1:60228
+Feb 10 20:02 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 1/01 - Enter Sandman.mp3"
+Feb 10 20:02 : client: [28] opened from 127.0.0.1:60296
+Feb 10 20:02 : player: played "The Pixies/Doolittle/13 Hey.mp3"
+Feb 10 20:02 : client: [28] closed
+Feb 10 20:19 : client: [27] closed
+Feb 10 20:19 : client: [29] opened from 127.0.0.1:60448
+Feb 11 20:17 : client: [0] opened from 127.0.0.1:52298
+Feb 11 20:17 : client: [1] opened from 127.0.0.1:52302
+Feb 11 20:17 : client: [0] closed
+Feb 11 20:24 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/09 - Creeping Death.mp3"
+Feb 11 20:24 : client: [2] opened from 127.0.0.1:52422
+Feb 11 20:24 : client: [2] closed
+Feb 11 20:28 : client: [3] opened from 127.0.0.1:52440
+Feb 11 20:28 : client: [3] closed
+Feb 11 20:30 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 02 - Seven Years.mp3"
+Feb 11 20:31 : client: [4] opened from 127.0.0.1:52468
+Feb 11 20:31 : client: [4] closed
+Feb 11 20:35 : player: played "megadeth/06 - Lucretia.mp3"
+Feb 11 20:38 : client: [5] opened from 127.0.0.1:52608
+Feb 11 20:38 : client: [5] closed
+Feb 11 20:38 : client: [6] opened from 127.0.0.1:52620
+Feb 11 20:38 : client: [6] closed
+Feb 11 20:38 : client: [7] opened from 127.0.0.1:52624
+Feb 11 20:38 : client: [7] closed
+Feb 11 20:43 : client: [8] opened from 127.0.0.1:52648
+Feb 11 20:43 : client: [8] closed
+Feb 11 20:43 : client: [9] opened from 127.0.0.1:52652
+Feb 11 20:43 : client: [9] closed
+Feb 11 20:44 : client: [10] opened from 127.0.0.1:52656
+Feb 11 20:44 : client: [10] closed
+Feb 11 20:44 : client: [11] opened from 127.0.0.1:52660
+Feb 11 20:44 : client: [11] closed
+Feb 11 20:44 : client: [12] opened from 127.0.0.1:52664
+Feb 11 20:44 : client: [12] closed
+Feb 11 20:47 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 08 - High Life.mp3"
+Feb 11 20:51 : client: [1] closed
+Feb 11 20:51 : client: [13] opened from 127.0.0.1:52710
+Feb 11 20:51 : client: [14] opened from 127.0.0.1:52714
+Feb 11 20:51 : client: [14] closed
+Feb 11 20:51 : client: [13] closed
+Feb 11 20:51 : client: [15] opened from 127.0.0.1:52716
+Feb 11 20:51 : client: [16] opened from 127.0.0.1:52720
+Feb 11 20:51 : client: [16] closed
+Feb 11 20:51 : client: [17] opened from 127.0.0.1:52724
+Feb 11 20:51 : client: [17] closed
+Feb 11 20:51 : client: [18] opened from 127.0.0.1:52728
+Feb 11 20:51 : client: [18] closed
+Feb 11 20:52 : client: [19] opened from 127.0.0.1:52732
+Feb 11 20:52 : client: [19] closed
+Feb 11 20:52 : client: [15] closed
+Feb 11 20:52 : client: [20] opened from 127.0.0.1:52734
+Feb 11 21:28 : client: [21] opened from 127.0.0.1:52786
+Feb 11 21:28 : client: [21] closed
+Feb 11 21:30 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/10 - Sad But True.mp3"
+Feb 11 21:30 : client: [22] opened from 127.0.0.1:52866
+Feb 11 21:30 : client: [22] closed
+Feb 11 21:37 : client: [20] closed
+Feb 11 21:37 : client: [23] opened from 127.0.0.1:52944
+Feb 11 21:38 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 2/13. Hushabye.mp3"
+Feb 14 18:54 : client: [0] opened from 127.0.0.1:52090
+Feb 14 18:54 : client: [1] opened from 127.0.0.1:52094
+Feb 14 18:54 : client: [1] closed
+Feb 14 18:55 : client: [2] opened from 127.0.0.1:52098
+Feb 14 18:55 : client: [2] closed
+Feb 14 18:56 : client: [3] opened from 127.0.0.1:52104
+Feb 14 18:56 : client: [3] closed
+Feb 14 18:57 : player: played "Arkan - Salam 2011 (320 kbps)/13 - Amaloun Jadid II (Without Silince).mp3"
+Feb 14 19:00 : player: played "Radiohead/(1993) Pablo Honey/08 Radiohead - Vegetable.mp3"
+Feb 14 19:00 : client: [4] opened from 127.0.0.1:52114
+Feb 14 19:00 : client: [4] closed
+Feb 14 19:02 : player: played "Cheb Khaled/Cheb Khaled-Galbi Bgha El Beida.mp3"
+Feb 14 19:02 : client: [5] opened from 127.0.0.1:52142
+Feb 14 19:02 : client: [5] closed
+Feb 14 19:06 : player: played "megadeth/06 - This Was My Life.mp3"
+Feb 14 19:06 : client: [6] opened from 127.0.0.1:52150
+Feb 14 19:06 : client: [6] closed
+Feb 14 19:06 : client: [7] opened from 127.0.0.1:52154
+Feb 14 19:06 : client: [7] closed
+Feb 14 19:07 : client: [8] opened from 127.0.0.1:52158
+Feb 14 19:07 : client: [8] closed
+Feb 14 19:07 : client: [9] opened from 127.0.0.1:52162
+Feb 14 19:07 : client: [9] closed
+Feb 14 19:09 : client: [10] opened from 127.0.0.1:52168
+Feb 14 19:09 : client: [10] closed
+Feb 14 19:09 : client: [11] opened from 127.0.0.1:52172
+Feb 14 19:09 : client: [11] closed
+Feb 14 19:15 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/02 - Enter Sandman.mp3"
+Feb 14 19:15 : client: [12] opened from 127.0.0.1:52186
+Feb 14 19:15 : client: [12] closed
+Feb 14 19:15 : client: [13] opened from 127.0.0.1:52190
+Feb 14 19:15 : client: [13] closed
+Feb 14 19:15 : client: [14] opened from 127.0.0.1:52194
+Feb 14 19:15 : client: [14] closed
+Feb 14 19:16 : client: [15] opened from 127.0.0.1:52200
+Feb 14 19:16 : client: [15] closed
+Feb 14 19:17 : client: [16] opened from 127.0.0.1:52204
+Feb 14 19:17 : client: [16] closed
+Feb 14 19:17 : client: [17] opened from 127.0.0.1:52208
+Feb 14 19:17 : client: [17] closed
+Feb 14 19:17 : client: [18] opened from 127.0.0.1:52212
+Feb 14 19:17 : client: [18] closed
+Feb 14 19:18 : client: [19] opened from 127.0.0.1:52216
+Feb 14 19:18 : client: [19] closed
+Feb 14 19:18 : client: [20] opened from 127.0.0.1:52220
+Feb 14 19:18 : client: [20] closed
+Feb 14 19:20 : client: [21] opened from 127.0.0.1:52246
+Feb 14 19:20 : client: [21] closed
+Feb 14 20:36 : player: played "Cheb Khaled/Cheb khaled-Bira 3arbya.mp3"
+Feb 16 20:29 : client: [0] opened from 127.0.0.1:37728
+Feb 16 20:30 : client: [1] opened from 127.0.0.1:37732
+Feb 16 20:30 : client: [1] closed
+Feb 16 20:30 : client: [2] opened from 127.0.0.1:37736
+Feb 16 20:30 : client: [2] closed
+Feb 16 20:30 : client: [3] opened from 127.0.0.1:37742
+Feb 16 20:30 : client: [3] closed
+Feb 16 20:30 : client: [4] opened from 127.0.0.1:37746
+Feb 16 20:30 : client: [4] closed
+Feb 16 20:30 : client: [5] opened from 127.0.0.1:37750
+Feb 16 20:30 : client: [5] closed
+Feb 16 20:34 : player: played "Eminem/[2002] 8 Mile OST - CD1/05 - 50 Cent - Places To Go.mp3"
+Feb 16 20:35 : client: [6] opened from 127.0.0.1:37756
+Feb 16 20:35 : client: [6] closed
+Feb 16 20:36 : client: [7] opened from 127.0.0.1:37760
+Feb 16 20:36 : client: [7] closed
+Feb 16 20:36 : client: [8] opened from 127.0.0.1:37764
+Feb 16 20:36 : client: [8] closed
+Feb 16 20:38 : client: [9] opened from 127.0.0.1:37772
+Feb 16 20:38 : client: [9] closed
+Feb 16 20:41 : player: played "Norah Jones/Norah Jones - The Fall 2009 [MP3 @ 320] (oan)/05 - Norah Jones - I Wouldn't Need You.mp3"
+Feb 16 20:42 : client: [10] opened from 127.0.0.1:37786
+Feb 16 20:42 : client: [10] closed
+Feb 16 20:42 : client: [11] opened from 127.0.0.1:37790
+Feb 16 20:42 : client: [11] closed
+Feb 16 20:42 : client: [12] opened from 127.0.0.1:37794
+Feb 16 20:42 : client: [12] closed
+Feb 16 20:42 : client: [13] opened from 127.0.0.1:37798
+Feb 16 20:42 : client: [13] closed
+Feb 16 20:42 : client: [14] opened from 127.0.0.1:37802
+Feb 16 20:42 : client: [14] closed
+Feb 16 20:42 : client: [15] opened from 127.0.0.1:37806
+Feb 16 20:42 : client: [15] closed
+Feb 16 20:42 : client: [16] opened from 127.0.0.1:37810
+Feb 16 20:42 : client: [16] closed
+Feb 16 20:42 : client: [17] opened from 127.0.0.1:37814
+Feb 16 20:42 : client: [17] closed
+Feb 16 20:42 : client: [18] opened from 127.0.0.1:37818
+Feb 16 20:42 : client: [18] closed
+Feb 16 20:42 : client: [19] opened from 127.0.0.1:37822
+Feb 16 20:42 : client: [19] closed
+Feb 16 20:43 : client: [20] opened from 127.0.0.1:37826
+Feb 16 20:43 : client: [20] closed
+Feb 16 20:43 : client: [21] opened from 127.0.0.1:37830
+Feb 16 20:43 : client: [21] closed
+Feb 16 20:51 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/03 - Master Of Puppets.mp3"
+Feb 16 20:56 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/03 - For Whom The Bell Tolls.mp3"
+Feb 16 20:56 : client: [22] opened from 127.0.0.1:37902
+Feb 16 20:56 : client: [22] closed
+Feb 16 20:56 : client: [23] opened from 127.0.0.1:37906
+Feb 16 20:56 : client: [23] closed
+Feb 16 20:56 : client: [24] opened from 127.0.0.1:37910
+Feb 16 20:56 : client: [24] closed
+Feb 16 20:56 : client: [25] opened from 127.0.0.1:37916
+Feb 16 20:56 : client: [25] closed
+Feb 16 20:56 : client: [26] opened from 127.0.0.1:37920
+Feb 16 20:56 : client: [26] closed
+Feb 16 20:56 : client: [27] opened from 127.0.0.1:37924
+Feb 16 20:56 : client: [27] closed
+Feb 16 20:56 : client: [28] opened from 127.0.0.1:37928
+Feb 16 20:56 : client: [28] closed
+Feb 16 20:57 : client: [29] opened from 127.0.0.1:37934
+Feb 16 20:57 : client: [29] closed
+Feb 16 20:57 : client: [30] opened from 127.0.0.1:37938
+Feb 16 20:57 : client: [30] closed
+Feb 16 21:01 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Les Mots CD1/15. Que mon cœur lâche.mp3"
+Feb 16 21:05 : client: [31] opened from 127.0.0.1:38008
+Feb 16 21:05 : client: [31] closed
+Feb 16 21:25 : client: [32] opened from 127.0.0.1:38026
+Feb 16 21:25 : client: [32] closed
+Feb 16 21:27 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/04 - Fade To Black.mp3"
+Feb 16 21:31 : player: played "Norah Jones/First Sessions/Norah Jones - First Sessions - 01 - Don't Know Why.mp3"
+Feb 16 21:39 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/09-one_more_time__aerodynamic-xds.mp3"
+Feb 16 21:43 : client: [33] opened from 127.0.0.1:38050
+Feb 16 21:43 : client: [33] closed
+Feb 16 21:43 : client: [34] opened from 127.0.0.1:38054
+Feb 16 21:43 : client: [34] closed
+Feb 16 21:49 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/13 - Metal Militia.mp3"
+Feb 16 21:52 : client: [35] opened from 127.0.0.1:38068
+Feb 16 21:52 : client: [35] closed
+Feb 16 21:54 : client: [0] closed
+Feb 16 21:55 : player: played "Slipknot/Slipknot - 04 - Left Behind.mp3"
+Feb 17 08:29 : client: [0] opened from 127.0.0.1:34388
+Feb 17 08:29 : client: [1] opened from 127.0.0.1:34392
+Feb 17 08:29 : client: [1] closed
+Feb 17 08:29 : client: [2] opened from 127.0.0.1:34396
+Feb 17 08:29 : client: [2] closed
+Feb 17 08:29 : client: [3] opened from 127.0.0.1:34400
+Feb 17 08:29 : client: [3] closed
+Feb 17 08:29 : client: [4] opened from 127.0.0.1:34404
+Feb 17 08:29 : client: [4] closed
+Feb 17 08:29 : client: [5] opened from 127.0.0.1:34408
+Feb 17 08:29 : client: [5] closed
+Feb 17 08:29 : client: [6] opened from 127.0.0.1:34412
+Feb 17 08:29 : client: [6] closed
+Feb 17 08:29 : client: [7] opened from 127.0.0.1:34416
+Feb 17 08:29 : client: [7] closed
+Feb 17 08:29 : client: [8] opened from 127.0.0.1:34420
+Feb 17 08:29 : client: [8] closed
+Feb 17 08:29 : client: [9] opened from 127.0.0.1:34424
+Feb 17 08:29 : client: [9] closed
+Feb 17 08:33 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 09 - I've Got To See You Again.mp3"
+Feb 17 08:36 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 14 - The Nearness Of You.mp3"
+Feb 17 08:39 : player: played "The Pixies/Death To the Pixies (DISK 2)/2-17 Wave of Mutalation.mp3"
+Feb 17 08:39 : client: [10] opened from 127.0.0.1:34474
+Feb 17 08:39 : client: [10] closed
+Feb 17 08:39 : client: [11] opened from 127.0.0.1:34478
+Feb 17 08:39 : client: [11] closed
+Feb 17 08:39 : client: [12] opened from 127.0.0.1:34482
+Feb 17 08:39 : client: [12] closed
+Feb 17 08:39 : client: [13] opened from 127.0.0.1:34486
+Feb 17 08:39 : client: [13] closed
+Feb 17 08:40 : client: [14] opened from 127.0.0.1:34490
+Feb 17 08:40 : client: [14] closed
+Feb 17 08:40 : client: [15] opened from 127.0.0.1:34494
+Feb 17 08:40 : client: [15] closed
+Feb 17 08:40 : client: [16] opened from 127.0.0.1:34498
+Feb 17 08:40 : client: [16] closed
+Feb 17 08:40 : client: [17] opened from 127.0.0.1:34502
+Feb 17 08:40 : client: [17] closed
+Feb 17 08:40 : client: [18] opened from 127.0.0.1:34506
+Feb 17 08:40 : client: [18] closed
+Feb 17 08:43 : player: played "Norah Jones/Norah Jones - The Fall 2009 [MP3 @ 320] (oan)/02 - Norah Jones - Even Though.mp3"
+Feb 17 08:48 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/02. California.mp3"
+Feb 17 08:49 : client: [19] opened from 127.0.0.1:34514
+Feb 17 08:49 : client: [19] closed
+Feb 17 08:49 : client: [20] opened from 127.0.0.1:34518
+Feb 17 08:49 : client: [20] closed
+Feb 17 08:49 : client: [21] opened from 127.0.0.1:34522
+Feb 17 08:49 : client: [21] closed
+Feb 17 08:49 : client: [22] opened from 127.0.0.1:34526
+Feb 17 08:49 : client: [22] closed
+Feb 17 08:49 : client: [23] opened from 127.0.0.1:34530
+Feb 17 08:49 : client: [23] closed
+Feb 17 08:49 : client: [24] opened from 127.0.0.1:34534
+Feb 17 08:49 : client: [24] closed
+Feb 17 08:49 : client: [25] opened from 127.0.0.1:34538
+Feb 17 08:49 : client: [25] closed
+Feb 17 09:21 : client: [26] opened from 127.0.0.1:34580
+Feb 17 09:21 : client: [26] closed
+Feb 17 09:21 : client: [27] opened from 127.0.0.1:34584
+Feb 17 09:21 : client: [27] closed
+Feb 17 09:21 : client: [28] opened from 127.0.0.1:34588
+Feb 17 09:21 : player: played "megadeth/Endgame (2009)/06 - Bodies.mp3"
+Feb 17 09:21 : client: [28] closed
+Feb 18 19:40 : client: [0] opened from 127.0.0.1:34434
+Feb 18 19:40 : client: [1] opened from 127.0.0.1:34438
+Feb 18 19:40 : client: [1] closed
+Feb 18 19:40 : client: [2] opened from 127.0.0.1:34442
+Feb 18 19:40 : client: [2] closed
+Feb 18 19:42 : client: [3] opened from 127.0.0.1:34448
+Feb 18 19:42 : player: played "U2/11 - I Still Haven't Found What I'm Looking For.mp3"
+Feb 18 19:42 : client: [3] closed
+Feb 18 19:44 : client: [0] opened from 127.0.0.1:45612
+Feb 18 19:44 : client: [1] opened from 127.0.0.1:45622
+Feb 18 19:44 : exception: Not playing
+Feb 18 19:44 : client: [1] closed
+Feb 18 19:44 : client: [2] opened from 127.0.0.1:45626
+Feb 18 19:44 : client: [2] closed
+Feb 18 19:51 : client: [3] opened from 127.0.0.1:45784
+Feb 18 19:51 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 2/05 - Seek & Destroy.mp3"
+Feb 18 19:51 : client: [3] closed
+Feb 19 18:18 : client: [0] opened from 127.0.0.1:36870
+Feb 19 18:18 : client: [1] opened from 127.0.0.1:36874
+Feb 19 18:18 : client: [1] closed
+Feb 19 18:23 : player: played "Arkan - Salam 2011 (320 kbps)/02 - Inner Slaves.mp3"
+Feb 19 18:27 : player: played "Radiohead/(2003) Hail to the Thief/13 Radiohead - Scatterbrain. (As Dead as Leaves.).mp3"
+Feb 19 18:31 : player: played "Radiohead/(1997) OK Computer/04 Radiohead - Exit Music (For a Film).mp3"
+Feb 19 18:36 : player: played "Sexual_Healing_GG@SG/04-teddy_pendergrass-youre_my_latest_my_greatest_inspiration.mp3"
+Feb 19 18:42 : player: played "Cheb Khaled/Cheb Khaled-Hadak Aachki Le Oul.mp3"
+Feb 19 18:45 : client: [2] opened from 127.0.0.1:37064
+Feb 19 18:45 : client: [2] closed
+Feb 19 18:45 : client: [3] opened from 127.0.0.1:37068
+Feb 19 18:45 : client: [3] closed
+Feb 19 18:46 : client: [4] opened from 127.0.0.1:37072
+Feb 19 18:46 : client: [4] closed
+Feb 19 18:50 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd2/Daft Punk - Alive 2007 Deluxe Edition (Disc 2) - Harder, Better, Faster, Stronger (Live) [Bonus Video].mpg"
+Feb 19 18:55 : player: played "Sexual_Healing_GG@SG/08-teddy_pendergrass-turn_off_the_lights.mp3"
+Feb 19 18:59 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 2/01 - Through The Never.mp3"
+Feb 19 19:00 : client: [5] opened from 127.0.0.1:37190
+Feb 19 19:00 : client: [5] closed
+Feb 19 19:00 : client: [6] opened from 127.0.0.1:37196
+Feb 19 19:00 : client: [6] closed
+Feb 19 19:03 : client: [7] opened from 127.0.0.1:37214
+Feb 19 19:03 : client: [7] closed
+Feb 19 19:04 : client: [8] opened from 127.0.0.1:37220
+Feb 19 19:04 : client: [8] closed
+Feb 19 19:05 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 12 - Nightingale.mp3"
+Feb 19 19:06 : client: [9] opened from 127.0.0.1:37228
+Feb 19 19:06 : client: [9] closed
+Feb 19 19:10 : player: played "The Pixies/Doolittle/11 No 13. Baby.mp3"
+Feb 19 19:11 : client: [10] opened from 127.0.0.1:37238
+Feb 19 19:11 : client: [10] closed
+Feb 19 19:15 : player: played "Tinariwen - Aman Iman- Water Is Life/05 - Tinariwen - Soixante Trois.mp3"
+Feb 19 19:18 : player: played "U2/18 - Sweetest Thing.mp3"
+Feb 19 19:19 : client: [11] opened from 127.0.0.1:37306
+Feb 19 19:19 : client: [11] closed
+Feb 19 19:21 : client: [12] opened from 127.0.0.1:37316
+Feb 19 19:21 : client: [12] closed
+Feb 19 21:06 : client: [13] opened from 127.0.0.1:37978
+Feb 19 21:06 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 04 - Harder, Better, Faster, Stronger.mp3"
+Feb 19 21:06 : client: [13] closed
+Feb 19 21:29 : client: [14] opened from 127.0.0.1:38044
+Feb 19 21:29 : client: [14] closed
+Feb 19 21:29 : client: [15] opened from 127.0.0.1:38046
+Feb 19 21:29 : client: [15] closed
+Feb 27 18:21 : client: [0] opened from 127.0.0.1:33028
+Feb 27 18:21 : client: [1] opened from 127.0.0.1:33034
+Feb 27 18:21 : client: [1] closed
+Feb 27 18:21 : client: [2] opened from 127.0.0.1:33038
+Feb 27 18:21 : client: [2] closed
+Feb 27 18:21 : client: [3] opened from 127.0.0.1:33042
+Feb 27 18:21 : client: [3] closed
+Feb 27 18:26 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/07 - Jump In The Fire.mp3"
+Feb 27 18:27 : client: [4] opened from 127.0.0.1:33088
+Feb 27 18:27 : client: [4] closed
+Feb 27 18:40 : client: [5] opened from 127.0.0.1:33150
+Feb 27 18:40 : client: [5] closed
+Feb 27 18:43 : client: [6] opened from 127.0.0.1:33220
+Feb 27 18:43 : client: [6] closed
+Feb 27 19:02 : client: [7] opened from 127.0.0.1:33272
+Feb 27 19:02 : client: [7] closed
+Feb 27 19:02 : client: [8] opened from 127.0.0.1:33276
+Feb 27 19:02 : client: [8] closed
+Feb 27 19:07 : player: played "megadeth/10 - Captive Honour.mp3"
+Feb 27 19:11 : player: played "Radiohead/(1997) OK Computer/09 Radiohead - Climbing Up the Walls.mp3"
+Feb 27 19:16 : player: played "Radiohead/(1995) The Bends/12 Radiohead - Street Spirit (Fade Out).mp3"
+Feb 27 19:22 : player: played "Radiohead/(2000) Kid A/04 Radiohead - How to Disappear Completely (And Never Be Found Again).mp3"
+Feb 27 19:25 : player: played "U2/27 - The Saints Are Coming.mp3"
+Feb 27 19:29 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 09 - Something About Us.mp3"
+Feb 27 19:33 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 2/02. Freak On A Leash.mp3"
+Feb 27 19:34 : client: [9] opened from 127.0.0.1:33520
+Feb 27 19:34 : client: [9] closed
+Feb 27 19:41 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Feb 27 19:43 : client: [10] opened from 127.0.0.1:33610
+Feb 27 19:43 : client: [10] closed
+Feb 27 19:47 : player: played "Norah Jones/Norah Jones - The Fall 2009 [MP3 @ 320] (oan)/04 - Norah Jones - Young Blood.mp3"
+Feb 27 19:48 : client: [11] opened from 127.0.0.1:33636
+Feb 27 19:48 : client: [11] closed
+Feb 27 19:50 : client: [12] opened from 127.0.0.1:33640
+Feb 27 19:50 : client: [12] closed
+Feb 27 19:55 : player: played "Radiohead/(2000) Kid A/10 Radiohead - Motion Picture Soundtrack.mp3"
+Feb 27 19:59 : player: played "Tinariwen - Aman Iman- Water Is Life/08 - Tinariwen - Awad Idjen.mp3"
+Feb 27 20:00 : client: [13] opened from 127.0.0.1:33650
+Feb 27 20:00 : client: [13] closed
+Feb 27 20:00 : client: [14] opened from 127.0.0.1:33654
+Feb 27 20:00 : client: [14] closed
+Feb 27 21:07 : client: [15] opened from 127.0.0.1:33740
+Feb 27 21:07 : client: [15] closed
+Feb 27 21:13 : player: played "Jamiroquai - Graetests hits/02 Virtual Insanity.mp3"
+Feb 27 21:17 : player: played "Tinariwen - Aman Iman- Water Is Life/02 - Tinariwen - Mano Dayak.mp3"
+Feb 27 21:20 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/08 - My Dear Country.mp3"
+Feb 27 21:28 : client: [16] opened from 127.0.0.1:33790
+Feb 27 21:28 : client: [16] closed
+Feb 27 21:37 : client: [17] opened from 127.0.0.1:33814
+Feb 27 21:37 : client: [17] closed
+Feb 27 21:39 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/02 - The Call Of Ktulu.mp3"
+Feb 27 21:41 : client: [18] opened from 127.0.0.1:33826
+Feb 27 21:41 : client: [18] closed
+Feb 27 21:43 : client: [19] opened from 127.0.0.1:33836
+Feb 27 21:43 : client: [19] closed
+Feb 27 21:43 : client: [20] opened from 127.0.0.1:33840
+Feb 27 21:43 : client: [20] closed
+Feb 27 21:43 : client: [21] opened from 127.0.0.1:33846
+Feb 27 21:43 : client: [21] closed
+Feb 27 21:43 : client: [22] opened from 127.0.0.1:33850
+Feb 27 21:43 : client: [22] closed
+Feb 27 21:45 : client: [23] opened from 127.0.0.1:33854
+Feb 27 21:45 : player: played "Sexual_Healing_GG@SG/02-teddy_pendergrass-close_the_door.mp3"
+Feb 27 21:45 : client: [23] closed
+Feb 27 21:45 : client: [24] opened from 127.0.0.1:33858
+Feb 27 21:45 : client: [24] closed
+Feb 27 21:49 : player: played "Sexual_Healing_GG@SG/02-teddy_pendergrass-close_the_door.mp3"
+Feb 27 21:49 : client: [25] opened from 127.0.0.1:33878
+Feb 27 21:49 : client: [25] closed
+Feb 27 21:49 : client: [26] opened from 127.0.0.1:33882
+Feb 27 21:49 : client: [26] closed
+Feb 27 21:50 : client: [27] opened from 127.0.0.1:33886
+Feb 27 21:50 : client: [27] closed
+Feb 27 21:50 : client: [28] opened from 127.0.0.1:33890
+Feb 27 21:50 : client: [28] closed
+Feb 27 21:50 : client: [29] opened from 127.0.0.1:33894
+Feb 27 21:50 : client: [29] closed
+Feb 27 21:50 : client: [30] opened from 127.0.0.1:33900
+Feb 27 21:50 : client: [30] closed
+Feb 27 21:51 : client: [31] opened from 127.0.0.1:33904
+Feb 27 21:51 : client: [31] closed
+Feb 27 21:51 : client: [32] opened from 127.0.0.1:33908
+Feb 27 21:51 : client: [32] closed
+Feb 27 21:51 : client: [33] opened from 127.0.0.1:33912
+Feb 27 21:51 : client: [33] closed
+Feb 27 21:52 : client: [34] opened from 127.0.0.1:33944
+Feb 27 21:52 : client: [34] closed
+Feb 27 21:52 : client: [35] opened from 127.0.0.1:33948
+Feb 27 21:52 : client: [35] closed
+Feb 27 21:52 : client: [36] opened from 127.0.0.1:33952
+Feb 27 21:52 : client: [36] closed
+Feb 27 21:52 : client: [37] opened from 127.0.0.1:33956
+Feb 27 21:52 : client: [37] closed
+Feb 27 21:56 : client: [38] opened from 127.0.0.1:33962
+Feb 27 21:56 : client: [38] closed
+Feb 27 21:57 : client: [39] opened from 127.0.0.1:33966
+Feb 27 21:57 : client: [39] closed
+Feb 27 22:00 : client: [40] opened from 127.0.0.1:33984
+Feb 27 22:00 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/05 - Wherever I May Roam.mp3"
+Feb 27 22:00 : client: [40] closed
+Feb 28 18:16 : client: [0] opened from 127.0.0.1:36126
+Feb 28 18:16 : client: [1] opened from 127.0.0.1:36130
+Feb 28 18:16 : client: [1] closed
+Feb 28 18:21 : player: played "Radiohead/(2001) Amnesiac/08 Radiohead - Dollars & Cents.mp3"
+Feb 28 18:24 : player: played "Norah Jones/Others/Norah Jones & Jools Holland - In The Dark.mp3"
+Feb 28 18:26 : ffmpeg/asf: Estimating duration from bitrate, this may be inaccurate
+Feb 28 18:26 : player: played "scorpions/2001 - Acoustica (C)/12 - Love Of My Life.mp3"
+Feb 28 18:28 : player: played "scorpions/rock you like a hurricane.wma"
+Feb 28 18:32 : player: played "The Pixies/Doolittle/13 Hey.mp3"
+Feb 28 18:41 : client: [2] opened from 127.0.0.1:36148
+Feb 28 18:41 : client: [2] closed
+Feb 28 18:51 : client: [3] opened from 127.0.0.1:36156
+Feb 28 18:51 : client: [3] closed
+Feb 28 19:02 : client: [4] opened from 127.0.0.1:36174
+Feb 28 19:02 : client: [4] closed
+Feb 28 19:36 : client: [5] opened from 127.0.0.1:36502
+Feb 28 19:36 : client: [5] closed
+Feb 28 19:54 : client: [6] opened from 127.0.0.1:36554
+Feb 28 19:54 : client: [6] closed
+Feb 28 21:16 : client: [7] opened from 127.0.0.1:36764
+Feb 28 21:16 : client: [7] closed
+Feb 28 21:28 : client: [8] opened from 127.0.0.1:36780
+Feb 28 21:28 : client: [8] closed
+Feb 28 22:51 : player: played "Swedish house mafia/Swedish House Mafia - Essential Mix - 04-09-2010.mp3"
+Mar 02 09:35 : client: [0] opened from 127.0.0.1:46276
+Mar 02 09:35 : client: [1] opened from 127.0.0.1:46280
+Mar 02 09:35 : client: [1] closed
+Mar 02 09:59 : client: [2] opened from 127.0.0.1:46446
+Mar 02 09:59 : client: [2] closed
+Mar 02 10:01 : client: [3] opened from 127.0.0.1:46454
+Mar 02 10:01 : client: [3] closed
+Mar 02 10:16 : client: [0] closed
+Mar 02 10:16 : client: [4] opened from 127.0.0.1:46468
+Mar 02 10:19 : client: [5] opened from 127.0.0.1:46562
+Mar 02 10:19 : client: [5] closed
+Mar 02 10:51 : player: played "Swedish house mafia/Swedish House Mafia - Essential Mix - 04-09-2010.mp3"
+Mar 02 10:52 : client: [0] opened from 127.0.0.1:50906
+Mar 02 10:52 : client: [1] opened from 127.0.0.1:50910
+Mar 02 10:52 : client: [1] closed
+Mar 02 10:54 : client: [0] closed
+Mar 02 10:54 : client: [2] opened from 127.0.0.1:50912
+Mar 02 10:54 : client: [3] opened from 127.0.0.1:50916
+Mar 02 10:54 : client: [3] closed
+Mar 02 10:54 : player: played "Swedish house mafia/Swedish House Mafia - Essential Mix - 04-09-2010.mp3"
+Mar 02 10:54 : client: [0] opened from 127.0.0.1:50930
+Mar 02 10:54 : client: [1] opened from 127.0.0.1:50934
+Mar 02 10:54 : client: [1] closed
+Mar 02 10:55 : client: [2] opened from 127.0.0.1:50938
+Mar 02 10:55 : client: [2] closed
+Mar 02 11:22 : client: [3] opened from 127.0.0.1:51130
+Mar 02 11:22 : client: [3] closed
+Mar 02 11:22 : client: [4] opened from 127.0.0.1:51132
+Mar 02 11:22 : client: [4] closed
+Mar 02 12:57 : client: [5] opened from 127.0.0.1:51494
+Mar 02 12:57 : client: [5] closed
+Mar 02 12:59 : client: [6] opened from 127.0.0.1:51508
+Mar 02 12:59 : client: [6] closed
+Mar 02 14:49 : client: [0] closed
+Mar 02 14:49 : client: [7] opened from 127.0.0.1:53742
+Mar 02 14:53 : client: [7] closed
+Mar 02 14:53 : client: [8] opened from 127.0.0.1:53960
+Mar 02 14:53 : client: [8] closed
+Mar 02 14:53 : client: [9] opened from 127.0.0.1:54002
+Mar 02 14:54 : client: [9] closed
+Mar 02 14:54 : client: [10] opened from 127.0.0.1:54078
+Mar 02 14:55 : client: [10] closed
+Mar 02 14:55 : client: [11] opened from 127.0.0.1:54106
+Mar 02 14:56 : client: [11] closed
+Mar 02 14:56 : client: [12] opened from 127.0.0.1:54134
+Mar 02 14:57 : client: [12] closed
+Mar 02 14:57 : client: [13] opened from 127.0.0.1:54210
+Mar 02 14:57 : client: [13] closed
+Mar 02 14:57 : client: [14] opened from 127.0.0.1:54228
+Mar 02 14:58 : client: [14] closed
+Mar 02 14:58 : client: [15] opened from 127.0.0.1:54274
+Mar 02 14:59 : client: [15] closed
+Mar 02 14:59 : client: [16] opened from 127.0.0.1:54348
+Mar 02 14:59 : client: [16] closed
+Mar 02 14:59 : client: [17] opened from 127.0.0.1:54368
+Mar 02 15:00 : client: [17] closed
+Mar 02 15:00 : client: [18] opened from 127.0.0.1:54410
+Mar 02 15:01 : client: [18] closed
+Mar 02 15:01 : client: [19] opened from 127.0.0.1:54454
+Mar 02 15:02 : client: [19] closed
+Mar 02 15:02 : client: [20] opened from 127.0.0.1:54484
+Mar 02 15:02 : client: [20] closed
+Mar 02 15:02 : client: [21] opened from 127.0.0.1:54498
+Mar 02 15:02 : client: [21] closed
+Mar 02 15:02 : client: [22] opened from 127.0.0.1:54526
+Mar 02 15:03 : client: [22] closed
+Mar 02 15:03 : client: [23] opened from 127.0.0.1:54604
+Mar 02 15:06 : client: [23] closed
+Mar 02 15:06 : client: [24] opened from 127.0.0.1:54784
+Mar 02 15:07 : client: [24] closed
+Mar 02 15:07 : client: [25] opened from 127.0.0.1:54814
+Mar 02 15:07 : client: [25] closed
+Mar 02 15:07 : client: [26] opened from 127.0.0.1:54838
+Mar 02 15:07 : client: [26] closed
+Mar 02 15:07 : client: [27] opened from 127.0.0.1:54846
+Mar 02 15:08 : client: [27] closed
+Mar 02 15:08 : client: [28] opened from 127.0.0.1:54888
+Mar 02 15:08 : client: [29] opened from 127.0.0.1:54892
+Mar 02 15:08 : client: [29] closed
+Mar 02 15:13 : client: [28] closed
+Mar 02 15:13 : client: [30] opened from 127.0.0.1:55306
+Mar 02 15:14 : client: [30] closed
+Mar 02 15:14 : client: [31] opened from 127.0.0.1:55360
+Mar 02 15:15 : client: [31] closed
+Mar 02 15:15 : client: [32] opened from 127.0.0.1:55428
+Mar 02 15:18 : client: [32] closed
+Mar 02 15:18 : client: [33] opened from 127.0.0.1:55616
+Mar 02 15:21 : client: [33] closed
+Mar 02 15:21 : client: [34] opened from 127.0.0.1:55808
+Mar 02 15:22 : client: [34] closed
+Mar 02 15:22 : client: [35] opened from 127.0.0.1:55878
+Mar 02 15:23 : client: [35] closed
+Mar 02 15:23 : client: [36] opened from 127.0.0.1:55966
+Mar 02 15:23 : client: [36] closed
+Mar 02 15:23 : client: [37] opened from 127.0.0.1:55982
+Mar 02 15:24 : client: [37] closed
+Mar 02 15:24 : client: [38] opened from 127.0.0.1:56038
+Mar 02 15:24 : client: [38] closed
+Mar 02 15:24 : client: [39] opened from 127.0.0.1:56066
+Mar 02 15:25 : client: [39] closed
+Mar 02 15:25 : client: [40] opened from 127.0.0.1:56124
+Mar 02 15:31 : client: [40] closed
+Mar 02 15:31 : client: [41] opened from 127.0.0.1:56438
+Mar 02 15:31 : player: played "Swedish house mafia/Swedish House Mafia - Essential Mix - 04-09-2010.mp3"
+Mar 02 15:31 : client: [42] opened from 127.0.0.1:56442
+Mar 02 15:31 : client: [42] closed
+Mar 02 15:33 : client: [41] closed
+Mar 02 15:33 : client: [43] opened from 127.0.0.1:56446
+Mar 02 15:34 : client: [44] opened from 127.0.0.1:56450
+Mar 02 15:34 : client: [44] closed
+Mar 02 15:40 : client: [43] closed
+Mar 02 15:40 : client: [45] opened from 127.0.0.1:56478
+Mar 02 15:45 : client: [45] closed
+Mar 02 15:45 : client: [46] opened from 127.0.0.1:56486
+Mar 02 15:47 : client: [46] closed
+Mar 02 15:47 : client: [47] opened from 127.0.0.1:56494
+Mar 02 15:48 : client: [47] closed
+Mar 02 15:48 : client: [48] opened from 127.0.0.1:56496
+Mar 02 15:49 : client: [48] closed
+Mar 02 15:49 : client: [49] opened from 127.0.0.1:56524
+Mar 02 15:50 : client: [49] closed
+Mar 02 15:50 : client: [50] opened from 127.0.0.1:56526
+Mar 02 15:52 : client: [51] opened from 127.0.0.1:56538
+Mar 02 15:52 : client: [51] closed
+Mar 02 15:52 : client: [52] opened from 127.0.0.1:56542
+Mar 02 15:52 : client: [52] closed
+Mar 02 16:16 : player: played "Radiohead/(2007) In Rainbows/CD1/08 Radiohead - House Of Cards.mp3"
+Mar 03 17:20 : client: [0] opened from 127.0.0.1:42624
+Mar 03 17:20 : client: [1] opened from 127.0.0.1:42628
+Mar 03 17:20 : client: [1] closed
+Mar 03 17:23 : client: [2] opened from 127.0.0.1:42968
+Mar 03 17:23 : client: [2] closed
+Mar 03 17:53 : client: [3] opened from 127.0.0.1:43278
+Mar 03 17:53 : client: [3] closed
+Mar 03 22:59 : player: played "Radiohead/(2007) In Rainbows/CD1/08 Radiohead - House Of Cards.mp3"
+Mar 07 20:56 : client: [0] opened from 127.0.0.1:35526
+Mar 07 20:56 : client: [1] opened from 127.0.0.1:35528
+Mar 07 20:57 : client: [1] closed
+Mar 07 20:57 : client: [2] opened from 127.0.0.1:35532
+Mar 07 20:57 : player: played "Radiohead/(2007) In Rainbows/CD1/08 Radiohead - House Of Cards.mp3"
+Mar 07 20:57 : client: [2] closed
+Mar 09 19:00 : client: [0] opened from 127.0.0.1:56462
+Mar 09 19:00 : client: [1] opened from 127.0.0.1:56466
+Mar 09 19:00 : exception: Not playing
+Mar 09 19:00 : client: [1] closed
+Mar 09 19:01 : client: [2] opened from 127.0.0.1:56816
+Mar 09 19:01 : client: [2] closed
+Mar 09 19:03 : client: [3] opened from 127.0.0.1:56874
+Mar 09 19:03 : client: [3] closed
+Mar 09 19:03 : client: [4] opened from 127.0.0.1:56932
+Mar 09 19:03 : client: [4] closed
+Mar 09 19:03 : client: [5] opened from 127.0.0.1:56944
+Mar 09 19:03 : client: [5] closed
+Mar 09 19:03 : client: [6] opened from 127.0.0.1:56952
+Mar 09 19:03 : client: [6] closed
+Mar 09 19:04 : client: [7] opened from 127.0.0.1:56962
+Mar 09 19:04 : client: [7] closed
+Mar 09 19:04 : client: [8] opened from 127.0.0.1:57010
+Mar 09 19:04 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Mar 09 19:04 : client: [8] closed
+Mar 09 23:37 : client: [0] closed
+Mar 09 23:37 : client: [9] opened from 127.0.0.1:59160
+Mar 10 14:34 : client: [0] opened from 127.0.0.1:47456
+Mar 10 14:34 : client: [1] opened from 127.0.0.1:47460
+Mar 10 14:34 : client: [1] closed
+Mar 10 14:35 : client: [2] opened from 127.0.0.1:47464
+Mar 10 14:35 : client: [2] closed
+Mar 10 14:36 : client: [3] opened from 127.0.0.1:47470
+Mar 10 14:36 : client: [3] closed
+Mar 10 14:40 : client: [0] closed
+Mar 10 14:40 : client: [4] opened from 127.0.0.1:47584
+Mar 10 14:40 : client: [4] closed
+Mar 10 14:40 : client: [5] opened from 127.0.0.1:47586
+Mar 10 14:40 : client: [5] closed
+Mar 10 14:40 : client: [6] opened from 127.0.0.1:47590
+Mar 10 14:44 : client: [7] opened from 127.0.0.1:47628
+Mar 10 14:44 : client: [7] closed
+Mar 10 14:50 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/05 - The Thing That Should Not Be.mp3"
+Mar 10 14:53 : client: [8] opened from 127.0.0.1:47786
+Mar 10 14:53 : player: played "Radiohead/(1995) The Bends/12 Radiohead - Street Spirit (Fade Out).mp3"
+Mar 10 14:53 : client: [8] closed
+Mar 10 22:47 : client: [0] opened from 127.0.0.1:48166
+Mar 10 22:47 : client: [1] opened from 127.0.0.1:48172
+Mar 10 22:47 : client: [1] closed
+Mar 10 22:47 : client: [2] opened from 127.0.0.1:48194
+Mar 10 22:47 : client: [2] closed
+Mar 10 22:47 : client: [3] opened from 127.0.0.1:48198
+Mar 10 22:47 : client: [3] closed
+Mar 10 22:48 : client: [4] opened from 127.0.0.1:48202
+Mar 10 22:48 : client: [4] closed
+Mar 10 22:48 : client: [5] opened from 127.0.0.1:48206
+Mar 10 22:48 : client: [5] closed
+Mar 10 22:48 : client: [6] opened from 127.0.0.1:48210
+Mar 10 22:48 : player: played "scorpions/passion rules the game.wma"
+Mar 10 22:48 : client: [6] closed
+Mar 10 22:55 : client: [7] opened from 127.0.0.1:48216
+Mar 10 22:55 : client: [7] closed
+Mar 10 22:55 : client: [8] opened from 127.0.0.1:48220
+Mar 10 22:55 : client: [8] closed
+Mar 10 22:55 : client: [9] opened from 127.0.0.1:48224
+Mar 10 22:55 : player: played "Norah Jones/Others/Norah Jones - Something Is Calling You (nudemix).mp3"
+Mar 10 22:55 : client: [9] closed
+Mar 10 23:03 : client: [0] closed
+Mar 10 23:03 : client: [10] opened from 127.0.0.1:48506
+Mar 10 23:04 : client: [11] opened from 127.0.0.1:48538
+Mar 10 23:04 : client: [11] closed
+Mar 10 23:05 : client: [10] closed
+Mar 10 23:05 : client: [12] opened from 127.0.0.1:48542
+Mar 10 23:06 : client: [12] closed
+Mar 10 23:06 : client: [13] opened from 127.0.0.1:48550
+Mar 10 23:07 : player: played "Norah Jones/Others/Norah Jones - Something Is Calling You (nudemix).mp3"
+Mar 10 23:10 : client: [13] closed
+Mar 10 23:10 : client: [14] opened from 127.0.0.1:48890
+Mar 10 23:11 : client: [15] opened from 127.0.0.1:48916
+Mar 10 23:11 : player: played "scorpions/in trance.wma"
+Mar 10 23:11 : client: [15] closed
+Mar 11 19:04 : client: [0] opened from 127.0.0.1:44628
+Mar 11 19:04 : client: [1] opened from 127.0.0.1:44632
+Mar 11 19:04 : client: [1] closed
+Mar 11 19:04 : client: [2] opened from 127.0.0.1:44636
+Mar 11 19:04 : client: [2] closed
+Mar 11 19:06 : client: [3] opened from 127.0.0.1:44656
+Mar 11 19:06 : client: [3] closed
+Mar 11 19:07 : client: [4] opened from 127.0.0.1:44660
+Mar 11 19:07 : player: played "The Pixies/Doolittle/05 Here Comes Your Man.mp3"
+Mar 11 19:07 : client: [4] closed
+Mar 11 19:07 : client: [5] opened from 127.0.0.1:44664
+Mar 11 19:07 : client: [5] closed
+Mar 11 19:09 : client: [0] closed
+Mar 11 19:09 : client: [6] opened from 127.0.0.1:44828
+Mar 11 19:09 : client: [7] opened from 127.0.0.1:44832
+Mar 11 19:09 : client: [7] closed
+Mar 11 19:09 : client: [8] opened from 127.0.0.1:44840
+Mar 11 19:09 : client: [8] closed
+Mar 11 19:09 : client: [9] opened from 127.0.0.1:44844
+Mar 11 19:09 : client: [9] closed
+Mar 11 19:09 : client: [10] opened from 127.0.0.1:44848
+Mar 11 19:09 : client: [10] closed
+Mar 11 19:09 : client: [11] opened from 127.0.0.1:44852
+Mar 11 19:09 : client: [11] closed
+Mar 11 19:16 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/06 - The Small Hours.mp3"
+Mar 11 19:19 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 11 - One Flight Down.mp3"
+Mar 11 19:19 : client: [12] opened from 127.0.0.1:45094
+Mar 11 19:19 : client: [12] closed
+Mar 11 19:27 : player: played "Slipknot/Slipknot - 22 - All Hope Is Gone.mp3"
+Mar 11 19:29 : client: [0] opened from 127.0.0.1:37226
+Mar 11 19:29 : client: [1] opened from 127.0.0.1:37230
+Mar 11 19:29 : client: [1] closed
+Mar 11 19:29 : client: [2] opened from 127.0.0.1:37234
+Mar 11 19:29 : client: [2] closed
+Mar 11 19:29 : client: [3] opened from 127.0.0.1:37252
+Mar 11 19:29 : client: [3] closed
+Mar 11 19:29 : client: [4] opened from 127.0.0.1:37262
+Mar 11 19:29 : client: [4] closed
+Mar 11 19:30 : client: [5] opened from 127.0.0.1:37268
+Mar 11 19:30 : client: [5] closed
+Mar 11 19:32 : client: [6] opened from 127.0.0.1:37272
+Mar 11 19:32 : client: [6] closed
+Mar 11 19:38 : player: played "Cheb Khaled/Cheb Khaled-Hadak Aachki Le Oul.mp3"
+Mar 11 19:39 : client: [7] opened from 127.0.0.1:37546
+Mar 11 19:39 : client: [7] closed
+Mar 11 19:39 : client: [8] opened from 127.0.0.1:37550
+Mar 11 19:39 : client: [8] closed
+Mar 11 19:45 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/11 - The Thing That Should Not Be.mp3"
+Mar 11 19:45 : client: [9] opened from 127.0.0.1:37592
+Mar 11 19:45 : client: [9] closed
+Mar 11 19:46 : client: [10] opened from 127.0.0.1:37612
+Mar 11 19:46 : client: [10] closed
+Mar 11 19:49 : client: [11] opened from 127.0.0.1:37630
+Mar 11 19:49 : client: [11] closed
+Mar 11 19:49 : client: [12] opened from 127.0.0.1:37634
+Mar 11 19:49 : client: [12] closed
+Mar 11 19:49 : client: [13] opened from 127.0.0.1:37638
+Mar 11 19:49 : client: [13] closed
+Mar 11 19:49 : client: [14] opened from 127.0.0.1:37642
+Mar 11 19:49 : client: [14] closed
+Mar 11 19:49 : client: [15] opened from 127.0.0.1:37646
+Mar 11 19:49 : client: [15] closed
+Mar 11 19:49 : client: [16] opened from 127.0.0.1:37650
+Mar 11 19:49 : client: [16] closed
+Mar 11 19:55 : player: played "Norah Jones/New York City (with The Peter Malick Group)/Norah Jones - New York City (with The Peter Malick Group) - 05 - Heart of Mine.mp3"
+Mar 11 19:55 : client: [0] closed
+Mar 11 19:55 : client: [17] opened from 127.0.0.1:37660
+Mar 11 19:55 : client: [18] opened from 127.0.0.1:37664
+Mar 11 19:55 : client: [18] closed
+Mar 11 19:56 : client: [17] closed
+Mar 11 19:56 : client: [19] opened from 127.0.0.1:37666
+Mar 11 19:56 : client: [20] opened from 127.0.0.1:37670
+Mar 11 19:56 : client: [20] closed
+Mar 11 19:58 : client: [19] closed
+Mar 11 19:58 : client: [21] opened from 127.0.0.1:37674
+Mar 11 19:58 : client: [22] opened from 127.0.0.1:37678
+Mar 11 19:58 : client: [22] closed
+Mar 11 19:58 : client: [23] opened from 127.0.0.1:37682
+Mar 11 19:58 : client: [24] opened from 127.0.0.1:37686
+Mar 11 19:58 : client: [23] closed
+Mar 11 19:58 : client: [24] closed
+Mar 11 19:58 : client: [25] opened from 127.0.0.1:37690
+Mar 11 19:58 : client: [25] closed
+Mar 11 19:58 : client: [21] closed
+Mar 11 19:58 : client: [26] opened from 127.0.0.1:37694
+Mar 11 19:58 : client: [27] opened from 127.0.0.1:37698
+Mar 11 19:58 : client: [28] opened from 127.0.0.1:37702
+Mar 11 19:58 : client: [27] closed
+Mar 11 19:58 : client: [28] closed
+Mar 11 19:58 : client: [29] opened from 127.0.0.1:37706
+Mar 11 19:58 : client: [29] closed
+Mar 11 20:07 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/03 - Master Of Puppets.mp3"
+Mar 11 20:08 : client: [30] opened from 127.0.0.1:37900
+Mar 11 20:08 : client: [30] closed
+Mar 11 20:09 : client: [31] opened from 127.0.0.1:37910
+Mar 11 20:09 : client: [32] opened from 127.0.0.1:37914
+Mar 11 20:09 : client: [31] closed
+Mar 11 20:09 : client: [32] closed
+Mar 11 20:09 : client: [33] opened from 127.0.0.1:37918
+Mar 11 20:09 : client: [33] closed
+Mar 11 20:09 : client: [34] opened from 127.0.0.1:37922
+Mar 11 20:09 : client: [35] opened from 127.0.0.1:37926
+Mar 11 20:09 : client: [34] closed
+Mar 11 20:09 : client: [35] closed
+Mar 11 20:09 : client: [36] opened from 127.0.0.1:37930
+Mar 11 20:09 : client: [36] closed
+Mar 11 20:09 : client: [37] opened from 127.0.0.1:37934
+Mar 11 20:09 : client: [38] opened from 127.0.0.1:37938
+Mar 11 20:09 : client: [38] closed
+Mar 11 20:09 : client: [37] closed
+Mar 11 20:09 : client: [39] opened from 127.0.0.1:37942
+Mar 11 20:09 : client: [39] closed
+Mar 11 20:10 : client: [40] opened from 127.0.0.1:37946
+Mar 11 20:10 : client: [41] opened from 127.0.0.1:37950
+Mar 11 20:10 : client: [40] closed
+Mar 11 20:10 : client: [41] closed
+Mar 11 20:10 : client: [42] opened from 127.0.0.1:37954
+Mar 11 20:10 : client: [42] closed
+Mar 11 20:10 : client: [26] closed
+Mar 11 20:10 : client: [43] opened from 127.0.0.1:37956
+Mar 11 20:10 : client: [44] opened from 127.0.0.1:37960
+Mar 11 20:10 : client: [44] closed
+Mar 11 20:11 : client: [43] closed
+Mar 11 20:11 : client: [45] opened from 127.0.0.1:37962
+Mar 11 20:12 : client: [46] opened from 127.0.0.1:37968
+Mar 11 20:12 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/07 - Jump In The Fire.mp3"
+Mar 11 20:12 : client: [46] closed
+Mar 11 20:12 : client: [45] closed
+Mar 11 20:12 : client: [47] opened from 127.0.0.1:37970
+Mar 11 21:22 : client: [48] opened from 127.0.0.1:38046
+Mar 11 21:22 : client: [48] closed
+Mar 11 21:22 : client: [49] opened from 127.0.0.1:38050
+Mar 11 21:22 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/07 - Jump In The Fire.mp3"
+Mar 11 21:22 : client: [49] closed
+Mar 11 21:22 : client: [50] opened from 127.0.0.1:38054
+Mar 11 21:22 : exception: Not playing
+Mar 11 21:22 : client: [50] closed
+Mar 11 21:22 : client: [51] opened from 127.0.0.1:38058
+Mar 11 21:22 : client: [51] closed
+Mar 11 21:22 : client: [52] opened from 127.0.0.1:38062
+Mar 11 21:22 : client: [52] closed
+Mar 11 21:22 : client: [53] opened from 127.0.0.1:38066
+Mar 11 21:22 : client: [53] closed
+Mar 11 21:22 : client: [54] opened from 127.0.0.1:38070
+Mar 11 21:22 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/07 - Jump In The Fire.mp3"
+Mar 11 21:22 : client: [54] closed
+Mar 11 21:58 : client: [0] opened from 127.0.0.1:40134
+Mar 11 22:50 : client: [0] opened from 127.0.0.1:33772
+Mar 11 22:50 : client: [1] opened from 127.0.0.1:33776
+Mar 11 22:50 : client: [1] closed
+Mar 11 22:50 : client: [2] opened from 127.0.0.1:33780
+Mar 11 22:50 : client: [2] closed
+Mar 11 22:50 : client: [3] opened from 127.0.0.1:33784
+Mar 11 22:50 : client: [3] closed
+Mar 11 22:50 : client: [4] opened from 127.0.0.1:33788
+Mar 11 22:50 : client: [4] closed
+Mar 11 22:50 : client: [5] opened from 127.0.0.1:33792
+Mar 11 22:50 : client: [5] closed
+Mar 11 22:50 : client: [6] opened from 127.0.0.1:33796
+Mar 11 22:50 : client: [6] closed
+Mar 11 22:50 : client: [7] opened from 127.0.0.1:33800
+Mar 11 22:50 : player: played "Radiohead/(1995) The Bends/12 Radiohead - Street Spirit (Fade Out).mp3"
+Mar 11 22:50 : client: [7] closed
+Mar 11 22:50 : client: [8] opened from 127.0.0.1:33804
+Mar 11 22:50 : client: [8] closed
+Mar 11 22:50 : client: [9] opened from 127.0.0.1:33808
+Mar 11 22:50 : client: [9] closed
+Mar 11 22:50 : client: [10] opened from 127.0.0.1:33812
+Mar 11 22:50 : client: [10] closed
+Mar 11 22:50 : client: [11] opened from 127.0.0.1:33816
+Mar 11 22:50 : client: [11] closed
+Mar 11 22:50 : client: [12] opened from 127.0.0.1:33820
+Mar 11 22:50 : client: [12] closed
+Mar 11 22:50 : client: [13] opened from 127.0.0.1:33824
+Mar 11 22:50 : client: [13] closed
+Mar 11 22:50 : client: [14] opened from 127.0.0.1:33828
+Mar 11 22:50 : client: [14] closed
+Mar 11 22:50 : client: [15] opened from 127.0.0.1:33832
+Mar 11 22:50 : client: [15] closed
+Mar 11 22:50 : client: [16] opened from 127.0.0.1:33836
+Mar 11 22:50 : client: [16] closed
+Mar 11 22:51 : client: [17] opened from 127.0.0.1:33838
+Mar 11 22:51 : client: [18] opened from 127.0.0.1:33842
+Mar 11 22:51 : client: [18] closed
+Mar 11 22:51 : client: [19] opened from 127.0.0.1:33846
+Mar 11 22:51 : client: [19] closed
+Mar 11 22:51 : client: [20] opened from 127.0.0.1:33850
+Mar 11 22:51 : client: [20] closed
+Mar 11 22:51 : client: [21] opened from 127.0.0.1:33854
+Mar 11 22:51 : client: [21] closed
+Mar 11 22:51 : client: [22] opened from 127.0.0.1:33858
+Mar 11 22:51 : client: [22] closed
+Mar 11 22:51 : client: [23] opened from 127.0.0.1:33862
+Mar 11 22:51 : client: [23] closed
+Mar 11 22:51 : client: [24] opened from 127.0.0.1:33866
+Mar 11 22:51 : client: [24] closed
+Mar 11 22:51 : client: [17] closed
+Mar 11 22:52 : client: [25] opened from 127.0.0.1:33870
+Mar 11 22:52 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 11 - Rock 'N Roll.mp3"
+Mar 11 22:52 : client: [25] closed
+Mar 12 19:23 : client: [0] opened from 127.0.0.1:50214
+Mar 12 19:24 : client: [1] opened from 127.0.0.1:50218
+Mar 12 19:24 : client: [1] closed
+Mar 12 19:24 : client: [2] opened from 127.0.0.1:50222
+Mar 12 19:24 : client: [3] opened from 127.0.0.1:50226
+Mar 12 19:24 : client: [3] closed
+Mar 12 19:24 : client: [4] opened from 127.0.0.1:50230
+Mar 12 19:24 : client: [4] closed
+Mar 12 19:24 : client: [5] opened from 127.0.0.1:50234
+Mar 12 19:24 : client: [5] closed
+Mar 12 19:24 : client: [6] opened from 127.0.0.1:50238
+Mar 12 19:24 : client: [6] closed
+Mar 12 19:24 : client: [7] opened from 127.0.0.1:50242
+Mar 12 19:24 : client: [7] closed
+Mar 12 19:24 : client: [8] opened from 127.0.0.1:50246
+Mar 12 19:24 : client: [8] closed
+Mar 12 19:24 : client: [9] opened from 127.0.0.1:50250
+Mar 12 19:24 : player: played "The Pixies/Death To the Pixies (DISK 2)/2-16 Tame.mp3"
+Mar 12 19:24 : client: [9] closed
+Mar 12 19:24 : client: [2] closed
+Mar 12 19:25 : client: [10] opened from 127.0.0.1:50262
+Mar 12 19:25 : client: [11] opened from 127.0.0.1:50266
+Mar 12 19:25 : client: [11] closed
+Mar 12 19:25 : client: [12] opened from 127.0.0.1:50270
+Mar 12 19:25 : client: [12] closed
+Mar 12 19:25 : client: [13] opened from 127.0.0.1:50274
+Mar 12 19:25 : client: [13] closed
+Mar 12 19:26 : client: [14] opened from 127.0.0.1:50358
+Mar 12 19:26 : player: played "Norah Jones/Others/Norah Jones & Dirty Dozen Brass Band - Ruler Of My Heart (feat. Robert Randolph).mp3"
+Mar 12 19:26 : client: [14] closed
+Mar 12 19:28 : client: [15] opened from 127.0.0.1:50418
+Mar 12 19:28 : exception: Not playing
+Mar 12 19:28 : client: [15] closed
+Mar 12 20:46 : client: [16] opened from 127.0.0.1:50828
+Mar 12 20:46 : client: [16] closed
+Mar 12 20:46 : client: [17] opened from 127.0.0.1:50838
+Mar 12 20:46 : client: [18] opened from 127.0.0.1:50836
+Mar 12 20:46 : client: [17] closed
+Mar 12 20:46 : client: [18] closed
+Mar 12 20:47 : client: [19] opened from 127.0.0.1:50844
+Mar 12 20:48 : client: [19] closed
+Mar 12 20:52 : player: played "Arkan - Salam 2011 (320 kbps)/10 - Call From Within .mp3"
+Mar 12 20:52 : client: [20] opened from 127.0.0.1:50906
+Mar 12 20:52 : client: [20] closed
+Mar 12 20:53 : client: [21] opened from 127.0.0.1:50910
+Mar 12 20:53 : client: [21] closed
+Mar 12 20:53 : client: [22] opened from 127.0.0.1:50914
+Mar 12 20:53 : client: [22] closed
+Mar 12 20:53 : client: [23] opened from 127.0.0.1:50920
+Mar 12 20:53 : client: [23] closed
+Mar 12 20:53 : client: [24] opened from 127.0.0.1:50932
+Mar 12 20:53 : client: [24] closed
+Mar 12 20:54 : client: [25] opened from 127.0.0.1:50940
+Mar 12 20:54 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/02 - Broken, Beat & Scarred.mp3"
+Mar 12 20:54 : client: [25] closed
+Mar 13 18:12 : client: [0] opened from 127.0.0.1:54632
+Mar 13 18:12 : client: [1] opened from 127.0.0.1:54636
+Mar 13 18:12 : client: [1] closed
+Mar 13 18:12 : client: [2] opened from 127.0.0.1:54640
+Mar 13 18:12 : client: [2] closed
+Mar 13 18:12 : client: [3] opened from 127.0.0.1:54644
+Mar 13 18:12 : client: [3] closed
+Mar 13 18:13 : client: [4] opened from 127.0.0.1:54648
+Mar 13 18:13 : client: [4] closed
+Mar 13 18:13 : client: [5] opened from 127.0.0.1:54652
+Mar 13 18:13 : client: [5] closed
+Mar 13 18:14 : client: [6] opened from 127.0.0.1:54656
+Mar 13 18:18 : player: played "Norah Jones/New York City (with The Peter Malick Group)/Norah Jones - New York City (with The Peter Malick Group) - 05 - Heart of Mine.mp3"
+Mar 13 18:20 : player: played "The Pixies/Live @ The BBC/09 Wave of Mutilation.mp3"
+Mar 13 18:23 : client: [7] opened from 127.0.0.1:54786
+Mar 13 18:23 : client: [7] closed
+Mar 13 18:23 : client: [8] opened from 127.0.0.1:54790
+Mar 13 18:23 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/02. California.mp3"
+Mar 13 18:23 : client: [8] closed
+Mar 13 18:43 : client: [0] opened from 127.0.0.1:33134
+Mar 13 18:43 : client: [1] opened from 127.0.0.1:33138
+Mar 13 18:43 : client: [1] closed
+Mar 13 18:43 : client: [2] opened from 127.0.0.1:33142
+Mar 13 18:43 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/11 - Little Room.mp3"
+Mar 13 18:43 : client: [2] closed
+Mar 13 18:44 : client: [3] opened from 127.0.0.1:33148
+Mar 13 18:44 : client: [3] closed
+Mar 13 18:46 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/11 - Little Room.mp3"
+Mar 13 18:49 : client: [4] opened from 127.0.0.1:33210
+Mar 13 18:49 : client: [4] closed
+Mar 13 18:49 : client: [5] opened from 127.0.0.1:33220
+Mar 13 18:49 : client: [5] closed
+Mar 13 18:51 : client: [6] opened from 127.0.0.1:33226
+Mar 13 18:51 : client: [6] closed
+Mar 13 18:54 : client: [7] opened from 127.0.0.1:33232
+Mar 13 18:54 : client: [7] closed
+Mar 13 18:54 : client: [8] opened from 127.0.0.1:33238
+Mar 13 18:55 : client: [8] closed
+Mar 13 18:55 : client: [9] opened from 127.0.0.1:33242
+Mar 13 18:55 : client: [9] closed
+Mar 13 18:55 : client: [10] opened from 127.0.0.1:33246
+Mar 13 18:55 : player: played "Arkan - Salam 2011 (320 kbps)/10 - Call From Within .mp3"
+Mar 13 18:56 : client: [11] opened from 127.0.0.1:33250
+Mar 13 18:56 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/04-too_long__crescendolls_high_life-xds.mp3"
+Mar 13 18:56 : client: [11] closed
+Mar 13 18:57 : client: [10] closed
+Mar 13 18:58 : client: [12] opened from 127.0.0.1:33254
+Mar 13 18:58 : client: [13] opened from 127.0.0.1:33258
+Mar 13 18:58 : exception: Not playing
+Mar 13 18:58 : client: [13] closed
+Mar 13 18:58 : client: [14] opened from 127.0.0.1:33262
+Mar 13 18:58 : client: [14] closed
+Mar 13 18:58 : client: [15] opened from 127.0.0.1:33266
+Mar 13 18:58 : client: [15] closed
+Mar 13 18:58 : client: [16] opened from 127.0.0.1:33270
+Mar 13 18:58 : client: [16] closed
+Mar 13 18:58 : client: [17] opened from 127.0.0.1:33274
+Mar 13 18:58 : player: played "Radiohead/(1995) The Bends/11 Radiohead - Sulk.mp3"
+Mar 13 18:58 : client: [17] closed
+Mar 13 18:58 : client: [12] closed
+Mar 13 18:58 : client: [18] opened from 127.0.0.1:33278
+Mar 13 18:59 : client: [18] closed
+Mar 13 18:59 : client: [19] opened from 127.0.0.1:33284
+Mar 13 18:59 : client: [19] closed
+Mar 13 18:59 : client: [20] opened from 127.0.0.1:33288
+Mar 13 18:59 : client: [20] closed
+Mar 13 19:00 : client: [21] opened from 127.0.0.1:33292
+Mar 13 19:00 : client: [22] opened from 127.0.0.1:33296
+Mar 13 19:00 : client: [22] closed
+Mar 13 19:00 : client: [23] opened from 127.0.0.1:33300
+Mar 13 19:00 : client: [23] closed
+Mar 13 19:00 : client: [24] opened from 127.0.0.1:33304
+Mar 13 19:00 : client: [24] closed
+Mar 13 19:06 : client: [21] closed
+Mar 13 19:13 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/10-the_brainwasher__the_primetime_of_your_life_steam_machine-xds.mp3"
+Mar 13 19:13 : client: [25] opened from 127.0.0.1:33416
+Mar 13 19:15 : client: [26] opened from 127.0.0.1:33452
+Mar 13 19:15 : player: played "Radiohead/(2003) Hail to the Thief/09 Radiohead - There There. (The Boney King of Nowhere.).mp3"
+Mar 13 19:15 : client: [26] closed
+Mar 13 19:15 : client: [25] closed
+Mar 13 19:15 : client: [0] closed
+Mar 13 19:15 : client: [27] opened from 127.0.0.1:33454
+Mar 13 19:15 : client: [28] opened from 127.0.0.1:33468
+Mar 13 19:15 : client: [28] closed
+Mar 13 19:17 : client: [29] opened from 127.0.0.1:33634
+Mar 13 19:18 : client: [30] opened from 127.0.0.1:33664
+Mar 13 19:18 : client: [30] closed
+Mar 13 19:18 : client: [31] opened from 127.0.0.1:33666
+Mar 13 19:18 : client: [31] closed
+Mar 13 19:18 : client: [32] opened from 127.0.0.1:33670
+Mar 13 19:18 : client: [32] closed
+Mar 13 19:18 : client: [33] opened from 127.0.0.1:33674
+Mar 13 19:18 : client: [33] closed
+Mar 13 19:18 : client: [29] closed
+Mar 13 19:18 : client: [34] opened from 127.0.0.1:33678
+Mar 13 19:18 : client: [34] closed
+Mar 13 19:18 : client: [35] opened from 127.0.0.1:33682
+Mar 13 19:18 : client: [35] closed
+Mar 13 19:21 : player: played "Radiohead/(2003) Hail to the Thief/09 Radiohead - There There. (The Boney King of Nowhere.).mp3"
+Mar 13 19:22 : client: [36] opened from 127.0.0.1:33698
+Mar 13 19:22 : client: [36] closed
+Mar 13 19:25 : player: played "U2/05 - Pride (In The Name Of Love).mp3"
+Mar 13 19:28 : client: [0] opened from 127.0.0.1:38888
+Mar 13 19:28 : client: [1] opened from 127.0.0.1:38892
+Mar 13 19:28 : client: [2] opened from 127.0.0.1:38896
+Mar 13 19:28 : client: [2] closed
+Mar 13 19:28 : client: [1] closed
+Mar 13 19:28 : client: [3] opened from 127.0.0.1:38900
+Mar 13 19:28 : client: [3] closed
+Mar 13 19:29 : client: [0] closed
+Mar 13 19:30 : client: [4] opened from 127.0.0.1:38904
+Mar 13 19:30 : client: [4] closed
+Mar 13 19:31 : client: [5] opened from 127.0.0.1:38906
+Mar 13 19:31 : client: [6] opened from 127.0.0.1:38910
+Mar 13 19:31 : player: played "Radiohead/(1993) Pablo Honey/05 Radiohead - Thinking About You.mp3"
+Mar 13 19:31 : client: [6] closed
+Mar 13 19:31 : client: [0] opened from 127.0.0.1:38924
+Mar 13 19:31 : client: [1] opened from 127.0.0.1:38926
+Mar 13 19:31 : client: [2] opened from 127.0.0.1:38930
+Mar 13 19:31 : client: [2] closed
+Mar 13 19:35 : player: played "megadeth/01 Wake Up Dead.mp3"
+Mar 13 19:39 : player: played "The Pixies/Surfer Rosa/05 Gigantic.mp3"
+Mar 13 19:42 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 2/01. Bitch We Got A Problem.mp3"
+Mar 13 19:46 : player: played "Radiohead/(2003) Hail to the Thief/13 Radiohead - Scatterbrain. (As Dead as Leaves.).mp3"
+Mar 13 19:50 : player: played "R.E.M/R.E.M.The Best Of Rem (In Time 1988-2003)/03. Bad Day.mp3"
+Mar 13 19:50 : client: [3] opened from 127.0.0.1:39122
+Mar 13 19:50 : client: [3] closed
+Mar 13 19:55 : player: played "Radiohead/(1995) The Bends/04 Radiohead - Fake Plastic Trees.mp3"
+Mar 13 19:57 : player: played "The Pixies/Doolittle/10 La La Love you.mp3"
+Mar 13 19:58 : client: [4] opened from 127.0.0.1:39134
+Mar 13 19:58 : client: [4] closed
+Mar 13 19:58 : client: [5] opened from 127.0.0.1:39138
+Mar 13 19:58 : client: [5] closed
+Mar 13 19:58 : client: [6] opened from 127.0.0.1:39144
+Mar 13 19:58 : client: [6] closed
+Mar 13 19:58 : client: [7] opened from 127.0.0.1:39148
+Mar 13 19:58 : client: [7] closed
+Mar 13 20:05 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/02 - Broken, Beat & Scarred.mp3"
+Mar 13 20:05 : client: [8] opened from 127.0.0.1:39166
+Mar 13 20:05 : client: [8] closed
+Mar 13 20:05 : client: [9] opened from 127.0.0.1:39170
+Mar 13 20:05 : client: [9] closed
+Mar 13 20:05 : client: [10] opened from 127.0.0.1:39174
+Mar 13 20:05 : client: [10] closed
+Mar 13 20:05 : client: [11] opened from 127.0.0.1:39178
+Mar 13 20:05 : client: [11] closed
+Mar 13 20:13 : client: [12] opened from 127.0.0.1:39192
+Mar 13 20:13 : client: [12] closed
+Mar 13 20:17 : client: [13] opened from 127.0.0.1:39204
+Mar 13 20:17 : client: [13] closed
+Mar 13 20:18 : client: [14] opened from 127.0.0.1:39208
+Mar 13 20:18 : client: [14] closed
+Mar 13 20:29 : client: [15] opened from 127.0.0.1:39274
+Mar 13 20:29 : client: [15] closed
+Mar 13 20:39 : client: [16] opened from 127.0.0.1:39292
+Mar 13 20:39 : client: [16] closed
+Mar 13 20:57 : client: [17] opened from 127.0.0.1:39484
+Mar 13 20:57 : player: played "Swedish house mafia/Swedish House Mafia - Essential Mix - 04-09-2010.mp3"
+Mar 13 20:57 : client: [17] closed
+Mar 13 21:49 : client: [18] opened from 127.0.0.1:39678
+Mar 13 21:49 : client: [18] closed
+Mar 13 21:49 : client: [19] opened from 127.0.0.1:39682
+Mar 13 21:49 : client: [19] closed
+Mar 13 21:49 : client: [20] opened from 127.0.0.1:39686
+Mar 13 21:49 : client: [20] closed
+Mar 13 21:50 : client: [21] opened from 127.0.0.1:39690
+Mar 13 21:50 : client: [21] closed
+Mar 13 21:50 : client: [22] opened from 127.0.0.1:39694
+Mar 13 21:50 : client: [22] closed
+Mar 13 21:50 : client: [23] opened from 127.0.0.1:39698
+Mar 13 21:50 : client: [23] closed
+Mar 13 21:50 : client: [24] opened from 127.0.0.1:39702
+Mar 13 21:50 : client: [24] closed
+Mar 13 21:50 : client: [25] opened from 127.0.0.1:39706
+Mar 13 21:50 : client: [25] closed
+Mar 13 21:51 : player: played "Arkan - Salam 2011 (320 kbps)/02 - Inner Slaves.mp3"
+Mar 13 21:51 : client: [0] opened from 127.0.0.1:39720
+Mar 13 21:51 : client: [1] opened from 127.0.0.1:39722
+Mar 13 21:51 : client: [2] opened from 127.0.0.1:39726
+Mar 13 21:51 : client: [2] closed
+Mar 13 21:51 : client: [3] opened from 127.0.0.1:39730
+Mar 13 21:51 : client: [3] closed
+Mar 13 21:51 : client: [4] opened from 127.0.0.1:39736
+Mar 13 21:51 : client: [4] closed
+Mar 13 21:51 : client: [5] opened from 127.0.0.1:39740
+Mar 13 21:51 : client: [5] closed
+Mar 13 21:52 : client: [6] opened from 127.0.0.1:39744
+Mar 13 21:52 : client: [6] closed
+Mar 13 21:52 : client: [7] opened from 127.0.0.1:39748
+Mar 13 21:52 : client: [7] closed
+Mar 13 21:52 : client: [1] closed
+Mar 13 21:52 : client: [8] opened from 127.0.0.1:39750
+Mar 13 21:52 : client: [9] opened from 127.0.0.1:39754
+Mar 13 21:52 : client: [9] closed
+Mar 13 21:52 : client: [10] opened from 127.0.0.1:39758
+Mar 13 21:52 : client: [10] closed
+Mar 13 21:52 : client: [11] opened from 127.0.0.1:39762
+Mar 13 21:52 : client: [11] closed
+Mar 13 21:52 : client: [12] opened from 127.0.0.1:39766
+Mar 13 21:52 : client: [12] closed
+Mar 13 21:52 : client: [13] opened from 127.0.0.1:39770
+Mar 13 21:52 : player: played "Arkan - Salam 2011 (320 kbps)/02 - Inner Slaves.mp3"
+Mar 13 21:52 : client: [13] closed
+Mar 13 21:52 : client: [8] closed
+Mar 13 21:52 : client: [14] opened from 127.0.0.1:39780
+Mar 13 21:52 : client: [15] opened from 127.0.0.1:39788
+Mar 13 21:52 : client: [16] opened from 127.0.0.1:39792
+Mar 13 21:52 : client: [16] closed
+Mar 13 21:52 : client: [17] opened from 127.0.0.1:39796
+Mar 13 21:52 : client: [17] closed
+Mar 13 21:54 : client: [18] opened from 127.0.0.1:39820
+Mar 13 21:54 : client: [18] closed
+Mar 13 21:54 : client: [19] opened from 127.0.0.1:39824
+Mar 13 21:54 : client: [19] closed
+Mar 13 21:54 : client: [20] opened from 127.0.0.1:39828
+Mar 13 21:54 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/01 - Wish I Could.mp3"
+Mar 13 21:54 : client: [20] closed
+Mar 13 21:54 : client: [14] closed
+Mar 13 21:54 : client: [21] opened from 127.0.0.1:39830
+Mar 13 21:54 : client: [22] opened from 127.0.0.1:39836
+Mar 13 21:54 : client: [22] closed
+Mar 13 21:54 : client: [23] opened from 127.0.0.1:39842
+Mar 13 21:54 : client: [23] closed
+Mar 13 21:54 : client: [24] opened from 127.0.0.1:39846
+Mar 13 21:54 : client: [24] closed
+Mar 13 21:54 : client: [25] opened from 127.0.0.1:39850
+Mar 13 21:54 : client: [25] closed
+Mar 13 21:55 : client: [26] opened from 127.0.0.1:39874
+Mar 13 21:55 : client: [26] closed
+Mar 13 21:55 : client: [27] opened from 127.0.0.1:39878
+Mar 13 21:55 : player: played "Eminem/[2002] 8 Mile OST - CD1/05 - 50 Cent - Places To Go.mp3"
+Mar 13 21:55 : client: [27] closed
+Mar 13 21:55 : client: [21] closed
+Mar 13 21:55 : client: [28] opened from 127.0.0.1:39880
+Mar 13 21:56 : client: [0] closed
+Mar 13 21:56 : client: [15] closed
+Mar 13 21:56 : client: [0] opened from 127.0.0.1:39916
+Mar 13 21:56 : client: [1] opened from 127.0.0.1:39920
+Mar 13 21:56 : client: [2] opened from 127.0.0.1:39924
+Mar 13 21:56 : client: [2] closed
+Mar 13 21:56 : client: [3] opened from 127.0.0.1:39928
+Mar 13 21:56 : player: played "Arkan - Salam 2011 (320 kbps)/05 - Jerusalem - Sufferpolis.mp3"
+Mar 13 21:56 : client: [3] closed
+Mar 13 21:56 : client: [4] opened from 127.0.0.1:39932
+Mar 13 21:56 : client: [4] closed
+Mar 13 21:56 : client: [5] opened from 127.0.0.1:39936
+Mar 13 21:56 : client: [5] closed
+Mar 13 21:56 : client: [6] opened from 127.0.0.1:39940
+Mar 13 21:56 : client: [6] closed
+Mar 13 21:56 : client: [7] opened from 127.0.0.1:39944
+Mar 13 21:56 : client: [7] closed
+Mar 13 21:57 : client: [8] opened from 127.0.0.1:39948
+Mar 13 21:57 : client: [8] closed
+Mar 13 21:58 : client: [9] opened from 127.0.0.1:39952
+Mar 13 21:58 : client: [9] closed
+Mar 13 21:58 : client: [10] opened from 127.0.0.1:39956
+Mar 13 21:58 : player: played "Tinariwen - Aman Iman- Water Is Life/07 - Tinariwen - Imidiwan Winakalin.mp3"
+Mar 13 21:58 : client: [10] closed
+Mar 14 19:50 : client: [0] opened from 127.0.0.1:52036
+Mar 14 19:50 : client: [1] opened from 127.0.0.1:52038
+Mar 14 19:50 : client: [2] opened from 127.0.0.1:52042
+Mar 14 19:50 : client: [2] closed
+Mar 14 19:50 : client: [3] opened from 127.0.0.1:52046
+Mar 14 19:50 : client: [3] closed
+Mar 14 19:54 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 09 - Something About Us.mp3"
+Mar 14 19:59 : player: played "Arkan - Salam 2011 (320 kbps)/10 - Call From Within .mp3"
+Mar 14 20:01 : player: played "The Pixies/Trompe le Monde/02 Planet of Sound.mp3"
+Mar 14 20:03 : client: [4] opened from 127.0.0.1:52060
+Mar 14 20:03 : client: [4] closed
+Mar 14 21:31 : client: [5] opened from 127.0.0.1:52866
+Mar 14 21:31 : client: [5] closed
+Mar 14 21:31 : client: [6] opened from 127.0.0.1:52870
+Mar 14 21:31 : client: [6] closed
+Mar 14 21:31 : client: [7] opened from 127.0.0.1:52874
+Mar 14 21:31 : client: [7] closed
+Mar 14 21:31 : client: [8] opened from 127.0.0.1:52878
+Mar 14 21:31 : client: [8] closed
+Mar 14 21:31 : client: [9] opened from 127.0.0.1:52882
+Mar 14 21:31 : client: [9] closed
+Mar 14 21:31 : client: [10] opened from 127.0.0.1:52886
+Mar 14 21:31 : client: [10] closed
+Mar 14 21:31 : client: [11] opened from 127.0.0.1:52890
+Mar 14 21:31 : client: [11] closed
+Mar 14 21:33 : client: [12] opened from 127.0.0.1:52942
+Mar 14 21:33 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/09 - Last Caress-Green Hell.mp3"
+Mar 14 21:33 : client: [12] closed
+Mar 15 18:43 : client: [13] opened from 127.0.0.1:55066
+Mar 15 18:43 : client: [14] opened from 127.0.0.1:55078
+Mar 15 18:43 : client: [14] closed
+Mar 15 18:43 : client: [15] opened from 127.0.0.1:55082
+Mar 15 18:43 : client: [15] closed
+Mar 15 18:43 : client: [16] opened from 127.0.0.1:55086
+Mar 15 18:43 : client: [16] closed
+Mar 15 18:44 : client: [17] opened from 127.0.0.1:55092
+Mar 15 18:44 : client: [17] closed
+Mar 15 18:44 : player: played "Radiohead/(2001) Amnesiac/06 Radiohead - Knives Out.mp3"
+Mar 15 18:44 : client: [0] opened from 127.0.0.1:55110
+Mar 15 18:44 : client: [1] opened from 127.0.0.1:55114
+Mar 15 18:44 : client: [1] closed
+Mar 15 18:44 : client: [2] opened from 127.0.0.1:55118
+Mar 15 18:44 : client: [2] closed
+Mar 15 18:45 : client: [3] opened from 127.0.0.1:55122
+Mar 15 18:45 : client: [3] closed
+Mar 15 18:45 : client: [4] opened from 127.0.0.1:55126
+Mar 15 18:45 : client: [4] closed
+Mar 15 18:45 : client: [5] opened from 127.0.0.1:55130
+Mar 15 18:45 : client: [5] closed
+Mar 15 18:45 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 07 - Turn Me On.mp3"
+Mar 15 18:45 : client: [0] opened from 127.0.0.1:55154
+Mar 15 18:45 : client: [1] opened from 127.0.0.1:55156
+Mar 15 18:45 : client: [2] opened from 127.0.0.1:55160
+Mar 15 18:45 : client: [2] closed
+Mar 15 18:45 : client: [3] opened from 127.0.0.1:55164
+Mar 15 18:45 : client: [3] closed
+Mar 15 18:47 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 07 - Turn Me On.mp3"
+Mar 15 18:54 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/05 - Blackened.mp3"
+Mar 15 18:58 : client: [4] opened from 127.0.0.1:55210
+Mar 15 18:58 : client: [4] closed
+Mar 15 19:23 : client: [5] opened from 127.0.0.1:55294
+Mar 15 19:23 : client: [5] closed
+Mar 15 19:23 : client: [6] opened from 127.0.0.1:55298
+Mar 15 19:23 : client: [6] closed
+Mar 15 19:23 : client: [7] opened from 127.0.0.1:55302
+Mar 15 19:23 : client: [7] closed
+Mar 15 19:23 : client: [8] opened from 127.0.0.1:55306
+Mar 15 19:23 : client: [8] closed
+Mar 15 19:23 : client: [9] opened from 127.0.0.1:55310
+Mar 15 19:23 : client: [9] closed
+Mar 15 19:23 : client: [10] opened from 127.0.0.1:55314
+Mar 15 19:23 : client: [10] closed
+Mar 15 19:27 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/06 - Fuel.mp3"
+Mar 15 19:32 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 2/04 - Minus Human.mp3"
+Mar 15 19:35 : player: played "The Pixies/Death To the Pixies (DISK 1)/04 Here Comes Your Man.mp3"
+Mar 15 19:39 : player: played "Radiohead/(2007) In Rainbows/CD1/03 Radiohead - Nude.mp3"
+Mar 15 19:41 : client: [11] opened from 127.0.0.1:55398
+Mar 15 19:41 : client: [11] closed
+Mar 15 22:08 : client: [12] opened from 127.0.0.1:55886
+Mar 15 22:08 : client: [12] closed
+Mar 15 22:08 : client: [13] opened from 127.0.0.1:55890
+Mar 15 22:08 : client: [13] closed
+Mar 15 23:50 : client: [1] closed
+Mar 15 23:50 : client: [14] opened from 127.0.0.1:56360
+Mar 15 23:53 : client: [15] opened from 127.0.0.1:56456
+Mar 15 23:53 : client: [16] opened from 127.0.0.1:56460
+Mar 15 23:53 : client: [16] closed
+Mar 15 23:54 : client: [15] closed
+Mar 15 23:54 : client: [17] opened from 127.0.0.1:56464
+Mar 15 23:54 : player: played "The Pixies/Bossanova/08 Dig For Fire.mp3"
+Mar 15 23:54 : client: [17] closed
+Mar 16 08:02 : client: [0] closed
+Mar 16 12:06 : client: [0] opened from 127.0.0.1:55328
+Mar 16 12:07 : client: [1] opened from 127.0.0.1:55334
+Mar 16 12:07 : client: [1] closed
+Mar 16 12:07 : client: [2] opened from 127.0.0.1:55338
+Mar 16 12:07 : client: [2] closed
+Mar 16 12:08 : client: [3] opened from 127.0.0.1:55342
+Mar 16 12:08 : client: [3] closed
+Mar 16 12:08 : client: [4] opened from 127.0.0.1:55346
+Mar 16 12:08 : client: [4] closed
+Mar 16 12:08 : client: [5] opened from 127.0.0.1:55350
+Mar 16 12:08 : player: played "The Pixies/Live @ The BBC/15 Lady in the Radiator Song, (In He.mp3"
+Mar 16 12:08 : client: [5] closed
+Mar 16 12:12 : client: [0] opened from 127.0.0.1:55582
+Mar 16 12:12 : client: [1] opened from 127.0.0.1:55586
+Mar 16 12:12 : client: [2] opened from 127.0.0.1:55590
+Mar 16 12:12 : client: [2] closed
+Mar 16 12:13 : client: [3] opened from 127.0.0.1:55594
+Mar 16 12:13 : client: [3] closed
+Mar 16 12:17 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 2/01 - Through The Never.mp3"
+Mar 16 12:17 : client: [4] opened from 127.0.0.1:55826
+Mar 16 12:17 : client: [4] closed
+Mar 16 12:20 : player: played "The Pixies/Death To the Pixies (DISK 1)/17 Monkey Gone to Heaven.mp3"
+Mar 16 12:23 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 12 - The Prettiest Thing.mp3"
+Mar 16 12:28 : client: [0] opened from 127.0.0.1:40268
+Mar 16 12:28 : client: [1] opened from 127.0.0.1:40270
+Mar 16 12:28 : client: [2] opened from 127.0.0.1:40274
+Mar 16 12:28 : client: [2] closed
+Mar 16 12:28 : client: [3] opened from 127.0.0.1:40278
+Mar 16 12:28 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 12 - The Prettiest Thing.mp3"
+Mar 16 12:28 : client: [3] closed
+Mar 16 12:33 : client: [4] opened from 127.0.0.1:40288
+Mar 16 12:33 : client: [4] closed
+Mar 16 12:33 : client: [5] opened from 127.0.0.1:40290
+Mar 16 12:33 : client: [5] closed
+Mar 16 12:33 : client: [6] opened from 127.0.0.1:40294
+Mar 16 12:33 : client: [6] closed
+Mar 16 12:36 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 03 - Those Sweet Words.mp3"
+Mar 16 12:40 : player: played "Radiohead/(2003) Hail to the Thief/14 Radiohead - A Wolf at the Door. (It Girl. Rag Doll.).mp3"
+Mar 16 12:45 : player: played "Radiohead/(2001) Amnesiac/05 Radiohead - I Might Be Wrong.mp3"
+Mar 16 12:46 : client: [7] opened from 127.0.0.1:40354
+Mar 16 12:46 : player: played "Radiohead/(2007) In Rainbows/CD1/09 Radiohead - Jigsaw Falling Into Place.mp3"
+Mar 16 12:46 : client: [7] closed
+Mar 16 13:28 : client: [8] opened from 127.0.0.1:40380
+Mar 16 13:28 : client: [8] closed
+Mar 16 13:28 : client: [9] opened from 127.0.0.1:40382
+Mar 16 13:28 : client: [9] closed
+Mar 16 13:28 : client: [10] opened from 127.0.0.1:40384
+Mar 16 13:28 : client: [10] closed
+Mar 16 13:28 : client: [11] opened from 127.0.0.1:40386
+Mar 16 13:28 : client: [11] closed
+Mar 16 13:50 : client: [0] opened from 127.0.0.1:39170
+Mar 16 13:50 : client: [1] opened from 127.0.0.1:39172
+Mar 16 13:50 : client: [2] opened from 127.0.0.1:39176
+Mar 16 13:50 : client: [2] closed
+Mar 16 13:50 : client: [3] opened from 127.0.0.1:39180
+Mar 16 13:50 : client: [3] closed
+Mar 16 13:51 : player: played "Arkan - Salam 2011 (320 kbps)/11 - Lightened Heart .mp3"
+Mar 16 13:51 : client: [4] opened from 127.0.0.1:39186
+Mar 16 13:51 : client: [4] closed
+Mar 16 13:51 : client: [5] opened from 127.0.0.1:39190
+Mar 16 13:51 : client: [5] closed
+Mar 16 13:51 : client: [6] opened from 127.0.0.1:39194
+Mar 16 13:51 : client: [6] closed
+Mar 16 13:55 : player: played "U2/15 - Vertigo.mp3"
+Mar 16 13:56 : client: [7] opened from 127.0.0.1:39206
+Mar 16 13:56 : player: played "The Pixies/Death To the Pixies (DISK 1)/01 Cecilia Ann.mp3"
+Mar 16 13:56 : client: [7] closed
+Mar 16 17:19 : client: [0] opened from 127.0.0.1:40996
+Mar 16 17:19 : client: [1] opened from 127.0.0.1:40998
+Mar 16 17:19 : client: [2] opened from 127.0.0.1:41002
+Mar 16 17:19 : client: [2] closed
+Mar 16 17:24 : player: played "Tinariwen - Aman Iman- Water Is Life/04 - Tinariwen - Ahimana.mp3"
+Mar 16 17:26 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 10 - Painter Song.mp3"
+Mar 16 17:30 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/08 - Whiplash.mp3"
+Mar 16 17:34 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 01 - Don't Know Why.mp3"
+Mar 16 17:38 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 08 - For All We Know.mp3"
+Mar 16 17:42 : player: played "megadeth/05 - Gears of War.mp3"
+Mar 16 17:44 : player: played "The Pixies/Trompe le Monde/01 Trompe le Monde.mp3"
+Mar 16 17:46 : player: played "The Pixies/Bossanova/01 Cecilia Ann.mp3"
+Mar 16 17:52 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/08 - No Leaf Clover.mp3"
+Mar 16 17:55 : player: played "The Pixies/Death To the Pixies (DISK 1)/16 Gouge Away.mp3"
+Mar 16 17:58 : player: played "The Pixies/Death To the Pixies (DISK 1)/14 Where is my Mind_.mp3"
+Mar 16 17:59 : client: [3] opened from 127.0.0.1:41374
+Mar 16 17:59 : client: [3] closed
+Mar 16 18:02 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 08 - Lonestar.mp3"
+Mar 16 18:02 : client: [4] opened from 127.0.0.1:41382
+Mar 16 18:02 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 16 18:02 : client: [4] closed
+Mar 17 08:21 : client: [5] opened from 127.0.0.1:42522
+Mar 17 08:21 : client: [5] closed
+Mar 17 08:21 : client: [6] opened from 127.0.0.1:42526
+Mar 17 08:21 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 17 08:21 : client: [6] closed
+Mar 17 08:21 : client: [7] opened from 127.0.0.1:42530
+Mar 17 08:21 : client: [7] closed
+Mar 17 08:21 : client: [8] opened from 127.0.0.1:42534
+Mar 17 08:21 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 17 08:21 : client: [8] closed
+Mar 17 08:21 : client: [9] opened from 127.0.0.1:42538
+Mar 17 08:21 : client: [9] closed
+Mar 17 08:21 : client: [10] opened from 127.0.0.1:42542
+Mar 17 08:21 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 17 08:21 : client: [10] closed
+Mar 17 08:21 : client: [11] opened from 127.0.0.1:42546
+Mar 17 08:21 : client: [11] closed
+Mar 17 08:21 : client: [12] opened from 127.0.0.1:42550
+Mar 17 08:21 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 17 08:21 : client: [12] closed
+Mar 17 11:20 : client: [13] opened from 127.0.0.1:43080
+Mar 17 11:20 : client: [13] closed
+Mar 17 11:23 : player: played "Slipknot/Slipknot - 06 - Wait And Bleed.mp3"
+Mar 17 11:27 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 05 - In The Morning.mp3"
+Mar 17 11:27 : client: [14] opened from 127.0.0.1:43118
+Mar 17 11:27 : player: played "megadeth/Endgame (2009)/01 - Dialectic Chaos.mp3"
+Mar 17 11:27 : client: [14] closed
+Mar 17 13:58 : client: [15] opened from 127.0.0.1:43650
+Mar 17 13:58 : client: [15] closed
+Mar 17 14:01 : player: played "megadeth/Endgame (2009)/01 - Dialectic Chaos.mp3"
+Mar 17 14:01 : client: [16] opened from 127.0.0.1:43718
+Mar 17 14:01 : client: [16] closed
+Mar 17 14:02 : player: played "Arkan - Salam 2011 (320 kbps)/09 - Salam.mp3"
+Mar 17 14:02 : client: [17] opened from 127.0.0.1:43724
+Mar 17 14:02 : client: [17] closed
+Mar 17 14:02 : client: [18] opened from 127.0.0.1:43728
+Mar 17 14:02 : client: [18] closed
+Mar 17 14:07 : player: played "Tinariwen - Aman Iman- Water Is Life/03 - Tinariwen - Matadjem Yinmixan.mp3"
+Mar 17 14:13 : player: played "megadeth/04 - Five Magics.mp3"
+Mar 17 14:13 : client: [19] opened from 127.0.0.1:43812
+Mar 17 14:13 : client: [19] closed
+Mar 17 14:13 : client: [20] opened from 127.0.0.1:43816
+Mar 17 14:13 : client: [20] closed
+Mar 17 14:13 : client: [21] opened from 127.0.0.1:43820
+Mar 17 14:13 : client: [21] closed
+Mar 17 14:14 : client: [22] opened from 127.0.0.1:43828
+Mar 17 14:14 : client: [22] closed
+Mar 17 14:16 : client: [23] opened from 127.0.0.1:43842
+Mar 17 14:16 : client: [23] closed
+Mar 17 14:19 : player: played "Sexual_Healing_GG@SG/12-teddy_pendergrass-i_cant_live_without_your_love.mp3"
+Mar 17 14:22 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 10 - Painter Song.mp3"
+Mar 17 14:23 : client: [1] closed
+Mar 17 14:23 : client: [24] opened from 127.0.0.1:43858
+Mar 17 14:23 : client: [25] opened from 127.0.0.1:43862
+Mar 17 14:23 : client: [25] closed
+Mar 17 14:25 : client: [26] opened from 127.0.0.1:43868
+Mar 17 14:25 : client: [26] closed
+Mar 17 14:45 : client: [24] closed
+Mar 17 14:45 : client: [27] opened from 127.0.0.1:44024
+Mar 17 14:46 : client: [28] opened from 127.0.0.1:44028
+Mar 17 14:46 : client: [28] closed
+Mar 17 14:46 : client: [29] opened from 127.0.0.1:44032
+Mar 17 14:46 : client: [29] closed
+Mar 17 14:46 : client: [30] opened from 127.0.0.1:44038
+Mar 17 14:46 : client: [30] closed
+Mar 17 14:46 : client: [31] opened from 127.0.0.1:44042
+Mar 17 14:46 : client: [31] closed
+Mar 17 14:46 : client: [32] opened from 127.0.0.1:44046
+Mar 17 14:46 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/12 - (Anesthesia)-Pulling Teeth.mp3"
+Mar 17 14:46 : client: [32] closed
+Mar 17 14:46 : client: [33] opened from 127.0.0.1:44050
+Mar 17 14:46 : exception: Not playing
+Mar 17 14:46 : client: [33] closed
+Mar 17 14:46 : client: [34] opened from 127.0.0.1:44054
+Mar 17 14:46 : client: [34] closed
+Mar 17 14:46 : client: [35] opened from 127.0.0.1:44058
+Mar 17 14:46 : client: [35] closed
+Mar 17 14:47 : client: [27] closed
+Mar 17 14:47 : client: [36] opened from 127.0.0.1:44062
+Mar 17 14:47 : client: [37] opened from 127.0.0.1:44066
+Mar 17 14:47 : client: [37] closed
+Mar 17 14:47 : client: [38] opened from 127.0.0.1:44070
+Mar 17 14:47 : client: [38] closed
+Mar 17 14:47 : client: [39] opened from 127.0.0.1:44074
+Mar 17 14:47 : client: [39] closed
+Mar 17 14:47 : client: [40] opened from 127.0.0.1:44078
+Mar 17 14:47 : client: [40] closed
+Mar 17 14:47 : client: [41] opened from 127.0.0.1:44082
+Mar 17 14:47 : client: [41] closed
+Mar 17 14:47 : client: [42] opened from 127.0.0.1:44086
+Mar 17 14:47 : client: [42] closed
+Mar 17 14:47 : client: [43] opened from 127.0.0.1:44090
+Mar 17 14:47 : client: [43] closed
+Mar 17 14:48 : client: [44] opened from 127.0.0.1:44094
+Mar 17 14:48 : client: [44] closed
+Mar 17 14:48 : client: [45] opened from 127.0.0.1:44098
+Mar 17 14:48 : client: [45] closed
+Mar 17 15:06 : client: [36] closed
+Mar 17 15:06 : client: [46] opened from 127.0.0.1:44142
+Mar 17 15:07 : client: [46] closed
+Mar 17 15:07 : client: [47] opened from 127.0.0.1:44148
+Mar 17 15:55 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 1/09. Falling Away From Me.mp3"
+Mar 17 16:10 : client: [0] opened from 127.0.0.1:40220
+Mar 17 16:10 : client: [1] opened from 127.0.0.1:40222
+Mar 17 16:10 : client: [2] opened from 127.0.0.1:40226
+Mar 17 16:13 : client: [2] closed
+Mar 17 16:15 : client: [3] opened from 127.0.0.1:40232
+Mar 17 16:15 : client: [3] closed
+Mar 17 16:15 : client: [4] opened from 127.0.0.1:40236
+Mar 17 16:15 : client: [4] closed
+Mar 17 16:15 : client: [5] opened from 127.0.0.1:40240
+Mar 17 16:15 : client: [5] closed
+Mar 17 16:15 : client: [6] opened from 127.0.0.1:40244
+Mar 17 16:15 : client: [6] closed
+Mar 17 16:15 : client: [7] opened from 127.0.0.1:40248
+Mar 17 16:15 : client: [7] closed
+Mar 17 16:15 : client: [8] opened from 127.0.0.1:40252
+Mar 17 16:15 : client: [8] closed
+Mar 17 16:16 : client: [9] opened from 127.0.0.1:40256
+Mar 17 16:16 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Mar 17 16:16 : client: [0] opened from 127.0.0.1:40272
+Mar 17 16:16 : client: [1] opened from 127.0.0.1:40274
+Mar 17 16:16 : client: [2] opened from 127.0.0.1:40278
+Mar 17 16:16 : client: [2] closed
+Mar 17 16:16 : client: [3] opened from 127.0.0.1:40282
+Mar 17 16:16 : client: [3] closed
+Mar 17 16:18 : client: [1] closed
+Mar 17 16:18 : client: [4] opened from 127.0.0.1:40284
+Mar 17 16:18 : client: [5] opened from 127.0.0.1:40288
+Mar 17 16:18 : client: [5] closed
+Mar 17 16:18 : client: [6] opened from 127.0.0.1:40292
+Mar 17 16:18 : client: [6] closed
+Mar 17 16:18 : client: [7] opened from 127.0.0.1:40296
+Mar 17 16:18 : client: [7] closed
+Mar 17 16:18 : client: [8] opened from 127.0.0.1:40300
+Mar 17 16:18 : client: [8] closed
+Mar 17 16:18 : client: [9] opened from 127.0.0.1:40304
+Mar 17 16:18 : client: [9] closed
+Mar 17 16:18 : client: [10] opened from 127.0.0.1:40308
+Mar 17 16:18 : client: [10] closed
+Mar 17 16:18 : client: [11] opened from 127.0.0.1:40314
+Mar 17 16:18 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Mar 17 16:18 : client: [11] closed
+Mar 17 16:18 : client: [12] opened from 127.0.0.1:40318
+Mar 17 16:18 : client: [12] closed
+Mar 17 16:18 : client: [13] opened from 127.0.0.1:40322
+Mar 17 16:18 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Mar 17 16:18 : client: [13] closed
+Mar 17 16:18 : client: [14] opened from 127.0.0.1:40326
+Mar 17 16:18 : client: [14] closed
+Mar 17 16:18 : client: [15] opened from 127.0.0.1:40330
+Mar 17 16:18 : client: [15] closed
+Mar 17 16:18 : client: [16] opened from 127.0.0.1:40334
+Mar 17 16:18 : client: [16] closed
+Mar 17 16:19 : client: [17] opened from 127.0.0.1:40338
+Mar 17 16:19 : client: [17] closed
+Mar 17 16:19 : client: [18] opened from 127.0.0.1:40342
+Mar 17 16:19 : client: [18] closed
+Mar 17 16:19 : client: [19] opened from 127.0.0.1:40346
+Mar 17 16:19 : client: [19] closed
+Mar 17 16:19 : client: [20] opened from 127.0.0.1:40350
+Mar 17 16:19 : client: [20] closed
+Mar 17 16:19 : client: [21] opened from 127.0.0.1:40354
+Mar 17 16:19 : client: [21] closed
+Mar 17 16:19 : client: [22] opened from 127.0.0.1:40358
+Mar 17 16:19 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/03 - Master Of Puppets.mp3"
+Mar 17 16:19 : client: [22] closed
+Mar 17 19:08 : client: [23] opened from 127.0.0.1:40670
+Mar 17 19:08 : client: [23] closed
+Mar 17 19:10 : client: [24] opened from 127.0.0.1:40678
+Mar 17 19:10 : client: [24] closed
+Mar 17 19:12 : client: [25] opened from 127.0.0.1:40684
+Mar 17 19:12 : client: [25] closed
+Mar 17 19:18 : client: [26] opened from 127.0.0.1:40840
+Mar 17 19:18 : client: [26] closed
+Mar 17 19:19 : client: [27] opened from 127.0.0.1:40862
+Mar 17 19:19 : client: [27] closed
+Mar 17 19:20 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/03 - Master Of Puppets.mp3"
+Mar 17 19:20 : client: [28] opened from 127.0.0.1:40936
+Mar 17 19:20 : client: [28] closed
+Mar 17 19:27 : player: played "Norah Jones/Others/Norah Jones - Something Is Calling You (nudemix).mp3"
+Mar 17 19:30 : client: [0] opened from 127.0.0.1:32964
+Mar 17 19:30 : client: [1] opened from 127.0.0.1:32966
+Mar 17 19:30 : client: [2] opened from 127.0.0.1:32970
+Mar 17 19:30 : client: [2] closed
+Mar 17 19:30 : client: [3] opened from 127.0.0.1:32974
+Mar 17 19:30 : client: [3] closed
+Mar 17 19:30 : client: [4] opened from 127.0.0.1:32976
+Mar 17 19:31 : client: [4] closed
+Mar 17 19:33 : client: [5] opened from 127.0.0.1:33074
+Mar 17 19:33 : client: [5] closed
+Mar 17 19:34 : client: [6] opened from 127.0.0.1:33086
+Mar 17 19:34 : client: [6] closed
+Mar 17 19:36 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 14 - Indo Silver Club.mp3"
+Mar 17 19:38 : client: [1] closed
+Mar 17 19:38 : client: [7] opened from 127.0.0.1:33106
+Mar 17 19:40 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 06 - Comes Love.mp3"
+Mar 17 19:40 : client: [8] opened from 127.0.0.1:33118
+Mar 17 19:40 : client: [8] closed
+Mar 17 20:00 : client: [9] opened from 127.0.0.1:33148
+Mar 17 20:00 : client: [9] closed
+Mar 17 20:00 : client: [10] opened from 127.0.0.1:33152
+Mar 17 20:00 : client: [10] closed
+Mar 17 20:00 : client: [11] opened from 127.0.0.1:33156
+Mar 17 20:00 : client: [11] closed
+Mar 17 20:00 : client: [12] opened from 127.0.0.1:33160
+Mar 17 20:00 : client: [12] closed
+Mar 17 20:01 : client: [13] opened from 127.0.0.1:33164
+Mar 17 20:01 : client: [13] closed
+Mar 17 20:38 : client: [14] opened from 127.0.0.1:33302
+Mar 17 20:38 : client: [14] closed
+Mar 17 20:38 : client: [15] opened from 127.0.0.1:33304
+Mar 17 20:38 : client: [15] closed
+Mar 18 21:30 : client: [16] opened from 127.0.0.1:35950
+Mar 18 21:30 : client: [16] closed
+Mar 18 21:30 : client: [17] opened from 127.0.0.1:35954
+Mar 18 21:30 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/08 - Whiplash.mp3"
+Mar 18 21:30 : client: [17] closed
+Mar 19 19:59 : client: [18] opened from 127.0.0.1:38108
+Mar 19 19:59 : client: [18] closed
+Mar 19 20:00 : client: [19] opened from 127.0.0.1:38112
+Mar 19 20:00 : client: [19] closed
+Mar 19 20:00 : client: [20] opened from 127.0.0.1:38116
+Mar 19 20:00 : client: [20] closed
+Mar 19 20:00 : client: [21] opened from 127.0.0.1:38120
+Mar 19 20:00 : client: [21] closed
+Mar 19 20:00 : client: [22] opened from 127.0.0.1:38124
+Mar 19 20:00 : client: [22] closed
+Mar 19 20:00 : client: [23] opened from 127.0.0.1:38128
+Mar 19 20:00 : client: [23] closed
+Mar 19 20:00 : client: [24] opened from 127.0.0.1:38132
+Mar 19 20:00 : client: [24] closed
+Mar 19 20:00 : client: [25] opened from 127.0.0.1:38136
+Mar 19 20:00 : client: [25] closed
+Mar 19 20:00 : client: [26] opened from 127.0.0.1:38140
+Mar 19 20:00 : client: [26] closed
+Mar 19 20:00 : client: [27] opened from 127.0.0.1:38144
+Mar 19 20:00 : client: [27] closed
+Mar 19 20:00 : client: [28] opened from 127.0.0.1:38148
+Mar 19 20:00 : client: [28] closed
+Mar 19 20:00 : client: [29] opened from 127.0.0.1:38152
+Mar 19 20:00 : client: [29] closed
+Mar 19 20:00 : client: [30] opened from 127.0.0.1:38156
+Mar 19 20:00 : client: [30] closed
+Mar 19 20:00 : client: [31] opened from 127.0.0.1:38160
+Mar 19 20:00 : client: [31] closed
+Mar 19 20:00 : client: [32] opened from 127.0.0.1:38164
+Mar 19 20:00 : client: [32] closed
+Mar 19 20:00 : client: [33] opened from 127.0.0.1:38168
+Mar 19 20:00 : client: [33] closed
+Mar 19 20:00 : client: [34] opened from 127.0.0.1:38172
+Mar 19 20:00 : client: [34] closed
+Mar 19 20:00 : client: [35] opened from 127.0.0.1:38176
+Mar 19 20:00 : client: [35] closed
+Mar 19 20:00 : client: [36] opened from 127.0.0.1:38180
+Mar 19 20:00 : client: [36] closed
+Mar 19 20:01 : client: [37] opened from 127.0.0.1:38184
+Mar 19 20:01 : client: [37] closed
+Mar 19 20:01 : client: [38] opened from 127.0.0.1:38188
+Mar 19 20:01 : client: [38] closed
+Mar 19 20:01 : client: [39] opened from 127.0.0.1:38192
+Mar 19 20:01 : client: [39] closed
+Mar 19 20:01 : client: [40] opened from 127.0.0.1:38196
+Mar 19 20:01 : client: [40] closed
+Mar 19 20:05 : player: played "Tinariwen - Aman Iman- Water Is Life/07 - Tinariwen - Imidiwan Winakalin.mp3"
+Mar 19 20:05 : client: [41] opened from 127.0.0.1:38232
+Mar 19 20:05 : client: [41] closed
+Mar 19 20:05 : client: [42] opened from 127.0.0.1:38236
+Mar 19 20:05 : client: [42] closed
+Mar 19 20:06 : client: [43] opened from 127.0.0.1:38240
+Mar 19 20:06 : client: [43] closed
+Mar 19 20:06 : client: [44] opened from 127.0.0.1:38244
+Mar 19 20:06 : client: [44] closed
+Mar 19 20:06 : client: [45] opened from 127.0.0.1:38248
+Mar 19 20:06 : client: [45] closed
+Mar 19 20:06 : client: [46] opened from 127.0.0.1:38252
+Mar 19 20:06 : client: [46] closed
+Mar 19 20:06 : client: [47] opened from 127.0.0.1:38256
+Mar 19 20:06 : client: [47] closed
+Mar 19 20:06 : client: [48] opened from 127.0.0.1:38260
+Mar 19 20:06 : client: [48] closed
+Mar 19 20:06 : client: [49] opened from 127.0.0.1:38264
+Mar 19 20:06 : client: [49] closed
+Mar 19 20:06 : client: [50] opened from 127.0.0.1:38268
+Mar 19 20:06 : client: [50] closed
+Mar 19 20:06 : client: [51] opened from 127.0.0.1:38272
+Mar 19 20:06 : client: [51] closed
+Mar 19 20:06 : client: [52] opened from 127.0.0.1:38276
+Mar 19 20:06 : client: [52] closed
+Mar 19 20:06 : client: [53] opened from 127.0.0.1:38280
+Mar 19 20:06 : client: [53] closed
+Mar 19 20:06 : client: [54] opened from 127.0.0.1:38284
+Mar 19 20:06 : client: [54] closed
+Mar 19 20:06 : client: [55] opened from 127.0.0.1:38288
+Mar 19 20:06 : client: [55] closed
+Mar 19 20:06 : client: [56] opened from 127.0.0.1:38292
+Mar 19 20:06 : client: [56] closed
+Mar 19 20:06 : client: [57] opened from 127.0.0.1:38296
+Mar 19 20:06 : client: [57] closed
+Mar 19 20:06 : client: [58] opened from 127.0.0.1:38300
+Mar 19 20:06 : client: [58] closed
+Mar 19 20:06 : client: [59] opened from 127.0.0.1:38304
+Mar 19 20:06 : client: [59] closed
+Mar 19 20:06 : client: [60] opened from 127.0.0.1:38308
+Mar 19 20:06 : client: [60] closed
+Mar 19 20:06 : client: [61] opened from 127.0.0.1:38312
+Mar 19 20:06 : client: [61] closed
+Mar 19 20:06 : client: [62] opened from 127.0.0.1:38316
+Mar 19 20:06 : client: [62] closed
+Mar 19 20:06 : client: [63] opened from 127.0.0.1:38320
+Mar 19 20:06 : client: [63] closed
+Mar 19 20:06 : client: [64] opened from 127.0.0.1:38324
+Mar 19 20:06 : client: [64] closed
+Mar 19 20:06 : client: [65] opened from 127.0.0.1:38328
+Mar 19 20:06 : client: [65] closed
+Mar 19 20:06 : client: [66] opened from 127.0.0.1:38332
+Mar 19 20:06 : client: [66] closed
+Mar 19 20:06 : client: [67] opened from 127.0.0.1:38336
+Mar 19 20:06 : client: [67] closed
+Mar 19 20:06 : client: [68] opened from 127.0.0.1:38340
+Mar 19 20:06 : client: [68] closed
+Mar 19 20:06 : client: [69] opened from 127.0.0.1:38344
+Mar 19 20:06 : client: [69] closed
+Mar 19 20:06 : client: [70] opened from 127.0.0.1:38348
+Mar 19 20:06 : client: [70] closed
+Mar 19 20:06 : client: [71] opened from 127.0.0.1:38352
+Mar 19 20:06 : client: [71] closed
+Mar 19 20:06 : client: [72] opened from 127.0.0.1:38356
+Mar 19 20:06 : client: [72] closed
+Mar 19 20:06 : client: [73] opened from 127.0.0.1:38360
+Mar 19 20:06 : client: [73] closed
+Mar 19 20:06 : client: [74] opened from 127.0.0.1:38364
+Mar 19 20:06 : client: [74] closed
+Mar 19 20:06 : client: [75] opened from 127.0.0.1:38368
+Mar 19 20:06 : client: [75] closed
+Mar 19 20:07 : client: [76] opened from 127.0.0.1:38372
+Mar 19 20:07 : client: [76] closed
+Mar 19 20:09 : client: [77] opened from 127.0.0.1:38408
+Mar 19 20:09 : client: [77] closed
+Mar 19 20:09 : client: [78] opened from 127.0.0.1:38412
+Mar 19 20:09 : client: [78] closed
+Mar 19 20:09 : client: [79] opened from 127.0.0.1:38416
+Mar 19 20:09 : client: [79] closed
+Mar 19 20:09 : client: [80] opened from 127.0.0.1:38420
+Mar 19 20:09 : client: [80] closed
+Mar 19 20:09 : client: [81] opened from 127.0.0.1:38424
+Mar 19 20:09 : client: [81] closed
+Mar 19 20:09 : client: [82] opened from 127.0.0.1:38428
+Mar 19 20:09 : client: [82] closed
+Mar 19 20:09 : client: [83] opened from 127.0.0.1:38432
+Mar 19 20:09 : client: [83] closed
+Mar 19 20:09 : client: [84] opened from 127.0.0.1:38436
+Mar 19 20:09 : client: [84] closed
+Mar 19 20:09 : client: [85] opened from 127.0.0.1:38440
+Mar 19 20:09 : client: [85] closed
+Mar 19 20:09 : client: [86] opened from 127.0.0.1:38444
+Mar 19 20:09 : client: [86] closed
+Mar 19 20:12 : client: [87] opened from 127.0.0.1:38468
+Mar 19 20:12 : client: [87] closed
+Mar 19 20:15 : client: [88] opened from 127.0.0.1:38536
+Mar 19 20:15 : client: [88] closed
+Mar 19 20:15 : client: [89] opened from 127.0.0.1:38540
+Mar 19 20:15 : client: [89] closed
+Mar 19 20:15 : client: [90] opened from 127.0.0.1:38544
+Mar 19 20:15 : client: [90] closed
+Mar 19 20:15 : client: [91] opened from 127.0.0.1:38548
+Mar 19 20:15 : client: [91] closed
+Mar 19 20:15 : client: [92] opened from 127.0.0.1:38552
+Mar 19 20:15 : client: [92] closed
+Mar 19 20:15 : client: [93] opened from 127.0.0.1:38556
+Mar 19 20:15 : client: [93] closed
+Mar 19 20:15 : client: [94] opened from 127.0.0.1:38560
+Mar 19 20:15 : client: [94] closed
+Mar 19 20:15 : client: [95] opened from 127.0.0.1:38564
+Mar 19 20:15 : client: [95] closed
+Mar 19 20:15 : client: [96] opened from 127.0.0.1:38568
+Mar 19 20:15 : client: [96] closed
+Mar 19 20:15 : client: [97] opened from 127.0.0.1:38572
+Mar 19 20:15 : client: [97] closed
+Mar 19 20:16 : client: [98] opened from 127.0.0.1:38576
+Mar 19 20:16 : client: [98] closed
+Mar 19 20:16 : client: [99] opened from 127.0.0.1:38580
+Mar 19 20:16 : client: [99] closed
+Mar 19 20:16 : client: [100] opened from 127.0.0.1:38584
+Mar 19 20:16 : client: [100] closed
+Mar 19 20:16 : client: [101] opened from 127.0.0.1:38588
+Mar 19 20:16 : client: [101] closed
+Mar 19 20:16 : client: [102] opened from 127.0.0.1:38592
+Mar 19 20:16 : client: [102] closed
+Mar 19 20:16 : client: [103] opened from 127.0.0.1:38596
+Mar 19 20:16 : client: [103] closed
+Mar 19 20:16 : client: [104] opened from 127.0.0.1:38600
+Mar 19 20:16 : client: [104] closed
+Mar 19 20:16 : client: [105] opened from 127.0.0.1:38604
+Mar 19 20:16 : client: [105] closed
+Mar 19 20:16 : client: [106] opened from 127.0.0.1:38608
+Mar 19 20:16 : client: [106] closed
+Mar 19 20:16 : client: [107] opened from 127.0.0.1:38612
+Mar 19 20:16 : client: [107] closed
+Mar 19 20:16 : client: [108] opened from 127.0.0.1:38616
+Mar 19 20:16 : client: [108] closed
+Mar 19 20:16 : client: [109] opened from 127.0.0.1:38620
+Mar 19 20:16 : client: [109] closed
+Mar 19 20:16 : client: [110] opened from 127.0.0.1:38624
+Mar 19 20:16 : client: [110] closed
+Mar 19 20:16 : client: [111] opened from 127.0.0.1:38628
+Mar 19 20:16 : client: [111] closed
+Mar 19 20:16 : client: [112] opened from 127.0.0.1:38632
+Mar 19 20:16 : client: [112] closed
+Mar 19 20:16 : client: [113] opened from 127.0.0.1:38636
+Mar 19 20:16 : client: [113] closed
+Mar 19 20:16 : client: [114] opened from 127.0.0.1:38640
+Mar 19 20:16 : client: [114] closed
+Mar 19 20:17 : client: [115] opened from 127.0.0.1:38644
+Mar 19 20:17 : client: [115] closed
+Mar 19 20:17 : client: [116] opened from 127.0.0.1:38648
+Mar 19 20:17 : client: [116] closed
+Mar 19 20:17 : client: [117] opened from 127.0.0.1:38652
+Mar 19 20:17 : client: [117] closed
+Mar 19 20:19 : client: [118] opened from 127.0.0.1:38664
+Mar 19 20:19 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/02. California.mp3"
+Mar 19 20:19 : client: [118] closed
+Mar 21 19:45 : client: [0] opened from 127.0.0.1:54974
+Mar 21 19:45 : client: [1] opened from 127.0.0.1:54976
+Mar 21 19:45 : client: [2] opened from 127.0.0.1:54980
+Mar 21 19:45 : client: [2] closed
+Mar 21 19:45 : client: [3] opened from 127.0.0.1:54984
+Mar 21 19:45 : client: [3] closed
+Mar 21 19:45 : client: [4] opened from 127.0.0.1:54988
+Mar 21 19:45 : client: [4] closed
+Mar 21 19:45 : client: [5] opened from 127.0.0.1:54992
+Mar 21 19:45 : client: [5] closed
+Mar 21 19:45 : client: [6] opened from 127.0.0.1:54996
+Mar 21 19:45 : client: [6] closed
+Mar 21 19:45 : client: [7] opened from 127.0.0.1:55000
+Mar 21 19:45 : client: [7] closed
+Mar 21 19:45 : client: [8] opened from 127.0.0.1:55004
+Mar 21 19:45 : client: [8] closed
+Mar 21 19:45 : client: [9] opened from 127.0.0.1:55008
+Mar 21 19:45 : client: [9] closed
+Mar 21 19:45 : client: [10] opened from 127.0.0.1:55012
+Mar 21 19:45 : client: [10] closed
+Mar 21 19:45 : client: [11] opened from 127.0.0.1:55016
+Mar 21 19:45 : player: played "Arkan - Salam 2011 (320 kbps)/01 - Origins.mp3"
+Mar 21 19:45 : client: [11] closed
+Mar 21 19:45 : client: [1] closed
+Mar 21 19:45 : client: [12] opened from 127.0.0.1:55018
+Mar 21 19:47 : client: [12] closed
+Mar 21 19:47 : client: [13] opened from 127.0.0.1:55022
+Mar 21 20:48 : client: [13] closed
+Mar 21 20:48 : client: [14] opened from 127.0.0.1:55208
+Mar 21 20:48 : client: [15] opened from 127.0.0.1:55218
+Mar 21 20:48 : client: [15] closed
+Mar 21 20:48 : client: [16] opened from 127.0.0.1:55242
+Mar 21 20:48 : client: [16] closed
+Mar 21 20:48 : client: [17] opened from 127.0.0.1:55246
+Mar 21 20:48 : client: [17] closed
+Mar 21 20:51 : client: [18] opened from 127.0.0.1:55324
+Mar 21 20:51 : player: played "Arkan - Salam 2011 (320 kbps)/01 - Origins.mp3"
+Mar 21 20:51 : client: [18] closed
+Mar 23 06:32 : client: [0] opened from 127.0.0.1:53550
+Mar 23 06:32 : client: [1] opened from 127.0.0.1:53552
+Mar 23 06:32 : client: [2] opened from 127.0.0.1:53556
+Mar 23 06:32 : client: [2] closed
+Mar 23 06:33 : client: [3] opened from 127.0.0.1:53560
+Mar 23 06:33 : client: [3] closed
+Mar 23 06:33 : client: [4] opened from 127.0.0.1:53564
+Mar 23 06:33 : client: [4] closed
+Mar 23 06:33 : client: [5] opened from 127.0.0.1:53568
+Mar 23 06:33 : client: [5] closed
+Mar 23 06:33 : client: [6] opened from 127.0.0.1:53572
+Mar 23 06:33 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 1/06. Got The Life.mp3"
+Mar 23 06:33 : client: [6] closed
+Mar 23 07:47 : client: [7] opened from 127.0.0.1:54612
+Mar 23 07:47 : client: [7] closed
+Mar 23 07:47 : client: [8] opened from 127.0.0.1:54614
+Mar 23 07:47 : client: [8] closed
+Mar 23 21:49 : client: [0] opened from 127.0.0.1:59718
+Mar 23 21:49 : client: [1] opened from 127.0.0.1:59720
+Mar 23 21:49 : client: [2] opened from 127.0.0.1:59726
+Mar 23 21:49 : client: [2] closed
+Mar 23 21:49 : client: [3] opened from 127.0.0.1:59730
+Mar 23 21:49 : client: [3] closed
+Mar 23 21:49 : client: [4] opened from 127.0.0.1:59734
+Mar 23 21:49 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 23 21:49 : client: [4] closed
+Mar 24 11:20 : client: [0] opened from 127.0.0.1:34308
+Mar 24 11:20 : client: [1] opened from 127.0.0.1:34312
+Mar 24 11:20 : client: [2] opened from 127.0.0.1:34316
+Mar 24 11:20 : client: [2] closed
+Mar 24 11:20 : client: [3] opened from 127.0.0.1:34320
+Mar 24 11:20 : client: [3] closed
+Mar 24 11:20 : client: [4] opened from 127.0.0.1:34324
+Mar 24 11:20 : client: [4] closed
+Mar 24 11:23 : client: [5] opened from 127.0.0.1:34326
+Mar 24 11:23 : client: [5] closed
+Mar 24 11:23 : client: [6] opened from 127.0.0.1:34328
+Mar 24 11:23 : client: [6] closed
+Mar 24 11:23 : client: [7] opened from 127.0.0.1:34334
+Mar 24 11:23 : player: played "Norah Jones/Others/Norah Jones & Wax Poetic - Angels.mp3"
+Mar 24 11:23 : client: [7] closed
+Mar 24 15:39 : client: [8] opened from 127.0.0.1:34492
+Mar 24 15:39 : client: [8] closed
+Mar 24 15:41 : client: [9] opened from 127.0.0.1:34508
+Mar 24 15:41 : player: played "Norah Jones/Others/Norah Jones & Wax Poetic - Angels.mp3"
+Mar 24 15:41 : client: [9] closed
+Mar 24 19:01 : client: [0] opened from 127.0.0.1:59230
+Mar 24 19:02 : client: [1] opened from 127.0.0.1:59232
+Mar 24 19:02 : client: [2] opened from 127.0.0.1:59236
+Mar 24 19:02 : client: [2] closed
+Mar 24 19:05 : player: played "megadeth/Endgame (2009)/04 - 1,320.mp3"
+Mar 24 19:09 : player: played "Sexual_Healing_GG@SG/12-teddy_pendergrass-i_cant_live_without_your_love.mp3"
+Mar 24 19:12 : exception: "pulseaudio" [pulse] failed to play: disconnected
+Mar 24 19:12 : player: played "Arkan - Salam 2011 (320 kbps)/01 - Origins.mp3"
+Mar 24 22:09 : client: [0] opened from 127.0.0.1:45082
+Mar 24 22:09 : client: [1] opened from 127.0.0.1:45088
+Mar 24 22:10 : client: [2] opened from 127.0.0.1:45100
+Mar 24 22:10 : client: [2] closed
+Mar 24 22:10 : client: [3] opened from 127.0.0.1:45104
+Mar 24 22:10 : client: [3] closed
+Mar 24 22:10 : client: [4] opened from 127.0.0.1:45108
+Mar 24 22:10 : client: [4] closed
+Mar 24 22:10 : client: [5] opened from 127.0.0.1:45112
+Mar 24 22:10 : client: [5] closed
+Mar 24 22:10 : client: [6] opened from 127.0.0.1:45116
+Mar 24 22:10 : client: [6] closed
+Mar 24 22:10 : client: [7] opened from 127.0.0.1:45120
+Mar 24 22:10 : client: [7] closed
+Mar 24 22:10 : client: [8] opened from 127.0.0.1:45124
+Mar 24 22:10 : client: [8] closed
+Mar 24 22:10 : client: [9] opened from 127.0.0.1:45128
+Mar 24 22:10 : client: [9] closed
+Mar 24 22:10 : client: [10] opened from 127.0.0.1:45132
+Mar 24 22:10 : client: [10] closed
+Mar 24 22:10 : client: [11] opened from 127.0.0.1:45136
+Mar 24 22:10 : client: [11] closed
+Mar 24 22:10 : client: [12] opened from 127.0.0.1:45140
+Mar 24 22:10 : client: [12] closed
+Mar 24 22:10 : client: [13] opened from 127.0.0.1:45144
+Mar 24 22:10 : client: [13] closed
+Mar 24 22:10 : client: [14] opened from 127.0.0.1:45148
+Mar 24 22:10 : player: played "Cheb Khaled/Cheb Khaled-Zine A Zine.mp3"
+Mar 24 22:10 : client: [14] closed
+Mar 29 20:57 : client: [0] opened from 127.0.0.1:59822
+Mar 29 20:57 : client: [1] opened from 127.0.0.1:59824
+Mar 29 20:58 : client: [2] opened from 127.0.0.1:59828
+Mar 29 20:58 : client: [2] closed
+Mar 29 20:58 : client: [3] opened from 127.0.0.1:59832
+Mar 29 20:58 : client: [3] closed
+Mar 29 20:58 : client: [4] opened from 127.0.0.1:59836
+Mar 29 20:58 : client: [4] closed
+Mar 29 20:58 : client: [5] opened from 127.0.0.1:59840
+Mar 29 20:58 : client: [5] closed
+Mar 29 20:58 : client: [6] opened from 127.0.0.1:59844
+Mar 29 20:58 : player: played "Korn - Greatest Hits 2CD (2008) 320 vtwin88cube/Disc 1/15. Right Now.mp3"
+Mar 29 20:58 : client: [6] closed
+Mar 29 20:58 : client: [7] opened from 127.0.0.1:59848
+Mar 29 20:58 : exception: Not playing
+Mar 29 20:58 : client: [7] closed
+Mar 29 20:58 : client: [8] opened from 127.0.0.1:59852
+Mar 29 20:58 : exception: Not playing
+Mar 29 20:58 : client: [8] closed
+Mar 29 20:58 : client: [9] opened from 127.0.0.1:59856
+Mar 29 20:58 : client: [10] opened from 127.0.0.1:59860
+Mar 29 20:58 : client: [10] closed
+Mar 29 20:58 : client: [11] opened from 127.0.0.1:59864
+Mar 29 20:58 : client: [11] closed
+Mar 29 20:58 : client: [12] opened from 127.0.0.1:59868
+Mar 29 20:58 : player: played "scorpions/lovedriver.wma"
+Mar 29 20:58 : client: [12] closed
+Mar 29 21:01 : client: [0] opened from 127.0.0.1:60048
+Mar 29 21:01 : client: [1] opened from 127.0.0.1:60050
+Mar 29 21:01 : client: [0] opened from 127.0.0.1:60092
+Mar 29 21:02 : client: [1] opened from 127.0.0.1:60094
+Mar 29 21:02 : client: [2] opened from 127.0.0.1:60098
+Mar 29 21:02 : client: [2] closed
+Mar 29 21:02 : client: [3] opened from 127.0.0.1:60102
+Mar 29 21:02 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 15 - Conversation 8.mp3"
+Mar 29 21:02 : client: [3] closed
+Mar 29 21:02 : client: [0] opened from 127.0.0.1:60124
+Mar 29 21:02 : client: [1] opened from 127.0.0.1:60126
+Mar 29 21:02 : client: [2] opened from 127.0.0.1:60130
+Mar 29 21:02 : client: [2] closed
+Mar 29 21:02 : client: [3] opened from 127.0.0.1:60134
+Mar 29 21:02 : client: [3] closed
+Mar 29 21:02 : client: [4] opened from 127.0.0.1:60138
+Mar 29 21:02 : client: [4] closed
+Mar 29 21:02 : client: [5] opened from 127.0.0.1:60142
+Mar 29 21:02 : client: [5] closed
+Mar 29 21:02 : client: [6] opened from 127.0.0.1:60146
+Mar 29 21:02 : client: [6] closed
+Mar 29 21:02 : client: [7] opened from 127.0.0.1:60150
+Mar 29 21:02 : client: [7] closed
+Mar 29 21:02 : client: [8] opened from 127.0.0.1:60154
+Mar 29 21:02 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 13 - Burnin'.mp3"
+Mar 29 21:02 : client: [8] closed
+Mar 29 21:19 : client: [0] opened from 127.0.0.1:33502
+Mar 29 21:19 : client: [1] opened from 127.0.0.1:33504
+Mar 29 21:19 : client: [2] opened from 127.0.0.1:33508
+Mar 29 21:19 : client: [2] closed
+Mar 29 21:19 : client: [3] opened from 127.0.0.1:33512
+Mar 29 21:19 : client: [3] closed
+Mar 29 21:19 : client: [4] opened from 127.0.0.1:33516
+Mar 29 21:19 : client: [4] closed
+Mar 29 21:19 : client: [5] opened from 127.0.0.1:33520
+Mar 29 21:19 : client: [5] closed
+Mar 29 21:19 : client: [6] opened from 127.0.0.1:33524
+Mar 29 21:19 : client: [6] closed
+Mar 29 21:19 : client: [7] opened from 127.0.0.1:33528
+Mar 29 21:19 : client: [7] closed
+Mar 29 21:19 : client: [8] opened from 127.0.0.1:33532
+Mar 29 21:19 : client: [8] closed
+Mar 29 21:19 : client: [9] opened from 127.0.0.1:33536
+Mar 29 21:19 : client: [9] closed
+Mar 29 21:19 : client: [10] opened from 127.0.0.1:33542
+Mar 29 21:19 : player: played "scorpions/in trance.wma"
+Mar 29 21:19 : client: [10] closed
+Mar 29 21:25 : client: [0] opened from 127.0.0.1:33900
+Mar 29 21:25 : client: [1] opened from 127.0.0.1:33902
+Mar 29 21:25 : client: [2] opened from 127.0.0.1:33906
+Mar 29 21:25 : client: [2] closed
+Mar 29 21:25 : client: [3] opened from 127.0.0.1:33910
+Mar 29 21:25 : client: [3] closed
+Mar 29 21:25 : client: [4] opened from 127.0.0.1:33914
+Mar 29 21:25 : client: [4] closed
+Mar 29 21:25 : client: [5] opened from 127.0.0.1:33918
+Mar 29 21:25 : client: [5] closed
+Mar 29 21:27 : client: [6] opened from 127.0.0.1:34016
+Mar 29 21:27 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Best Of 2001 - 2011/10. Appelle son Numéro.mp3"
+Mar 29 21:27 : client: [6] closed
+Mar 30 07:49 : client: [0] opened from 127.0.0.1:52716
+Mar 30 07:49 : client: [1] opened from 127.0.0.1:52720
+Mar 30 07:49 : client: [1] closed
+Mar 30 07:49 : client: [2] opened from 127.0.0.1:52722
+Mar 30 07:49 : client: [3] opened from 127.0.0.1:52726
+Mar 30 07:49 : player: played "The Pixies/Death To the Pixies (DISK 1)/01 Cecilia Ann.mp3"
+Mar 30 07:49 : client: [3] closed
+Mar 30 07:49 : client: [4] opened from 127.0.0.1:52730
+Mar 30 07:49 : client: [4] closed
+Mar 30 07:49 : client: [5] opened from 127.0.0.1:52734
+Mar 30 07:49 : client: [5] closed
+Mar 30 07:49 : client: [6] opened from 127.0.0.1:52738
+Mar 30 07:49 : player: played "megadeth/Endgame (2009)/04 - 1,320.mp3"
+Mar 30 07:49 : client: [6] closed
+Mar 30 09:38 : client: [0] opened from 127.0.0.1:59648
+Mar 30 09:38 : client: [1] opened from 127.0.0.1:59650
+Mar 30 09:38 : client: [2] opened from 127.0.0.1:59654
+Mar 30 09:38 : client: [2] closed
+Mar 30 09:38 : client: [3] opened from 127.0.0.1:59658
+Mar 30 09:38 : client: [3] closed
+Mar 30 09:39 : client: [4] opened from 127.0.0.1:59662
+Mar 30 09:39 : client: [4] closed
+Mar 30 09:39 : client: [5] opened from 127.0.0.1:59666
+Mar 30 09:39 : client: [5] closed
+Mar 30 09:41 : player: played "The Pixies/Bossanova/14 Havalina.mp3"
+Mar 30 09:45 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 08 - Toes.mp3"
+Mar 30 09:46 : client: [6] opened from 127.0.0.1:59672
+Mar 30 09:46 : client: [6] closed
+Mar 30 09:46 : client: [7] opened from 127.0.0.1:59676
+Mar 30 09:46 : client: [7] closed
+Mar 30 10:04 : client: [1] closed
+Mar 30 10:04 : client: [8] opened from 127.0.0.1:59760
+Mar 30 10:05 : client: [8] closed
+Mar 30 10:05 : client: [9] opened from 127.0.0.1:59762
+Mar 30 10:05 : client: [9] closed
+Mar 30 10:05 : client: [10] opened from 127.0.0.1:59764
+Mar 30 11:23 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/07 - Jump In The Fire.mp3"
+Mar 30 16:42 : client: [0] opened from 127.0.0.1:39902
+Mar 30 16:42 : client: [1] opened from 127.0.0.1:39904
+Mar 30 16:42 : client: [2] opened from 127.0.0.1:39908
+Mar 30 16:42 : client: [2] closed
+Mar 30 16:42 : client: [3] opened from 127.0.0.1:39912
+Mar 30 16:42 : client: [3] closed
+Mar 30 16:42 : client: [4] opened from 127.0.0.1:39916
+Mar 30 16:42 : client: [4] closed
+Mar 30 16:42 : client: [5] opened from 127.0.0.1:39920
+Mar 30 16:42 : client: [5] closed
+Mar 30 16:42 : client: [6] opened from 127.0.0.1:39924
+Mar 30 16:42 : client: [6] closed
+Mar 30 16:42 : client: [7] opened from 127.0.0.1:39928
+Mar 30 16:42 : client: [7] closed
+Mar 30 16:42 : client: [8] opened from 127.0.0.1:39932
+Mar 30 16:42 : client: [8] closed
+Mar 30 16:43 : client: [9] opened from 127.0.0.1:39964
+Mar 30 16:43 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 30 16:43 : client: [9] closed
+Mar 30 16:44 : client: [10] opened from 127.0.0.1:39968
+Mar 30 16:44 : client: [10] closed
+Mar 30 16:46 : client: [11] opened from 127.0.0.1:39974
+Mar 30 16:46 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 30 16:46 : client: [11] closed
+Mar 30 16:46 : client: [12] opened from 127.0.0.1:39978
+Mar 30 16:46 : client: [12] closed
+Mar 30 16:47 : client: [13] opened from 127.0.0.1:39982
+Mar 30 16:47 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 30 16:47 : client: [13] closed
+Mar 30 16:47 : client: [14] opened from 127.0.0.1:39986
+Mar 30 16:47 : client: [14] closed
+Mar 30 16:54 : client: [15] opened from 127.0.0.1:40000
+Mar 30 16:54 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 30 16:54 : client: [15] closed
+Mar 30 16:54 : client: [16] opened from 127.0.0.1:40004
+Mar 30 16:54 : client: [16] closed
+Mar 30 16:55 : client: [17] opened from 127.0.0.1:40122
+Mar 30 16:55 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/07 - Seek & Destroy.mp3"
+Mar 30 16:55 : client: [17] closed
+Mar 31 08:30 : client: [0] opened from 127.0.0.1:41916
+Mar 31 08:30 : client: [1] opened from 127.0.0.1:41918
+Mar 31 12:46 : client: [0] opened from 127.0.0.1:46462
+Mar 31 12:46 : client: [1] opened from 127.0.0.1:46464
+Mar 31 12:46 : client: [2] opened from 127.0.0.1:46468
+Mar 31 12:46 : client: [2] closed
+Mar 31 12:48 : client: [3] opened from 127.0.0.1:46470
+Mar 31 12:49 : client: [3] closed
+Mar 31 12:50 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Les Mots CD1/09. À quoi je sers.mp3"
+Mar 31 12:50 : client: [4] opened from 127.0.0.1:46476
+Mar 31 12:50 : client: [4] closed
+Mar 31 12:50 : client: [5] opened from 127.0.0.1:46480
+Mar 31 12:50 : client: [5] closed
+Mar 31 12:51 : client: [6] opened from 127.0.0.1:46482
+Mar 31 17:59 : client: [0] opened from 127.0.0.1:41204
+Mar 31 17:59 : client: [1] opened from 127.0.0.1:41208
+Mar 31 17:59 : client: [2] opened from 127.0.0.1:41214
+Mar 31 17:59 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 05 - Phoenix.mp3"
+Mar 31 17:59 : client: [2] closed
+Mar 31 18:34 : client: [0] opened from 127.0.0.1:43490
+Mar 31 18:34 : client: [1] opened from 127.0.0.1:43492
+Mar 31 18:34 : client: [2] opened from 127.0.0.1:43496
+Mar 31 18:34 : client: [2] closed
+Mar 31 18:34 : client: [3] opened from 127.0.0.1:43500
+Mar 31 18:34 : client: [3] closed
+Mar 31 18:34 : client: [4] opened from 127.0.0.1:43504
+Mar 31 18:34 : client: [4] closed
+Mar 31 18:34 : client: [5] opened from 127.0.0.1:43508
+Mar 31 18:34 : client: [5] closed
+Mar 31 18:34 : client: [6] opened from 127.0.0.1:43512
+Mar 31 18:34 : client: [6] closed
+Mar 31 18:34 : client: [7] opened from 127.0.0.1:43516
+Mar 31 18:34 : client: [7] closed
+Mar 31 18:34 : client: [8] opened from 127.0.0.1:43520
+Mar 31 18:34 : client: [8] closed
+Mar 31 18:40 : client: [9] opened from 127.0.0.1:43524
+Mar 31 18:40 : client: [9] closed
+Mar 31 18:40 : client: [10] opened from 127.0.0.1:43526
+Mar 31 18:40 : client: [10] closed
+Mar 31 18:40 : client: [11] opened from 127.0.0.1:43528
+Mar 31 18:40 : client: [11] closed
+Mar 31 18:40 : client: [12] opened from 127.0.0.1:43530
+Mar 31 18:40 : client: [12] closed
+Mar 31 18:40 : client: [13] opened from 127.0.0.1:43532
+Mar 31 18:40 : client: [14] opened from 127.0.0.1:43534
+Mar 31 18:40 : client: [14] closed
+Mar 31 18:40 : client: [15] opened from 127.0.0.1:43536
+Mar 31 18:40 : client: [15] closed
+Mar 31 18:41 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 3/07 - The Four Horsemen.mp3"
+Mar 31 18:41 : client: [16] opened from 127.0.0.1:43540
+Mar 31 18:41 : client: [16] closed
+Mar 31 18:41 : client: [17] opened from 127.0.0.1:43544
+Mar 31 18:41 : client: [17] closed
+Mar 31 18:41 : client: [18] opened from 127.0.0.1:43548
+Mar 31 18:41 : client: [18] closed
+Mar 31 18:41 : client: [19] opened from 127.0.0.1:43552
+Mar 31 18:41 : client: [19] closed
+Mar 31 18:41 : client: [20] opened from 127.0.0.1:43556
+Mar 31 18:41 : client: [20] closed
+Mar 31 18:41 : client: [21] opened from 127.0.0.1:43560
+Mar 31 18:41 : client: [21] closed
+Mar 31 18:41 : client: [22] opened from 127.0.0.1:43564
+Mar 31 18:41 : client: [22] closed
+Mar 31 18:42 : player: played "Arkan - Salam 2011 (320 kbps)/11 - Lightened Heart .mp3"
+Mar 31 18:42 : client: [23] opened from 127.0.0.1:43568
+Mar 31 18:42 : client: [23] closed
+Mar 31 18:42 : client: [24] opened from 127.0.0.1:43572
+Mar 31 18:42 : client: [24] closed
+Mar 31 18:42 : client: [25] opened from 127.0.0.1:43576
+Mar 31 18:42 : client: [25] closed
+Mar 31 18:42 : client: [26] opened from 127.0.0.1:43580
+Mar 31 18:42 : client: [26] closed
+Mar 31 18:42 : client: [27] opened from 127.0.0.1:43584
+Mar 31 18:42 : client: [27] closed
+Mar 31 18:42 : client: [28] opened from 127.0.0.1:43588
+Mar 31 18:42 : client: [28] closed
+Mar 31 18:42 : client: [13] closed
+Mar 31 18:49 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 1/06 - Of Wolf And Man.mp3"
+Mar 31 18:50 : client: [1] closed
+Mar 31 18:50 : client: [29] opened from 127.0.0.1:43594
+Mar 31 18:51 : client: [29] closed
+Mar 31 18:51 : client: [30] opened from 127.0.0.1:43596
+Mar 31 18:53 : player: played "scorpions/2001 - Acoustica (C)/10 - I Wanted To Cry (But The Tears Wouldn't Come).mp3"
+Apr 02 21:21 : client: [0] opened from 127.0.0.1:35224
+Apr 02 21:21 : client: [1] opened from 127.0.0.1:35226
+Apr 02 21:21 : client: [2] opened from 127.0.0.1:35230
+Apr 02 21:21 : client: [2] closed
+Apr 02 21:21 : client: [3] opened from 127.0.0.1:35234
+Apr 02 21:21 : client: [3] closed
+Apr 02 21:21 : client: [4] opened from 127.0.0.1:35238
+Apr 02 21:21 : player: played "The Pixies/Live @ The BBC/14 Hey.mp3"
+Apr 02 21:21 : client: [4] closed
+Apr 07 23:22 : client: [0] opened from 127.0.0.1:42658
+Apr 07 23:22 : client: [1] opened from 127.0.0.1:42660
+Apr 15 20:22 : client: [0] opened from 127.0.0.1:59068
+Apr 15 20:22 : client: [1] opened from 127.0.0.1:59070
+Apr 15 20:22 : client: [2] opened from 127.0.0.1:59074
+Apr 15 20:22 : client: [2] closed
+Apr 15 20:22 : client: [3] opened from 127.0.0.1:59078
+Apr 15 20:22 : client: [3] closed
+Apr 15 20:23 : client: [4] opened from 127.0.0.1:59082
+Apr 15 20:23 : client: [4] closed
+Apr 15 20:23 : client: [5] opened from 127.0.0.1:59086
+Apr 15 20:23 : client: [5] closed
+Apr 15 20:23 : client: [6] opened from 127.0.0.1:59092
+Apr 15 20:23 : client: [6] closed
+Apr 15 20:23 : client: [7] opened from 127.0.0.1:59096
+Apr 15 20:23 : client: [7] closed
+Apr 15 20:23 : client: [8] opened from 127.0.0.1:59100
+Apr 15 20:24 : client: [8] closed
+Apr 15 20:24 : client: [9] opened from 127.0.0.1:59104
+Apr 15 20:24 : client: [9] closed
+Apr 15 20:24 : client: [10] opened from 127.0.0.1:59108
+Apr 15 20:24 : client: [10] closed
+Apr 15 20:24 : client: [11] opened from 127.0.0.1:59112
+Apr 15 20:24 : client: [11] closed
+Apr 15 20:24 : client: [12] opened from 127.0.0.1:59116
+Apr 15 20:24 : client: [12] closed
+Apr 15 20:24 : client: [13] opened from 127.0.0.1:59120
+Apr 15 20:24 : client: [13] closed
+Apr 15 20:24 : client: [14] opened from 127.0.0.1:59124
+Apr 15 20:24 : client: [14] closed
+Apr 15 20:24 : client: [15] opened from 127.0.0.1:59128
+Apr 15 20:24 : client: [15] closed
+Apr 15 20:24 : client: [16] opened from 127.0.0.1:59132
+Apr 15 20:24 : client: [16] closed
+Apr 15 20:24 : client: [17] opened from 127.0.0.1:59136
+Apr 15 20:24 : client: [17] closed
+Apr 15 20:24 : client: [18] opened from 127.0.0.1:59140
+Apr 15 20:24 : client: [18] closed
+Apr 15 20:24 : client: [19] opened from 127.0.0.1:59144
+Apr 15 20:24 : client: [19] closed
+Apr 15 20:24 : client: [20] opened from 127.0.0.1:59148
+Apr 15 20:24 : client: [20] closed
+Apr 15 20:29 : client: [21] opened from 127.0.0.1:59162
+Apr 15 20:29 : client: [21] closed
+Apr 15 20:29 : client: [22] opened from 127.0.0.1:59166
+Apr 15 20:29 : client: [22] closed
+Apr 15 20:34 : client: [23] opened from 127.0.0.1:59190
+Apr 15 20:34 : client: [23] closed
+Apr 15 20:37 : client: [24] opened from 127.0.0.1:59220
+Apr 15 20:37 : client: [24] closed
+Apr 15 20:51 : client: [25] opened from 127.0.0.1:59274
+Apr 15 20:51 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/10-the_brainwasher__the_primetime_of_your_life_steam_machine-xds.mp3"
+Apr 15 20:51 : client: [25] closed
+Apr 16 21:45 : client: [0] opened from 127.0.0.1:34880
+Apr 16 21:45 : client: [1] opened from 127.0.0.1:34882
+Apr 16 21:45 : client: [2] opened from 127.0.0.1:34886
+Apr 16 21:45 : client: [2] closed
+Apr 16 21:45 : client: [3] opened from 127.0.0.1:34888
+Apr 16 21:46 : client: [3] closed
+Apr 16 21:46 : client: [4] opened from 127.0.0.1:34894
+Apr 16 21:47 : client: [4] closed
+Apr 16 21:47 : client: [5] opened from 127.0.0.1:34900
+Apr 16 21:47 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 06 - Shoot The Moon.mp3"
+Apr 16 21:47 : client: [5] closed

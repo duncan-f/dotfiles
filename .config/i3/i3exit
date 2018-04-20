@@ -12,17 +12,18 @@ case "$1" in
         i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit' #i3-msg exit
         ;;
     suspend)
-        #i3-nagbar -t warning -m 'Do you really want to suspend this session?' -b 'Yes, suspend' 'lock && systemctl suspend' #lock && systemctl suspend
-        lock && systemctl suspend
+        lock 
+        systemctl suspend
         ;;
     hibernate)
-        lock && systemctl hibernate
+        lock
+        systemctl hibernate
         ;;
     reboot)
-        i3-nagbar -t warning -m 'Do you really want to reboot your computer?' -b 'Yes, reboot' 'reboot' #systemctl reboot
+        systemctl reboot
         ;;
     shutdown)
-        i3-nagbar -t warning -m 'Do you really want to shutdown your computer?' -b 'Yes, shutdown' 'poweroff' #systemctl poweroff
+        systemctl poweroff
         ;;
     *)
         echo "Usage: $0 {lock|logout|suspend|hibernate|reboot|shutdown}"
