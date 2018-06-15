@@ -5,7 +5,6 @@
  
 IMAGE=/tmp/lockscreen.png
 TEXT=/tmp/locktext.png
-#ICON=$HOME/Pictures/Icons/arch_linux_logo.png
 ICON=$HOME/.config/i3/lock.png
  
 # ratio for rectangle to be drawn for time background on lockscreen
@@ -20,6 +19,7 @@ done
 
 # take screenshot
 scrot -z $IMAGE
+
 # dim & blur
 #convert $IMAGE -scale 10% -scale 1000% -fill black -colorize 40% $IMAGE
 convert $IMAGE -blur 0x5 -fill black -colorize 40% $IMAGE
@@ -31,16 +31,16 @@ convert $IMAGE -blur 0x5 -fill black -colorize 40% $IMAGE
 # add transparent rectangle as background for datetime
 convert $IMAGE -draw "fill black fill-opacity 0.85 $rectangles" $IMAGE
 
-# if text imahe exists don't recreate it.
-[ -f $TEXT ] || {
-    convert -size 3000x60 xc:white -font Ubuntu -pointsize 26 -fill black -gravity center -annotate +0+0 'Type password to unlock' $TEXT;
-    convert $TEXT -alpha set -channel A -evaluate set 50% $TEXT;
-}
+# if text image exists don't recreate it.
+#[ -f $TEXT ] || {
+#    convert -size 3000x60 xc:white -font Ubuntu -pointsize 26 -fill black -gravity center -annotate +0+0 'Type password to unlock' $TEXT;
+#    convert $TEXT -alpha set -channel A -evaluate set 50% $TEXT;
+#}
 
-convert $IMAGE $TEXT -gravity center -geometry +0+200 -composite $IMAGE
+#convert $IMAGE $TEXT -gravity center -geometry +0+200 -composite $IMAGE
 convert $IMAGE $ICON -gravity center -composite -matte $IMAGE
 
-i3lock -i $IMAGE --timepos="x-90:h-ch+30" \
+i3lock -i $IMAGE --timepos="x+140:h-70" \
         --datepos="tx+24:ty+25" \
         --clock --datestr "%m/%d/%Y" \
         --insidecolor=00000000 --ringcolor=ffffffff --line-uses-inside \
@@ -48,4 +48,4 @@ i3lock -i $IMAGE --timepos="x-90:h-ch+30" \
         --insidevercolor=fecf4dff --insidewrongcolor=d23c3dff \
         --ringvercolor=ffffffff --ringwrongcolor=ffffffff --indpos="x+280:h-70" \
         --radius=20 --ring-width=3 --veriftext="" --wrongtext="" \
-        --textcolor="ffffffff" --timecolor="ffffffff" --datecolor="ffffffff"
+        --timecolor="ffffffff" --datecolor="ffffffff"

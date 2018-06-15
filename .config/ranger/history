@@ -1,26 +1,50 @@
-open_with 0
-shell touch test
-open_with r
-shell touch test.txt
-o .config
-chmod -x .vimrc
-chmod -x %f
-chmod 666 %f
-chmod 666
-shell q
-shell 
-
-rename folder.jpg
-shell touch 
-rename st-original_alpha
+rename 12 - Building an 8-bit register - 8-bit register - Part 4.mp4
+rename 13 - Testing our computer's registers - 8-bit register - Part 5.mp4
+rename 14 - Twos complement - Negative numbers in binary.mp4
+rename 15 - ALU Design.mp4
+rename 16 - Building the ALU.mp4
+rename 17 - Troubleshooting the ALU.mp4
+rename 18 - Testing the computer's ALU.mp4
+rename 19 - 8-bit computer RAM intro.mp4
+rename 20 - RAM module build - part 1.mp4
+rename 21 - RAM module build - part 2.mkv
+rename 22 - RAM module build - part 3.mp4
+rename 23 - RAM module testing and troubleshooting.mp4
+rename 24 - JK flip-flop.mp4
+rename 25 - JK flip-flop racing.mkv
+rename 26 - Master-slave JK flip-flop.mkv
+rename 27 - Binary counter.mp4
+rename 28 - Program counter design.mp4
+rename 29 - Program counter build.mp4
+rename 30 - Designing a 7-segment hex decoder.mkv
+rename 31 - Using an EEPROM to replace combinational logic.mp4
+rename 32 - Build an Arduino EEPROM programmer.mp4
+rename 33 - Build an 8-bit decimal display for our 8-bit computer.mp4
+rename 34 - 8-bit computer build - Connecting the bus.mp4
+rename 35 - 8-bit CPU control signal overview.mp4
+rename 36 - 8-bit CPU control logic - Part 1.mp4
+rename 37 - 8-bit CPU control logic - Part 2.mp4
+rename 38 - 8-bit CPU control logic - Part 3.mp4
+rename 39 - 8-bit CPU reset circuit and power supply tips.mp4
+rename 40 - Reprogramming CPU microcode with an Arduino.mp4
+rename 41 - Adding more machine language instructions to the CPU.mp4
+rename 42 - Making a computer Turing complete.mkv
+rename 43 - CPU flags register.mkv
+rename 44 - Conditional jump instructions.mkv
 find qqq
-mkdir txt
-find f
-open_with 
-search surf
-search st
-chmod 644 *.*
+shell 
+rename The.Social.Network.2010.1080p.BluRay.H264.AAC-RARBG.srt
 find 
-open_with vim
+rename Programming
+mkdir Docker
+rename Interface
+rename Account_Backup
+rename Account
+unrar x 
+mkdir ElvUI
+open_with 
+unrar xv
+unrar
+unrar xv TukUI114.rar
 delete
-rename Arduinojjj
+rename CV.docx

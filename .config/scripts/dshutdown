@@ -1,0 +1,12 @@
+#!/bin/bash
+
+menu=$(echo -e "Logout\nSuspend\nHibernate\nShutdown" | dmenu -i -l 5 -p "Select")
+
+case "$menu" in
+    Logout) i3-msg exit ;;
+    Suspend) ~/.config/i3/i3lock && systemctl suspend ;;
+    Hibernate) systemctl hibernate ;;
+    Shutdown) systemctl poweroff ;;
+esac
+
+[ "$menu" == "" ] || ~/.config/polybar/launch.sh

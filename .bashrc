@@ -86,21 +86,11 @@ function git_branch() {
 }
 
 if [ "$color_prompt" = yes ]; then
-	#PS1='[\[\033[01;32m\]\u\[\033[00m\]@\[\033[01;35m\]\h\[\033[00m\]]\[\033[01;34m\]\w\[$(git_color)\]\[$(git_branch)\]\[\033[00m\]\n\$ '
     PS1="[$GREEN_COLOR\u$RESET_COLOR@$PURPLE_COLOR\h$RESET_COLOR]$BLUE_COLOR\w\$(git_color)\$(git_branch)$RESET_COLOR\n\$ "
 else
     PS1='[\u@\h:\w]$(git_branch)\$ '
 fi
 unset color_prompt force_color_prompt
-
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PS1="\[\e]0;\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -119,6 +109,9 @@ alias ll='ls -l'
 alias la='ls -A'
 alias lla='ls -la'
 alias l='ls -CF'
+
+alias starwars="telnet towel.blinkenlights.nl"
+
 alias vcfg='vim ~/.vimrc'
 alias bcfg='vim ~/.bashrc'
 alias bsrc='source ~/.bashrc'
@@ -136,14 +129,20 @@ alias mcfg='vim ~/.config/mutt/muttrc'
 alias dcfg='vim ~/.config/dunst/dunstrc'
 alias fcfg='vim ~/.config/rofi/config'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+alias cdp="cd ~/Programming/projects/webdev/phpframework/"
+alias cdw="cd ~/Programming/projects/webdev/"
+alias phps="php -S localhost:8000 -t public/ -d display_errors=1"
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+alias upgrade="sudo pacman -Syuu"
+alias syncpac="sudo pacman -Syy"
+alias uyaourt="yaourt -Syuu --noconfirm"
+alias yt="youtube-dl --add-metadata -ic"
+alias yta="youtube-dl --add-metadata -xic"
+alias pac="sudo pacman -S"
+alias upac="sudo pacman -Su"
+alias dpac="sudo pacman -Rnsdd"
+alias yrt="yaourt -Sy --noconfirm"
+ 
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -161,65 +160,16 @@ if which ruby >/dev/null && which gem >/dev/null; then
 fi
 
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export SUDO_ASKPASS="/usr/lib/ssh/x11-ssh-askpass"
 
 export PATH="$HOME/.vim/bundle/vim-live-latex-preview/bin:$PATH"
 
 export XDG_MUSIC_DIR="~/Music/"
 
-# function to ssh easily
-sshin () {
-  ssh 192.168.1."$1"
-  return
+# get weather
+weather () {
+    curl wttr.in/$1
+    return
 }
 
-export -f sshin
-
-# function to ssh with X argument
-sshinx () {
-  ssh -X 192.168.1."$1"
-  return
-}
-
-export -f sshinx
-
-# function to update/upgrade system fast
-upgrade () {
-  sudo pacman -Syu
-  echo -e $GREEN_COLOR "** Your system is up to date **" $RESET_COLOR
-  return
-}
-
-export -f upgrade
-
-# function to install packages
-pac () {
-	sudo pacman -S $*
-	return
-}
-
-export -f pac
-
-# function to install packages with update
-upac () {
-	sudo pacman -Sy $*
-	return
-}
-
-export -f upac
-
-# function to delete packages without dependencies
-dpac () {
-	sudo pacman -Rnsdd $*
-	return
-}
-
-export -f dpac
-
-#function to install via yaourt
-yrt () {
-	yaourt -Sy --noconfirm $*
-	return
-}
-export yrt
-
-#PS1='[\u@\h \W]\$ '
+export -f weather

@@ -10767,3 +10767,2805 @@ Apr 16 21:47 : client: [4] closed
 Apr 16 21:47 : client: [5] opened from 127.0.0.1:34900
 Apr 16 21:47 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 06 - Shoot The Moon.mp3"
 Apr 16 21:47 : client: [5] closed
+Apr 20 08:27 : client: [0] opened from 127.0.0.1:59980
+Apr 20 08:27 : client: [1] opened from 127.0.0.1:59982
+Apr 20 08:27 : client: [2] opened from 127.0.0.1:59986
+Apr 20 08:27 : client: [2] closed
+Apr 20 08:27 : client: [3] opened from 127.0.0.1:59990
+Apr 20 08:27 : client: [3] closed
+Apr 20 08:27 : client: [4] opened from 127.0.0.1:59994
+Apr 20 08:27 : client: [4] closed
+Apr 20 08:27 : client: [5] opened from 127.0.0.1:59998
+Apr 20 08:28 : client: [5] closed
+Apr 20 08:28 : client: [6] opened from 127.0.0.1:60002
+Apr 20 08:28 : client: [6] closed
+Apr 20 08:29 : client: [7] opened from 127.0.0.1:60044
+Apr 20 08:29 : player: played "Cheb Khaled/Cheb Khaled-Chaba Bent Bladi.mp3"
+Apr 20 08:29 : client: [7] closed
+Apr 20 19:15 : client: [0] opened from 127.0.0.1:35580
+Apr 20 19:15 : client: [1] opened from 127.0.0.1:35584
+Apr 20 19:15 : client: [1] closed
+Apr 20 19:15 : client: [2] opened from 127.0.0.1:35586
+Apr 20 19:15 : client: [3] opened from 127.0.0.1:35590
+Apr 20 19:15 : client: [3] closed
+Apr 20 19:16 : client: [2] closed
+Apr 20 19:16 : client: [4] opened from 127.0.0.1:35594
+Apr 20 19:17 : client: [4] closed
+Apr 20 19:17 : client: [5] opened from 127.0.0.1:35596
+Apr 20 19:17 : client: [5] closed
+Apr 20 19:17 : client: [6] opened from 127.0.0.1:35598
+Apr 20 19:20 : player: played "Sexual_Healing_GG@SG/08-teddy_pendergrass-turn_off_the_lights.mp3"
+Apr 20 19:24 : player: played "Radiohead/(1995) The Bends/12 Radiohead - Street Spirit (Fade Out).mp3"
+Apr 20 19:25 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 02 - WDPK 83.7 FM.mp3"
+Apr 20 19:30 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 16 - The Nearness Of You.mp3"
+Apr 20 19:30 : client: [7] opened from 127.0.0.1:35626
+Apr 20 19:30 : player: played "Cheb Khaled/Cheb Khaled-Datni Essekra.mp3"
+Apr 20 19:30 : client: [7] closed
+Apr 20 19:33 : client: [8] opened from 127.0.0.1:35630
+Apr 20 19:33 : client: [8] closed
+Apr 20 19:33 : client: [9] opened from 127.0.0.1:35634
+Apr 20 19:33 : client: [9] closed
+Apr 20 19:33 : client: [10] opened from 127.0.0.1:35638
+Apr 20 19:33 : client: [10] closed
+Apr 20 19:33 : client: [11] opened from 127.0.0.1:35642
+Apr 20 19:33 : client: [11] closed
+Apr 20 19:33 : client: [12] opened from 127.0.0.1:35646
+Apr 20 19:33 : client: [12] closed
+Apr 20 19:33 : client: [13] opened from 127.0.0.1:35650
+Apr 20 19:33 : client: [13] closed
+Apr 20 19:33 : client: [14] opened from 127.0.0.1:35654
+Apr 20 19:33 : client: [14] closed
+Apr 20 19:33 : client: [15] opened from 127.0.0.1:35658
+Apr 20 19:33 : client: [15] closed
+Apr 20 19:33 : client: [16] opened from 127.0.0.1:35662
+Apr 20 19:33 : client: [16] closed
+Apr 20 19:33 : client: [17] opened from 127.0.0.1:35666
+Apr 20 19:33 : client: [17] closed
+Apr 20 19:33 : client: [18] opened from 127.0.0.1:35670
+Apr 20 19:33 : client: [18] closed
+Apr 20 19:33 : client: [19] opened from 127.0.0.1:35674
+Apr 20 19:33 : client: [19] closed
+Apr 20 19:33 : client: [20] opened from 127.0.0.1:35678
+Apr 20 19:33 : client: [20] closed
+Apr 20 19:33 : client: [21] opened from 127.0.0.1:35682
+Apr 20 19:33 : client: [21] closed
+Apr 20 19:33 : client: [22] opened from 127.0.0.1:35686
+Apr 20 19:33 : client: [22] closed
+Apr 20 19:33 : client: [23] opened from 127.0.0.1:35690
+Apr 20 19:33 : client: [23] closed
+Apr 20 19:33 : client: [24] opened from 127.0.0.1:35694
+Apr 20 19:33 : client: [24] closed
+Apr 20 19:33 : client: [25] opened from 127.0.0.1:35698
+Apr 20 19:33 : client: [25] closed
+Apr 20 19:33 : client: [26] opened from 127.0.0.1:35702
+Apr 20 19:33 : client: [26] closed
+Apr 20 19:33 : client: [27] opened from 127.0.0.1:35706
+Apr 20 19:33 : client: [27] closed
+Apr 20 19:33 : client: [28] opened from 127.0.0.1:35710
+Apr 20 19:33 : client: [28] closed
+Apr 20 19:33 : client: [29] opened from 127.0.0.1:35714
+Apr 20 19:33 : client: [29] closed
+Apr 20 19:33 : client: [30] opened from 127.0.0.1:35718
+Apr 20 19:33 : client: [30] closed
+Apr 20 19:33 : client: [31] opened from 127.0.0.1:35722
+Apr 20 19:33 : client: [31] closed
+Apr 20 19:33 : client: [32] opened from 127.0.0.1:35726
+Apr 20 19:33 : client: [32] closed
+Apr 20 19:33 : client: [33] opened from 127.0.0.1:35730
+Apr 20 19:33 : client: [33] closed
+Apr 20 19:34 : client: [34] opened from 127.0.0.1:35734
+Apr 20 19:34 : client: [34] closed
+Apr 20 19:34 : client: [35] opened from 127.0.0.1:35738
+Apr 20 19:34 : client: [35] closed
+Apr 20 19:35 : client: [36] opened from 127.0.0.1:35742
+Apr 20 19:35 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/09-one_more_time__aerodynamic-xds.mp3"
+Apr 20 19:35 : client: [36] closed
+Apr 21 09:29 : client: [0] opened from 127.0.0.1:56250
+Apr 21 09:29 : client: [1] opened from 127.0.0.1:56252
+Apr 21 09:29 : client: [2] opened from 127.0.0.1:56256
+Apr 21 09:29 : client: [2] closed
+Apr 21 09:34 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 10 - I Can't Get Started.mp3"
+Apr 21 09:39 : player: played "Radiohead/(2003) Hail to the Thief/09 Radiohead - There There. (The Boney King of Nowhere.).mp3"
+Apr 21 09:42 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/05 - Not My Friend.mp3"
+Apr 21 09:47 : client: [3] opened from 127.0.0.1:56486
+Apr 21 09:47 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/11 - The Thing That Should Not Be.mp3"
+Apr 21 09:47 : client: [3] closed
+Apr 21 10:41 : client: [4] opened from 127.0.0.1:57380
+Apr 21 10:41 : client: [4] closed
+Apr 21 10:41 : client: [5] opened from 127.0.0.1:57384
+Apr 21 10:41 : client: [5] closed
+Apr 21 10:43 : client: [6] opened from 127.0.0.1:57408
+Apr 21 10:43 : client: [6] closed
+Apr 21 12:25 : client: [7] opened from 127.0.0.1:57996
+Apr 21 12:25 : client: [7] closed
+Apr 21 12:25 : client: [8] opened from 127.0.0.1:58000
+Apr 21 12:25 : client: [8] closed
+Apr 21 12:25 : client: [9] opened from 127.0.0.1:58004
+Apr 21 12:25 : client: [9] closed
+Apr 21 12:25 : client: [10] opened from 127.0.0.1:58008
+Apr 21 12:25 : client: [10] closed
+Apr 21 12:25 : client: [11] opened from 127.0.0.1:58012
+Apr 21 12:25 : client: [11] closed
+Apr 21 12:25 : client: [12] opened from 127.0.0.1:58016
+Apr 21 12:25 : client: [12] closed
+Apr 21 12:30 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Apr 21 12:30 : client: [13] opened from 127.0.0.1:58088
+Apr 21 12:30 : client: [13] closed
+Apr 21 12:31 : player: played "Arkan - Salam 2011 (320 kbps)/09 - Salam.mp3"
+Apr 21 12:31 : client: [14] opened from 127.0.0.1:58094
+Apr 21 12:31 : client: [14] closed
+Apr 21 12:33 : client: [15] opened from 127.0.0.1:58150
+Apr 21 12:33 : client: [15] closed
+Apr 21 12:34 : client: [16] opened from 127.0.0.1:58160
+Apr 21 12:34 : client: [16] closed
+Apr 21 13:10 : client: [17] opened from 127.0.0.1:58434
+Apr 21 13:10 : client: [17] closed
+Apr 21 13:13 : client: [18] opened from 127.0.0.1:58440
+Apr 21 13:13 : client: [18] closed
+Apr 21 13:16 : player: played "Sexual_Healing_GG@SG/08-teddy_pendergrass-turn_off_the_lights.mp3"
+Apr 23 21:10 : client: [0] opened from 127.0.0.1:57342
+Apr 23 21:10 : client: [1] opened from 127.0.0.1:57344
+Apr 23 21:10 : client: [2] opened from 127.0.0.1:57348
+Apr 23 21:10 : client: [2] closed
+Apr 23 21:10 : client: [3] opened from 127.0.0.1:57352
+Apr 23 21:10 : player: played "Sexual_Healing_GG@SG/08-teddy_pendergrass-turn_off_the_lights.mp3"
+Apr 23 21:10 : client: [3] closed
+Apr 23 21:10 : client: [4] opened from 127.0.0.1:57356
+Apr 23 21:10 : client: [4] closed
+Apr 23 21:13 : client: [1] closed
+Apr 23 21:13 : client: [5] opened from 127.0.0.1:57358
+Apr 23 21:14 : client: [5] closed
+Apr 23 21:14 : client: [6] opened from 127.0.0.1:57362
+Apr 23 21:14 : client: [7] opened from 127.0.0.1:57364
+Apr 23 21:14 : client: [7] closed
+Apr 23 21:15 : player: played "Sexual_Healing_GG@SG/08-teddy_pendergrass-turn_off_the_lights.mp3"
+Apr 23 21:18 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 10 - Painter Song.mp3"
+Apr 23 21:18 : client: [8] opened from 127.0.0.1:57386
+Apr 23 21:18 : player: played "Arkan - Salam 2011 (320 kbps)/13 - Amaloun Jadid II (Without Silince).mp3"
+Apr 23 21:18 : client: [8] closed
+Apr 23 21:40 : client: [0] opened from 127.0.0.1:58486
+Apr 23 21:40 : client: [1] opened from 127.0.0.1:58490
+Apr 23 21:40 : client: [2] opened from 127.0.0.1:58494
+Apr 23 21:40 : client: [2] closed
+Apr 23 21:40 : client: [3] opened from 127.0.0.1:58498
+Apr 23 21:40 : client: [3] closed
+Apr 23 21:40 : client: [4] opened from 127.0.0.1:58502
+Apr 23 21:40 : client: [4] closed
+Apr 23 21:41 : client: [5] opened from 127.0.0.1:58506
+Apr 23 21:41 : client: [5] closed
+Apr 23 21:41 : client: [6] opened from 127.0.0.1:58510
+Apr 23 21:41 : client: [6] closed
+Apr 23 21:41 : client: [7] opened from 127.0.0.1:58514
+Apr 23 21:41 : client: [7] closed
+Apr 23 21:41 : client: [8] opened from 127.0.0.1:58518
+Apr 23 21:41 : client: [8] closed
+Apr 23 21:41 : client: [9] opened from 127.0.0.1:58522
+Apr 23 21:41 : client: [9] closed
+Apr 23 21:43 : client: [0] closed
+Apr 23 21:43 : client: [10] opened from 127.0.0.1:58646
+Apr 23 21:43 : client: [11] opened from 127.0.0.1:58650
+Apr 23 21:43 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Les Mots CD1/04. Tristana.mp3"
+Apr 23 21:43 : client: [11] closed
+Apr 23 21:49 : client: [10] closed
+Apr 23 21:49 : client: [12] opened from 127.0.0.1:58714
+Apr 23 21:50 : client: [13] opened from 127.0.0.1:58722
+Apr 23 21:50 : client: [13] closed
+Apr 23 21:50 : client: [14] opened from 127.0.0.1:58724
+Apr 23 21:50 : client: [14] closed
+Apr 27 11:14 : client: [0] opened from 127.0.0.1:56960
+Apr 27 11:14 : client: [1] opened from 127.0.0.1:56962
+Apr 27 11:14 : client: [2] opened from 127.0.0.1:56966
+Apr 27 11:14 : client: [2] closed
+Apr 27 11:14 : client: [3] opened from 127.0.0.1:56970
+Apr 27 11:14 : client: [3] closed
+Apr 27 11:20 : player: played "Cheb Khaled/Cheb Khaled-Didi.mp3"
+Apr 27 11:22 : client: [4] opened from 127.0.0.1:57004
+Apr 27 11:22 : client: [4] closed
+Apr 27 11:22 : client: [5] opened from 127.0.0.1:57008
+Apr 27 11:22 : client: [5] closed
+Apr 27 11:22 : client: [6] opened from 127.0.0.1:57012
+Apr 27 11:22 : client: [6] closed
+Apr 27 11:22 : client: [7] opened from 127.0.0.1:57016
+Apr 27 11:22 : client: [7] closed
+Apr 27 11:22 : client: [8] opened from 127.0.0.1:57020
+Apr 27 11:22 : client: [8] closed
+Apr 27 11:22 : client: [9] opened from 127.0.0.1:57024
+Apr 27 11:22 : client: [9] closed
+Apr 27 11:24 : client: [10] opened from 127.0.0.1:57028
+Apr 27 11:24 : client: [10] closed
+Apr 27 11:25 : client: [11] opened from 127.0.0.1:57032
+Apr 27 11:25 : client: [11] closed
+Apr 27 11:28 : client: [1] closed
+Apr 27 11:28 : client: [12] opened from 127.0.0.1:57034
+Apr 27 11:33 : player: played "metallica/Metallica - 1999 - S & M/Metallica - 1999 - S & M - CD 1/11 - Bleeding Me.mp3"
+Apr 27 11:33 : client: [13] opened from 127.0.0.1:57050
+Apr 27 11:33 : client: [13] closed
+Apr 27 11:33 : client: [14] opened from 127.0.0.1:57054
+Apr 27 11:33 : client: [14] closed
+Apr 27 11:33 : client: [15] opened from 127.0.0.1:57058
+Apr 27 11:33 : client: [15] closed
+Apr 27 11:34 : client: [16] opened from 127.0.0.1:57064
+Apr 27 11:34 : client: [16] closed
+Apr 27 11:50 : client: [17] opened from 127.0.0.1:57128
+Apr 27 11:50 : client: [17] closed
+Apr 27 11:54 : player: played "Sexual_Healing_GG@SG/09-marvin_gaye-lets_get_it_on.mp3"
+Apr 27 11:55 : client: [18] opened from 127.0.0.1:57146
+Apr 27 11:55 : client: [18] closed
+Apr 27 11:55 : client: [19] opened from 127.0.0.1:57150
+Apr 27 11:55 : client: [19] closed
+Apr 27 11:55 : client: [20] opened from 127.0.0.1:57154
+Apr 27 11:55 : client: [20] closed
+Apr 27 11:55 : client: [21] opened from 127.0.0.1:57158
+Apr 27 11:55 : client: [21] closed
+Apr 27 11:55 : client: [22] opened from 127.0.0.1:57162
+Apr 27 11:55 : client: [22] closed
+Apr 27 11:55 : client: [23] opened from 127.0.0.1:57166
+Apr 27 11:55 : client: [23] closed
+Apr 27 11:55 : client: [24] opened from 127.0.0.1:57170
+Apr 27 11:55 : client: [24] closed
+Apr 27 11:55 : client: [25] opened from 127.0.0.1:57174
+Apr 27 11:55 : client: [25] closed
+Apr 27 11:55 : client: [26] opened from 127.0.0.1:57178
+Apr 27 11:55 : client: [26] closed
+Apr 27 11:55 : client: [27] opened from 127.0.0.1:57182
+Apr 27 11:55 : client: [27] closed
+Apr 27 11:55 : client: [28] opened from 127.0.0.1:57186
+Apr 27 11:55 : client: [28] closed
+Apr 27 11:55 : client: [29] opened from 127.0.0.1:57190
+Apr 27 11:55 : client: [29] closed
+Apr 27 11:55 : client: [30] opened from 127.0.0.1:57194
+Apr 27 11:55 : client: [30] closed
+Apr 27 11:55 : client: [31] opened from 127.0.0.1:57198
+Apr 27 11:55 : client: [31] closed
+Apr 27 11:55 : client: [32] opened from 127.0.0.1:57202
+Apr 27 11:55 : client: [32] closed
+Apr 27 11:55 : client: [33] opened from 127.0.0.1:57206
+Apr 27 11:55 : client: [33] closed
+Apr 27 11:55 : client: [34] opened from 127.0.0.1:57210
+Apr 27 11:55 : client: [34] closed
+Apr 27 11:55 : client: [35] opened from 127.0.0.1:57214
+Apr 27 11:55 : client: [35] closed
+Apr 27 11:55 : client: [36] opened from 127.0.0.1:57218
+Apr 27 11:55 : client: [36] closed
+Apr 27 11:55 : client: [37] opened from 127.0.0.1:57222
+Apr 27 11:55 : client: [37] closed
+Apr 27 12:00 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Apr 27 12:00 : client: [38] opened from 127.0.0.1:57230
+Apr 27 12:00 : client: [38] closed
+Apr 27 12:00 : client: [39] opened from 127.0.0.1:57234
+Apr 27 12:00 : client: [39] closed
+Apr 27 12:00 : client: [40] opened from 127.0.0.1:57236
+Apr 27 12:00 : client: [40] closed
+Apr 27 12:00 : client: [41] opened from 127.0.0.1:57238
+Apr 27 12:00 : client: [41] closed
+Apr 27 12:01 : client: [42] opened from 127.0.0.1:57278
+Apr 27 12:01 : client: [42] closed
+Apr 27 14:39 : client: [43] opened from 127.0.0.1:57938
+Apr 27 14:39 : client: [43] closed
+Apr 27 14:39 : client: [44] opened from 127.0.0.1:57942
+Apr 27 14:39 : client: [44] closed
+Apr 27 14:39 : client: [45] opened from 127.0.0.1:57946
+Apr 27 14:39 : client: [45] closed
+Apr 27 14:39 : client: [46] opened from 127.0.0.1:57950
+Apr 27 14:39 : client: [46] closed
+Apr 27 14:40 : client: [47] opened from 127.0.0.1:57956
+Apr 27 14:40 : client: [47] closed
+Apr 27 14:40 : client: [48] opened from 127.0.0.1:57962
+Apr 27 14:40 : client: [48] closed
+Apr 27 16:37 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Apr 27 17:00 : client: [0] opened from 127.0.0.1:54612
+Apr 27 17:00 : client: [1] opened from 127.0.0.1:54616
+Apr 27 17:00 : client: [1] closed
+Apr 27 17:00 : client: [2] opened from 127.0.0.1:54618
+Apr 27 17:04 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Apr 27 17:07 : client: [3] opened from 127.0.0.1:54628
+Apr 27 17:07 : client: [3] closed
+Apr 27 18:14 : player: played "scorpions/passion rules the game.wma"
+Apr 28 06:30 : client: [0] opened from 127.0.0.1:54876
+Apr 28 06:30 : ffmpeg/asf: asf_read_pts failed
+Apr 28 06:30 : ffmpeg/asf: asf_read_pts failed
+Apr 28 06:30 : ffmpeg/asf: asf_read_pts failed
+Apr 28 06:30 : client: [1] opened from 127.0.0.1:54880
+Apr 28 06:30 : client: [1] closed
+Apr 28 06:30 : client: [2] opened from 127.0.0.1:54882
+Apr 28 06:30 : client: [3] opened from 127.0.0.1:54890
+Apr 28 06:30 : client: [3] closed
+Apr 28 06:30 : client: [4] opened from 127.0.0.1:54896
+Apr 28 06:30 : client: [4] closed
+Apr 28 06:34 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 06 - Be Here To Love Me.mp3"
+Apr 28 06:38 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Les Mots CD1/08. Sans logique.mp3"
+Apr 28 06:38 : client: [5] opened from 127.0.0.1:55038
+Apr 28 06:38 : client: [5] closed
+Apr 28 06:38 : client: [6] opened from 127.0.0.1:55042
+Apr 28 06:38 : client: [6] closed
+Apr 28 06:38 : client: [7] opened from 127.0.0.1:55046
+Apr 28 06:38 : client: [7] closed
+Apr 28 06:38 : client: [8] opened from 127.0.0.1:55050
+Apr 28 06:38 : client: [8] closed
+Apr 28 06:38 : client: [9] opened from 127.0.0.1:55054
+Apr 28 06:38 : client: [9] closed
+Apr 28 06:38 : client: [10] opened from 127.0.0.1:55058
+Apr 28 06:38 : client: [10] closed
+Apr 28 06:38 : client: [11] opened from 127.0.0.1:55062
+Apr 28 06:38 : client: [11] closed
+Apr 28 06:42 : player: played "Norah Jones/Others/Norah Jones & Ray Charles - Here We Go Again.mp3"
+Apr 28 06:42 : client: [12] opened from 127.0.0.1:55166
+Apr 28 06:42 : client: [12] closed
+Apr 28 06:42 : client: [13] opened from 127.0.0.1:55182
+Apr 28 06:42 : client: [13] closed
+Apr 28 06:42 : client: [14] opened from 127.0.0.1:55186
+Apr 28 06:42 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+Apr 28 06:42 : client: [14] closed
+Apr 28 06:44 : client: [15] opened from 127.0.0.1:55190
+Apr 28 06:44 : client: [15] closed
+Apr 28 06:45 : client: [16] opened from 127.0.0.1:55198
+Apr 28 06:45 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+Apr 28 06:45 : client: [16] closed
+Apr 28 06:53 : client: [17] opened from 127.0.0.1:55294
+Apr 28 06:53 : client: [17] closed
+Apr 28 07:00 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+Apr 28 07:00 : client: [18] opened from 127.0.0.1:55322
+Apr 28 07:00 : client: [18] closed
+Apr 28 07:02 : client: [19] opened from 127.0.0.1:55328
+Apr 28 07:02 : client: [19] closed
+Apr 28 07:02 : client: [20] opened from 127.0.0.1:55332
+Apr 28 07:02 : client: [20] closed
+Apr 28 07:03 : client: [21] opened from 127.0.0.1:55336
+Apr 28 07:03 : client: [21] closed
+Apr 28 07:05 : client: [22] opened from 127.0.0.1:55342
+Apr 28 07:05 : client: [22] closed
+Apr 28 07:08 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 12 - Don't Know Why.mp3"
+Apr 28 07:08 : client: [23] opened from 127.0.0.1:55346
+Apr 28 07:08 : client: [23] closed
+Apr 28 07:08 : client: [24] opened from 127.0.0.1:55350
+Apr 28 07:08 : client: [24] closed
+Apr 28 07:10 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/03-television_rules_the_nation__crescendolls-xds.mp3"
+Apr 28 07:16 : player: played "Norah Jones/Others/Norah Jones & Laszlo - In A Whisper.mp3"
+Apr 28 07:22 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD1 [Bubanee]/10 - Sad But True.mp3"
+Apr 28 07:22 : client: [25] opened from 127.0.0.1:55368
+Apr 28 07:22 : client: [25] closed
+Apr 28 07:22 : client: [26] opened from 127.0.0.1:55372
+Apr 28 07:22 : client: [26] closed
+Apr 28 07:22 : client: [27] opened from 127.0.0.1:55376
+Apr 28 07:22 : client: [27] closed
+Apr 28 07:22 : client: [28] opened from 127.0.0.1:55380
+Apr 28 07:22 : client: [28] closed
+Apr 28 07:22 : client: [29] opened from 127.0.0.1:55384
+Apr 28 07:22 : client: [29] closed
+Apr 28 07:22 : client: [30] opened from 127.0.0.1:55388
+Apr 28 07:22 : client: [30] closed
+Apr 28 07:22 : client: [31] opened from 127.0.0.1:55392
+Apr 28 07:22 : client: [31] closed
+Apr 28 07:22 : client: [32] opened from 127.0.0.1:55396
+Apr 28 07:22 : client: [32] closed
+Apr 28 07:22 : client: [33] opened from 127.0.0.1:55400
+Apr 28 07:22 : client: [33] closed
+Apr 28 07:22 : client: [34] opened from 127.0.0.1:55404
+Apr 28 07:22 : client: [34] closed
+Apr 28 07:22 : client: [35] opened from 127.0.0.1:55408
+Apr 28 07:22 : client: [35] closed
+Apr 28 07:22 : client: [36] opened from 127.0.0.1:55412
+Apr 28 07:22 : client: [36] closed
+Apr 28 07:22 : client: [37] opened from 127.0.0.1:55416
+Apr 28 07:22 : client: [37] closed
+Apr 28 07:22 : client: [38] opened from 127.0.0.1:55420
+Apr 28 07:22 : client: [38] closed
+Apr 28 07:22 : client: [39] opened from 127.0.0.1:55424
+Apr 28 07:22 : client: [39] closed
+Apr 28 07:22 : client: [40] opened from 127.0.0.1:55428
+Apr 28 07:22 : client: [40] closed
+Apr 28 07:22 : client: [41] opened from 127.0.0.1:55432
+Apr 28 07:22 : client: [41] closed
+Apr 28 07:22 : client: [42] opened from 127.0.0.1:55436
+Apr 28 07:22 : client: [42] closed
+Apr 28 07:22 : client: [43] opened from 127.0.0.1:55440
+Apr 28 07:22 : client: [43] closed
+Apr 28 07:22 : client: [44] opened from 127.0.0.1:55444
+Apr 28 07:22 : client: [44] closed
+Apr 28 07:22 : client: [45] opened from 127.0.0.1:55448
+Apr 28 07:22 : client: [45] closed
+Apr 28 07:22 : client: [46] opened from 127.0.0.1:55452
+Apr 28 07:22 : client: [46] closed
+Apr 28 07:22 : client: [47] opened from 127.0.0.1:55456
+Apr 28 07:22 : client: [47] closed
+Apr 28 07:22 : client: [48] opened from 127.0.0.1:55460
+Apr 28 07:22 : client: [48] closed
+Apr 28 07:22 : client: [49] opened from 127.0.0.1:55464
+Apr 28 07:22 : client: [49] closed
+Apr 28 07:29 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/01-robot_rock__oh_yeah-xds.mp3"
+Apr 28 07:33 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Best Of 2001 - 2011/09. Dégénération.mp3"
+Apr 28 07:39 : player: played "Tinariwen - Aman Iman- Water Is Life/03 - Tinariwen - Matadjem Yinmixan.mp3"
+Apr 28 07:40 : client: [50] opened from 127.0.0.1:55512
+Apr 28 07:40 : client: [50] closed
+Apr 28 07:40 : client: [51] opened from 127.0.0.1:55520
+Apr 28 07:40 : client: [51] closed
+Apr 28 07:40 : client: [52] opened from 127.0.0.1:55524
+Apr 28 07:40 : client: [52] closed
+Apr 28 07:40 : client: [53] opened from 127.0.0.1:55528
+Apr 28 07:40 : client: [53] closed
+Apr 28 07:40 : client: [54] opened from 127.0.0.1:55532
+Apr 28 07:40 : client: [54] closed
+Apr 28 07:40 : client: [55] opened from 127.0.0.1:55536
+Apr 28 07:40 : client: [55] closed
+Apr 28 07:40 : client: [56] opened from 127.0.0.1:55540
+Apr 28 07:40 : client: [56] closed
+Apr 28 07:40 : client: [57] opened from 127.0.0.1:55544
+Apr 28 07:40 : client: [57] closed
+Apr 28 07:40 : client: [58] opened from 127.0.0.1:55550
+Apr 28 07:40 : client: [58] closed
+Apr 28 07:40 : client: [59] opened from 127.0.0.1:55554
+Apr 28 07:40 : client: [59] closed
+Apr 28 07:40 : client: [60] opened from 127.0.0.1:55558
+Apr 28 07:40 : client: [60] closed
+Apr 28 07:40 : client: [61] opened from 127.0.0.1:55562
+Apr 28 07:40 : client: [61] closed
+Apr 28 07:43 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 15 - Sunrise.mp3"
+Apr 28 07:44 : client: [62] opened from 127.0.0.1:55566
+Apr 28 07:44 : client: [62] closed
+Apr 28 07:44 : client: [63] opened from 127.0.0.1:55570
+Apr 28 07:44 : client: [63] closed
+Apr 28 07:44 : client: [64] opened from 127.0.0.1:55574
+Apr 28 07:44 : client: [64] closed
+Apr 28 07:44 : client: [65] opened from 127.0.0.1:55578
+Apr 28 07:44 : client: [65] closed
+Apr 28 07:49 : client: [2] closed
+Apr 28 07:49 : client: [66] opened from 127.0.0.1:55582
+Apr 28 07:49 : client: [66] closed
+Apr 28 07:49 : client: [67] opened from 127.0.0.1:55584
+Apr 28 07:49 : player: played "Tinariwen - Aman Iman- Water Is Life/04 - Tinariwen - Ahimana.mp3"
+Apr 28 07:49 : client: [67] closed
+Apr 28 07:49 : client: [68] opened from 127.0.0.1:55586
+Apr 28 07:49 : client: [69] opened from 127.0.0.1:55590
+Apr 28 07:49 : client: [69] closed
+Apr 28 07:49 : client: [70] opened from 127.0.0.1:55594
+Apr 28 07:49 : client: [70] closed
+Apr 28 07:49 : client: [71] opened from 127.0.0.1:55598
+Apr 28 07:49 : client: [71] closed
+Apr 28 07:50 : client: [68] closed
+Apr 28 07:50 : client: [72] opened from 127.0.0.1:55602
+Apr 28 07:51 : client: [72] closed
+Apr 28 07:51 : client: [73] opened from 127.0.0.1:55604
+Apr 28 07:51 : client: [73] closed
+Apr 28 07:51 : client: [74] opened from 127.0.0.1:55606
+Apr 28 07:51 : client: [74] closed
+Apr 28 07:51 : client: [75] opened from 127.0.0.1:55608
+Apr 28 07:54 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 14 - Indo Silver Club.mp3"
+Apr 28 07:54 : client: [76] opened from 127.0.0.1:55612
+Apr 28 07:54 : client: [76] closed
+Apr 28 07:54 : client: [77] opened from 127.0.0.1:55616
+Apr 28 07:54 : client: [77] closed
+Apr 28 07:54 : client: [78] opened from 127.0.0.1:55620
+Apr 28 07:54 : client: [78] closed
+Apr 28 07:54 : client: [79] opened from 127.0.0.1:55624
+Apr 28 07:54 : client: [79] closed
+Apr 28 07:54 : client: [80] opened from 127.0.0.1:55628
+Apr 28 07:54 : client: [80] closed
+Apr 28 07:54 : client: [81] opened from 127.0.0.1:55632
+Apr 28 07:54 : client: [81] closed
+Apr 28 07:54 : client: [82] opened from 127.0.0.1:55636
+Apr 28 07:54 : client: [82] closed
+Apr 28 07:54 : client: [83] opened from 127.0.0.1:55640
+Apr 28 07:54 : client: [83] closed
+Apr 28 07:54 : client: [84] opened from 127.0.0.1:55644
+Apr 28 07:54 : client: [84] closed
+Apr 28 07:54 : client: [85] opened from 127.0.0.1:55648
+Apr 28 07:54 : client: [85] closed
+Apr 28 07:54 : client: [86] opened from 127.0.0.1:55652
+Apr 28 07:54 : client: [86] closed
+Apr 28 07:54 : client: [87] opened from 127.0.0.1:55656
+Apr 28 07:54 : client: [87] closed
+Apr 28 07:54 : client: [88] opened from 127.0.0.1:55660
+Apr 28 07:54 : client: [88] closed
+Apr 28 07:58 : client: [89] opened from 127.0.0.1:55666
+Apr 28 07:58 : client: [89] closed
+Apr 28 07:58 : client: [90] opened from 127.0.0.1:55670
+Apr 28 07:58 : client: [90] closed
+Apr 28 07:58 : client: [91] opened from 127.0.0.1:55674
+Apr 28 07:58 : client: [91] closed
+Apr 28 07:58 : client: [92] opened from 127.0.0.1:55678
+Apr 28 07:58 : client: [92] closed
+Apr 28 07:58 : client: [93] opened from 127.0.0.1:55682
+Apr 28 07:58 : client: [93] closed
+Apr 28 07:58 : client: [94] opened from 127.0.0.1:55686
+Apr 28 07:58 : client: [94] closed
+Apr 28 07:58 : client: [95] opened from 127.0.0.1:55690
+Apr 28 07:58 : client: [95] closed
+Apr 28 07:58 : client: [96] opened from 127.0.0.1:55694
+Apr 28 07:58 : client: [96] closed
+Apr 28 07:58 : client: [97] opened from 127.0.0.1:55698
+Apr 28 07:58 : client: [97] closed
+Apr 28 07:58 : client: [98] opened from 127.0.0.1:55702
+Apr 28 07:58 : client: [98] closed
+Apr 28 07:58 : client: [99] opened from 127.0.0.1:55706
+Apr 28 07:58 : client: [99] closed
+Apr 28 07:58 : client: [100] opened from 127.0.0.1:55710
+Apr 28 07:58 : client: [100] closed
+Apr 28 07:58 : client: [101] opened from 127.0.0.1:55714
+Apr 28 07:58 : client: [101] closed
+Apr 28 07:58 : client: [102] opened from 127.0.0.1:55718
+Apr 28 07:58 : client: [102] closed
+Apr 28 07:58 : client: [103] opened from 127.0.0.1:55722
+Apr 28 07:58 : client: [103] closed
+Apr 28 07:58 : client: [104] opened from 127.0.0.1:55726
+Apr 28 07:58 : client: [104] closed
+Apr 28 07:58 : client: [105] opened from 127.0.0.1:55730
+Apr 28 07:58 : client: [105] closed
+Apr 28 07:58 : client: [106] opened from 127.0.0.1:55734
+Apr 28 07:58 : client: [106] closed
+Apr 28 07:58 : client: [107] opened from 127.0.0.1:55738
+Apr 28 07:58 : client: [107] closed
+Apr 28 07:58 : client: [108] opened from 127.0.0.1:55742
+Apr 28 07:58 : client: [108] closed
+Apr 28 07:58 : client: [109] opened from 127.0.0.1:55746
+Apr 28 07:58 : client: [109] closed
+Apr 28 07:58 : client: [110] opened from 127.0.0.1:55750
+Apr 28 07:58 : client: [110] closed
+Apr 28 07:58 : client: [111] opened from 127.0.0.1:55754
+Apr 28 07:58 : client: [111] closed
+Apr 28 07:58 : client: [112] opened from 127.0.0.1:55758
+Apr 28 07:58 : client: [112] closed
+Apr 28 08:01 : client: [75] closed
+Apr 28 08:01 : client: [113] opened from 127.0.0.1:55772
+Apr 28 08:02 : player: played "Sexual_Healing_GG@SG/13-marvin_gaye-come_get_to_this.mp3"
+Apr 28 08:02 : client: [113] closed
+Apr 28 08:02 : client: [114] opened from 127.0.0.1:55774
+Apr 28 08:02 : client: [114] closed
+Apr 28 08:02 : client: [115] opened from 127.0.0.1:55776
+Apr 28 08:02 : client: [115] closed
+Apr 28 08:02 : client: [116] opened from 127.0.0.1:55778
+Apr 28 08:03 : client: [117] opened from 127.0.0.1:55782
+Apr 28 08:03 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 01 - Don't Know Why.mp3"
+Apr 28 08:03 : client: [117] closed
+May 01 11:51 : client: [0] opened from 127.0.0.1:49982
+May 01 11:51 : client: [1] opened from 127.0.0.1:49984
+May 01 11:51 : client: [2] opened from 127.0.0.1:49988
+May 01 11:51 : client: [2] closed
+May 01 11:51 : client: [3] opened from 127.0.0.1:49992
+May 01 11:51 : client: [3] closed
+May 01 11:51 : client: [4] opened from 127.0.0.1:49996
+May 01 11:51 : client: [4] closed
+May 01 11:51 : client: [5] opened from 127.0.0.1:50000
+May 01 11:51 : client: [5] closed
+May 01 11:51 : client: [6] opened from 127.0.0.1:50004
+May 01 11:51 : client: [6] closed
+May 01 11:51 : client: [7] opened from 127.0.0.1:50008
+May 01 11:51 : client: [7] closed
+May 01 11:51 : client: [8] opened from 127.0.0.1:50012
+May 01 11:51 : client: [8] closed
+May 01 11:51 : client: [9] opened from 127.0.0.1:50016
+May 01 11:51 : client: [9] closed
+May 01 11:51 : client: [10] opened from 127.0.0.1:50020
+May 01 11:51 : client: [10] closed
+May 01 11:51 : client: [11] opened from 127.0.0.1:50024
+May 01 11:51 : client: [11] closed
+May 01 12:01 : player: played "metallica/Metallica - 1993 - Live Shit, Binge And Purge/Metallica - 1993 - Live Shit, Binge And Purge - CD 3/06 - Battery.mp3"
+May 01 12:04 : client: [12] opened from 127.0.0.1:50180
+May 01 12:04 : client: [12] closed
+May 01 12:04 : client: [13] opened from 127.0.0.1:50184
+May 01 12:04 : client: [13] closed
+May 01 12:04 : client: [14] opened from 127.0.0.1:50188
+May 01 12:04 : client: [14] closed
+May 01 12:04 : client: [15] opened from 127.0.0.1:50192
+May 01 12:04 : client: [15] closed
+May 01 12:04 : client: [16] opened from 127.0.0.1:50196
+May 01 12:04 : client: [16] closed
+May 01 12:04 : client: [17] opened from 127.0.0.1:50200
+May 01 12:04 : client: [17] closed
+May 01 12:04 : client: [18] opened from 127.0.0.1:50204
+May 01 12:04 : client: [18] closed
+May 01 12:04 : client: [19] opened from 127.0.0.1:50208
+May 01 12:04 : client: [19] closed
+May 01 12:05 : client: [1] closed
+May 01 12:05 : client: [20] opened from 127.0.0.1:50210
+May 01 12:06 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Best Of 2001 - 2011/03. Fuck Them All.mp3"
+May 01 12:07 : client: [20] closed
+May 01 12:07 : client: [21] opened from 127.0.0.1:50212
+May 01 12:08 : client: [22] opened from 127.0.0.1:50218
+May 01 12:08 : client: [22] closed
+May 01 12:17 : client: [21] closed
+May 01 12:17 : client: [23] opened from 127.0.0.1:50278
+May 01 12:18 : client: [23] closed
+May 01 12:18 : client: [24] opened from 127.0.0.1:50284
+May 01 12:19 : client: [24] closed
+May 01 12:19 : client: [25] opened from 127.0.0.1:50288
+May 01 12:22 : client: [25] closed
+May 01 12:22 : client: [26] opened from 127.0.0.1:50292
+May 01 12:23 : client: [26] closed
+May 01 12:23 : client: [27] opened from 127.0.0.1:50294
+May 01 12:24 : client: [27] closed
+May 01 12:24 : client: [28] opened from 127.0.0.1:50296
+May 01 12:25 : client: [28] closed
+May 01 12:25 : client: [29] opened from 127.0.0.1:50298
+May 01 12:30 : client: [30] opened from 127.0.0.1:50346
+May 01 12:30 : client: [30] closed
+May 01 12:33 : client: [31] opened from 127.0.0.1:50380
+May 01 12:33 : client: [31] closed
+May 01 12:34 : client: [32] opened from 127.0.0.1:50384
+May 01 12:34 : client: [32] closed
+May 01 12:34 : client: [33] opened from 127.0.0.1:50388
+May 01 12:34 : client: [33] closed
+May 01 12:34 : client: [34] opened from 127.0.0.1:50392
+May 01 12:34 : client: [34] closed
+May 01 12:34 : client: [35] opened from 127.0.0.1:50396
+May 01 12:34 : client: [35] closed
+May 01 12:34 : client: [36] opened from 127.0.0.1:50400
+May 01 12:34 : client: [36] closed
+May 01 12:34 : client: [37] opened from 127.0.0.1:50404
+May 01 12:34 : client: [37] closed
+May 01 12:34 : client: [38] opened from 127.0.0.1:50408
+May 01 12:34 : client: [38] closed
+May 01 12:34 : client: [39] opened from 127.0.0.1:50412
+May 01 12:34 : client: [39] closed
+May 01 12:34 : client: [40] opened from 127.0.0.1:50416
+May 01 12:34 : client: [40] closed
+May 01 12:34 : client: [41] opened from 127.0.0.1:50420
+May 01 12:34 : client: [41] closed
+May 01 12:34 : client: [42] opened from 127.0.0.1:50424
+May 01 12:34 : client: [42] closed
+May 01 12:34 : client: [43] opened from 127.0.0.1:50428
+May 01 12:34 : client: [43] closed
+May 01 12:34 : client: [44] opened from 127.0.0.1:50432
+May 01 12:34 : client: [44] closed
+May 01 12:34 : client: [45] opened from 127.0.0.1:50436
+May 01 12:34 : client: [45] closed
+May 01 12:34 : client: [46] opened from 127.0.0.1:50440
+May 01 12:34 : client: [46] closed
+May 01 12:34 : client: [47] opened from 127.0.0.1:50444
+May 01 12:34 : client: [47] closed
+May 01 12:37 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 01 - Daftendirekt.mp3"
+May 01 12:41 : client: [48] opened from 127.0.0.1:50522
+May 01 12:41 : client: [48] closed
+May 01 13:21 : client: [29] closed
+May 01 13:21 : client: [49] opened from 127.0.0.1:50676
+May 01 13:22 : client: [49] closed
+May 01 13:22 : client: [50] opened from 127.0.0.1:50680
+May 01 13:25 : client: [50] closed
+May 01 13:25 : client: [51] opened from 127.0.0.1:50682
+May 01 13:25 : client: [51] closed
+May 01 13:25 : client: [52] opened from 127.0.0.1:50684
+May 01 13:30 : client: [52] closed
+May 01 13:30 : client: [53] opened from 127.0.0.1:50690
+May 01 13:39 : client: [54] opened from 127.0.0.1:50728
+May 01 13:39 : client: [54] closed
+May 01 13:43 : client: [55] opened from 127.0.0.1:50774
+May 01 13:43 : client: [55] closed
+May 01 13:48 : client: [56] opened from 127.0.0.1:50824
+May 01 13:48 : client: [56] closed
+May 01 13:48 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/10 - Be My Somebody.mp3"
+May 01 13:48 : client: [57] opened from 127.0.0.1:50828
+May 01 13:48 : client: [57] closed
+May 01 13:49 : client: [58] opened from 127.0.0.1:50832
+May 01 13:49 : client: [58] closed
+May 01 13:51 : client: [53] closed
+May 01 13:51 : client: [59] opened from 127.0.0.1:50834
+May 01 13:51 : client: [60] opened from 127.0.0.1:50838
+May 01 13:51 : client: [60] closed
+May 01 13:51 : client: [59] closed
+May 01 13:51 : client: [61] opened from 127.0.0.1:50840
+May 01 13:52 : client: [62] opened from 127.0.0.1:50850
+May 01 13:52 : client: [62] closed
+May 01 13:53 : client: [63] opened from 127.0.0.1:50854
+May 01 13:53 : client: [63] closed
+May 01 13:54 : player: played "Norah Jones/New York City (with The Peter Malick Group)/Norah Jones - New York City (with The Peter Malick Group) - 02 - Strange Transmissions.mp3"
+May 01 13:54 : client: [0] opened from 127.0.0.1:50868
+May 01 13:54 : client: [1] opened from 127.0.0.1:50870
+May 01 13:54 : client: [2] opened from 127.0.0.1:50874
+May 01 13:54 : client: [2] closed
+May 01 13:54 : client: [3] opened from 127.0.0.1:50878
+May 01 13:54 : client: [3] closed
+May 01 13:54 : client: [4] opened from 127.0.0.1:50882
+May 01 13:54 : client: [4] closed
+May 01 13:54 : player: played "Norah Jones/New York City (with The Peter Malick Group)/Norah Jones - New York City (with The Peter Malick Group) - 02 - Strange Transmissions.mp3"
+May 01 13:55 : client: [5] opened from 127.0.0.1:50886
+May 01 13:55 : player: played "The Pixies/Doolittle/11 No 13. Baby.mp3"
+May 01 13:55 : client: [5] closed
+May 01 13:57 : client: [0] opened from 127.0.0.1:38390
+May 01 13:57 : client: [1] opened from 127.0.0.1:38392
+May 01 13:57 : client: [2] opened from 127.0.0.1:38396
+May 01 13:57 : client: [2] closed
+May 01 13:58 : client: [3] opened from 127.0.0.1:38400
+May 01 13:58 : client: [3] closed
+May 01 13:58 : client: [4] opened from 127.0.0.1:38404
+May 01 13:58 : client: [4] closed
+May 01 14:01 : client: [5] opened from 127.0.0.1:38476
+May 01 14:01 : client: [5] closed
+May 01 14:03 : client: [6] opened from 127.0.0.1:38492
+May 01 14:03 : client: [6] closed
+May 01 14:03 : client: [7] opened from 127.0.0.1:38496
+May 01 14:03 : client: [7] closed
+May 01 14:03 : client: [8] opened from 127.0.0.1:38500
+May 01 14:03 : client: [8] closed
+May 01 14:03 : client: [9] opened from 127.0.0.1:38504
+May 01 14:03 : client: [9] closed
+May 01 14:04 : client: [10] opened from 127.0.0.1:38508
+May 01 14:04 : client: [10] closed
+May 01 14:04 : client: [11] opened from 127.0.0.1:38512
+May 01 14:04 : client: [11] closed
+May 01 14:04 : player: played "Cheb Khaled/Cheb Khaled-Chaba Bent Bladi.mp3"
+May 01 14:04 : client: [12] opened from 127.0.0.1:38518
+May 01 14:04 : client: [12] closed
+May 01 14:07 : player: played "The Pixies/Live @ The BBC/08 Down to the well.mp3"
+May 01 14:07 : client: [13] opened from 127.0.0.1:38534
+May 01 14:07 : player: played "The Pixies/Doolittle/12 Ther Goe's My Gun.mp3"
+May 01 14:07 : client: [13] closed
+May 01 14:09 : client: [0] opened from 127.0.0.1:56758
+May 01 14:09 : client: [1] opened from 127.0.0.1:56760
+May 01 14:09 : client: [2] opened from 127.0.0.1:56764
+May 01 14:09 : client: [2] closed
+May 01 14:09 : client: [3] opened from 127.0.0.1:56768
+May 01 14:09 : client: [3] closed
+May 01 14:09 : client: [4] opened from 127.0.0.1:56772
+May 01 14:09 : client: [4] closed
+May 01 14:09 : client: [5] opened from 127.0.0.1:56776
+May 01 14:09 : client: [5] closed
+May 01 14:09 : client: [6] opened from 127.0.0.1:56780
+May 01 14:09 : client: [6] closed
+May 01 14:09 : client: [7] opened from 127.0.0.1:56784
+May 01 14:09 : client: [7] closed
+May 01 14:09 : client: [8] opened from 127.0.0.1:56788
+May 01 14:09 : client: [8] closed
+May 01 14:09 : client: [9] opened from 127.0.0.1:56792
+May 01 14:09 : client: [9] closed
+May 01 14:09 : player: played "Slipknot/Slipknot - 02 - Execute.mp3"
+May 01 14:09 : client: [0] opened from 127.0.0.1:56810
+May 01 14:09 : client: [1] opened from 127.0.0.1:56812
+May 01 14:09 : client: [2] opened from 127.0.0.1:56816
+May 01 14:09 : player: played "Slipknot/Slipknot - 02 - Execute.mp3"
+May 01 14:09 : client: [2] closed
+May 01 14:21 : client: [0] opened from 127.0.0.1:57696
+May 01 14:21 : client: [1] opened from 127.0.0.1:57698
+May 01 14:21 : client: [2] opened from 127.0.0.1:57702
+May 01 14:21 : client: [2] closed
+May 01 14:21 : client: [3] opened from 127.0.0.1:57740
+May 01 14:21 : client: [3] closed
+May 01 14:25 : client: [4] opened from 127.0.0.1:57790
+May 01 14:25 : client: [4] closed
+May 01 14:25 : client: [5] opened from 127.0.0.1:57794
+May 01 14:25 : client: [5] closed
+May 01 14:28 : client: [6] opened from 127.0.0.1:57800
+May 01 14:28 : client: [6] closed
+May 01 14:28 : client: [7] opened from 127.0.0.1:57804
+May 01 14:28 : client: [7] closed
+May 01 14:28 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+May 01 14:30 : client: [8] opened from 127.0.0.1:57818
+May 01 14:30 : client: [8] closed
+May 01 14:30 : client: [1] closed
+May 01 14:30 : client: [9] opened from 127.0.0.1:57820
+May 01 14:30 : client: [10] opened from 127.0.0.1:57824
+May 01 14:30 : client: [10] closed
+May 01 14:32 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 08 - High Life.mp3"
+May 01 14:32 : client: [11] opened from 127.0.0.1:57830
+May 01 14:32 : client: [11] closed
+May 01 14:32 : client: [12] opened from 127.0.0.1:57832
+May 01 14:32 : client: [12] closed
+May 01 14:33 : client: [13] opened from 127.0.0.1:57848
+May 01 14:33 : client: [13] closed
+May 01 14:33 : client: [14] opened from 127.0.0.1:57868
+May 01 14:33 : client: [14] closed
+May 01 14:33 : client: [15] opened from 127.0.0.1:57874
+May 01 14:33 : client: [15] closed
+May 01 14:33 : client: [16] opened from 127.0.0.1:57878
+May 01 14:33 : client: [16] closed
+May 01 14:36 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 04 - Carnival Town.mp3"
+May 01 14:37 : client: [17] opened from 127.0.0.1:57942
+May 01 14:37 : client: [17] closed
+May 01 14:37 : client: [18] opened from 127.0.0.1:57946
+May 01 14:37 : client: [18] closed
+May 01 14:37 : client: [19] opened from 127.0.0.1:57950
+May 01 14:37 : client: [19] closed
+May 01 14:37 : client: [20] opened from 127.0.0.1:57954
+May 01 14:37 : client: [20] closed
+May 01 14:37 : client: [21] opened from 127.0.0.1:57958
+May 01 14:37 : client: [21] closed
+May 01 14:44 : client: [9] closed
+May 01 14:44 : client: [22] opened from 127.0.0.1:58008
+May 01 14:45 : client: [22] closed
+May 01 14:45 : client: [23] opened from 127.0.0.1:58010
+May 01 14:45 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/09-one_more_time__aerodynamic-xds.mp3"
+May 01 14:46 : client: [23] closed
+May 01 14:46 : client: [24] opened from 127.0.0.1:58012
+May 01 14:47 : client: [24] closed
+May 01 14:47 : client: [25] opened from 127.0.0.1:58014
+May 01 14:47 : client: [26] opened from 127.0.0.1:58018
+May 01 14:47 : client: [26] closed
+May 01 14:47 : client: [27] opened from 127.0.0.1:58022
+May 01 14:47 : client: [27] closed
+May 01 14:48 : client: [28] opened from 127.0.0.1:58028
+May 01 14:48 : client: [28] closed
+May 01 14:48 : client: [29] opened from 127.0.0.1:58032
+May 01 14:48 : client: [29] closed
+May 01 14:48 : client: [30] opened from 127.0.0.1:58038
+May 01 14:48 : client: [30] closed
+May 01 14:48 : client: [31] opened from 127.0.0.1:58042
+May 01 14:48 : client: [31] closed
+May 01 14:50 : client: [25] closed
+May 01 14:50 : client: [32] opened from 127.0.0.1:58044
+May 01 14:50 : client: [33] opened from 127.0.0.1:58048
+May 01 14:50 : client: [33] closed
+May 01 14:50 : client: [34] opened from 127.0.0.1:58052
+May 01 14:50 : client: [34] closed
+May 01 14:52 : player: played "megadeth/01 - Holy Wars...The Punishment Due.mp3"
+May 01 14:52 : client: [32] closed
+May 01 14:52 : client: [35] opened from 127.0.0.1:58058
+May 01 14:52 : client: [36] opened from 127.0.0.1:58062
+May 01 14:52 : client: [36] closed
+May 01 14:52 : client: [37] opened from 127.0.0.1:58066
+May 01 14:52 : client: [37] closed
+May 01 14:56 : client: [35] closed
+May 01 14:56 : client: [38] opened from 127.0.0.1:58120
+May 01 14:56 : client: [39] opened from 127.0.0.1:58124
+May 01 14:56 : client: [39] closed
+May 01 14:56 : client: [40] opened from 127.0.0.1:58128
+May 01 14:56 : client: [40] closed
+May 01 14:56 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 12 - Nightingale.mp3"
+May 01 14:56 : client: [41] opened from 127.0.0.1:58132
+May 01 14:56 : client: [41] closed
+May 01 14:56 : client: [42] opened from 127.0.0.1:58136
+May 01 14:56 : client: [42] closed
+May 01 14:56 : client: [43] opened from 127.0.0.1:58140
+May 01 14:56 : client: [43] closed
+May 01 14:56 : client: [44] opened from 127.0.0.1:58144
+May 01 14:56 : client: [44] closed
+May 01 14:57 : client: [38] closed
+May 01 14:57 : client: [45] opened from 127.0.0.1:58146
+May 01 14:57 : client: [46] opened from 127.0.0.1:58150
+May 01 14:57 : client: [46] closed
+May 01 14:57 : client: [47] opened from 127.0.0.1:58154
+May 01 14:57 : client: [47] closed
+May 01 14:57 : client: [48] opened from 127.0.0.1:58158
+May 01 14:57 : client: [48] closed
+May 01 14:57 : client: [49] opened from 127.0.0.1:58162
+May 01 14:57 : client: [49] closed
+May 01 15:01 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+May 01 15:05 : player: played "Jamiroquai - Graetests hits/03 Cosmic Girl.mp3"
+May 01 15:06 : client: [45] closed
+May 01 15:06 : client: [50] opened from 127.0.0.1:58224
+May 01 15:06 : client: [51] opened from 127.0.0.1:58228
+May 01 15:06 : client: [51] closed
+May 01 15:06 : client: [52] opened from 127.0.0.1:58232
+May 01 15:06 : client: [52] closed
+May 01 15:06 : client: [53] opened from 127.0.0.1:58236
+May 01 15:06 : client: [53] closed
+May 01 15:06 : client: [54] opened from 127.0.0.1:58240
+May 01 15:06 : client: [54] closed
+May 01 15:06 : client: [55] opened from 127.0.0.1:58244
+May 01 15:06 : client: [55] closed
+May 01 15:06 : client: [56] opened from 127.0.0.1:58248
+May 01 15:06 : client: [56] closed
+May 01 15:06 : client: [57] opened from 127.0.0.1:58252
+May 01 15:06 : client: [57] closed
+May 01 15:06 : client: [58] opened from 127.0.0.1:58256
+May 01 15:06 : client: [58] closed
+May 01 15:06 : client: [59] opened from 127.0.0.1:58260
+May 01 15:06 : client: [59] closed
+May 01 15:06 : client: [60] opened from 127.0.0.1:58264
+May 01 15:06 : client: [60] closed
+May 01 15:06 : client: [61] opened from 127.0.0.1:58268
+May 01 15:06 : client: [61] closed
+May 01 15:06 : client: [62] opened from 127.0.0.1:58272
+May 01 15:06 : client: [62] closed
+May 01 15:06 : client: [63] opened from 127.0.0.1:58276
+May 01 15:06 : client: [63] closed
+May 01 15:06 : client: [64] opened from 127.0.0.1:58280
+May 01 15:06 : client: [64] closed
+May 01 15:06 : client: [65] opened from 127.0.0.1:58284
+May 01 15:06 : client: [65] closed
+May 01 15:06 : client: [66] opened from 127.0.0.1:58288
+May 01 15:06 : client: [66] closed
+May 01 15:06 : client: [67] opened from 127.0.0.1:58292
+May 01 15:06 : client: [67] closed
+May 01 15:06 : client: [68] opened from 127.0.0.1:58296
+May 01 15:06 : client: [68] closed
+May 01 15:06 : client: [69] opened from 127.0.0.1:58300
+May 01 15:06 : client: [69] closed
+May 01 15:06 : client: [70] opened from 127.0.0.1:58304
+May 01 15:06 : client: [70] closed
+May 01 15:06 : client: [71] opened from 127.0.0.1:58308
+May 01 15:06 : client: [71] closed
+May 01 15:06 : client: [72] opened from 127.0.0.1:58312
+May 01 15:06 : client: [72] closed
+May 01 15:06 : client: [73] opened from 127.0.0.1:58316
+May 01 15:06 : client: [73] closed
+May 01 15:06 : client: [74] opened from 127.0.0.1:58320
+May 01 15:06 : client: [74] closed
+May 01 15:06 : client: [75] opened from 127.0.0.1:58324
+May 01 15:06 : client: [75] closed
+May 01 15:06 : client: [76] opened from 127.0.0.1:58328
+May 01 15:06 : client: [76] closed
+May 01 15:07 : client: [77] opened from 127.0.0.1:58332
+May 01 15:07 : client: [77] closed
+May 01 15:07 : client: [78] opened from 127.0.0.1:58336
+May 01 15:07 : client: [78] closed
+May 01 15:09 : client: [50] closed
+May 01 15:09 : client: [79] opened from 127.0.0.1:58342
+May 01 15:09 : client: [80] opened from 127.0.0.1:58346
+May 01 15:09 : client: [80] closed
+May 01 15:09 : client: [81] opened from 127.0.0.1:58350
+May 01 15:09 : client: [81] closed
+May 01 15:13 : client: [79] closed
+May 01 15:13 : client: [82] opened from 127.0.0.1:58352
+May 01 15:13 : client: [83] opened from 127.0.0.1:58358
+May 01 15:13 : client: [83] closed
+May 01 15:13 : client: [84] opened from 127.0.0.1:58362
+May 01 15:13 : client: [84] closed
+May 01 15:14 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/06-around_the_world__harder_better_faster_stronger-xds.mp3"
+May 01 15:16 : client: [85] opened from 127.0.0.1:58366
+May 01 15:16 : client: [85] closed
+May 01 15:16 : client: [86] opened from 127.0.0.1:58370
+May 01 15:16 : client: [86] closed
+May 01 15:18 : client: [82] closed
+May 01 15:18 : client: [87] opened from 127.0.0.1:58372
+May 01 15:19 : player: played "Radiohead/(1993) Pablo Honey/05 Radiohead - Thinking About You.mp3"
+May 01 15:21 : client: [87] closed
+May 01 15:21 : client: [88] opened from 127.0.0.1:58380
+May 01 15:22 : client: [89] opened from 127.0.0.1:58384
+May 01 15:22 : client: [89] closed
+May 01 15:22 : client: [90] opened from 127.0.0.1:58388
+May 01 15:22 : client: [90] closed
+May 01 15:22 : player: played "U2/15 - Vertigo.mp3"
+May 01 15:23 : client: [88] closed
+May 01 15:23 : client: [91] opened from 127.0.0.1:58390
+May 01 15:23 : client: [92] opened from 127.0.0.1:58394
+May 01 15:23 : client: [92] closed
+May 01 15:23 : client: [93] opened from 127.0.0.1:58398
+May 01 15:23 : client: [93] closed
+May 01 15:24 : client: [91] closed
+May 01 15:24 : client: [94] opened from 127.0.0.1:58402
+May 01 15:25 : client: [94] closed
+May 01 15:25 : client: [95] opened from 127.0.0.1:58404
+May 01 15:25 : client: [96] opened from 127.0.0.1:58408
+May 01 15:25 : client: [96] closed
+May 01 15:25 : client: [97] opened from 127.0.0.1:58412
+May 01 15:25 : client: [97] closed
+May 01 15:25 : player: played "Sexual_Healing_GG@SG/13-marvin_gaye-come_get_to_this.mp3"
+May 01 15:26 : client: [95] closed
+May 01 15:26 : client: [98] opened from 127.0.0.1:58414
+May 01 15:26 : client: [99] opened from 127.0.0.1:58418
+May 01 15:26 : client: [99] closed
+May 01 15:26 : client: [100] opened from 127.0.0.1:58422
+May 01 15:26 : client: [100] closed
+May 01 15:26 : client: [101] opened from 127.0.0.1:58426
+May 01 15:26 : client: [101] closed
+May 01 15:29 : client: [102] opened from 127.0.0.1:58432
+May 01 15:29 : client: [102] closed
+May 01 15:29 : client: [98] closed
+May 01 15:29 : client: [103] opened from 127.0.0.1:58434
+May 01 15:30 : client: [103] closed
+May 01 15:30 : client: [104] opened from 127.0.0.1:58436
+May 01 15:32 : player: played "scorpions/in trance.wma"
+May 01 15:33 : client: [105] opened from 127.0.0.1:58444
+May 01 15:33 : client: [105] closed
+May 01 15:37 : player: played "Radiohead/(1993) Pablo Honey/13 Radiohead - Creep (Radio Edit).mp3"
+May 01 15:37 : client: [106] opened from 127.0.0.1:58460
+May 01 15:37 : client: [106] closed
+May 01 15:37 : client: [107] opened from 127.0.0.1:58464
+May 01 15:37 : client: [107] closed
+May 01 15:37 : client: [108] opened from 127.0.0.1:58468
+May 01 15:37 : client: [108] closed
+May 01 15:37 : client: [109] opened from 127.0.0.1:58472
+May 01 15:37 : client: [109] closed
+May 01 15:38 : client: [110] opened from 127.0.0.1:58476
+May 01 15:38 : client: [110] closed
+May 01 15:38 : client: [111] opened from 127.0.0.1:58480
+May 01 15:38 : client: [111] closed
+May 01 15:38 : client: [112] opened from 127.0.0.1:58484
+May 01 15:38 : client: [112] closed
+May 01 15:41 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 11 - Painter Song.mp3"
+May 01 15:41 : client: [113] opened from 127.0.0.1:58536
+May 01 15:41 : client: [113] closed
+May 01 15:45 : player: played "scorpions/no one like you.wma"
+May 01 15:47 : client: [104] closed
+May 01 15:47 : client: [114] opened from 127.0.0.1:58562
+May 01 15:47 : client: [115] opened from 127.0.0.1:58566
+May 01 15:47 : client: [115] closed
+May 01 15:47 : client: [116] opened from 127.0.0.1:58570
+May 01 15:47 : client: [116] closed
+May 01 15:47 : client: [117] opened from 127.0.0.1:58574
+May 01 15:47 : client: [117] closed
+May 01 15:47 : client: [118] opened from 127.0.0.1:58578
+May 01 15:47 : client: [118] closed
+May 01 15:49 : client: [114] closed
+May 01 15:50 : client: [119] opened from 127.0.0.1:58582
+May 01 15:50 : client: [119] closed
+May 01 15:50 : client: [120] opened from 127.0.0.1:58584
+May 01 15:50 : client: [120] closed
+May 01 15:50 : client: [121] opened from 127.0.0.1:58586
+May 01 15:51 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 01 - One More Time.mp3"
+May 01 15:51 : client: [122] opened from 127.0.0.1:58590
+May 01 15:51 : client: [122] closed
+May 01 15:51 : client: [123] opened from 127.0.0.1:58594
+May 01 15:51 : client: [123] closed
+May 01 15:51 : client: [124] opened from 127.0.0.1:58598
+May 01 15:51 : client: [124] closed
+May 01 15:51 : client: [125] opened from 127.0.0.1:58602
+May 01 15:51 : client: [125] closed
+May 01 15:51 : client: [126] opened from 127.0.0.1:58606
+May 01 15:51 : client: [126] closed
+May 01 15:53 : client: [121] closed
+May 01 15:53 : client: [127] opened from 127.0.0.1:58608
+May 01 15:53 : client: [128] opened from 127.0.0.1:58612
+May 01 15:53 : client: [128] closed
+May 01 15:53 : client: [129] opened from 127.0.0.1:58616
+May 01 15:53 : client: [129] closed
+May 01 15:54 : client: [127] closed
+May 01 15:54 : client: [130] opened from 127.0.0.1:58620
+May 01 15:56 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 10 - I Can't Get Started.mp3"
+May 01 15:56 : client: [131] opened from 127.0.0.1:58624
+May 01 15:56 : client: [131] closed
+May 01 15:56 : client: [132] opened from 127.0.0.1:58628
+May 01 15:56 : client: [132] closed
+May 01 15:56 : client: [133] opened from 127.0.0.1:58632
+May 01 15:56 : client: [133] closed
+May 01 15:56 : client: [134] opened from 127.0.0.1:58636
+May 01 15:56 : client: [134] closed
+May 01 15:56 : client: [135] opened from 127.0.0.1:58640
+May 01 15:56 : client: [135] closed
+May 01 15:56 : client: [136] opened from 127.0.0.1:58644
+May 01 15:56 : client: [136] closed
+May 01 15:56 : client: [137] opened from 127.0.0.1:58648
+May 01 15:56 : client: [137] closed
+May 01 15:56 : client: [138] opened from 127.0.0.1:58652
+May 01 15:56 : client: [138] closed
+May 01 15:56 : client: [139] opened from 127.0.0.1:58656
+May 01 15:56 : client: [139] closed
+May 01 15:56 : client: [140] opened from 127.0.0.1:58660
+May 01 15:56 : client: [140] closed
+May 01 15:56 : client: [141] opened from 127.0.0.1:58664
+May 01 15:56 : client: [141] closed
+May 01 15:56 : client: [142] opened from 127.0.0.1:58668
+May 01 15:56 : client: [142] closed
+May 01 15:56 : client: [143] opened from 127.0.0.1:58672
+May 01 15:56 : client: [143] closed
+May 01 15:56 : client: [144] opened from 127.0.0.1:58676
+May 01 15:56 : client: [144] closed
+May 01 15:59 : player: played "Cheb Khaled/Cheb khaled-cherebha rikar.mp3"
+May 01 15:59 : client: [145] opened from 127.0.0.1:58760
+May 01 15:59 : client: [145] closed
+May 01 15:59 : client: [146] opened from 127.0.0.1:58764
+May 01 15:59 : client: [146] closed
+May 01 15:59 : client: [147] opened from 127.0.0.1:58768
+May 01 15:59 : client: [147] closed
+May 01 15:59 : client: [148] opened from 127.0.0.1:58772
+May 01 15:59 : client: [148] closed
+May 01 15:59 : client: [149] opened from 127.0.0.1:58776
+May 01 15:59 : client: [149] closed
+May 01 16:01 : client: [130] closed
+May 01 16:01 : client: [150] opened from 127.0.0.1:58778
+May 01 16:01 : client: [151] opened from 127.0.0.1:58782
+May 01 16:01 : client: [151] closed
+May 01 16:01 : client: [152] opened from 127.0.0.1:58786
+May 01 16:01 : client: [152] closed
+May 01 16:02 : client: [153] opened from 127.0.0.1:58794
+May 01 16:02 : client: [153] closed
+May 01 16:02 : client: [154] opened from 127.0.0.1:58798
+May 01 16:02 : client: [154] closed
+May 01 16:02 : client: [155] opened from 127.0.0.1:58802
+May 01 16:02 : player: played "megadeth/04 Devils Island.mp3"
+May 01 16:02 : client: [155] closed
+May 01 16:06 : client: [0] opened from 127.0.0.1:38604
+May 01 16:06 : client: [1] opened from 127.0.0.1:38606
+May 01 16:06 : client: [2] opened from 127.0.0.1:38610
+May 01 16:06 : client: [2] closed
+May 01 16:06 : client: [3] opened from 127.0.0.1:38614
+May 01 16:06 : client: [4] opened from 127.0.0.1:38618
+May 01 16:06 : client: [3] closed
+May 01 16:06 : client: [4] closed
+May 01 16:06 : client: [5] opened from 127.0.0.1:38622
+May 01 16:06 : client: [5] closed
+May 01 16:06 : client: [6] opened from 127.0.0.1:38626
+May 01 16:06 : client: [6] closed
+May 01 16:06 : client: [7] opened from 127.0.0.1:38630
+May 01 16:06 : client: [7] closed
+May 01 16:06 : client: [8] opened from 127.0.0.1:38634
+May 01 16:06 : client: [8] closed
+May 01 16:08 : client: [1] closed
+May 01 16:08 : client: [9] opened from 127.0.0.1:38638
+May 01 16:08 : client: [10] opened from 127.0.0.1:38642
+May 01 16:08 : client: [10] closed
+May 01 16:08 : client: [11] opened from 127.0.0.1:38646
+May 01 16:08 : client: [11] closed
+May 01 16:09 : player: played "Norah Jones/Marian McPartland's Piano Jazz (with Norah Jones)/Norah Jones - Marian McPartland's Piano Jazz (with Norah Jones) - 18 - Beautiful Friendship.mp3"
+May 01 16:13 : client: [12] opened from 127.0.0.1:38716
+May 01 16:13 : client: [12] closed
+May 01 16:14 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 02 - WDPK 83.7 FM.mp3"
+May 01 16:14 : client: [13] opened from 127.0.0.1:38720
+May 01 16:14 : player: played "Sexual_Healing_GG@SG/13-marvin_gaye-come_get_to_this.mp3"
+May 01 16:14 : client: [13] closed
+May 01 16:14 : client: [9] closed
+May 01 16:14 : client: [14] opened from 127.0.0.1:38722
+May 01 16:19 : client: [0] opened from 127.0.0.1:60794
+May 01 16:19 : client: [1] opened from 127.0.0.1:60796
+May 01 16:19 : client: [2] opened from 127.0.0.1:60800
+May 01 16:19 : client: [2] closed
+May 01 16:19 : client: [3] opened from 127.0.0.1:60804
+May 01 16:19 : client: [3] closed
+May 01 16:19 : client: [4] opened from 127.0.0.1:60808
+May 01 16:19 : client: [4] closed
+May 01 16:19 : client: [5] opened from 127.0.0.1:60812
+May 01 16:19 : client: [5] closed
+May 01 16:19 : client: [6] opened from 127.0.0.1:60816
+May 01 16:19 : client: [6] closed
+May 01 16:21 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 13 - The Long Day Is Over.mp3"
+May 01 16:24 : client: [1] closed
+May 01 16:24 : client: [7] opened from 127.0.0.1:60820
+May 01 16:24 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 06 - Moon Is In Your Eyes.mp3"
+May 01 16:27 : player: played "Norah Jones/First Sessions/Norah Jones - First Sessions - 04 - Turn Me On.mp3"
+May 01 16:27 : player: played "Arkan - Salam 2011 (320 kbps)/09 - Salam.mp3"
+May 01 16:28 : client: [8] opened from 127.0.0.1:60890
+May 01 16:28 : client: [8] closed
+May 01 16:28 : client: [7] closed
+May 01 16:28 : client: [9] opened from 127.0.0.1:60892
+May 01 16:28 : client: [10] opened from 127.0.0.1:60896
+May 01 16:28 : client: [10] closed
+May 01 16:28 : client: [11] opened from 127.0.0.1:60900
+May 01 16:28 : client: [11] closed
+May 01 16:30 : client: [12] opened from 127.0.0.1:60904
+May 01 16:30 : client: [12] closed
+May 01 16:30 : client: [13] opened from 127.0.0.1:60908
+May 01 16:30 : client: [13] closed
+May 01 16:30 : client: [14] opened from 127.0.0.1:60912
+May 01 16:30 : client: [14] closed
+May 01 16:30 : client: [15] opened from 127.0.0.1:60916
+May 01 16:30 : client: [15] closed
+May 01 16:32 : player: played "Norah Jones/Others/Norah Jones - What Would I Do.mp3"
+May 01 16:33 : client: [16] opened from 127.0.0.1:60922
+May 01 16:33 : client: [16] closed
+May 01 16:33 : client: [17] opened from 127.0.0.1:60926
+May 01 16:33 : client: [17] closed
+May 01 16:36 : player: played "R.E.M/R.E.M.The Best Of Rem (In Time 1988-2003)/17. At My Most Beautiful.mp3"
+May 01 16:37 : client: [18] opened from 127.0.0.1:60942
+May 01 16:37 : client: [18] closed
+May 01 16:38 : client: [19] opened from 127.0.0.1:60946
+May 01 16:38 : client: [19] closed
+May 01 16:40 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 07 - Superheroes.mp3"
+May 01 16:41 : client: [20] opened from 127.0.0.1:60954
+May 01 16:41 : client: [20] closed
+May 01 16:41 : client: [21] opened from 127.0.0.1:60958
+May 01 16:41 : client: [21] closed
+May 01 16:41 : client: [22] opened from 127.0.0.1:60962
+May 01 16:41 : client: [22] closed
+May 01 16:41 : client: [23] opened from 127.0.0.1:60966
+May 01 16:41 : client: [23] closed
+May 01 16:41 : client: [24] opened from 127.0.0.1:60970
+May 01 16:41 : client: [24] closed
+May 01 16:41 : client: [25] opened from 127.0.0.1:60974
+May 01 16:41 : client: [25] closed
+May 01 16:41 : client: [26] opened from 127.0.0.1:60978
+May 01 16:41 : client: [26] closed
+May 01 16:41 : client: [27] opened from 127.0.0.1:60982
+May 01 16:41 : client: [27] closed
+May 01 16:41 : client: [28] opened from 127.0.0.1:60986
+May 01 16:41 : player: played "Norah Jones/Live in Paris/Norah Jones - Live in Paris - 12 - The Long Way Home.mp3"
+May 01 16:41 : client: [28] closed
+May 01 18:49 : client: [0] opened from 127.0.0.1:34374
+May 01 18:49 : client: [1] opened from 127.0.0.1:34376
+May 01 18:49 : client: [0] closed
+May 01 18:49 : client: [2] opened from 127.0.0.1:34380
+May 01 18:49 : client: [3] opened from 127.0.0.1:34422
+May 01 18:49 : client: [3] closed
+May 01 18:49 : client: [4] opened from 127.0.0.1:34430
+May 01 18:49 : client: [4] closed
+May 01 18:49 : client: [5] opened from 127.0.0.1:34434
+May 01 18:49 : client: [5] closed
+May 01 18:49 : client: [6] opened from 127.0.0.1:34438
+May 01 18:49 : client: [6] closed
+May 01 18:49 : client: [7] opened from 127.0.0.1:34442
+May 01 18:49 : client: [7] closed
+May 01 18:49 : client: [8] opened from 127.0.0.1:34446
+May 01 18:49 : client: [8] closed
+May 01 18:49 : client: [9] opened from 127.0.0.1:34450
+May 01 18:49 : client: [9] closed
+May 01 18:49 : client: [10] opened from 127.0.0.1:34454
+May 01 18:49 : client: [10] closed
+May 01 18:52 : client: [1] closed
+May 01 18:52 : client: [11] opened from 127.0.0.1:34456
+May 01 18:52 : client: [12] opened from 127.0.0.1:34460
+May 01 18:52 : player: played "Norah Jones/Others/Norah Jones & Laszlo - Butterflies.mp3"
+May 01 18:52 : client: [12] closed
+May 01 20:27 : client: [0] opened from 127.0.0.1:54740
+May 01 20:27 : client: [1] opened from 127.0.0.1:54744
+May 01 20:28 : client: [2] opened from 127.0.0.1:54748
+May 01 20:28 : client: [2] closed
+May 01 20:31 : player: played "scorpions/2001 - Acoustica (C)/07 - Dust In The Wind.mp3"
+May 01 20:32 : client: [3] opened from 127.0.0.1:54824
+May 01 20:32 : client: [3] closed
+May 01 20:32 : client: [4] opened from 127.0.0.1:54828
+May 01 20:32 : client: [4] closed
+May 01 20:32 : client: [5] opened from 127.0.0.1:54832
+May 01 20:32 : client: [5] closed
+May 01 20:32 : client: [6] opened from 127.0.0.1:54836
+May 01 20:32 : client: [6] closed
+May 01 20:32 : client: [7] opened from 127.0.0.1:54840
+May 01 20:32 : client: [7] closed
+May 01 20:32 : client: [8] opened from 127.0.0.1:54844
+May 01 20:32 : client: [8] closed
+May 01 20:32 : client: [9] opened from 127.0.0.1:54848
+May 01 20:32 : client: [9] closed
+May 01 20:32 : client: [10] opened from 127.0.0.1:54852
+May 01 20:32 : client: [10] closed
+May 01 20:32 : client: [11] opened from 127.0.0.1:54856
+May 01 20:32 : client: [11] closed
+May 01 20:32 : client: [12] opened from 127.0.0.1:54860
+May 01 20:32 : client: [12] closed
+May 01 20:32 : client: [13] opened from 127.0.0.1:54864
+May 01 20:32 : client: [13] closed
+May 01 20:32 : client: [14] opened from 127.0.0.1:54868
+May 01 20:32 : client: [14] closed
+May 01 20:32 : client: [15] opened from 127.0.0.1:54872
+May 01 20:32 : client: [15] closed
+May 01 20:32 : client: [16] opened from 127.0.0.1:54876
+May 01 20:32 : client: [16] closed
+May 01 20:32 : client: [17] opened from 127.0.0.1:54880
+May 01 20:32 : client: [18] opened from 127.0.0.1:54884
+May 01 20:32 : client: [17] closed
+May 01 20:32 : client: [18] closed
+May 01 20:32 : client: [19] opened from 127.0.0.1:54888
+May 01 20:32 : client: [19] closed
+May 01 20:32 : client: [20] opened from 127.0.0.1:54892
+May 01 20:32 : client: [20] closed
+May 01 20:32 : client: [21] opened from 127.0.0.1:54896
+May 01 20:32 : client: [21] closed
+May 01 20:32 : client: [22] opened from 127.0.0.1:54900
+May 01 20:32 : client: [22] closed
+May 01 20:32 : client: [23] opened from 127.0.0.1:54904
+May 01 20:32 : client: [23] closed
+May 01 20:32 : client: [24] opened from 127.0.0.1:54908
+May 01 20:32 : client: [24] closed
+May 01 20:32 : client: [25] opened from 127.0.0.1:54912
+May 01 20:32 : client: [25] closed
+May 01 20:32 : client: [26] opened from 127.0.0.1:54916
+May 01 20:32 : client: [26] closed
+May 01 20:32 : client: [27] opened from 127.0.0.1:54920
+May 01 20:32 : client: [27] closed
+May 01 20:32 : client: [28] opened from 127.0.0.1:54924
+May 01 20:32 : client: [28] closed
+May 01 20:32 : client: [29] opened from 127.0.0.1:54928
+May 01 20:32 : client: [29] closed
+May 01 20:32 : client: [30] opened from 127.0.0.1:54932
+May 01 20:32 : client: [30] closed
+May 01 20:32 : client: [31] opened from 127.0.0.1:54936
+May 01 20:32 : client: [31] closed
+May 01 20:32 : client: [32] opened from 127.0.0.1:54940
+May 01 20:32 : client: [32] closed
+May 01 20:32 : client: [33] opened from 127.0.0.1:54944
+May 01 20:32 : client: [33] closed
+May 01 20:33 : client: [34] opened from 127.0.0.1:54948
+May 01 20:33 : client: [34] closed
+May 01 20:33 : client: [35] opened from 127.0.0.1:54952
+May 01 20:33 : client: [35] closed
+May 01 20:33 : client: [36] opened from 127.0.0.1:54956
+May 01 20:33 : client: [36] closed
+May 01 20:33 : client: [37] opened from 127.0.0.1:54960
+May 01 20:33 : client: [37] closed
+May 01 20:33 : client: [38] opened from 127.0.0.1:54964
+May 01 20:33 : client: [38] closed
+May 01 20:33 : client: [39] opened from 127.0.0.1:54968
+May 01 20:33 : client: [39] closed
+May 01 20:33 : client: [40] opened from 127.0.0.1:54972
+May 01 20:33 : client: [40] closed
+May 01 20:33 : client: [41] opened from 127.0.0.1:54976
+May 01 20:33 : client: [41] closed
+May 01 20:33 : client: [42] opened from 127.0.0.1:54980
+May 01 20:33 : client: [42] closed
+May 01 20:33 : client: [43] opened from 127.0.0.1:54984
+May 01 20:33 : client: [43] closed
+May 01 20:33 : client: [44] opened from 127.0.0.1:54988
+May 01 20:33 : client: [44] closed
+May 01 22:15 : client: [45] opened from 127.0.0.1:55512
+May 01 22:15 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+May 01 22:15 : client: [45] closed
+May 03 18:45 : client: [0] opened from 127.0.0.1:60140
+May 03 18:45 : client: [1] opened from 127.0.0.1:60144
+May 03 18:45 : client: [2] opened from 127.0.0.1:60148
+May 03 18:45 : client: [2] closed
+May 03 18:45 : client: [3] opened from 127.0.0.1:60152
+May 03 18:45 : client: [3] closed
+May 03 18:45 : client: [4] opened from 127.0.0.1:60156
+May 03 18:45 : client: [4] closed
+May 03 18:45 : client: [5] opened from 127.0.0.1:60160
+May 03 18:45 : client: [5] closed
+May 03 18:45 : client: [6] opened from 127.0.0.1:60164
+May 03 18:45 : client: [6] closed
+May 03 18:45 : client: [7] opened from 127.0.0.1:60168
+May 03 18:45 : client: [7] closed
+May 03 18:45 : client: [8] opened from 127.0.0.1:60172
+May 03 18:45 : client: [8] closed
+May 03 18:45 : client: [9] opened from 127.0.0.1:60176
+May 03 18:45 : client: [9] closed
+May 03 18:45 : client: [10] opened from 127.0.0.1:60180
+May 03 18:45 : client: [10] closed
+May 03 18:45 : client: [11] opened from 127.0.0.1:60184
+May 03 18:45 : client: [11] closed
+May 03 18:45 : client: [12] opened from 127.0.0.1:60188
+May 03 18:45 : client: [12] closed
+May 03 18:45 : client: [13] opened from 127.0.0.1:60192
+May 03 18:45 : client: [13] closed
+May 03 18:45 : client: [14] opened from 127.0.0.1:60194
+May 03 18:49 : client: [14] closed
+May 03 18:49 : client: [15] opened from 127.0.0.1:60200
+May 03 18:49 : client: [15] closed
+May 03 18:49 : client: [16] opened from 127.0.0.1:60204
+May 03 18:49 : client: [16] closed
+May 03 18:49 : client: [17] opened from 127.0.0.1:60208
+May 03 18:49 : client: [17] closed
+May 03 18:49 : client: [18] opened from 127.0.0.1:60212
+May 03 18:49 : client: [18] closed
+May 03 18:49 : client: [19] opened from 127.0.0.1:60216
+May 03 18:49 : client: [19] closed
+May 03 18:49 : client: [20] opened from 127.0.0.1:60220
+May 03 18:49 : client: [20] closed
+May 03 18:49 : client: [21] opened from 127.0.0.1:60224
+May 03 18:49 : client: [21] closed
+May 03 18:49 : client: [22] opened from 127.0.0.1:60228
+May 03 18:49 : client: [22] closed
+May 03 18:49 : client: [23] opened from 127.0.0.1:60232
+May 03 18:49 : client: [23] closed
+May 03 18:49 : client: [24] opened from 127.0.0.1:60236
+May 03 18:49 : player: played "Tinariwen - Aman Iman- Water Is Life/11 - Tinariwen - Assouf.mp3"
+May 03 18:49 : client: [24] closed
+May 04 07:58 : client: [0] opened from 127.0.0.1:36436
+May 04 07:58 : client: [1] opened from 127.0.0.1:36438
+May 04 07:58 : client: [2] opened from 127.0.0.1:36442
+May 04 07:58 : client: [2] closed
+May 04 07:58 : client: [3] opened from 127.0.0.1:36446
+May 04 07:58 : client: [3] closed
+May 04 07:58 : client: [4] opened from 127.0.0.1:36450
+May 04 07:58 : client: [4] closed
+May 04 07:58 : client: [5] opened from 127.0.0.1:36454
+May 04 07:58 : client: [5] closed
+May 04 07:58 : client: [6] opened from 127.0.0.1:36458
+May 04 07:58 : client: [6] closed
+May 04 07:58 : client: [7] opened from 127.0.0.1:36462
+May 04 07:58 : client: [7] closed
+May 04 07:58 : client: [8] opened from 127.0.0.1:36466
+May 04 07:58 : client: [8] closed
+May 04 07:58 : client: [9] opened from 127.0.0.1:36470
+May 04 07:58 : client: [9] closed
+May 04 07:58 : client: [10] opened from 127.0.0.1:36474
+May 04 07:58 : client: [10] closed
+May 04 08:03 : player: played "Radiohead/(1997) OK Computer/06 Radiohead - Karma Police.mp3"
+May 04 08:06 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 04 - Harder, Better, Faster, Stronger.mp3"
+May 04 08:06 : client: [11] opened from 127.0.0.1:36504
+May 04 08:06 : client: [11] closed
+May 04 08:07 : client: [12] opened from 127.0.0.1:36508
+May 04 08:07 : client: [12] closed
+May 04 08:07 : client: [13] opened from 127.0.0.1:36512
+May 04 08:07 : client: [13] closed
+May 04 08:07 : client: [14] opened from 127.0.0.1:36516
+May 04 08:07 : client: [14] closed
+May 04 08:07 : client: [15] opened from 127.0.0.1:36520
+May 04 08:07 : client: [15] closed
+May 04 08:07 : client: [16] opened from 127.0.0.1:36524
+May 04 08:07 : client: [16] closed
+May 04 08:11 : player: played "Norah Jones/Others/Norah Jones & Ray Charles - Here We Go Again.mp3"
+May 04 08:14 : player: played "The Pixies/Doolittle/05 Here Comes Your Man.mp3"
+May 04 08:20 : player: played "metallica/Metallica - The Greatest Hits 2011 2CDRip [Bubanee]/Metallica - The Greatest Hits CD2 [Bubanee]/02 - Broken, Beat & Scarred.mp3"
+May 04 08:21 : client: [17] opened from 127.0.0.1:36688
+May 04 08:21 : client: [17] closed
+May 04 08:24 : client: [18] opened from 127.0.0.1:36694
+May 04 08:24 : client: [18] closed
+May 04 08:28 : player: played "scorpions/2001 - Acoustica (C)/08 - Send Me An Angel.mp3"
+May 04 08:32 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/10. Effets secondaires.mp3"
+May 04 08:35 : client: [19] opened from 127.0.0.1:36814
+May 04 08:35 : client: [19] closed
+May 04 08:35 : client: [20] opened from 127.0.0.1:36818
+May 04 08:35 : client: [20] closed
+May 04 08:35 : client: [21] opened from 127.0.0.1:36822
+May 04 08:35 : client: [21] closed
+May 04 08:35 : client: [22] opened from 127.0.0.1:36826
+May 04 08:35 : client: [22] closed
+May 04 08:35 : client: [23] opened from 127.0.0.1:36830
+May 04 08:35 : client: [23] closed
+May 04 08:40 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 04 - Da Funk.mp3"
+May 04 08:40 : client: [24] opened from 127.0.0.1:36842
+May 04 08:40 : client: [24] closed
+May 04 08:41 : client: [25] opened from 127.0.0.1:36846
+May 04 08:41 : client: [25] closed
+May 04 08:41 : client: [26] opened from 127.0.0.1:36850
+May 04 08:41 : client: [26] closed
+May 04 08:41 : client: [27] opened from 127.0.0.1:36856
+May 04 08:41 : client: [27] closed
+May 04 08:41 : client: [28] opened from 127.0.0.1:36860
+May 04 08:41 : client: [28] closed
+May 04 08:41 : client: [29] opened from 127.0.0.1:36864
+May 04 08:41 : client: [29] closed
+May 04 08:41 : client: [30] opened from 127.0.0.1:36868
+May 04 08:41 : client: [31] opened from 127.0.0.1:36872
+May 04 08:41 : client: [30] closed
+May 04 08:41 : client: [31] closed
+May 04 08:41 : client: [32] opened from 127.0.0.1:36876
+May 04 08:41 : client: [32] closed
+May 04 08:41 : client: [33] opened from 127.0.0.1:36880
+May 04 08:41 : client: [34] opened from 127.0.0.1:36884
+May 04 08:41 : client: [33] closed
+May 04 08:41 : client: [34] closed
+May 04 08:41 : client: [35] opened from 127.0.0.1:36888
+May 04 08:41 : client: [35] closed
+May 04 08:41 : client: [36] opened from 127.0.0.1:36892
+May 04 08:41 : client: [36] closed
+May 04 08:41 : client: [37] opened from 127.0.0.1:36896
+May 04 08:41 : client: [37] closed
+May 04 08:41 : client: [38] opened from 127.0.0.1:36900
+May 04 08:41 : client: [38] closed
+May 04 08:41 : client: [39] opened from 127.0.0.1:36904
+May 04 08:41 : client: [39] closed
+May 04 08:42 : client: [40] opened from 127.0.0.1:36912
+May 04 08:42 : client: [40] closed
+May 04 08:43 : client: [41] opened from 127.0.0.1:36916
+May 04 08:43 : client: [41] closed
+May 04 08:48 : client: [42] opened from 127.0.0.1:36928
+May 04 08:48 : client: [42] closed
+May 04 08:48 : client: [43] opened from 127.0.0.1:36932
+May 04 08:48 : client: [43] closed
+May 04 08:48 : client: [44] opened from 127.0.0.1:36936
+May 04 08:48 : client: [44] closed
+May 04 08:55 : client: [45] opened from 127.0.0.1:36998
+May 04 08:55 : client: [45] closed
+May 04 08:55 : client: [46] opened from 127.0.0.1:37002
+May 04 08:55 : client: [46] closed
+May 04 08:55 : client: [47] opened from 127.0.0.1:37006
+May 04 08:55 : client: [47] closed
+May 04 08:55 : client: [48] opened from 127.0.0.1:37010
+May 04 08:55 : client: [48] closed
+May 04 08:55 : client: [49] opened from 127.0.0.1:37014
+May 04 08:55 : client: [49] closed
+May 04 08:55 : client: [50] opened from 127.0.0.1:37018
+May 04 08:55 : client: [50] closed
+May 04 08:55 : client: [51] opened from 127.0.0.1:37022
+May 04 08:55 : client: [51] closed
+May 04 08:55 : client: [52] opened from 127.0.0.1:37026
+May 04 08:55 : client: [52] closed
+May 04 08:55 : client: [53] opened from 127.0.0.1:37030
+May 04 08:55 : client: [53] closed
+May 04 08:55 : client: [54] opened from 127.0.0.1:37034
+May 04 08:55 : client: [54] closed
+May 04 08:55 : client: [55] opened from 127.0.0.1:37038
+May 04 08:55 : client: [55] closed
+May 04 08:55 : client: [56] opened from 127.0.0.1:37042
+May 04 08:55 : client: [56] closed
+May 04 08:55 : client: [57] opened from 127.0.0.1:37046
+May 04 08:55 : client: [57] closed
+May 04 08:55 : client: [58] opened from 127.0.0.1:37050
+May 04 08:55 : client: [58] closed
+May 04 08:55 : client: [59] opened from 127.0.0.1:37054
+May 04 08:55 : client: [59] closed
+May 04 08:55 : client: [60] opened from 127.0.0.1:37058
+May 04 08:55 : client: [60] closed
+May 04 09:00 : client: [61] opened from 127.0.0.1:37068
+May 04 09:00 : client: [61] closed
+May 04 09:00 : client: [62] opened from 127.0.0.1:37072
+May 04 09:00 : client: [62] closed
+May 04 09:00 : client: [63] opened from 127.0.0.1:37076
+May 04 09:00 : client: [63] closed
+May 04 09:01 : client: [64] opened from 127.0.0.1:37084
+May 04 09:01 : client: [64] closed
+May 04 10:22 : client: [65] opened from 127.0.0.1:38462
+May 04 10:22 : client: [65] closed
+May 04 10:22 : client: [66] opened from 127.0.0.1:38472
+May 04 10:22 : client: [66] closed
+May 04 10:22 : client: [67] opened from 127.0.0.1:38500
+May 04 10:22 : client: [67] closed
+May 04 10:22 : client: [68] opened from 127.0.0.1:38504
+May 04 10:22 : client: [68] closed
+May 04 10:22 : client: [69] opened from 127.0.0.1:38508
+May 04 10:22 : client: [69] closed
+May 04 10:22 : client: [70] opened from 127.0.0.1:38512
+May 04 10:22 : client: [70] closed
+May 04 10:22 : client: [71] opened from 127.0.0.1:38516
+May 04 10:22 : client: [71] closed
+May 04 10:22 : client: [72] opened from 127.0.0.1:38520
+May 04 10:22 : client: [72] closed
+May 04 10:22 : client: [73] opened from 127.0.0.1:38524
+May 04 10:22 : client: [73] closed
+May 04 10:25 : client: [74] opened from 127.0.0.1:38578
+May 04 10:25 : client: [74] closed
+May 04 11:03 : player: played "Sexual_Healing_GG@SG/04-teddy_pendergrass-youre_my_latest_my_greatest_inspiration.mp3"
+May 04 12:58 : client: [0] opened from 127.0.0.1:35752
+May 04 12:58 : client: [1] opened from 127.0.0.1:35754
+May 04 12:58 : client: [2] opened from 127.0.0.1:35758
+May 04 12:58 : client: [2] closed
+May 04 13:00 : client: [1] closed
+May 04 13:00 : client: [3] opened from 127.0.0.1:35760
+May 04 13:01 : player: played "Sexual_Healing_GG@SG/04-teddy_pendergrass-youre_my_latest_my_greatest_inspiration.mp3"
+May 04 13:01 : client: [4] opened from 127.0.0.1:35764
+May 04 13:01 : client: [4] closed
+May 04 13:01 : client: [5] opened from 127.0.0.1:35768
+May 04 13:01 : client: [5] closed
+May 04 13:05 : client: [3] closed
+May 04 13:05 : client: [6] opened from 127.0.0.1:35774
+May 04 13:06 : client: [6] closed
+May 04 13:06 : client: [7] opened from 127.0.0.1:35776
+May 04 13:06 : client: [8] opened from 127.0.0.1:35780
+May 04 13:06 : client: [8] closed
+May 04 13:07 : client: [9] opened from 127.0.0.1:35784
+May 04 13:07 : client: [9] closed
+May 04 13:07 : client: [10] opened from 127.0.0.1:35788
+May 04 13:07 : client: [10] closed
+May 04 13:07 : client: [11] opened from 127.0.0.1:35792
+May 04 13:07 : client: [11] closed
+May 04 13:07 : client: [12] opened from 127.0.0.1:35796
+May 04 13:07 : client: [12] closed
+May 04 13:07 : client: [13] opened from 127.0.0.1:35800
+May 04 13:07 : client: [13] closed
+May 04 13:07 : client: [14] opened from 127.0.0.1:35804
+May 04 13:07 : client: [14] closed
+May 04 13:07 : client: [15] opened from 127.0.0.1:35808
+May 04 13:07 : client: [15] closed
+May 04 13:19 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/05-too_long__steam_machine-xds.mp3"
+May 05 17:14 : client: [0] opened from 127.0.0.1:45746
+May 05 17:14 : client: [1] opened from 127.0.0.1:45750
+May 05 17:14 : client: [1] closed
+May 05 17:14 : client: [2] opened from 127.0.0.1:45752
+May 05 17:15 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/05-too_long__steam_machine-xds.mp3"
+May 05 17:17 : player: played "The Pixies/Surfer Rosa/08 Cactus.mp3"
+May 05 17:20 : player: played "Norah Jones/Norah Jones - Not Too Late (2007) - Jazz By FEFE2003/09 - Wake Me Up.mp3"
+May 05 17:20 : client: [3] opened from 127.0.0.1:45834
+May 05 17:20 : client: [3] closed
+May 05 17:20 : client: [4] opened from 127.0.0.1:45838
+May 05 17:20 : client: [4] closed
+May 05 17:20 : client: [5] opened from 127.0.0.1:45842
+May 05 17:20 : client: [5] closed
+May 05 17:20 : client: [6] opened from 127.0.0.1:45846
+May 05 17:20 : client: [6] closed
+May 05 17:20 : client: [7] opened from 127.0.0.1:45850
+May 05 17:20 : client: [7] closed
+May 05 17:20 : client: [8] opened from 127.0.0.1:45854
+May 05 17:20 : client: [8] closed
+May 05 17:20 : client: [9] opened from 127.0.0.1:45858
+May 05 17:20 : client: [9] closed
+May 05 17:20 : client: [10] opened from 127.0.0.1:45862
+May 05 17:20 : client: [10] closed
+May 05 17:20 : client: [11] opened from 127.0.0.1:45866
+May 05 17:20 : client: [11] closed
+May 05 17:20 : client: [12] opened from 127.0.0.1:45870
+May 05 17:20 : client: [12] closed
+May 05 17:20 : client: [13] opened from 127.0.0.1:45874
+May 05 17:20 : client: [13] closed
+May 05 17:21 : client: [14] opened from 127.0.0.1:45878
+May 05 17:21 : client: [14] closed
+May 05 17:21 : client: [15] opened from 127.0.0.1:45882
+May 05 17:21 : client: [15] closed
+May 05 17:21 : client: [16] opened from 127.0.0.1:45886
+May 05 17:21 : client: [16] closed
+May 05 17:21 : client: [17] opened from 127.0.0.1:45890
+May 05 17:21 : client: [17] closed
+May 05 17:21 : client: [18] opened from 127.0.0.1:45894
+May 05 17:21 : client: [18] closed
+May 05 17:21 : client: [19] opened from 127.0.0.1:45898
+May 05 17:21 : client: [19] closed
+May 05 17:21 : client: [20] opened from 127.0.0.1:45902
+May 05 17:21 : client: [21] opened from 127.0.0.1:45906
+May 05 17:21 : client: [20] closed
+May 05 17:21 : client: [21] closed
+May 05 17:21 : client: [22] opened from 127.0.0.1:45910
+May 05 17:21 : client: [22] closed
+May 05 17:21 : client: [23] opened from 127.0.0.1:45914
+May 05 17:21 : client: [23] closed
+May 05 17:21 : client: [24] opened from 127.0.0.1:45918
+May 05 17:21 : client: [24] closed
+May 05 17:21 : client: [25] opened from 127.0.0.1:45922
+May 05 17:21 : client: [25] closed
+May 05 17:21 : client: [26] opened from 127.0.0.1:45926
+May 05 17:21 : client: [26] closed
+May 05 17:21 : client: [27] opened from 127.0.0.1:45930
+May 05 17:21 : client: [27] closed
+May 05 17:21 : client: [28] opened from 127.0.0.1:45934
+May 05 17:21 : client: [28] closed
+May 05 17:21 : client: [29] opened from 127.0.0.1:45938
+May 05 17:21 : client: [29] closed
+May 05 17:21 : client: [30] opened from 127.0.0.1:45942
+May 05 17:21 : client: [30] closed
+May 05 17:21 : client: [31] opened from 127.0.0.1:45946
+May 05 17:21 : client: [31] closed
+May 05 17:21 : client: [32] opened from 127.0.0.1:45950
+May 05 17:21 : client: [32] closed
+May 05 17:21 : client: [33] opened from 127.0.0.1:45954
+May 05 17:21 : client: [33] closed
+May 05 17:21 : client: [34] opened from 127.0.0.1:45958
+May 05 17:21 : client: [34] closed
+May 05 17:25 : player: played "megadeth/08 - High Speed Dirt.mp3"
+May 05 17:26 : client: [35] opened from 127.0.0.1:45982
+May 05 17:26 : client: [35] closed
+May 05 17:29 : player: played "Norah Jones/Others/Norah Jones - Are You Lonesome Tonight.mp3"
+May 05 17:32 : player: played "Radiohead/(1993) Pablo Honey/01 Radiohead - You.mp3"
+May 05 17:33 : client: [2] closed
+May 05 17:33 : client: [36] opened from 127.0.0.1:45986
+May 05 17:34 : client: [37] opened from 127.0.0.1:45990
+May 05 17:34 : client: [37] closed
+May 05 17:38 : client: [38] opened from 127.0.0.1:45996
+May 05 17:38 : client: [38] closed
+May 05 17:38 : client: [39] opened from 127.0.0.1:46000
+May 05 17:38 : client: [39] closed
+May 05 17:38 : client: [40] opened from 127.0.0.1:46004
+May 05 17:38 : client: [40] closed
+May 05 17:38 : client: [41] opened from 127.0.0.1:46008
+May 05 17:38 : client: [41] closed
+May 05 17:38 : client: [42] opened from 127.0.0.1:46012
+May 05 17:38 : client: [42] closed
+May 05 17:41 : client: [43] opened from 127.0.0.1:46026
+May 05 17:41 : client: [43] closed
+May 05 17:41 : client: [44] opened from 127.0.0.1:46030
+May 05 17:41 : client: [44] closed
+May 05 17:41 : client: [45] opened from 127.0.0.1:46034
+May 05 17:41 : client: [45] closed
+May 05 17:41 : client: [46] opened from 127.0.0.1:46038
+May 05 17:41 : client: [47] opened from 127.0.0.1:46042
+May 05 17:41 : client: [46] closed
+May 05 17:41 : client: [47] closed
+May 05 17:41 : client: [48] opened from 127.0.0.1:46046
+May 05 17:41 : client: [48] closed
+May 05 17:41 : client: [49] opened from 127.0.0.1:46050
+May 05 17:41 : client: [49] closed
+May 05 17:41 : client: [50] opened from 127.0.0.1:46054
+May 05 17:41 : client: [50] closed
+May 05 17:41 : client: [51] opened from 127.0.0.1:46058
+May 05 17:41 : client: [51] closed
+May 05 17:41 : client: [52] opened from 127.0.0.1:46062
+May 05 17:41 : client: [53] opened from 127.0.0.1:46066
+May 05 17:41 : client: [52] closed
+May 05 17:41 : client: [53] closed
+May 05 17:41 : client: [54] opened from 127.0.0.1:46070
+May 05 17:41 : client: [54] closed
+May 05 17:41 : client: [55] opened from 127.0.0.1:46074
+May 05 17:41 : client: [55] closed
+May 05 17:41 : client: [56] opened from 127.0.0.1:46078
+May 05 17:41 : client: [56] closed
+May 05 17:41 : client: [57] opened from 127.0.0.1:46082
+May 05 17:41 : client: [58] opened from 127.0.0.1:46086
+May 05 17:41 : client: [57] closed
+May 05 17:41 : client: [58] closed
+May 05 17:41 : client: [59] opened from 127.0.0.1:46090
+May 05 17:41 : client: [59] closed
+May 05 17:41 : client: [60] opened from 127.0.0.1:46094
+May 05 17:41 : client: [60] closed
+May 05 17:41 : client: [61] opened from 127.0.0.1:46098
+May 05 17:41 : client: [61] closed
+May 05 17:42 : client: [62] opened from 127.0.0.1:46102
+May 05 17:42 : client: [62] closed
+May 05 17:42 : client: [63] opened from 127.0.0.1:46106
+May 05 17:42 : client: [63] closed
+May 05 17:42 : client: [64] opened from 127.0.0.1:46110
+May 05 17:42 : client: [64] closed
+May 05 17:42 : client: [65] opened from 127.0.0.1:46114
+May 05 17:42 : client: [65] closed
+May 05 17:42 : client: [66] opened from 127.0.0.1:46118
+May 05 17:42 : client: [66] closed
+May 05 17:42 : client: [67] opened from 127.0.0.1:46122
+May 05 17:42 : client: [67] closed
+May 05 17:42 : client: [68] opened from 127.0.0.1:46126
+May 05 17:42 : client: [68] closed
+May 05 17:42 : client: [69] opened from 127.0.0.1:46130
+May 05 17:42 : client: [69] closed
+May 05 17:42 : client: [70] opened from 127.0.0.1:46134
+May 05 17:42 : client: [70] closed
+May 05 17:42 : client: [71] opened from 127.0.0.1:46138
+May 05 17:42 : client: [71] closed
+May 05 17:43 : client: [72] opened from 127.0.0.1:46142
+May 05 17:43 : client: [72] closed
+May 05 18:47 : client: [73] opened from 127.0.0.1:46462
+May 05 18:47 : client: [73] closed
+May 05 18:54 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+May 05 18:54 : client: [74] opened from 127.0.0.1:46468
+May 05 18:54 : client: [74] closed
+May 05 18:54 : client: [36] closed
+May 05 18:54 : client: [75] opened from 127.0.0.1:46470
+May 05 18:55 : client: [75] closed
+May 05 18:55 : client: [76] opened from 127.0.0.1:46474
+May 05 18:56 : client: [77] opened from 127.0.0.1:46480
+May 05 18:56 : client: [77] closed
+May 05 19:29 : client: [76] closed
+May 05 19:29 : client: [78] opened from 127.0.0.1:46554
+May 05 21:50 : client: [79] opened from 127.0.0.1:47382
+May 05 21:50 : client: [79] closed
+May 05 21:52 : client: [80] opened from 127.0.0.1:47406
+May 05 21:52 : client: [80] closed
+May 05 22:05 : client: [81] opened from 127.0.0.1:47468
+May 05 22:05 : client: [81] closed
+May 05 22:05 : client: [82] opened from 127.0.0.1:47474
+May 05 22:05 : client: [82] closed
+May 05 22:05 : client: [83] opened from 127.0.0.1:47480
+May 05 22:05 : client: [83] closed
+May 05 22:05 : client: [84] opened from 127.0.0.1:47484
+May 05 22:05 : client: [84] closed
+May 05 22:05 : client: [85] opened from 127.0.0.1:47488
+May 05 22:05 : client: [85] closed
+May 05 22:15 : client: [86] opened from 127.0.0.1:47612
+May 05 22:15 : client: [86] closed
+May 05 22:16 : client: [87] opened from 127.0.0.1:47616
+May 05 22:16 : client: [87] closed
+May 05 22:16 : client: [88] opened from 127.0.0.1:47620
+May 05 22:16 : client: [88] closed
+May 05 22:16 : client: [89] opened from 127.0.0.1:47624
+May 05 22:16 : client: [89] closed
+May 05 22:16 : client: [90] opened from 127.0.0.1:47628
+May 05 22:16 : client: [90] closed
+May 05 22:16 : client: [91] opened from 127.0.0.1:47632
+May 05 22:17 : exception: Failed to open /home/duncan/.config/mpd/playlists: No such file or directory
+May 05 22:20 : player: played "Jamiroquai - Graetests hits/06 Space Cowboy.mp3"
+May 05 22:20 : client: [92] opened from 127.0.0.1:47636
+May 05 22:20 : client: [92] closed
+May 05 22:23 : client: [91] closed
+May 05 22:28 : player: played "Jamiroquai - Graetests hits/10 Blow Your Mind.mp3"
+May 05 22:34 : player: played "Jamiroquai - Graetests hits/05 High Times.mp3"
+May 05 22:34 : client: [93] opened from 127.0.0.1:47700
+May 05 22:34 : client: [93] closed
+May 05 22:40 : player: played "Dire Straits The Ultimate Best Of 2011 Remastered 320 Kbps/08 Sultans Of Swing.mp3"
+May 05 22:44 : player: played "Jamiroquai - Graetests hits/08 When You Gonna Learn.mp3"
+May 05 22:44 : client: [94] opened from 127.0.0.1:47710
+May 05 22:44 : client: [94] closed
+May 05 22:45 : client: [95] opened from 127.0.0.1:47712
+May 05 22:45 : client: [95] closed
+May 05 22:45 : client: [96] opened from 127.0.0.1:47714
+May 05 22:45 : client: [96] closed
+May 05 22:45 : client: [97] opened from 127.0.0.1:47716
+May 05 22:45 : client: [97] closed
+May 05 22:45 : client: [98] opened from 127.0.0.1:47718
+May 05 22:45 : client: [98] closed
+May 05 22:45 : client: [99] opened from 127.0.0.1:47722
+May 05 22:45 : client: [99] closed
+May 05 22:45 : client: [100] opened from 127.0.0.1:47726
+May 05 22:45 : client: [100] closed
+May 05 22:46 : client: [101] opened from 127.0.0.1:47736
+May 05 22:46 : client: [101] closed
+May 05 22:46 : client: [102] opened from 127.0.0.1:47740
+May 05 22:46 : client: [102] closed
+May 05 22:46 : client: [103] opened from 127.0.0.1:47744
+May 05 22:46 : client: [103] closed
+May 05 22:46 : client: [104] opened from 127.0.0.1:47748
+May 05 22:46 : client: [104] closed
+May 05 22:47 : client: [78] closed
+May 05 22:47 : client: [105] opened from 127.0.0.1:47750
+May 05 22:47 : client: [105] closed
+May 05 22:48 : client: [106] opened from 127.0.0.1:47752
+May 05 22:48 : client: [106] closed
+May 05 22:48 : client: [107] opened from 127.0.0.1:47758
+May 05 22:51 : client: [107] closed
+May 05 22:51 : client: [108] opened from 127.0.0.1:47764
+May 05 22:51 : player: played "Daft Punk Discography/2005 - Human after all/Daft Punk - Human After All - 08 - Television rules the nation.mp3"
+May 05 22:51 : client: [108] closed
+May 05 22:51 : client: [109] opened from 127.0.0.1:47766
+May 05 22:52 : client: [109] closed
+May 05 22:52 : client: [110] opened from 127.0.0.1:47768
+May 05 22:52 : client: [111] opened from 127.0.0.1:47772
+May 05 22:52 : player: played "Dire Straits The Ultimate Best Of 2011 Remastered 320 Kbps/31 Lady Writer.mp3"
+May 05 22:52 : client: [111] closed
+May 07 19:28 : client: [0] opened from 127.0.0.1:59834
+May 07 19:28 : client: [1] opened from 127.0.0.1:59838
+May 07 19:28 : client: [2] opened from 127.0.0.1:59842
+May 07 19:28 : client: [2] closed
+May 07 19:29 : client: [3] opened from 127.0.0.1:59846
+May 07 19:29 : client: [3] closed
+May 07 19:31 : client: [4] opened from 127.0.0.1:59850
+May 07 19:31 : client: [4] closed
+May 07 19:56 : player: played "Daft Punk Discography/Daft Punk - Random Access Memories (2013) [MP3 192]/13 - Contact.mp3"
+May 13 05:42 : client: [0] opened from 127.0.0.1:38800
+May 13 05:42 : client: [1] opened from 127.0.0.1:38804
+May 13 05:43 : client: [2] opened from 127.0.0.1:38814
+May 13 05:43 : client: [2] closed
+May 13 05:43 : client: [3] opened from 127.0.0.1:38818
+May 13 05:43 : client: [3] closed
+May 13 05:43 : client: [4] opened from 127.0.0.1:38822
+May 13 05:43 : client: [4] closed
+May 13 05:43 : client: [5] opened from 127.0.0.1:38826
+May 13 05:43 : client: [5] closed
+May 13 05:43 : player: played "Jamiroquai - Graetests hits/10 Blow Your Mind.mp3"
+May 13 18:49 : client: [0] opened from 127.0.0.1:39130
+May 13 18:49 : client: [1] opened from 127.0.0.1:39132
+May 13 18:49 : client: [2] opened from 127.0.0.1:39136
+May 13 18:49 : client: [2] closed
+May 13 18:57 : player: played "Jamiroquai - Graetests hits/10 Blow Your Mind.mp3"
+May 13 19:01 : client: [3] opened from 127.0.0.1:39196
+May 13 19:01 : client: [3] closed
+May 13 20:38 : player: played "Jamiroquai - Graetests hits/05 High Times.mp3"
+May 13 20:44 : client: [0] opened from 127.0.0.1:33222
+May 13 20:44 : client: [0] closed
+May 13 20:44 : client: [1] opened from 127.0.0.1:33224
+May 13 20:44 : client: [2] opened from 127.0.0.1:33228
+May 13 20:44 : client: [2] closed
+May 13 20:44 : client: [3] opened from 127.0.0.1:33232
+May 13 20:44 : client: [3] closed
+May 13 20:44 : client: [4] opened from 127.0.0.1:33236
+May 13 20:44 : client: [4] closed
+May 13 20:44 : client: [5] opened from 127.0.0.1:33240
+May 13 20:44 : client: [5] closed
+May 13 20:44 : client: [6] opened from 127.0.0.1:33244
+May 13 20:44 : client: [6] closed
+May 13 20:44 : player: played "Jamiroquai - Graetests hits/05 High Times.mp3"
+May 13 20:44 : client: [0] opened from 127.0.0.1:33252
+May 13 20:44 : client: [1] opened from 127.0.0.1:33256
+May 13 20:44 : client: [1] closed
+May 13 20:44 : client: [2] opened from 127.0.0.1:33260
+May 13 20:44 : client: [2] closed
+May 13 20:44 : player: played "Jamiroquai - Graetests hits/05 High Times.mp3"
+May 13 20:44 : client: [0] opened from 127.0.0.1:33288
+May 13 20:44 : client: [1] opened from 127.0.0.1:33292
+May 13 20:44 : client: [1] closed
+May 13 20:44 : client: [2] opened from 127.0.0.1:33296
+May 13 20:44 : client: [2] closed
+May 13 20:44 : client: [3] opened from 127.0.0.1:33300
+May 13 20:44 : client: [3] closed
+May 13 20:44 : client: [4] opened from 127.0.0.1:33304
+May 13 20:44 : client: [4] closed
+May 13 20:44 : client: [5] opened from 127.0.0.1:33308
+May 13 20:44 : client: [5] closed
+May 13 20:44 : client: [6] opened from 127.0.0.1:33312
+May 13 20:44 : client: [6] closed
+May 13 20:44 : client: [7] opened from 127.0.0.1:33316
+May 13 20:44 : client: [7] closed
+May 13 20:44 : client: [8] opened from 127.0.0.1:33320
+May 13 20:44 : client: [8] closed
+May 13 20:45 : client: [9] opened from 127.0.0.1:33324
+May 13 20:45 : client: [9] closed
+May 13 20:45 : client: [10] opened from 127.0.0.1:33328
+May 13 20:45 : client: [10] closed
+May 13 20:45 : client: [11] opened from 127.0.0.1:33332
+May 13 20:45 : client: [11] closed
+May 13 20:45 : client: [12] opened from 127.0.0.1:33336
+May 13 20:45 : client: [12] closed
+May 13 20:45 : client: [13] opened from 127.0.0.1:33340
+May 13 20:45 : client: [13] closed
+May 13 20:45 : client: [14] opened from 127.0.0.1:33344
+May 13 20:45 : client: [14] closed
+May 13 20:45 : client: [15] opened from 127.0.0.1:33348
+May 13 20:45 : client: [15] closed
+May 13 20:45 : client: [16] opened from 127.0.0.1:33352
+May 13 20:45 : client: [16] closed
+May 13 20:45 : client: [17] opened from 127.0.0.1:33356
+May 13 20:45 : client: [17] closed
+May 13 20:45 : client: [18] opened from 127.0.0.1:33360
+May 13 20:45 : client: [18] closed
+May 13 20:46 : client: [19] opened from 127.0.0.1:33364
+May 13 20:46 : client: [19] closed
+May 13 20:47 : client: [20] opened from 127.0.0.1:33368
+May 13 20:47 : client: [20] closed
+May 13 20:47 : client: [21] opened from 127.0.0.1:33374
+May 13 20:47 : client: [21] closed
+May 13 20:47 : client: [22] opened from 127.0.0.1:33378
+May 13 20:47 : client: [22] closed
+May 13 20:47 : client: [23] opened from 127.0.0.1:33382
+May 13 20:47 : client: [23] closed
+May 13 20:47 : client: [24] opened from 127.0.0.1:33404
+May 13 20:47 : client: [24] closed
+May 13 20:47 : client: [25] opened from 127.0.0.1:33408
+May 13 20:47 : client: [25] closed
+May 13 20:47 : client: [26] opened from 127.0.0.1:33412
+May 13 20:47 : client: [26] closed
+May 13 20:47 : client: [27] opened from 127.0.0.1:33416
+May 13 20:47 : client: [27] closed
+May 13 20:47 : client: [28] opened from 127.0.0.1:33420
+May 13 20:47 : client: [28] closed
+May 13 20:47 : client: [29] opened from 127.0.0.1:33424
+May 13 20:47 : client: [29] closed
+May 13 20:47 : client: [30] opened from 127.0.0.1:33428
+May 13 20:47 : client: [30] closed
+May 13 20:47 : client: [31] opened from 127.0.0.1:33432
+May 13 20:47 : client: [31] closed
+May 13 20:47 : client: [32] opened from 127.0.0.1:33436
+May 13 20:47 : client: [32] closed
+May 13 20:47 : client: [33] opened from 127.0.0.1:33440
+May 13 20:47 : client: [33] closed
+May 13 20:47 : client: [34] opened from 127.0.0.1:33444
+May 13 20:47 : client: [34] closed
+May 13 20:47 : client: [35] opened from 127.0.0.1:33448
+May 13 20:47 : client: [36] opened from 127.0.0.1:33452
+May 13 20:47 : client: [35] closed
+May 13 20:47 : client: [36] closed
+May 13 20:48 : client: [37] opened from 127.0.0.1:33472
+May 13 20:48 : client: [37] closed
+May 13 20:48 : client: [38] opened from 127.0.0.1:33476
+May 13 20:48 : client: [38] closed
+May 13 20:49 : player: played "Arkan - Salam 2011 (320 kbps)/11 - Lightened Heart .mp3"
+May 13 20:49 : client: [39] opened from 127.0.0.1:33480
+May 13 20:49 : client: [39] closed
+May 13 20:49 : client: [40] opened from 127.0.0.1:33486
+May 13 20:49 : client: [40] closed
+May 13 20:49 : client: [41] opened from 127.0.0.1:33490
+May 13 20:49 : client: [41] closed
+May 13 20:49 : client: [42] opened from 127.0.0.1:33494
+May 13 20:49 : client: [42] closed
+May 13 20:49 : client: [43] opened from 127.0.0.1:33498
+May 13 20:49 : client: [43] closed
+May 13 20:49 : client: [44] opened from 127.0.0.1:33502
+May 13 20:49 : client: [44] closed
+May 13 20:49 : client: [45] opened from 127.0.0.1:33506
+May 13 20:49 : client: [45] closed
+May 13 20:50 : client: [46] opened from 127.0.0.1:33512
+May 13 20:50 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 09 - Something About Us.mp3"
+May 13 20:50 : client: [46] closed
+May 13 21:15 : client: [47] opened from 127.0.0.1:33642
+May 13 21:15 : client: [47] closed
+May 13 21:16 : client: [48] opened from 127.0.0.1:33846
+May 13 21:16 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 09 - Something About Us.mp3"
+May 13 21:16 : client: [48] closed
+May 16 23:52 : client: [0] opened from 127.0.0.1:37074
+May 16 23:52 : client: [1] opened from 127.0.0.1:37078
+May 16 23:52 : client: [1] closed
+May 16 23:52 : client: [2] opened from 127.0.0.1:37082
+May 16 23:52 : client: [2] closed
+May 16 23:52 : client: [3] opened from 127.0.0.1:37086
+May 16 23:52 : client: [3] closed
+May 16 23:52 : client: [4] opened from 127.0.0.1:37090
+May 16 23:52 : client: [4] closed
+May 16 23:53 : client: [5] opened from 127.0.0.1:37094
+May 16 23:53 : client: [5] closed
+May 16 23:53 : client: [6] opened from 127.0.0.1:37098
+May 16 23:53 : client: [6] closed
+May 16 23:53 : client: [7] opened from 127.0.0.1:37102
+May 16 23:53 : client: [7] closed
+May 16 23:53 : client: [8] opened from 127.0.0.1:37106
+May 16 23:53 : client: [8] closed
+May 16 23:53 : client: [9] opened from 127.0.0.1:37110
+May 16 23:53 : client: [9] closed
+May 16 23:53 : client: [10] opened from 127.0.0.1:37114
+May 16 23:53 : client: [10] closed
+May 16 23:53 : client: [11] opened from 127.0.0.1:37118
+May 16 23:53 : client: [11] closed
+May 16 23:53 : client: [12] opened from 127.0.0.1:37122
+May 16 23:53 : client: [12] closed
+May 16 23:53 : client: [13] opened from 127.0.0.1:37126
+May 16 23:53 : client: [13] closed
+May 16 23:53 : client: [14] opened from 127.0.0.1:37130
+May 16 23:53 : client: [14] closed
+May 16 23:53 : client: [15] opened from 127.0.0.1:37134
+May 16 23:53 : client: [15] closed
+May 16 23:53 : client: [16] opened from 127.0.0.1:37138
+May 16 23:53 : client: [16] closed
+May 16 23:53 : client: [17] opened from 127.0.0.1:37142
+May 16 23:53 : client: [17] closed
+May 16 23:53 : client: [18] opened from 127.0.0.1:37146
+May 16 23:53 : client: [18] closed
+May 16 23:53 : client: [19] opened from 127.0.0.1:37150
+May 16 23:53 : client: [19] closed
+May 16 23:53 : client: [20] opened from 127.0.0.1:37154
+May 16 23:53 : client: [20] closed
+May 16 23:53 : client: [21] opened from 127.0.0.1:37158
+May 16 23:53 : client: [21] closed
+May 16 23:53 : client: [22] opened from 127.0.0.1:37162
+May 16 23:53 : client: [22] closed
+May 16 23:53 : client: [23] opened from 127.0.0.1:37166
+May 16 23:53 : client: [23] closed
+May 16 23:53 : client: [24] opened from 127.0.0.1:37170
+May 16 23:53 : client: [24] closed
+May 16 23:53 : client: [25] opened from 127.0.0.1:37174
+May 16 23:53 : client: [25] closed
+May 16 23:53 : client: [26] opened from 127.0.0.1:37178
+May 16 23:53 : client: [26] closed
+May 16 23:53 : client: [27] opened from 127.0.0.1:37182
+May 16 23:53 : client: [27] closed
+May 16 23:53 : client: [28] opened from 127.0.0.1:37186
+May 16 23:53 : client: [28] closed
+May 16 23:53 : client: [29] opened from 127.0.0.1:37190
+May 16 23:53 : client: [29] closed
+May 16 23:53 : client: [30] opened from 127.0.0.1:37194
+May 16 23:53 : client: [30] closed
+May 16 23:53 : client: [31] opened from 127.0.0.1:37198
+May 16 23:53 : client: [31] closed
+May 16 23:53 : client: [32] opened from 127.0.0.1:37202
+May 16 23:53 : client: [32] closed
+May 16 23:53 : client: [33] opened from 127.0.0.1:37206
+May 16 23:53 : client: [33] closed
+May 16 23:54 : player: played "Arkan - Salam 2011 (320 kbps)/11 - Lightened Heart .mp3"
+May 16 23:55 : client: [34] opened from 127.0.0.1:37230
+May 16 23:55 : client: [34] closed
+May 16 23:55 : client: [35] opened from 127.0.0.1:37234
+May 16 23:55 : client: [35] closed
+May 16 23:55 : client: [36] opened from 127.0.0.1:37238
+May 16 23:55 : client: [36] closed
+May 16 23:55 : client: [37] opened from 127.0.0.1:37242
+May 16 23:55 : client: [37] closed
+May 16 23:59 : player: played "Manu.Chao/Manu Chao - Clandestino/10 Welcome To Tijuana.mp3"
+May 16 23:59 : client: [38] opened from 127.0.0.1:37248
+May 16 23:59 : client: [38] closed
+May 17 00:02 : client: [39] opened from 127.0.0.1:37254
+May 17 00:02 : client: [39] closed
+May 17 00:11 : client: [40] opened from 127.0.0.1:37296
+May 17 00:11 : client: [40] closed
+May 17 00:11 : client: [41] opened from 127.0.0.1:37300
+May 17 00:11 : client: [41] closed
+May 17 00:11 : client: [42] opened from 127.0.0.1:37304
+May 17 00:11 : client: [42] closed
+May 17 00:11 : client: [43] opened from 127.0.0.1:37308
+May 17 00:11 : client: [43] closed
+May 17 00:11 : client: [44] opened from 127.0.0.1:37312
+May 17 00:11 : client: [44] closed
+May 17 00:11 : client: [45] opened from 127.0.0.1:37316
+May 17 00:11 : client: [45] closed
+May 17 00:11 : client: [46] opened from 127.0.0.1:37320
+May 17 00:11 : client: [46] closed
+May 17 00:12 : client: [47] opened from 127.0.0.1:37324
+May 17 00:12 : client: [47] closed
+May 17 00:12 : client: [48] opened from 127.0.0.1:37328
+May 17 00:12 : client: [48] closed
+May 17 00:12 : client: [49] opened from 127.0.0.1:37332
+May 17 00:12 : client: [49] closed
+May 17 00:12 : client: [50] opened from 127.0.0.1:37336
+May 17 00:12 : client: [50] closed
+May 17 00:12 : client: [51] opened from 127.0.0.1:37340
+May 17 00:12 : client: [51] closed
+May 17 00:12 : client: [52] opened from 127.0.0.1:37344
+May 17 00:12 : client: [52] closed
+May 17 00:12 : client: [53] opened from 127.0.0.1:37348
+May 17 00:12 : client: [53] closed
+May 17 00:12 : client: [54] opened from 127.0.0.1:37352
+May 17 00:12 : client: [54] closed
+May 17 00:12 : client: [55] opened from 127.0.0.1:37356
+May 17 00:12 : client: [55] closed
+May 17 00:12 : client: [56] opened from 127.0.0.1:37360
+May 17 00:12 : client: [56] closed
+May 17 00:12 : client: [57] opened from 127.0.0.1:37364
+May 17 00:12 : client: [57] closed
+May 17 00:12 : client: [58] opened from 127.0.0.1:37368
+May 17 00:12 : client: [58] closed
+May 17 00:17 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+May 17 00:17 : client: [59] opened from 127.0.0.1:37376
+May 17 00:17 : client: [59] closed
+May 17 00:17 : client: [60] opened from 127.0.0.1:37380
+May 17 00:17 : client: [60] closed
+May 17 00:17 : client: [61] opened from 127.0.0.1:37384
+May 17 00:17 : client: [61] closed
+May 17 00:17 : client: [62] opened from 127.0.0.1:37388
+May 17 00:17 : client: [62] closed
+May 17 00:17 : client: [63] opened from 127.0.0.1:37392
+May 17 00:17 : client: [63] closed
+May 17 00:17 : client: [64] opened from 127.0.0.1:37396
+May 17 00:17 : client: [64] closed
+May 17 00:17 : client: [65] opened from 127.0.0.1:37400
+May 17 00:17 : client: [65] closed
+May 17 00:17 : client: [66] opened from 127.0.0.1:37404
+May 17 00:17 : client: [66] closed
+May 17 00:17 : client: [67] opened from 127.0.0.1:37408
+May 17 00:17 : client: [67] closed
+May 17 00:17 : client: [68] opened from 127.0.0.1:37412
+May 17 00:17 : client: [68] closed
+May 17 00:17 : client: [69] opened from 127.0.0.1:37416
+May 17 00:17 : client: [69] closed
+May 17 00:17 : client: [70] opened from 127.0.0.1:37420
+May 17 00:17 : client: [70] closed
+May 17 00:17 : client: [71] opened from 127.0.0.1:37424
+May 17 00:17 : client: [71] closed
+May 17 00:17 : client: [72] opened from 127.0.0.1:37428
+May 17 00:17 : client: [72] closed
+May 17 00:17 : client: [73] opened from 127.0.0.1:37432
+May 17 00:17 : client: [73] closed
+May 17 00:17 : client: [74] opened from 127.0.0.1:37436
+May 17 00:17 : client: [74] closed
+May 17 00:17 : client: [75] opened from 127.0.0.1:37440
+May 17 00:17 : client: [75] closed
+May 17 00:17 : client: [76] opened from 127.0.0.1:37444
+May 17 00:17 : client: [76] closed
+May 17 00:17 : client: [77] opened from 127.0.0.1:37448
+May 17 00:17 : client: [77] closed
+May 17 00:17 : client: [78] opened from 127.0.0.1:37452
+May 17 00:17 : client: [78] closed
+May 17 00:17 : client: [79] opened from 127.0.0.1:37456
+May 17 00:17 : client: [79] closed
+May 17 00:17 : client: [80] opened from 127.0.0.1:37460
+May 17 00:17 : client: [80] closed
+May 17 00:17 : client: [81] opened from 127.0.0.1:37464
+May 17 00:17 : client: [81] closed
+May 17 00:17 : client: [82] opened from 127.0.0.1:37468
+May 17 00:17 : client: [82] closed
+May 17 00:17 : client: [83] opened from 127.0.0.1:37472
+May 17 00:17 : client: [83] closed
+May 17 00:17 : client: [84] opened from 127.0.0.1:37476
+May 17 00:17 : client: [84] closed
+May 17 00:17 : client: [85] opened from 127.0.0.1:37480
+May 17 00:17 : client: [85] closed
+May 17 00:17 : client: [86] opened from 127.0.0.1:37484
+May 17 00:17 : client: [86] closed
+May 17 00:17 : client: [87] opened from 127.0.0.1:37488
+May 17 00:17 : client: [87] closed
+May 17 00:17 : client: [88] opened from 127.0.0.1:37492
+May 17 00:18 : client: [88] closed
+May 17 00:18 : client: [89] opened from 127.0.0.1:37496
+May 17 00:18 : client: [89] closed
+May 17 00:18 : client: [90] opened from 127.0.0.1:37500
+May 17 00:18 : client: [90] closed
+May 17 00:18 : client: [91] opened from 127.0.0.1:37504
+May 17 00:18 : client: [91] closed
+May 17 00:23 : client: [92] opened from 127.0.0.1:37638
+May 17 00:23 : client: [92] closed
+May 17 00:23 : client: [93] opened from 127.0.0.1:37642
+May 17 00:23 : client: [93] closed
+May 17 00:23 : client: [94] opened from 127.0.0.1:37646
+May 17 00:23 : client: [94] closed
+May 17 00:23 : client: [95] opened from 127.0.0.1:37650
+May 17 00:23 : client: [95] closed
+May 17 00:23 : client: [96] opened from 127.0.0.1:37654
+May 17 00:23 : client: [96] closed
+May 17 00:23 : client: [97] opened from 127.0.0.1:37658
+May 17 00:23 : client: [97] closed
+May 17 00:23 : client: [98] opened from 127.0.0.1:37662
+May 17 00:23 : client: [98] closed
+May 17 00:24 : client: [99] opened from 127.0.0.1:37666
+May 17 00:24 : client: [99] closed
+May 17 00:24 : client: [100] opened from 127.0.0.1:37670
+May 17 00:24 : client: [100] closed
+May 17 00:24 : client: [101] opened from 127.0.0.1:37674
+May 17 00:24 : client: [101] closed
+May 17 00:24 : client: [102] opened from 127.0.0.1:37678
+May 17 00:24 : client: [102] closed
+May 17 00:24 : client: [103] opened from 127.0.0.1:37682
+May 17 00:24 : client: [103] closed
+May 17 00:24 : client: [104] opened from 127.0.0.1:37686
+May 17 00:24 : client: [104] closed
+May 17 00:24 : client: [105] opened from 127.0.0.1:37690
+May 17 00:24 : client: [105] closed
+May 17 00:24 : client: [106] opened from 127.0.0.1:37694
+May 17 00:24 : client: [106] closed
+May 17 00:24 : client: [107] opened from 127.0.0.1:37698
+May 17 00:24 : client: [107] closed
+May 17 00:24 : client: [108] opened from 127.0.0.1:37702
+May 17 00:24 : client: [108] closed
+May 17 00:24 : client: [109] opened from 127.0.0.1:37706
+May 17 00:24 : client: [109] closed
+May 17 00:24 : client: [110] opened from 127.0.0.1:37710
+May 17 00:24 : client: [110] closed
+May 17 00:24 : client: [111] opened from 127.0.0.1:37714
+May 17 00:24 : client: [111] closed
+May 17 00:24 : client: [112] opened from 127.0.0.1:37718
+May 17 00:24 : client: [112] closed
+May 17 00:24 : client: [113] opened from 127.0.0.1:37722
+May 17 00:24 : client: [113] closed
+May 17 00:24 : client: [114] opened from 127.0.0.1:37726
+May 17 00:24 : client: [114] closed
+May 17 00:24 : client: [115] opened from 127.0.0.1:37730
+May 17 00:24 : client: [115] closed
+May 17 00:24 : client: [116] opened from 127.0.0.1:37734
+May 17 00:24 : client: [116] closed
+May 17 00:24 : client: [117] opened from 127.0.0.1:37738
+May 17 00:24 : client: [117] closed
+May 17 00:24 : client: [118] opened from 127.0.0.1:37742
+May 17 00:24 : client: [118] closed
+May 17 00:24 : client: [119] opened from 127.0.0.1:37746
+May 17 00:24 : client: [119] closed
+May 17 00:24 : client: [120] opened from 127.0.0.1:37750
+May 17 00:24 : client: [120] closed
+May 17 00:24 : client: [121] opened from 127.0.0.1:37754
+May 17 00:24 : client: [121] closed
+May 17 00:27 : player: played "Manu.Chao/Manu Chao - Clandestino/03 Bongo Bong.mp3"
+May 17 00:27 : client: [122] opened from 127.0.0.1:37760
+May 17 00:27 : client: [122] closed
+May 17 00:27 : client: [123] opened from 127.0.0.1:37764
+May 17 00:27 : client: [123] closed
+May 17 00:27 : client: [124] opened from 127.0.0.1:37768
+May 17 00:27 : client: [124] closed
+May 17 00:27 : client: [125] opened from 127.0.0.1:37772
+May 17 00:27 : client: [125] closed
+May 17 00:27 : client: [126] opened from 127.0.0.1:37776
+May 17 00:27 : client: [126] closed
+May 17 00:27 : client: [127] opened from 127.0.0.1:37780
+May 17 00:27 : client: [127] closed
+May 17 00:27 : client: [128] opened from 127.0.0.1:37784
+May 17 00:27 : client: [128] closed
+May 17 00:27 : client: [129] opened from 127.0.0.1:37788
+May 17 00:27 : client: [129] closed
+May 17 00:27 : client: [130] opened from 127.0.0.1:37792
+May 17 00:27 : client: [130] closed
+May 17 00:27 : client: [131] opened from 127.0.0.1:37796
+May 17 00:27 : client: [131] closed
+May 17 00:27 : client: [132] opened from 127.0.0.1:37800
+May 17 00:27 : client: [132] closed
+May 17 00:27 : client: [133] opened from 127.0.0.1:37804
+May 17 00:27 : client: [133] closed
+May 17 00:27 : client: [134] opened from 127.0.0.1:37808
+May 17 00:27 : client: [134] closed
+May 17 00:28 : client: [135] opened from 127.0.0.1:37812
+May 17 00:28 : client: [135] closed
+May 17 00:28 : client: [136] opened from 127.0.0.1:37816
+May 17 00:28 : client: [136] closed
+May 17 00:28 : client: [137] opened from 127.0.0.1:37820
+May 17 00:28 : client: [137] closed
+May 17 00:28 : client: [138] opened from 127.0.0.1:37824
+May 17 00:28 : client: [138] closed
+May 17 00:28 : client: [139] opened from 127.0.0.1:37828
+May 17 00:28 : client: [139] closed
+May 17 00:28 : client: [140] opened from 127.0.0.1:37832
+May 17 00:28 : client: [140] closed
+May 17 00:28 : client: [141] opened from 127.0.0.1:37836
+May 17 00:28 : client: [141] closed
+May 17 00:28 : client: [142] opened from 127.0.0.1:37840
+May 17 00:28 : client: [142] closed
+May 17 00:28 : client: [143] opened from 127.0.0.1:37844
+May 17 00:28 : client: [143] closed
+May 17 00:28 : client: [144] opened from 127.0.0.1:37848
+May 17 00:28 : client: [144] closed
+May 17 00:28 : client: [145] opened from 127.0.0.1:37852
+May 17 00:28 : client: [145] closed
+May 17 00:28 : client: [146] opened from 127.0.0.1:37856
+May 17 00:28 : client: [146] closed
+May 17 00:28 : client: [147] opened from 127.0.0.1:37860
+May 17 00:28 : client: [147] closed
+May 17 00:28 : client: [148] opened from 127.0.0.1:37864
+May 17 00:28 : client: [148] closed
+May 17 00:28 : client: [149] opened from 127.0.0.1:37868
+May 17 00:28 : client: [149] closed
+May 17 00:28 : client: [150] opened from 127.0.0.1:37872
+May 17 00:28 : client: [150] closed
+May 17 00:28 : client: [151] opened from 127.0.0.1:37876
+May 17 00:28 : client: [151] closed
+May 17 00:28 : client: [152] opened from 127.0.0.1:37880
+May 17 00:28 : client: [152] closed
+May 17 00:28 : client: [153] opened from 127.0.0.1:37884
+May 17 00:28 : client: [153] closed
+May 17 00:28 : client: [154] opened from 127.0.0.1:37888
+May 17 00:28 : client: [154] closed
+May 17 00:28 : client: [155] opened from 127.0.0.1:37892
+May 17 00:28 : client: [155] closed
+May 17 00:28 : client: [156] opened from 127.0.0.1:37896
+May 17 00:28 : client: [156] closed
+May 17 00:28 : client: [157] opened from 127.0.0.1:37900
+May 17 00:28 : client: [157] closed
+May 17 00:28 : client: [158] opened from 127.0.0.1:37904
+May 17 00:28 : client: [158] closed
+May 17 00:28 : client: [159] opened from 127.0.0.1:37908
+May 17 00:28 : client: [159] closed
+May 17 00:28 : client: [160] opened from 127.0.0.1:37912
+May 17 00:28 : client: [160] closed
+May 17 00:28 : client: [161] opened from 127.0.0.1:37916
+May 17 00:28 : client: [161] closed
+May 17 00:28 : client: [162] opened from 127.0.0.1:37920
+May 17 00:28 : client: [162] closed
+May 17 00:28 : client: [163] opened from 127.0.0.1:37924
+May 17 00:28 : client: [163] closed
+May 17 00:28 : client: [164] opened from 127.0.0.1:37928
+May 17 00:28 : client: [164] closed
+May 17 00:28 : client: [165] opened from 127.0.0.1:37932
+May 17 00:28 : client: [165] closed
+May 17 00:28 : client: [166] opened from 127.0.0.1:37936
+May 17 00:28 : client: [166] closed
+May 17 00:28 : client: [167] opened from 127.0.0.1:37940
+May 17 00:28 : client: [167] closed
+May 17 00:28 : client: [168] opened from 127.0.0.1:37944
+May 17 00:28 : client: [168] closed
+May 17 00:28 : client: [169] opened from 127.0.0.1:37948
+May 17 00:28 : client: [169] closed
+May 17 00:28 : client: [170] opened from 127.0.0.1:37952
+May 17 00:28 : client: [170] closed
+May 17 00:28 : client: [171] opened from 127.0.0.1:37956
+May 17 00:28 : client: [171] closed
+May 17 00:28 : client: [172] opened from 127.0.0.1:37960
+May 17 00:28 : client: [172] closed
+May 17 00:28 : client: [173] opened from 127.0.0.1:37964
+May 17 00:28 : client: [173] closed
+May 17 00:28 : client: [174] opened from 127.0.0.1:37968
+May 17 00:28 : client: [174] closed
+May 17 00:28 : client: [175] opened from 127.0.0.1:37972
+May 17 00:28 : client: [175] closed
+May 17 00:28 : client: [176] opened from 127.0.0.1:37976
+May 17 00:28 : client: [176] closed
+May 17 00:28 : client: [177] opened from 127.0.0.1:37980
+May 17 00:28 : client: [177] closed
+May 17 00:28 : client: [178] opened from 127.0.0.1:37984
+May 17 00:28 : client: [178] closed
+May 17 00:28 : client: [179] opened from 127.0.0.1:37988
+May 17 00:28 : client: [179] closed
+May 17 00:28 : client: [180] opened from 127.0.0.1:37992
+May 17 00:28 : client: [180] closed
+May 17 00:28 : client: [181] opened from 127.0.0.1:37996
+May 17 00:28 : client: [181] closed
+May 17 00:28 : client: [182] opened from 127.0.0.1:38000
+May 17 00:28 : client: [182] closed
+May 17 00:28 : client: [183] opened from 127.0.0.1:38004
+May 17 00:28 : client: [183] closed
+May 17 00:29 : client: [184] opened from 127.0.0.1:38008
+May 17 00:29 : client: [184] closed
+May 17 00:29 : client: [185] opened from 127.0.0.1:38012
+May 17 00:29 : client: [185] closed
+May 17 00:29 : client: [186] opened from 127.0.0.1:38016
+May 17 00:29 : client: [186] closed
+May 17 00:29 : client: [187] opened from 127.0.0.1:38020
+May 17 00:29 : client: [187] closed
+May 17 00:29 : client: [188] opened from 127.0.0.1:38024
+May 17 00:29 : client: [188] closed
+May 17 00:29 : client: [189] opened from 127.0.0.1:38028
+May 17 00:29 : client: [189] closed
+May 17 00:29 : client: [190] opened from 127.0.0.1:38032
+May 17 00:29 : client: [190] closed
+May 17 00:31 : client: [0] closed
+May 17 00:31 : client: [191] opened from 127.0.0.1:38038
+May 17 00:33 : player: played "Arkan - Salam 2011 (320 kbps)/10 - Call From Within .mp3"
+May 17 00:34 : client: [192] opened from 127.0.0.1:38042
+May 17 00:34 : client: [192] closed
+May 17 00:34 : client: [193] opened from 127.0.0.1:38046
+May 17 00:34 : client: [193] closed
+May 17 00:34 : client: [194] opened from 127.0.0.1:38050
+May 17 00:34 : client: [194] closed
+May 17 00:34 : client: [195] opened from 127.0.0.1:38054
+May 17 00:34 : client: [195] closed
+May 17 00:34 : client: [196] opened from 127.0.0.1:38058
+May 17 00:34 : client: [196] closed
+May 17 00:34 : client: [197] opened from 127.0.0.1:38062
+May 17 00:34 : client: [197] closed
+May 17 00:34 : client: [198] opened from 127.0.0.1:38066
+May 17 00:34 : client: [198] closed
+May 17 00:34 : client: [199] opened from 127.0.0.1:38070
+May 17 00:34 : client: [199] closed
+May 17 00:34 : client: [200] opened from 127.0.0.1:38074
+May 17 00:34 : client: [200] closed
+May 17 00:34 : client: [201] opened from 127.0.0.1:38078
+May 17 00:34 : client: [201] closed
+May 17 00:34 : client: [202] opened from 127.0.0.1:38082
+May 17 00:34 : client: [202] closed
+May 17 00:34 : client: [203] opened from 127.0.0.1:38086
+May 17 00:34 : client: [203] closed
+May 17 00:34 : client: [204] opened from 127.0.0.1:38090
+May 17 00:34 : client: [204] closed
+May 17 00:34 : client: [205] opened from 127.0.0.1:38094
+May 17 00:34 : client: [205] closed
+May 17 00:36 : player: played "Daft Punk Discography/2004 - Daft Club/Daft Punk - Daft Club - 14 - Something About US (Love Theme from Interstella 5555).mp3"
+May 17 00:36 : client: [206] opened from 127.0.0.1:38106
+May 17 00:36 : client: [206] closed
+May 17 00:36 : client: [207] opened from 127.0.0.1:38110
+May 17 00:36 : client: [207] closed
+May 17 00:37 : client: [208] opened from 127.0.0.1:38114
+May 17 00:37 : client: [208] closed
+May 17 00:37 : client: [209] opened from 127.0.0.1:38118
+May 17 00:37 : client: [209] closed
+May 17 00:37 : client: [210] opened from 127.0.0.1:38122
+May 17 00:37 : client: [210] closed
+May 17 00:37 : client: [211] opened from 127.0.0.1:38126
+May 17 00:37 : client: [211] closed
+May 17 00:37 : client: [212] opened from 127.0.0.1:38130
+May 17 00:37 : client: [212] closed
+May 17 00:37 : client: [213] opened from 127.0.0.1:38134
+May 17 00:37 : client: [213] closed
+May 17 00:37 : client: [214] opened from 127.0.0.1:38138
+May 17 00:37 : client: [214] closed
+May 17 00:37 : client: [215] opened from 127.0.0.1:38142
+May 17 00:37 : client: [215] closed
+May 17 00:37 : client: [216] opened from 127.0.0.1:38146
+May 17 00:37 : client: [216] closed
+May 17 00:37 : client: [217] opened from 127.0.0.1:38150
+May 17 00:37 : client: [217] closed
+May 17 00:37 : client: [218] opened from 127.0.0.1:38154
+May 17 00:37 : client: [218] closed
+May 17 00:37 : client: [219] opened from 127.0.0.1:38158
+May 17 00:37 : client: [219] closed
+May 17 00:37 : client: [220] opened from 127.0.0.1:38162
+May 17 00:37 : client: [220] closed
+May 17 00:37 : client: [221] opened from 127.0.0.1:38166
+May 17 00:37 : client: [221] closed
+May 17 00:37 : client: [222] opened from 127.0.0.1:38170
+May 17 00:37 : client: [222] closed
+May 17 00:37 : client: [223] opened from 127.0.0.1:38174
+May 17 00:37 : client: [223] closed
+May 17 00:38 : client: [224] opened from 127.0.0.1:38178
+May 17 00:38 : client: [224] closed
+May 17 00:38 : client: [225] opened from 127.0.0.1:38182
+May 17 00:38 : client: [225] closed
+May 17 00:50 : player: played "Norah Jones/New York City (with The Peter Malick Group)/Norah Jones - New York City (with The Peter Malick Group) - 03 - Deceptively Yours.mp3"
+May 19 09:18 : client: [0] opened from 127.0.0.1:51218
+May 19 09:18 : client: [1] opened from 127.0.0.1:51222
+May 19 09:18 : client: [1] closed
+May 19 09:18 : client: [2] opened from 127.0.0.1:51226
+May 19 09:18 : client: [2] closed
+May 19 09:18 : client: [3] opened from 127.0.0.1:51230
+May 19 09:18 : client: [3] closed
+May 19 09:18 : client: [4] opened from 127.0.0.1:51234
+May 19 09:18 : client: [4] closed
+May 19 09:18 : client: [5] opened from 127.0.0.1:51238
+May 19 09:18 : client: [5] closed
+May 19 09:26 : client: [6] opened from 127.0.0.1:51264
+May 19 09:26 : client: [6] closed
+May 19 09:26 : client: [7] opened from 127.0.0.1:51268
+May 19 09:26 : client: [7] closed
+May 19 09:26 : client: [8] opened from 127.0.0.1:51272
+May 19 09:26 : client: [8] closed
+May 19 09:26 : client: [9] opened from 127.0.0.1:51276
+May 19 09:26 : client: [9] closed
+May 19 09:26 : client: [10] opened from 127.0.0.1:51280
+May 19 09:26 : client: [10] closed
+May 19 09:26 : client: [11] opened from 127.0.0.1:51286
+May 19 09:26 : client: [11] closed
+May 19 09:26 : client: [12] opened from 127.0.0.1:51290
+May 19 09:26 : client: [12] closed
+May 19 09:26 : client: [13] opened from 127.0.0.1:51294
+May 19 09:26 : client: [13] closed
+May 19 09:26 : client: [14] opened from 127.0.0.1:51298
+May 19 09:26 : client: [14] closed
+May 19 09:26 : client: [15] opened from 127.0.0.1:51302
+May 19 09:26 : client: [15] closed
+May 19 09:26 : client: [16] opened from 127.0.0.1:51306
+May 19 09:26 : client: [16] closed
+May 19 09:26 : client: [17] opened from 127.0.0.1:51310
+May 19 09:26 : client: [17] closed
+May 19 09:26 : client: [18] opened from 127.0.0.1:51314
+May 19 09:26 : client: [18] closed
+May 19 09:26 : client: [19] opened from 127.0.0.1:51318
+May 19 09:26 : client: [19] closed
+May 19 09:26 : client: [20] opened from 127.0.0.1:51322
+May 19 09:26 : client: [20] closed
+May 19 09:27 : client: [21] opened from 127.0.0.1:51326
+May 19 09:27 : client: [21] closed
+May 19 09:27 : client: [22] opened from 127.0.0.1:51330
+May 19 09:27 : client: [22] closed
+May 19 09:27 : client: [23] opened from 127.0.0.1:51334
+May 19 09:27 : client: [23] closed
+May 20 01:04 : client: [0] closed
+May 20 01:04 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylene Farmer - Best Of 2001 - 2011/13. Si j'avais au moins.mp3"
+May 21 18:03 : client: [0] opened from 127.0.0.1:39738
+May 21 18:03 : client: [1] opened from 127.0.0.1:39742
+May 21 18:03 : client: [1] closed
+May 21 18:03 : client: [2] opened from 127.0.0.1:39746
+May 21 18:03 : client: [2] closed
+May 21 18:03 : client: [3] opened from 127.0.0.1:39750
+May 21 18:03 : client: [3] closed
+May 21 18:03 : client: [4] opened from 127.0.0.1:39754
+May 21 18:03 : client: [4] closed
+May 21 18:03 : client: [5] opened from 127.0.0.1:39758
+May 21 18:03 : client: [5] closed
+May 21 18:03 : client: [6] opened from 127.0.0.1:39762
+May 21 18:03 : client: [6] closed
+May 21 18:06 : client: [7] opened from 127.0.0.1:39840
+May 21 18:06 : client: [7] closed
+May 21 18:06 : client: [8] opened from 127.0.0.1:39844
+May 21 18:06 : client: [8] closed
+May 21 18:06 : client: [9] opened from 127.0.0.1:39848
+May 21 18:06 : client: [9] closed
+May 21 18:12 : player: played "Tinariwen - Aman Iman- Water Is Life/12 - Tinariwen - Izarharh Tenere.mp3"
+May 21 18:12 : client: [10] opened from 127.0.0.1:39860
+May 21 18:12 : client: [10] closed
+May 21 18:12 : client: [11] opened from 127.0.0.1:39864
+May 21 18:12 : client: [11] closed
+May 21 18:12 : client: [12] opened from 127.0.0.1:39868
+May 21 18:12 : client: [12] closed
+May 21 18:12 : client: [13] opened from 127.0.0.1:39872
+May 21 18:12 : client: [13] closed
+May 21 18:12 : client: [14] opened from 127.0.0.1:39876
+May 21 18:12 : client: [14] closed
+May 21 18:12 : client: [15] opened from 127.0.0.1:39900
+May 21 18:12 : client: [15] closed
+May 21 18:12 : client: [16] opened from 127.0.0.1:39924
+May 21 18:13 : client: [16] closed
+May 21 18:13 : client: [0] closed
+May 21 18:13 : client: [17] opened from 127.0.0.1:39928
+May 21 18:13 : client: [18] opened from 127.0.0.1:39936
+May 21 18:13 : client: [18] closed
+May 21 18:15 : client: [19] opened from 127.0.0.1:40016
+May 21 18:15 : player: played "Manu.Chao/Manu Chao - Clandestino/10 Welcome To Tijuana.mp3"
+May 21 18:15 : client: [19] closed
+May 26 10:47 : client: [0] opened from 127.0.0.1:49496
+May 26 10:47 : client: [1] opened from 127.0.0.1:49500
+May 26 10:47 : client: [1] closed
+May 26 10:52 : player: played "Tinariwen - Aman Iman- Water Is Life/06 - Tinariwen - Toumast.mp3"
+May 26 10:56 : player: played "Daft Punk Discography/Daft Punk - Tron Legacy OST [2010-MP3-Cov][Bubanee]/10 - Adagio For TRON.mp3"
+May 26 10:58 : client: [2] opened from 127.0.0.1:49768
+May 26 10:58 : client: [2] closed
+May 26 10:58 : client: [3] opened from 127.0.0.1:49772
+May 26 10:58 : player: played "Norah Jones/Norah Jones - The Fall 2009 [MP3 @ 320] (oan)/13 - Norah Jones - Man of the Hour.mp3"
+May 26 10:58 : client: [3] closed
+Jun 01 18:50 : client: [0] opened from 127.0.0.1:42890
+Jun 01 18:50 : client: [1] opened from 127.0.0.1:42892
+Jun 01 18:51 : exception: Failed to open /home/duncan/.config/mpd/playlists: No such file or directory
+Jun 01 18:53 : client: [0] closed
+Jun 01 19:54 : client: [2] opened from 127.0.0.1:43600
+Jun 01 19:54 : client: [2] closed
+Jun 01 19:58 : player: played "Norah Jones/Norah Jones - The Fall 2009 [MP3 @ 320] (oan)/03 - Norah Jones - Light as a Feather.mp3"
+Jun 01 19:58 : client: [3] opened from 127.0.0.1:43622
+Jun 01 19:58 : client: [3] closed
+Jun 01 19:58 : client: [4] opened from 127.0.0.1:43626
+Jun 01 19:58 : client: [4] closed
+Jun 01 20:00 : client: [5] opened from 127.0.0.1:43672
+Jun 01 20:00 : client: [5] closed
+Jun 01 20:04 : player: played "Sexual_Healing_GG@SG/04-teddy_pendergrass-youre_my_latest_my_greatest_inspiration.mp3"
+Jun 01 20:05 : client: [6] opened from 127.0.0.1:43788
+Jun 01 20:05 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/15. Pardonne-moi.mp3"
+Jun 01 20:05 : client: [6] closed
+Jun 01 20:33 : client: [0] opened from 127.0.0.1:45498
+Jun 01 20:33 : client: [1] opened from 127.0.0.1:45502
+Jun 01 20:33 : client: [1] closed
+Jun 01 20:33 : client: [2] opened from 127.0.0.1:45506
+Jun 01 20:33 : client: [2] closed
+Jun 01 20:33 : client: [3] opened from 127.0.0.1:45510
+Jun 01 20:33 : client: [3] closed
+Jun 01 20:33 : client: [4] opened from 127.0.0.1:45514
+Jun 01 20:33 : client: [4] closed
+Jun 01 20:33 : client: [5] opened from 127.0.0.1:45520
+Jun 01 20:33 : client: [5] closed
+Jun 01 20:33 : client: [6] opened from 127.0.0.1:45524
+Jun 01 20:33 : client: [6] closed
+Jun 01 20:33 : client: [7] opened from 127.0.0.1:45528
+Jun 01 20:33 : client: [7] closed
+Jun 01 20:33 : client: [8] opened from 127.0.0.1:45532
+Jun 01 20:33 : client: [8] closed
+Jun 01 20:38 : client: [9] opened from 127.0.0.1:45618
+Jun 01 20:38 : client: [9] closed
+Jun 01 20:38 : client: [10] opened from 127.0.0.1:45622
+Jun 01 20:38 : client: [10] closed
+Jun 01 20:40 : player: played "Manu.Chao/Manu Chao - Clandestino/04 Je Ne Taime Plus.mp3"
+Jun 01 20:44 : player: played "Daft Punk Discography/Daft Punk - Random Access Memories (2013) [MP3 192]/04 - Within.mp3"
+Jun 01 20:44 : client: [11] opened from 127.0.0.1:45704
+Jun 01 20:44 : client: [11] closed
+Jun 01 20:44 : client: [12] opened from 127.0.0.1:45708
+Jun 01 20:44 : client: [12] closed
+Jun 01 20:44 : client: [13] opened from 127.0.0.1:45712
+Jun 01 20:44 : client: [13] closed
+Jun 01 20:44 : client: [14] opened from 127.0.0.1:45716
+Jun 01 20:44 : client: [14] closed
+Jun 01 20:44 : client: [15] opened from 127.0.0.1:45724
+Jun 01 20:44 : client: [15] closed
+Jun 01 20:44 : client: [16] opened from 127.0.0.1:45728
+Jun 01 20:44 : client: [16] closed
+Jun 01 20:44 : client: [17] opened from 127.0.0.1:45732
+Jun 01 20:44 : client: [17] closed
+Jun 01 20:44 : client: [18] opened from 127.0.0.1:45738
+Jun 01 20:44 : client: [18] closed
+Jun 01 20:44 : client: [19] opened from 127.0.0.1:45742
+Jun 01 20:44 : client: [19] closed
+Jun 01 20:44 : client: [20] opened from 127.0.0.1:45746
+Jun 01 20:44 : client: [20] closed
+Jun 01 20:44 : client: [21] opened from 127.0.0.1:45750
+Jun 01 20:44 : client: [21] closed
+Jun 01 20:44 : client: [22] opened from 127.0.0.1:45754
+Jun 01 20:44 : client: [22] closed
+Jun 01 20:45 : client: [23] opened from 127.0.0.1:45758
+Jun 01 20:45 : client: [23] closed
+Jun 01 20:45 : client: [24] opened from 127.0.0.1:45762
+Jun 01 20:45 : client: [24] closed
+Jun 01 20:46 : client: [25] opened from 127.0.0.1:45786
+Jun 01 20:46 : player: played "Daft Punk Discography/Daft Punk - Tron Legacy OST [2010-MP3-Cov][Bubanee]/17 - Disc Wars.mp3"
+Jun 01 20:46 : client: [25] closed
+Jun 01 23:41 : client: [0] opened from 127.0.0.1:57528
+Jun 01 23:41 : client: [1] opened from 127.0.0.1:57532
+Jun 01 23:41 : client: [1] closed
+Jun 01 23:41 : client: [2] opened from 127.0.0.1:57536
+Jun 01 23:41 : client: [2] closed
+Jun 01 23:41 : client: [3] opened from 127.0.0.1:57542
+Jun 01 23:41 : client: [3] closed
+Jun 01 23:41 : client: [4] opened from 127.0.0.1:57546
+Jun 01 23:41 : client: [4] closed
+Jun 01 23:41 : client: [5] opened from 127.0.0.1:57550
+Jun 01 23:41 : client: [5] closed
+Jun 01 23:41 : client: [6] opened from 127.0.0.1:57554
+Jun 01 23:41 : client: [6] closed
+Jun 01 23:41 : client: [7] opened from 127.0.0.1:57558
+Jun 01 23:41 : client: [7] closed
+Jun 01 23:49 : client: [8] opened from 127.0.0.1:57694
+Jun 01 23:49 : client: [8] closed
+Jun 01 23:52 : client: [9] opened from 127.0.0.1:57714
+Jun 01 23:52 : client: [9] closed
+Jun 01 23:54 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd2/DAFTPU~1.MP3"
+Jun 01 23:54 : client: [10] opened from 127.0.0.1:57738
+Jun 01 23:54 : client: [10] closed
+Jun 01 23:54 : client: [11] opened from 127.0.0.1:57742
+Jun 01 23:54 : client: [11] closed
+Jun 02 00:00 : player: played "Michael Jackson/Michael Jackson - Wanna Be Startin Somethin.mp3"
+Jun 02 00:00 : client: [12] opened from 127.0.0.1:57890
+Jun 02 00:00 : client: [12] closed
+Jun 02 00:00 : client: [13] opened from 127.0.0.1:57894
+Jun 02 00:00 : client: [13] closed
+Jun 02 00:00 : client: [14] opened from 127.0.0.1:57902
+Jun 02 00:00 : client: [14] closed
+Jun 02 01:20 : client: [15] opened from 127.0.0.1:59118
+Jun 02 01:20 : client: [15] closed
+Jun 02 01:21 : client: [16] opened from 127.0.0.1:59128
+Jun 02 01:21 : client: [16] closed
+Jun 02 01:35 : client: [17] opened from 127.0.0.1:59824
+Jun 02 01:35 : client: [17] closed
+Jun 02 01:39 : player: played "Jamiroquai - Graetests hits/14 Spend A Lifetime.mp3"
+Jun 02 01:40 : client: [18] opened from 127.0.0.1:59910
+Jun 02 01:40 : client: [18] closed
+Jun 02 01:46 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 11 - Veridis Quo.mp3"
+Jun 02 01:46 : client: [19] opened from 127.0.0.1:60032
+Jun 02 01:46 : client: [19] closed
+Jun 02 01:49 : player: played "Manu.Chao/Manu Chao - Clandestino/03 Bongo Bong.mp3"
+Jun 02 01:49 : client: [20] opened from 127.0.0.1:60126
+Jun 02 01:49 : client: [20] closed
+Jun 02 01:49 : client: [21] opened from 127.0.0.1:60130
+Jun 02 01:49 : client: [21] closed
+Jun 02 01:49 : client: [22] opened from 127.0.0.1:60136
+Jun 02 01:49 : client: [22] closed
+Jun 02 01:49 : client: [23] opened from 127.0.0.1:60140
+Jun 02 01:49 : client: [23] closed
+Jun 02 01:54 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Jun 02 01:57 : player: played "Charles Aznavour/Charles Aznavour - 40 Chansons D'or (Disc 2)/17 - L'amour Et La Guerre.mp3"
+Jun 02 01:59 : client: [24] opened from 127.0.0.1:60336
+Jun 02 01:59 : client: [24] closed
+Jun 02 01:59 : client: [25] opened from 127.0.0.1:60340
+Jun 02 01:59 : client: [25] closed
+Jun 02 01:59 : client: [26] opened from 127.0.0.1:60344
+Jun 02 01:59 : client: [26] closed
+Jun 02 01:59 : client: [27] opened from 127.0.0.1:60348
+Jun 02 01:59 : client: [27] closed
+Jun 02 01:59 : client: [28] opened from 127.0.0.1:60352
+Jun 02 01:59 : client: [28] closed
+Jun 02 01:59 : client: [29] opened from 127.0.0.1:60356
+Jun 02 01:59 : client: [29] closed
+Jun 02 02:00 : client: [30] opened from 127.0.0.1:60364
+Jun 02 02:00 : client: [30] closed
+Jun 02 02:00 : client: [31] opened from 127.0.0.1:60368
+Jun 02 02:00 : client: [31] closed
+Jun 02 02:00 : client: [32] opened from 127.0.0.1:60372
+Jun 02 02:00 : client: [32] closed
+Jun 02 02:03 : player: played "Manu.Chao/Manu Chao - Clandestino/01 Clandestino.mp3"
+Jun 02 02:07 : player: played "Daft Punk Discography/2006 - Human After All Remixes Limited Edition/05_daft_punk-the_prime_time_of_your_life_(para_one_remix).mp3"
+Jun 02 02:07 : client: [33] opened from 127.0.0.1:60488
+Jun 02 02:07 : client: [33] closed
+Jun 02 02:07 : client: [34] opened from 127.0.0.1:60492
+Jun 02 02:07 : client: [34] closed
+Jun 02 02:07 : client: [35] opened from 127.0.0.1:60496
+Jun 02 02:07 : client: [35] closed
+Jun 02 02:11 : player: played "Mylène Farmer - 2011 - Best Of - 3 CD/Mylène Farmer - Les Mots CD2/10. Effets secondaires.mp3"
+Jun 02 02:19 : player: played "Daft Punk Discography/Daft Punk - Random Access Memories (2013) [MP3 192]/07 - Touch.mp3"
+Jun 02 02:19 : client: [36] opened from 127.0.0.1:60666
+Jun 02 02:19 : client: [36] closed
+Jun 02 02:19 : client: [37] opened from 127.0.0.1:60670
+Jun 02 02:19 : client: [37] closed
+Jun 02 02:20 : client: [38] opened from 127.0.0.1:60674
+Jun 02 02:20 : client: [38] closed
+Jun 02 02:20 : client: [39] opened from 127.0.0.1:60678
+Jun 02 02:20 : client: [39] closed
+Jun 02 02:20 : client: [40] opened from 127.0.0.1:60682
+Jun 02 02:20 : client: [40] closed
+Jun 02 02:20 : client: [41] opened from 127.0.0.1:60686
+Jun 02 02:20 : client: [41] closed
+Jun 02 02:20 : client: [42] opened from 127.0.0.1:60690
+Jun 02 02:20 : client: [42] closed
+Jun 02 02:20 : client: [43] opened from 127.0.0.1:60694
+Jun 02 02:20 : client: [43] closed
+Jun 02 02:20 : client: [44] opened from 127.0.0.1:60698
+Jun 02 02:20 : client: [44] closed
+Jun 02 02:20 : client: [45] opened from 127.0.0.1:60702
+Jun 02 02:20 : client: [45] closed
+Jun 02 02:20 : client: [46] opened from 127.0.0.1:60706
+Jun 02 02:20 : client: [46] closed
+Jun 02 02:20 : client: [47] opened from 127.0.0.1:60710
+Jun 02 02:20 : client: [47] closed
+Jun 02 02:20 : client: [48] opened from 127.0.0.1:60714
+Jun 02 02:20 : client: [48] closed
+Jun 02 02:20 : client: [49] opened from 127.0.0.1:60718
+Jun 02 02:20 : client: [49] closed
+Jun 02 02:20 : client: [50] opened from 127.0.0.1:60722
+Jun 02 02:20 : client: [50] closed
+Jun 02 02:20 : client: [51] opened from 127.0.0.1:60726
+Jun 02 02:20 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 07 - Around The World.mp3"
+Jun 02 02:20 : client: [51] closed
+Jun 02 02:24 : client: [0] opened from 127.0.0.1:60756
+Jun 02 02:24 : client: [1] opened from 127.0.0.1:60760
+Jun 02 02:24 : client: [1] closed
+Jun 02 02:25 : client: [2] opened from 127.0.0.1:60764
+Jun 02 02:25 : client: [2] closed
+Jun 02 02:25 : client: [3] opened from 127.0.0.1:60768
+Jun 02 02:25 : client: [3] closed
+Jun 02 02:25 : client: [4] opened from 127.0.0.1:60772
+Jun 02 02:25 : client: [4] closed
+Jun 02 02:25 : client: [5] opened from 127.0.0.1:60776
+Jun 02 02:25 : client: [5] closed
+Jun 02 02:25 : client: [6] opened from 127.0.0.1:60780
+Jun 02 02:25 : client: [6] closed
+Jun 02 02:25 : client: [7] opened from 127.0.0.1:60784
+Jun 02 02:25 : client: [7] closed
+Jun 02 02:27 : player: played "Daft Punk Discography/Daft Punk - Tron Legacy OST [2010-MP3-Cov][Bubanee]/05 - Armory.mp3"
+Jun 02 02:33 : player: played "Daft Punk Discography/1997 - Homework/Daft Punk - Homework - 04 - Da Funk.mp3"
+Jun 02 02:35 : player: played "Norah Jones/Come Away With Me/Norah Jones - Come Away With Me - 02 - Seven Years.mp3"
+Jun 02 02:39 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 05 - In The Morning.mp3"
+Jun 02 02:39 : client: [8] opened from 127.0.0.1:60810
+Jun 02 02:39 : client: [8] closed
+Jun 02 02:43 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 12 - The Prettiest Thing.mp3"
+Jun 02 02:46 : client: [9] opened from 127.0.0.1:60820
+Jun 02 02:46 : player: played "Norah Jones/Feels Like Home/Norah Jones - Feels Like Home - 11 - The Long Way Home.mp3"
+Jun 02 02:46 : client: [9] closed
+Jun 02 23:57 : client: [0] opened from 127.0.0.1:34070
+Jun 03 19:39 : client: [0] opened from 127.0.0.1:40384
+Jun 03 19:39 : client: [1] opened from 127.0.0.1:40388
+Jun 03 19:39 : client: [1] closed
+Jun 03 19:45 : player: played "Michael Jackson/Michael Jackson - Wanna Be Startin Somethin.mp3"
+Jun 03 19:48 : client: [2] opened from 127.0.0.1:40598
+Jun 03 19:48 : client: [2] closed
+Jun 03 19:48 : client: [3] opened from 127.0.0.1:40602
+Jun 03 19:48 : client: [3] closed
+Jun 03 19:48 : client: [4] opened from 127.0.0.1:40606
+Jun 03 19:48 : client: [4] closed
+Jun 03 19:48 : client: [5] opened from 127.0.0.1:40610
+Jun 03 19:48 : client: [5] closed
+Jun 03 19:53 : player: played "Daft Punk Discography/2001 - Discovery/Daft Punk - Discovery - 03 - Digital Love.mp3"
+Jun 03 19:53 : client: [6] opened from 127.0.0.1:40862
+Jun 03 19:53 : client: [6] closed
+Jun 03 19:57 : player: played "Michael Jackson/Michael Jackson - Smooth Criminal.mp3"
+Jun 03 19:57 : client: [7] opened from 127.0.0.1:40914
+Jun 03 19:57 : client: [7] closed
+Jun 03 19:58 : client: [8] opened from 127.0.0.1:40918
+Jun 03 19:58 : client: [8] closed
+Jun 03 20:04 : player: played "Jamiroquai - Graetests hits/06 Space Cowboy.mp3"
+Jun 03 20:04 : client: [9] opened from 127.0.0.1:40952
+Jun 03 20:04 : client: [9] closed
+Jun 03 20:04 : client: [10] opened from 127.0.0.1:40956
+Jun 03 20:04 : client: [10] closed
+Jun 03 20:04 : client: [11] opened from 127.0.0.1:40960
+Jun 03 20:04 : client: [11] closed
+Jun 03 20:06 : client: [12] opened from 127.0.0.1:41026
+Jun 03 20:06 : player: played "Daft Punk Discography/Daft Punk Alive 2007 Deluxe Edition (Complete) oothe/cd 1/12-superheroes__human_after_all_rocknroll-xds.mp3"
+Jun 03 20:06 : client: [12] closed
+Jun 04 01:01 : client: [0] opened from 127.0.0.1:49850
+Jun 04 01:01 : client: [1] opened from 127.0.0.1:49854
+Jun 04 01:01 : client: [1] closed
+Jun 04 01:01 : client: [2] opened from 127.0.0.1:49858
+Jun 04 01:01 : client: [2] closed
+Jun 04 01:01 : client: [3] opened from 127.0.0.1:49862
+Jun 04 01:01 : client: [3] closed
+Jun 04 01:04 : client: [4] opened from 127.0.0.1:49872
+Jun 04 01:04 : player: played "Jamiroquai - Graetests hits/06 Space Cowboy.mp3"
+Jun 04 01:04 : client: [4] closed
+Jun 12 00:15 : client: [0] opened from 127.0.0.1:46104
+Jun 12 00:15 : client: [1] opened from 127.0.0.1:46108
+Jun 12 00:15 : client: [1] closed
+Jun 12 00:15 : client: [2] opened from 127.0.0.1:46112
+Jun 12 00:15 : client: [2] closed
+Jun 12 00:15 : client: [3] opened from 127.0.0.1:46116
+Jun 12 00:15 : client: [3] closed
+Jun 12 00:16 : client: [4] opened from 127.0.0.1:46120
+Jun 12 00:16 : client: [4] closed
+Jun 12 00:16 : client: [5] opened from 127.0.0.1:46124
+Jun 12 00:16 : client: [5] closed
+Jun 12 00:16 : client: [6] opened from 127.0.0.1:46128
+Jun 12 00:16 : client: [6] closed
+Jun 12 00:16 : client: [7] opened from 127.0.0.1:46132
+Jun 12 00:16 : client: [7] closed
+Jun 12 00:16 : client: [8] opened from 127.0.0.1:46136
+Jun 12 00:16 : client: [8] closed
+Jun 12 00:16 : client: [9] opened from 127.0.0.1:46140
+Jun 12 00:16 : client: [9] closed
+Jun 12 00:16 : client: [10] opened from 127.0.0.1:46144
+Jun 12 00:16 : client: [10] closed
+Jun 12 00:16 : client: [11] opened from 127.0.0.1:46148
+Jun 12 00:16 : client: [11] closed
+Jun 12 00:16 : client: [12] opened from 127.0.0.1:46152
+Jun 12 00:16 : client: [12] closed
+Jun 12 00:16 : client: [13] opened from 127.0.0.1:46156
+Jun 12 00:16 : client: [13] closed
+Jun 12 00:16 : client: [14] opened from 127.0.0.1:46160
+Jun 12 00:16 : client: [15] opened from 127.0.0.1:46164
+Jun 12 00:16 : client: [15] closed
+Jun 12 00:16 : client: [14] closed
+Jun 12 00:17 : client: [16] opened from 127.0.0.1:46168
+Jun 12 00:17 : client: [16] closed
+Jun 12 00:17 : client: [17] opened from 127.0.0.1:46172
+Jun 12 00:17 : client: [17] closed
+Jun 12 00:17 : client: [18] opened from 127.0.0.1:46176
+Jun 12 00:17 : client: [18] closed
+Jun 12 00:17 : client: [19] opened from 127.0.0.1:46180
+Jun 12 00:17 : client: [19] closed
+Jun 12 00:18 : client: [20] opened from 127.0.0.1:46184
+Jun 12 00:18 : client: [20] closed
+Jun 12 00:18 : client: [21] opened from 127.0.0.1:46188
+Jun 12 00:18 : client: [21] closed
+Jun 12 00:18 : client: [22] opened from 127.0.0.1:46192
+Jun 12 00:18 : client: [22] closed
+Jun 12 00:18 : client: [23] opened from 127.0.0.1:46196
+Jun 12 00:18 : client: [23] closed
+Jun 12 00:18 : client: [24] opened from 127.0.0.1:46200
+Jun 12 00:18 : client: [24] closed
+Jun 12 00:18 : client: [25] opened from 127.0.0.1:46204
+Jun 12 00:18 : client: [25] closed
+Jun 12 00:18 : client: [26] opened from 127.0.0.1:46208
+Jun 12 00:18 : client: [26] closed
+Jun 12 00:18 : client: [27] opened from 127.0.0.1:46212
+Jun 12 00:18 : client: [27] closed
+Jun 12 00:18 : client: [28] opened from 127.0.0.1:46216
+Jun 12 00:18 : client: [28] closed
+Jun 12 00:18 : client: [29] opened from 127.0.0.1:46220
+Jun 12 00:18 : client: [29] closed
+Jun 12 00:18 : client: [30] opened from 127.0.0.1:46224
+Jun 12 00:18 : client: [30] closed
+Jun 12 00:18 : client: [31] opened from 127.0.0.1:46228
+Jun 12 00:18 : client: [31] closed
+Jun 12 00:18 : client: [32] opened from 127.0.0.1:46232
+Jun 12 00:18 : client: [32] closed
+Jun 12 00:18 : client: [33] opened from 127.0.0.1:46236
+Jun 12 00:18 : client: [33] closed
+Jun 12 00:18 : client: [34] opened from 127.0.0.1:46240
+Jun 12 00:18 : client: [34] closed
+Jun 12 00:18 : client: [35] opened from 127.0.0.1:46244
+Jun 12 00:18 : client: [35] closed
+Jun 12 00:18 : client: [36] opened from 127.0.0.1:46248
+Jun 12 00:18 : client: [36] closed
+Jun 12 00:18 : client: [37] opened from 127.0.0.1:46252
+Jun 12 00:18 : client: [37] closed
+Jun 12 00:18 : client: [38] opened from 127.0.0.1:46256
+Jun 12 00:18 : client: [38] closed
+Jun 12 00:18 : client: [39] opened from 127.0.0.1:46260
+Jun 12 00:18 : client: [39] closed
+Jun 12 00:20 : client: [40] opened from 127.0.0.1:46340
+Jun 12 00:20 : player: played "Daft Punk Discography/Daft Punk - Random Access Memories (2013) [MP3 192]/07 - Touch.mp3"
+Jun 12 00:20 : client: [40] closed

@@ -17,7 +17,7 @@ remoterepository = work-remote
 
 [Repository work-remote]
 type = Gmail
-remoteuser = faroukmokh@gmail.com
+remoteuser = your-email@gmail.com
 remotepasseval = mailpasswd("work")
 #remotepass = "password"
 #remotehost = imap.gmail.com

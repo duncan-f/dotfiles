@@ -1,0 +1,16 @@
+#!/bin/sh
+
+choices="laptop\nlaptopdual\nVGA\nHDMI\nManual selection"
+
+chosen=$(echo -e "$choices" | dmenu -i -p "Select")
+
+case "$chosen" in
+	laptopdual) xrandr --output eDP1 --auto --output DP1 --auto --right-of eDP1 ;;
+	laptop) xrandr --output eDP1 --auto --output DP1 --off ;;
+	VGA) xrandr --output DP1 --auto --output eDP1 --off ;;
+	HDMI) xrandr --output HDMI1 --auto --output eDP1 --off ;;
+	"Manual selection") arandr ;;
+esac
+
+# Relaunch polybar if there was a selection.
+[ "$chosen" == "" ] || ~/.config/polybar/launch.sh

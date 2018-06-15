@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# This is a ffmpeg script to record audio only
+
+while [[ -f $HOME/audio$n.flac ]]
+do
+    n=$((n+1))
+done
+
+filename="$HOME/audio$n.flac"
+
+# For pulseaudio
+audio_pulse()
+{
+    ffmpeg \
+    -f alsa -i default \
+    -c:a flac \
+    $filename
+}
+
+# For alsa
+audio_alsa()
+{
+    ffmpeg -y \
+    -f alsa -ar 44100 -i hw:1 \
+    $filename
+}
+
+if [[ $(pgrep -x pulseaudio) ]]; then audio_pulse; else audio_alsa; fi
+
+

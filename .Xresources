@@ -36,8 +36,8 @@
  
 
 ! Dracula Xresources palette
-St.alpha:      221 
-St.font:       tamzen:pixelsize=14:antialias=true:autohint=true
+St.alpha:      210 
+St.font:       Ubuntu Mono:pixelsize=14:antialias=true:autohint=true
 !St.foreground: #F8F8F2
 !St.background: #282A36
 !St.cursorColor: #e6e6e6
@@ -112,10 +112,10 @@ URxvt.utf8:                     true
 !URxvt.shading:          25
 URxvt.cursorBlink:              true
 URxvt.cursorUnderline:          true
-URxvt.font:                     xft:tamzen:normal:size=11
-URxvt.fontBold:                 xft:tamzen:bold:size=11
-!URxvt.font:             xft:Ubuntu Mono:regular:size=12
-!URxvt.fontBold:         xft:Ubuntu Mono:bold:size=12
+!URxvt.font:                     xft:tamzen:normal:size=11
+!URxvt.fontBold:                 xft:tamzen:bold:size=11
+URxvt.font:             xft:Ubuntu Mono:regular:size=11
+URxvt.fontBold:         xft:Ubuntu Mono:bold:size=11
 URxvt.depth:                    32
 URxvt.urxvt:                    screen-256color
 !URxvt.letterSpace:      -1
