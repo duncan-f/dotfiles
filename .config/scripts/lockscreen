@@ -1,61 +1,59 @@
 #!/bin/bash
- 
-#depends on: imagemagick, i3lock, scrot
-#https://www.reddit.com/r/unixporn/comments/3358vu/i3lock_unixpornworthy_lock_screen/cqilnv3
 
 FOLDER="/tmp"
- 
-IMAGE="$FOLDER/lockscreen.png"
-#TEXT=/tmp/locktext.png
-#ICON="$HOME/.config/i3/lock.png"
- 
-resized="$FOLDER/resized.png"
+WALLPAPER="$HOME/.config/wallpaper.png"
 
-# ratio for rectangle to be drawn for time background on lockscreen
-rectangles=" "
-SR=$(xrandr --query | grep ' connected' | grep -o '[0-9][0-9]*x[0-9][0-9]*[^ ]*')
-for RES in $SR; do
-  SRA=(${RES//[x+]/ })
-  CX=$((${SRA[2]} + 25))
-  CY=$((${SRA[1]} - 30))
-  rectangles+="rectangle $CX,$CY $((CX+300)),$((CY-80)) "
-done
+DIMSCREEN="$FOLDER/dimscreen.png"
+BLURSCREEN="$FOLDER/blurscreen.png"
+DIMBLURSCREEN="$FOLDER/dimblurscreen.png"
+RESIZED="$FOLDER/resized.png"
 
-# take screenshot
-#scrot -z $IMAGE
 
-cp ~/.config/wallpaper.png $IMAGE
+L_DIMSCREEN="$FOLDER/l_dimscreen.png"
+L_BLURSCREEN="$FOLDER/l_blurscreen.png"
+L_DIMBLURSCREEN="$FOLDER/l_dimblurscreen.png"
+L_RESIZED="$FOLDER/l_resized.png"
 
-# find your resolution so images can be resized to match your screen resolution
-resolution=$(xdpyinfo | grep dimensions | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/')
+initialize() {
+    echo "Generating temporary images for lockscreen..."
 
-convert "$IMAGE" -resize "$resolution""^" -gravity center -extent "$resolution" "$IMAGE"
+    # find your resolution so images can be resized to match your screen resolution
+    resolution=$(xdpyinfo | grep dimensions | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/')
 
-case "$1" in
-# dim & blur
-#convert $IMAGE -scale 10% -scale 1000% -fill black -colorize 40% $IMAGE
-    dimblur) convert $IMAGE -blur 0x5 -fill black -colorize 40% $IMAGE ;;
+    if [ -n "$1" ]; then
+        if [ -f "$1" ]; then
+            convert "$1" -resize "$resolution""^" -gravity center -extent "$resolution" "$RESIZED"
+        else
+            echo "File $1 does not exist."
+            exit 1
+        fi
+    else
+            convert "$WALLPAPER" -resize "$resolution""^" -gravity center -extent "$resolution" "$RESIZED"
+    fi
 
-# dim
-    dim) convert $IMAGE -fill black -colorize 40% $IMAGE ;;
+    convert $RESIZED -blur 0x5 $BLURSCREEN
+    convert $RESIZED -fill black -colorize 40% $DIMSCREEN
+    convert $DIMSCREEN -blur 0x5 $DIMBLURSCREEN
 
-# blur
-    blur) convert $IMAGE -blur 0x5 $IMAGE ;;
-esac
+    # ratio for rectangle to be drawn for time background on lockscreen
+    rectangles=" "
+    SR=$(xrandr --query | grep ' connected' | grep -o '[0-9][0-9]*x[0-9][0-9]*[^ ]*')
+    for RES in $SR; do
+        SRA=(${RES//[x+]/ })
+        CX=$((${SRA[2]} + 25))
+        CY=$((${SRA[1]} - 30))
+        rectangles+="rectangle $CX,$CY $((CX+300)),$((CY-80)) "
+    done
 
-# add transparent rectangle as background for datetime
-convert $IMAGE -draw "fill rgba(0, 0, 0, 0.4) $rectangles" $IMAGE
+    # add transparent rectangle as background for datetime
+    convert $RESIZED -draw "fill rgba(0, 0, 0, 0.4) $rectangles" $L_RESIZED
+    convert $DIMSCREEN -draw "fill rgba(0, 0, 0, 0.4) $rectangles" $L_DIMSCREEN
+    convert $DIMBLURSCREEN -draw "fill rgba(0, 0, 0, 0.4) $rectangles" $L_DIMBLURSCREEN
+    convert $BLURSCREEN -draw "fill rgba(0, 0, 0, 0.4) $rectangles" $L_BLURSCREEN
+}
 
-# if text image exists don't recreate it.
-#[ -f $TEXT ] || {
-#    convert -size 3000x60 xc:white -font Ubuntu -pointsize 26 -fill black -gravity center -annotate +0+0 'Type password to unlock' $TEXT;
-#    convert $TEXT -alpha set -channel A -evaluate set 50% $TEXT;
-#}
-
-#convert $IMAGE $TEXT -gravity center -geometry +0+200 -composite $IMAGE
-#convert $IMAGE $ICON -gravity center -composite -matte $IMAGE
-
-i3lock -i $IMAGE --timepos="x+140:h-70" \
+lock() {
+i3lock -i $1 --timepos="x+140:h-70" \
         --datepos="tx+24:ty+25" \
         --clock --datestr "%m/%d/%Y" \
         --insidecolor=00000000 --ringcolor=ffffffff --line-uses-inside \
@@ -64,3 +62,38 @@ i3lock -i $IMAGE --timepos="x+140:h-70" \
         --ringvercolor=ffffffff --ringwrongcolor=ffffffff --indpos="x+280:h-70" \
         --radius=20 --ring-width=3 --veriftext="" --wrongtext="" \
         --timecolor="ffffffff" --datecolor="ffffffff"
+}
+
+
+selectlock() {
+    case "$1" in
+        dim) lock "$L_DIMSCREEN" ;;
+        blur) lock "$L_BLURSCREEN" ;;
+        dimblur) lock "$L_DIMBLURSCREEN" ;;
+        *) lock "$L_RESIZED" ;;
+    esac
+}
+
+case "$1" in
+    -i | --init) initialize ;;
+    -u | --update) initialize "$2" ;;
+    -l | --lock) selectlock "$2" ;;
+    -s | --suspend) 
+        selectlock "$2" 
+        systemctl suspend 
+        ;;
+    -b | --hibernate)
+        selectlock "$2"
+        systemctl hibernate
+        ;;
+    -w | --wallpaper) 
+       case "$2" in
+           dim) feh --bg-scale $DIMSCREEN ;;
+           blur) feh --bg-scale $BLURSCREEN ;;
+           dimblur) feh --bg-scale $DIMBLURSCREEN ;;
+           *) feh --bg-scale $RESIZED ;;
+       esac
+         ;;
+    *) lock "$L_RESIZED" ;;
+esac
+

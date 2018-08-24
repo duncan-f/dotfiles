@@ -1,6 +1,10 @@
 #!/bin/bash
 
-prompt=$(echo -e "Yes\nNo" | dmenu -i -p "$1")
+if [ -f "$HOME/.config/scripts/dmenucommand" ]; then
+    . "$HOME/.config/scripts/dmenucommand"
+fi
+
+prompt=$(echo -e "Yes\nNo" | eval $DMENU -p \"$1\")
 
 if [[ $prompt == "Yes" ]]; then
     exec $2 ;

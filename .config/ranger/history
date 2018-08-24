@@ -1,23 +1,3 @@
-rename 12 - Building an 8-bit register - 8-bit register - Part 4.mp4
-rename 13 - Testing our computer's registers - 8-bit register - Part 5.mp4
-rename 14 - Twos complement - Negative numbers in binary.mp4
-rename 15 - ALU Design.mp4
-rename 16 - Building the ALU.mp4
-rename 17 - Troubleshooting the ALU.mp4
-rename 18 - Testing the computer's ALU.mp4
-rename 19 - 8-bit computer RAM intro.mp4
-rename 20 - RAM module build - part 1.mp4
-rename 21 - RAM module build - part 2.mkv
-rename 22 - RAM module build - part 3.mp4
-rename 23 - RAM module testing and troubleshooting.mp4
-rename 24 - JK flip-flop.mp4
-rename 25 - JK flip-flop racing.mkv
-rename 26 - Master-slave JK flip-flop.mkv
-rename 27 - Binary counter.mp4
-rename 28 - Program counter design.mp4
-rename 29 - Program counter build.mp4
-rename 30 - Designing a 7-segment hex decoder.mkv
-rename 31 - Using an EEPROM to replace combinational logic.mp4
 rename 32 - Build an Arduino EEPROM programmer.mp4
 rename 33 - Build an 8-bit decimal display for our 8-bit computer.mp4
 rename 34 - 8-bit computer build - Connecting the bus.mp4
@@ -42,9 +22,29 @@ rename Account_Backup
 rename Account
 unrar x 
 mkdir ElvUI
-open_with 
 unrar xv
 unrar
 unrar xv TukUI114.rar
-delete
 rename CV.docx
+rename .bash_profile
+rename .bashrc
+rename .msmtprc
+rename .offlineimaprc
+rename .tmux.conf
+rename .vimrc
+rename .Xresources
+open_with vlc
+open_with 
+open_with mupdf
+rename 01 - Docker Tutorial - What is Docker & Docker Containers, Images, etc.webm
+rename 02 - Docker Container Tutorial - How to build a Docker Container & Image.webm
+rename 02 - Docker Tutorial - Docker Container Tutorial for Beginners.mkv
+rename 03 - Docker Container Tutorial - How to build a Docker Container & Image.webm
+rename 04 - Complete Docker Course! - Real World Docker - Complete Docker Tutorial Course.mkv
+rename 05 - Why Docker is the Perfect Fit for Microservices - Production and Local Advantages.mp4
+rename 06 - Scaling Docker #1 - High Availability Docker DevOps with CoreOS, Etcd, Fleet, Flannel & Nginx.mkv
+rename 07 - Scaling Docker #2 - Tutorial on Scheduling Docker Containers across CoreOS machine with Fleet.mkv
+rename 08 - Scaling Docker #3 - Docker Service Registration with Etcd & Flannel.mkv
+rename 09 - Scaling Docker #4 - Docker Service Discovery and Load Balancing.mkv
+rename 10 - Scaling Docker #5 - Routing DNS to Docker images running on a CoreOS Cluster.mkv
+delete

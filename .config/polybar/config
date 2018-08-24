@@ -2,24 +2,28 @@
 ; Wiki: https://github.com/jaagr/polybar/wiki
 
 [colors]
-;background = #2f343f
-background = ${xrdb:*color8}
-background-alt = ${xrdb:color0}
+background = ${xrdb:*background}
+background-alt = #2f343f
 foreground = ${xrdb:*foreground}
-;foreground = #f3f4f5
 foreground-alt = #ffffff
-;secondary = #3a3a3a
-secondary = ${xrdb:*secondary}
-;underline = #943ed6
-underline = ${xrdb:*underline}
+secondary = ${xrdb:*color9}
+underline = ${xrdb:*color4}
+color1 = ${xrdb:*color1}
+color3 = ${xrdb:*color3}
+
+[fonts]
+font-0 = ${xrdb:Polybar.font}
+;font-0 = "Ubuntu:size=10;2"
+;font-0 = "UW ttyp0:size=11;2"
+;font-0 = "tamzen:size=12;2"
+;font-0 = "Input Mono Compressed:size=11;2"
 
 [bar/default]
-;override-redirect = true
-;wm-restack = i3
 height = 24
 width = 100%
+offset-x = 0
 offset-y = 0
-top = true
+radius = 0.0
 fixed-center = true 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -28,14 +32,14 @@ monitor = ${env:MONITOR:eDP1}
 line-size = 3
 line-color = #f00
 
-;cursor-click = pointer
-
+;border-top-size = 16
+;border-left-size = 26
+;border-right-size = 26
 padding-left = 0
 padding-right = 0
 module-margin = 1
 
-font-0 = "Ubuntu:size=10;2"
-;font-0 = "tamzen:size=12;0"
+font-0 = ${fonts.font-0}
 font-1 = "FontAwesome:size=10;2"
 font-2 = "xos4terminus:size=10:weight=bold;2"
 font-3 = "MaterialDesignIcons:size=10"
@@ -43,14 +47,23 @@ font-4 = "unifont:size=9"
 font-5 = "fixed:size=10"
 
 modules-left = i3 mpd
-modules-center = xwindow
-modules-right = redshift backlight volume battery date powermenu  
+modules-center = date 
+modules-right = redshift backlight volume battery 
 
 tray-position = right
 tray-padding = 0 
 tray-offset-y = 0%
 tray-offset-x = 0%
 tray-detached = false
+
+[module/updates]
+type = custom/script
+
+exec = checkupdates
+tail = true
+format = <label>
+label = "  %output% "
+label-underline = ${colors.underline}
 
 [module/i3]
 type = internal/i3
@@ -74,7 +87,7 @@ label-focused-padding = 1
 label-unfocused = %icon%
 label-unfocused-padding = 1
 label-unfocused-foreground = ${colors.foreground}
-label-unfocused-underline = ${colors.secondary}
+;label-unfocused-underline = ${colors.secondary}
 
 label-visible = %icon%
 label-visible-underline = ${colors.foreground}
@@ -99,7 +112,7 @@ ws-icon-9 = 0;
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title:0:40:...%
 
 [module/mpd]
 type = internal/mpd
@@ -112,7 +125,7 @@ port = 6600
 interval = 1
 
 ;format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <label-time>  <label-song>"
-format-online = " <icon-repeat> <icon-random> <label-song> <label-time> "
+format-online = " <label-song> <label-time> "
 
 ; Available tokens:
 ;   %artist%
@@ -120,7 +133,7 @@ format-online = " <icon-repeat> <icon-random> <label-song> <label-time> "
 ;   %date%
 ;   %title%
 ; Default: %artist% - %title%
-label-song =  %artist% - %title%
+label-song = " %artist% - %title%"
 
 format-offline = <label-offline>
 
@@ -149,7 +162,7 @@ bar-progress-indicator = |
 bar-progress-fill = ─
 bar-progress-empty = ─
 
-label-song-maxlen = 28
+label-song-maxlen = 35
 label-song-ellipsis = true
 
 [module/backlight]
@@ -205,8 +218,8 @@ ramp-capacity-1 = " "
 ramp-capacity-2 = " "
 ramp-capacity-3 = " "
 ramp-capacity-4 = " "
-ramp-capacity-0-foreground = #BD1212
-ramp-capacity-1-foreground = #e57b19
+ramp-capacity-0-foreground = ${colors.color1}
+ramp-capacity-1-foreground = ${colors.color3}
 
 format-full = <ramp-capacity> <label-full>
 label-full = Fully charged
@@ -232,10 +245,11 @@ label = %percentage_used%%
 type = internal/date
 interval = 1
 ;date = %a. %b. %d,
-date-alt = " %a. %b. %d, %Y"
+;date-alt = " %a. %b. %d"
+date = " %a. %b. %d"
 time = " %I:%M %p"
 ;time-alt = %H:%M:%S
-label = " %time%%date% "
+label = " %date%   %time% "
 format-underline = ${colors.underline}
 
 [module/volume]
@@ -255,10 +269,11 @@ ramp-volume-2 = " "
 ramp-volume-3 = " "
 
 ; Only applies if <bar-progress> is used
-bar-volume-width = 10
+bar-volume-width = 8
 bar-volume-indicator = |
-bar-volume-fill = =
+bar-volume-fill = ─
 bar-volume-empty = ─
+bar-volume-empty-foreground = #c0c0c0
 
 [module/wired]
 type = internal/network

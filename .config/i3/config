@@ -1,15 +1,39 @@
-# vim: filetype=i3
 # I3 Gaps
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 for_window [class=".*"] title_format "  %title"
 gaps inner 5
 gaps outer 8
 smart_borders on
 smart_gaps on
 
+# set font
+set_from_resource $dunst_font       Dunst.font  "Tamzen 11"
+set_from_resource $i3_font          i3wm.font   "Tamzen 11"
+
+# set colors
+set_from_resource $bg               background  #002b36
+set_from_resource $fg               foreground  #839496
+
+set_from_resource $darkblack        color0      #073642
+set_from_resource $darkred          color1      #dc322f
+set_from_resource $darkgreen        color2
+set_from_resource $darkyellow       color3
+set_from_resource $darkblue         color4
+set_from_resource $darkpurple       color5
+set_from_resource $darkcyan         color6
+set_from_resource $darkwhite        color7
+set_from_resource $lightblack       color8
+set_from_resource $lightred         color9
+set_from_resource $lightgreen       color10
+set_from_resource $lightyellow      color11
+set_from_resource $lightblue        color12
+set_from_resource $lightpurple      color13
+set_from_resource $lightcyan        color14
+set_from_resource $lightwhite       color15
+
 set $mod Mod4
 set $alt Mod1
-set $term --no-startup-id st
+set $term --no-startup-id $TERMINAL
 set $video --no-startup-id sh ~/.config/scripts/video
 set $screencast --no-startup-id sh ~/.config/scripts/screencast
 set $audio --no-startup-id sh ~/.config/scripts/audio
@@ -46,7 +70,7 @@ set $increase --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 set $decrease --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 set $middle --no-startup-id pactl set-sink-volume 0 50% #put volume to 50%
 set $truemute --no-startup-id pactl set-sink-mute 0 toggle #mute volume
-set $micmute --no-startup-id pactl set-source-mute 1 toggle
+set $micmute --no-startup-id pactl set-source-mute 1 toggle #mute microphone
 
 #      autostart 
 #    -------------
@@ -61,13 +85,13 @@ exec --no-startup-id blueberry-tray
 # exec --no-startup-id nitrogen --restore
 
 exec --no-startup-id xautolock -time 15 -locker lockscreen
-exec --no-startup-id feh --bg-scale ~/.config/wallpaper.png
+exec --no-startup-id feh --bg-fill ~/.config/wallpaper.png
 
 # compton
 exec --no-startup-id compton
 
 # pulseaudio volume notifications
-exec --no-startup-id dunst
+exec --no-startup-id dunst -font "$dunst_font" -lb "$bg" -lf "$fg" -lfr "$lightblack" -nb "$bg" -nf "$fg" -nfr "$darkblack" -cb "$darkred" -cf "$darkwhite" -cfr "$lightred"
 exec --no-startup-id xfce4-volumed-pulse
 
 # numlock key always on
@@ -94,14 +118,15 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #exec --no-startup-id dconf write /org/gnome/settings-daemon/plugins/cursor/active false
 
 # Bindings to make the webcam float and stick.
-for_window [title="video0 - mpv"] floating enable
-for_window [title="video0 - mpv"] sticky enable
-for_window [title="video0 - mpv"] border pixel 0
+for_window [title="mpvfloat"] floating enable
+for_window [title="mpvfloat"] sticky enable
+for_window [title="mpvfloat"] border pixel 0
+no_focus [title="mpvfloat"]
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu 11
-#font pango:tamzen 11
+#font pango:Ubuntu 11
+font pango:$i3_font
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -109,20 +134,24 @@ floating_modifier $mod
 ### Basic bindings ###
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec $term
-bindsym $mod+Shift+Return exec $term -e tmux 
+bindsym $mod+Return split h; exec $term
+bindsym $mod+Shift+Return split v; exec $term
 
+bindsym Ctrl+$alt+Tab exec --no-startup-id displayselect
+
+#get a dropdown calculator from R
 bindsym asciitilde [instance="math"] scratchpad show; move position center
 bindsym $mod+asciitilde [instance="console"] scratchpad show; move position center
 
-bindsym $mod+Delete exec $truemute; exec $pause; workspace $workspace9; exec --no-startup-id ~/.config/i3/i3lock
+#get a dropdown terminal using tmux
+bindsym $mod+Delete exec $truemute; exec $pause; workspace $workspace9; exec --no-startup-id ~/.config/scripts/lockscreen -l dim
 bindsym $mod+shift+Delete exec $truemute; exec $pause; workspace $workspace9; exec $term -e tmux; exec $term -e htop
 
 # add/remove gaps
-bindsym $mod+KP_Add gaps inner current plus 5
-bindsym $mod+KP_Subtract gaps inner current minus 5
+bindsym $mod+KP_Add gaps inner current plus 5; gaps outer current plus 5
+bindsym $mod+KP_Subtract gaps inner current minus 5; gaps outer current minus 5
 
-bindsym $mod+KP_Divide split h; exec --no-startup-id notify-send 'tile horizontally'
+bindsym $mod+KP_Divide split h; exec --no-startup-id notify-send "Notification" "Tile horizontally"
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -134,12 +163,23 @@ bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
 bindsym $mod+BackSpace mode $apps_menu
-bindsym $mod+Shift+BackSpace exec --no-startup-id sh ~/.config/i3/i3exit hibernate # Be carefull with this one /!\
+bindsym $mod+Shift+BackSpace exec --no-startup-id prompt "Hibernate?" "sh ~/.config/i3/i3exit hibernate"
 
-bindsym $mod+Escape exec --no-startup-id ~/.config/scripts/i3shutdown
+bindsym $mod+Escape exec --no-startup-id ~/.config/scripts/rshutdown
 #bindsym $mod+Escape mode $mode_system
-bindsym $mod+shift+Escape exec --no-startup-id prompt "Logout?" "i3-msg exit"
-#bindsym $mod+shift+Escape exec --no-startup-id "i3-nagbar -m 'Logout ?' -b 'Yes, exit i3' 'i3-msg exit' -t warning -f tamzen 10"
+bindsym $mod+shift+Escape exec --no-startup-id prompt "Shutdown ?" "systemctl poweroff"
+
+# Screenshot
+bindsym Print exec --no-startup-id scrot -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'; exec --no-startup-id notify-send "Notification" "Screenshot Saved"
+bindsym $mod+Print exec --no-startup-id scrot -u -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'
+bindsym --release $mod+Shift+Print exec --no-startup-id scrot -s -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'
+
+# Screencasting
+bindsym Insert exec $camcode; exec --no-startup-id notify-send "Notification" "Start camcoding"
+bindsym Shift+Insert exec $audio; exec --no-startup-id notify-send "Notification" "Start recording audio"
+bindsym $mod+Insert exec $video; exec --no-startup-id notify-send "Notification" "Start recording video"
+bindsym $mod+Shift+Insert exec $screencast; exec --no-startup-id notify-send "Notification" "Start Screencasting"
+bindsym $mod+Pause exec $stoprec; exec --no-startup-id notify-send "Notification" "Recording Stopped"
 
 ### Arrows bindings ###
 # alternatively, you can use the cursor keys:
@@ -157,17 +197,19 @@ bindsym $mod+Shift+Right move right
 
 ### Letter Keybinds ###
 
-bindsym $mod+a kill
-bindsym $mod+Shift+a kill
+bindsym $mod+a focus parent
+bindsym $mod+Shift+a focus child
 
 bindsym $mod+b exec --no-startup-id qutebrowser
 bindsym $mod+Shift+b exec $prev
+bindsym $mod+$alt+b exec $seekb
 
 bindsym $mod+c exec $term -e weechat
 bindsym $mod+Shift+c exec $term -e calcurse
 
-bindsym $mod+d exec --no-startup-id "rofi -show run -combi-modi run,window,ssh"
-bindsym $mod+Shift+d exec --no-startup-id ~/.config/scripts/displayselect
+bindsym $mod+d exec --no-startup-id roficolors 
+##bindsym $mod+d exec --no-startup-id dmenu_run -nb "$bg" -nf "$fg" -sb "$wf_bg" -sf "$bg" -p "Run" -fn "tamzen:pixelsize=14"
+bindsym $mod+Shift+d exec --no-startup-id displayselect
 
 bindsym $mod+e layout toggle split
 bindsym $mod+Shift+e mode $mode_resize
@@ -180,58 +222,62 @@ bindsym $mod+Shift+g exec $term -e htop
 
 bindsym $mod+h focus left
 bindsym $mod+Shift+h move left
+bindsym $mod+$alt+h resize shrink width 10 px or 10 ppt
 
-bindsym $mod+i resize grow width 10 px or 10 ppt
+#bindsym $mod+i
 bindsym $mod+Shift+i exec --no-startup-id gmtp
 
 bindsym $mod+j focus down
 bindsym $mod+Shift+j move down
+bindsym $mod+$alt+j resize grow height 10 px or 10 ppt
 
 bindsym $mod+k focus up
 bindsym $mod+Shift+k move up
+bindsym $mod+$alt+k resize shrink height 10 px or 10 ppt
 
 bindsym $mod+l focus right
 bindsym $mod+Shift+l move right
+bindsym $mod+$alt+l resize grow width 10 px or 10 ppt
 
 bindsym $mod+m exec $term -e neomutt
 bindsym $mod+Shift+m exec $music
 
 bindsym $mod+n exec $term -e newsboat
 bindsym $mod+Shift+n exec $next
+bindsym $mod+$alt+n exec $seekf
 
-bindsym $mod+o exec --no-startup-id ~/.config/scripts/camtoggle
-bindsym $mod+Shift+o exec $term -e ranger ~/Documents/programming/projects/webdev/
+bindsym $mod+o exec --no-startup-id camtoggle
+bindsym $mod+Shift+o gaps inner current set 5; gaps outer current set 8
 
 bindsym $mod+p exec $toggle
-bindsym $mod+Shift+p exec --no-startup-id ~/.config/scripts/mpdnotif
+bindsym $mod+Shift+p exec --no-startup-id mpdnotif
 
-bindsym $mod+q focus parent
-bindsym $mod+Shift+q focus child
+#bindsym $mod+q exec
+bindsym $mod+Shift+q kill
 
 bindsym $mod+r exec $term -e ranger
-bindsym $mod+Shift+r exec $term -e sudo ranger /
+bindsym $mod+Shift+r exec $term -e sudo ranger /mnt
 
 bindsym $mod+s layout stacking
 bindsym $mod+Shift+s exec $stop
 
-bindsym $mod+t resize shrink width 10 px or 10 ppt
-bindsym $mod+Shift+t gaps inner current set 5; gaps outer current set 8
+#bindsym $mod+t exec
+bindsym $mod+Shift+t exec $term -e transmission-remote-cli
 
-bindsym $mod+u resize shrink height 10 px or 10 ppt
-#bindsym $mod+Shift+u exec
+#bindsym $mod+u exec
+bindsym $mod+Shift+u exec $term -e ranger ~/Programming/projects/webdev/
 
-bindsym $mod+v split v; exec --no-startup-id notify-send 'tile vertically'
+bindsym $mod+v split v; exec --no-startup-id notify-send "Notification" "Tile vertically"
 #bindsym $mod+Shift+v exec
 
-bindsym $mod+w exec $netrestart
+bindsym $mod+w exec $netrefresh
 bindsym $mod+Shift+w exec $netstop
 
-bindsym $mod+x exec --no-startup-id sh ~/.config/scripts/lockscreen dim
-#bindsym $mod+x exec --no-startup-id sh ~/.config/i3/i3lock
-#bindsym $mod+Shift+x exec
+bindsym $mod+x exec --no-startup-id sh ~/.config/scripts/lockscreen -l dim
+bindsym $mod+Shift+x exec  --no-startup-id ~/Documents/Browser/start-tor-browser
 
-bindsym $mod+y resize grow height 10 px or 10 ppt
-#bindsym $mod+Shift+y exec
+#bindsym $mod+y
+bindsym $mod+Shift+y exec --no-startup-id torrents
 
 bindsym $mod+z layout tabbed
 bindsym $mod+Shift+z gaps inner current set 0; gaps outer current set 0
@@ -300,6 +346,12 @@ for_window [window_role="gimp-dock"] floating disable; move left; resize shrink 
 for_window [window_role="gimp-toolbox"] floating disable; move right; resize grow width 30 px or 30 ppt
 for_window [window_role="GtkFileChooserDialog"] resize shrink height 10 px
 
+bindsym $mod+Home workspace $workspace1
+bindsym $mod+Shift+Home move container to workspace $workspace1
+
+bindsym $mod+End workspace $workspace10
+bindsym $mod+Shift+End move container to workspace $workspace10
+
 # switch to workspace
 bindsym $mod+ampersand workspace $workspace1
 bindsym $mod+eacute workspace $workspace2
@@ -324,7 +376,7 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+ccedilla move container to workspace $workspace9
 bindsym $mod+Shift+agrave move container to workspace $workspace10
 
-# reload the configuration file
+# shutdown menu
 set $mode_system " (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown"
 mode $mode_system {
     bindsym l exec --no-startup-id sh ~/.config/i3/i3exit lock, mode "default"
@@ -392,6 +444,8 @@ bindsym $mod+F10 exec --no-startup-id ~/.config/scripts/dmenuumount
 #bindsym $mod+F11
 #bindsym $mod+F12
 
+bindsym $alt+F4 kill
+
 for_window [instance="math"] border pixel 2
 for_window [instance="math"] floating enable
 for_window [instance="math"] resize set 640 480
@@ -406,93 +460,34 @@ for_window [instance="console"] move position center
 for_window [instance="console"] move scratchpad
 exec $term -n console -e ~/.config/scripts/tmuxinit
 
-set $bg                 #000000
-set $sline              #ffffff
-set $sep                #666666
-
-# focused_workspace
-set $fws_border         #551a8b
-set $fws_bg             #551a8b
-set $fws_text           #ffffff
-
-# active_workspace
-set $aws_border         #333333
-set $aws_bg             #5f676a
-set $aws_text           #ffffff
-
-# inactive_workspace
-set $iws_border         #000000
-set $iws_bg             #000000
-set $iws_text           #ffffff
-
-# urgent_workspace
-set $uws_border         #2f343a
-set $uws_bg             #900000
-set $uws_text           #ffffff
-
-# window focused
-set $wf_border          #0094ce
-#set $wf_border          #3b1261
-set $wf_bg              #0094ce
-#set $wf_bg              #3b1261
-set $wf_text            #ffffff
-set $wf_indicator       #3b1261
-
-# window focused inactive
-set $wfi_border         #333333
-set $wfi_bg             #5f676a
-set $wfi_text           #ffffff
-set $wfi_indicator      #484e50
-
-# window unfocused
-set $wuf_border         #222222
-set $wuf_bg             #222222
-set $wuf_text           #888888
-set $wuf_indicator      #292d2e
-
-# window urgent
-set $wu_border          #2f343a
-set $wu_bg              #900000
-set $wu_text            #ffffff
-set $wu_indicator       #900000
-
 # window_colors
 #                         border      background     text        indicator
-  client.focused          $wf_border  $wf_bg         $wf_text    $wf_indicator
-  client.focused_inactive $wfi_border $wfi_bg        $wfi_text   $wfi_indicator
-  client.unfocused        $wuf_border $wuf_bg        $wuf_text   $wuf_indicator
-  client.urgent           $wu_border  $wu_bg         $wu_text    $wu_indicator
+  client.focused          $darkblue   $darkblue      $darkwhite  $darkblue
+  client.focused_inactive $darkblack  $lightblack    $lightblue  $lightblack
+  client.unfocused        $darkblack  $darkblack     $lightblue  $lightwhite
+  client.urgent           $darkred    $darkred       $lightblue  $lightred
+  client.placeholder      $bg         $bg            $fg         $bg       $bg
+  client.background       $bg
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
 #        separator_symbol "::"
-#        font pango:Droid Sans, FontAwesome 10
-#        status_command i3status --config ~/.config/i3/i3status.conf
-#        #status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#        font pango:tamzen, FontAwesome 10
+#        #status_command i3status --config ~/.config/i3/i3status.conf
+#        status_command i3blocks -c ~/.config/i3/i3blocks.conf
 #        colors {
-#                separator $sep
+#                separator $darkblack
 #                background $bg
-#                statusline $sline
-
-#                focused_workspace $fws_border $fws_bg $fws_text
-#                active_workspace $aws_border $aws_bg $aws_text
-#                inactive_workspace $iws_border $iws_bg $iws_text
-#                urgent_workspace $uws_border $uws_bg $uws_text
+#                statusline $lightcyan
+#
+#                focused_workspace  $darkblue   $bg          $lightblue
+#                active_workspace   $bg         $bg          $lightblue
+#                inactive_workspace $bg         $bg          $lightblue
+#                urgent_workspace   $lightblue  $darkblue    $lightwhite
 #        }
 #}
 
-
-# Screenshot
-bindsym Print exec --no-startup-id scrot -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'; exec --no-startup-id notify-send 'Screenshot Saved'
-bindsym $mod+Print exec --no-startup-id scrot -u -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'
-bindsym --release $mod+Shift+Print exec --no-startup-id scrot -s -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'
-# Screencasting
-bindsym Insert exec $camcode
-bindsym Shift+Insert exec $audio
-bindsym $mod+Insert exec $video
-bindsym $mod+Shift+Insert exec $screencast
-bindsym $mod+Pause exec $stoprec
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec  $increase
@@ -500,8 +495,10 @@ bindsym XF86AudioLowerVolume exec  $decrease
 bindsym XF86AudioMute exec $truemute
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
+bindsym Shift+XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 # increase screen brightness
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 # decrease screen brightness
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec ~/.config/scripts/toggletouchpad # toggle touchpad
@@ -658,6 +655,6 @@ bindsym XF86Video exec notify-send "video"
 
 exec_always --no-startup-id setxkbmap -layout fr
 
-# Set backlight until i find a way to set it in boot
-#exec --no-startup-id xbacklight -set 30
+# lockscreen initialization
+exec --no-startup-id $HOME/.config/scripts/lockscreen -i
 

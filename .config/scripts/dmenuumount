@@ -6,9 +6,13 @@
 # Drives mounted at /, /boot and /home will not be options to unmount.
 # This can be changed by modifying $exclusionregex.
 
+if [ -f "$HOME/.config/scripts/dmenucommand" ]; then
+    . "$HOME/.config/scripts/dmenucommand"
+fi
+
 exclusionregex="\(/boot\|/home\|/\)$"
 drives=$(lsblk -lp | grep "t /" | grep -v "$exclusionregex" | awk '{print $1, "(" $4 ")", "on", $7}')
 [[ "$drives" = "" ]] && exit
-chosen=$(echo "$drives" | dmenu -i -p "Unmount which drive?" | awk '{print $1}')
+chosen=$(echo "$drives" | eval $DMENU -p \"Unmount which drive?\" | awk '{print $1}')
 [[ "$chosen" = "" ]] && exit
 sudo -A umount $chosen && pgrep -x dunst && notify-send "$chosen unmounted."

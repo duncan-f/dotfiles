@@ -1,8 +1,12 @@
 #!/bin/sh
 
+if [ -f "$HOME/.config/scripts/dmenucommand" ]; then
+    . "$HOME/.config/scripts/dmenucommand"
+fi
+
 choices="laptop\nlaptopdual\nVGA\nHDMI\nManual selection"
 
-chosen=$(echo -e "$choices" | dmenu -i -p "Select")
+chosen=$(echo -e "$choices" | eval $DMENU -p \"Select\")
 
 case "$chosen" in
 	laptopdual) xrandr --output eDP1 --auto --output DP1 --auto --right-of eDP1 ;;

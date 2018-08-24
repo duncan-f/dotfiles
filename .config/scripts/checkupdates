@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if arch_updates=$(pacman -Qu 2> /dev/null | wc -l); then
+    echo $arch_updates
+fi
+

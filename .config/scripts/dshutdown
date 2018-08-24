@@ -1,10 +1,18 @@
 #!/bin/bash
 
-menu=$(echo -e "Logout\nSuspend\nHibernate\nShutdown" | dmenu -i -l 5 -p "Select")
+if [ -f "$HOME/.config/scripts/dmenucommand" ]; then
+    . "$HOME/.config/scripts/dmenucommand"
+fi
+
+menu=$(echo -e "Logout\nReboot\nSuspend\nHibernate\nShutdown" | eval $DMENU -p \"Select\")
 
 case "$menu" in
     Logout) i3-msg exit ;;
-    Suspend) ~/.config/i3/i3lock && systemctl suspend ;;
+    Reboot) systemctl reboot ;;
+    Suspend) 
+        lockscreen -l dim 
+        systemctl suspend 
+        ;;
     Hibernate) systemctl hibernate ;;
     Shutdown) systemctl poweroff ;;
 esac
