@@ -1,0 +1,10 @@
+URxvt.font:                     xft:Ubuntu Mono:regular:pixelsize=14
+URxvt.boldFont:                 xft:Ubuntu Mono:bold:pixelsize=14
+URxvt.italicFont:               xft:Ubuntu Mono:italic:pixelsize=14
+URxvt.boldItalicFont:           xft:Ubuntu Mono:bold italic:pixelsize=14
+St.font:                        Ubuntu Mono:pixelsize=14:antialias=true:autohint=true
+Rofi.font:                      Ubuntu Mono 11
+Dunst.font:                     Ubuntu Mono 11
+i3wm.font:                      Ubuntu Mono 11
+Polybar.font:                   Ubuntu:size=10;2
+Dmenu.font:                     Ubuntu:size=11
