@@ -17,12 +17,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'sickill/vim-monokai'
-Bundle 'reewr/vim-monokai-phoenix'
-Plugin 'dracula/vim'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'vim-latex/vim-latex'
 Bundle 'tobyS/vmustache'
 Bundle 'tobyS/pdv'
+Plugin 'PotatoesMaster/i3-vim-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,27 +53,31 @@ set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]\ %y
 hi Normal ctermbg=none
 " hi StatusLine ctermbg=8 ctermfg=4 cterm=none
 
-map <F9> :NERDTreeToggle<cr>
-map <F10> :LLPStartPreview<cr>
-map <F11> :PluginInstall<cr>
-map <F12> :PluginUpdate<cr>
+map <F8>    :NERDTreeToggle<cr>
+map <F9>    :LLPStartPreview<cr>
+map <F10>   :PluginInstall<cr>
+map <F11>   :PluginUpdate<cr>
+map <F12>   :PluginClean<cr>
 
 let g:livepreview_previewer = 'mupdf'
 let g:livepreview_engine = 'pdflatex'
+let g:livepreview_cursorhold_recompile = 0
 let g:tex_flavor = 'latex'
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 
 " Luke Smith's keybindings for editing
 " Navigating with guides
-inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
-vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
-map <Space><Tab> <Esc>/<++><Enter>"_c4l
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+vnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+map <Space><Space> <Esc>/<++><Enter>"_c4l
 inoremap ;gui <++>
 
+"" tex
 autocmd FileType tex nnoremap <F5> :!xelatex<space><c-r>%<Enter>
 autocmd FileType tex inoremap ;m $$<Space><++><Esc>2T$i
 autocmd FileType tex inoremap ;fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
 
+"" html, php
 autocmd FileType php,html inoremap ;b <b></b><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;i <i></i><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;u <u></u><Space><++><Esc>FbT>i

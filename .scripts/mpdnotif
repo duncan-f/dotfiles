@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $(pgrep -x mpd) ]; then
+    killall mpd
+    killall mpd-notification
+    notify-send "Music" "MPD killed."
+else
+    mpd
+    mpd-notification &
+    notify-send "Music" "MPD started."
+fi
+

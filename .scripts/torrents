@@ -1,0 +1,15 @@
+#!/bin/bash
+
+pid=$(pgrep -x transmission-da)
+echo $pid
+if [ $pid -ne 0 ]; then
+    kill $pid ;
+    notify-send "Transmission daemon killed!" ;
+    exit 2 ;
+else
+    transmission-daemon ;
+    notify-send "Transmission daemon started." ;
+    exit 2 ;
+fi
+
+exit 0 ;

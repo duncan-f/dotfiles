@@ -1,6 +1,0 @@
-FOREGROUND=$(xrdb -query | grep 'foreground:'| awk '{print $NF}')
-BACKGROUND=$(xrdb -query | grep 'background:'| awk '{print $NF}')
-BLUE=$(xrdb -query | grep 'color4:'| awk '{print $NF}')
-FONT=$(xrdb -query | grep 'Dmenu.font:'| awk -F'font:' '{print $NF}')
-
-DMENU='dmenu -fn "$FONT" -nb "$BACKGROUND" -nf "$FOREGROUND" -sb "$BLUE" -sf "$BACKGROUND" -i -p "#!" -l 5'

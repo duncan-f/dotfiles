@@ -1,0 +1,10 @@
+URxvt.font:                     xft:Lucy Tewi:regular:pixelsize=18
+URxvt.boldFont:                 xft:Lucy Tewi:bold:pixelsize=18
+URxvt.italicFont:               xft:Lucy Tewi:italic:pixelsize=18
+URxvt.boldItalicFont:           xft:Lucy Tewi:bold italic:pixelsize=18
+St.font:                        Lucy Tewi:pixelsize=13:antialias=true:autohint=true
+Rofi.font:                      Lucy Tewi 8
+Dunst.font:                     Lucy Tewi 8
+i3wm.font:                      Lucy Tewi 10
+Polybar.font:                   Lucy Tewi:size=10;2
+Dmenu.font:                     Lucy Tewi:size=10

@@ -7,19 +7,19 @@ background-alt = #2f343f
 foreground = ${xrdb:*foreground}
 foreground-alt = #ffffff
 secondary = ${xrdb:*color9}
-underline = ${xrdb:*color4}
 color1 = ${xrdb:*color1}
+color2 = ${xrdb:*color2}
 color3 = ${xrdb:*color3}
+color4 = ${xrdb:*color4}
+color7 = ${xrdb:*color7}
+color10 = ${xrdb:*color10}
+color15 = ${xrdb:*color15}
 
 [fonts]
 font-0 = ${xrdb:Polybar.font}
-;font-0 = "Ubuntu:size=10;2"
-;font-0 = "UW ttyp0:size=11;2"
-;font-0 = "tamzen:size=12;2"
-;font-0 = "Input Mono Compressed:size=11;2"
 
 [bar/default]
-height = 24
+height = 30
 width = 100%
 offset-x = 0
 offset-y = 0
@@ -35,69 +35,58 @@ line-color = #f00
 ;border-top-size = 16
 ;border-left-size = 26
 ;border-right-size = 26
+;border-top-color = #ff0000
 padding-left = 0
 padding-right = 0
-module-margin = 1
+module-margin = 0
 
 font-0 = ${fonts.font-0}
 font-1 = "FontAwesome:size=10;2"
 font-2 = "xos4terminus:size=10:weight=bold;2"
-font-3 = "MaterialDesignIcons:size=10"
+font-3 = "MaterialDesignIcons:size=10;2"
 font-4 = "unifont:size=9"
-font-5 = "fixed:size=10"
+font-5 = "fixed:size=10;2"
 
-modules-left = i3 mpd
+modules-left = i3 mpd 
 modules-center = date 
-modules-right = redshift backlight volume battery 
+modules-right = network keyboard redshift backlight volume battery bluetooth 
 
-tray-position = right
+tray-position = center
 tray-padding = 0 
 tray-offset-y = 0%
-tray-offset-x = 0%
+tray-offset-x = 10%
 tray-detached = false
-
-[module/updates]
-type = custom/script
-
-exec = checkupdates
-tail = true
-format = <label>
-label = "  %output% "
-label-underline = ${colors.underline}
+;tray-background = ${colors.color4}
 
 [module/i3]
 type = internal/i3
 index-sort = true
 enable-click = true
 enable-scroll = true
-wrapping-scroll = false
-reverse-scroll = false
-fuzzy-match = true
+pin-workspaces = true
+
 format = <label-state> <label-mode>
 
 label-mode = %mode%
 label-mode-padding = 1
-label-mode-underline = ${colors.underline}
 
 label-focused =  %icon%
-label-focused-foreground = ${colors.underline}
-label-focused-underline = ${colors.underline}
 label-focused-padding = 1
+label-focused-foreground = ${colors.color4}
+label-focused-underline = ${colors.color4}
 
 label-unfocused = %icon%
 label-unfocused-padding = 1
-label-unfocused-foreground = ${colors.foreground}
-;label-unfocused-underline = ${colors.secondary}
 
 label-visible = %icon%
-label-visible-underline = ${colors.foreground}
 label-visible-padding = 1
+label-visible-foreground = ${colors.color3}
+label-visible-underline = ${colors.color3}
 
 label-urgent = %icon%
-label-urgent-foreground = ${colors.background} 
-label-urgent-background = ${colors.underline} 
-label-urgent-underline = ${colors.underline} 
 label-urgent-padding = 1
+label-urgent-foreground = ${colors.background} 
+label-urgent-background = ${colors.color4} 
 
 ws-icon-0 = 1;
 ws-icon-1 = 2;
@@ -110,6 +99,43 @@ ws-icon-7 = 8;
 ws-icon-8 = 9; 
 ws-icon-9 = 0; 
 
+[module/network]
+type = internal/network
+interface = wlp3s0
+
+format-connected = <ramp-signal>
+
+ramp-signal-padding = 1
+ramp-signal-foreground = ${colors.background}
+ramp-signal-background = ${colors.color4}
+ramp-signal-0 = 冷
+ramp-signal-1 = 爛
+ramp-signal-2 = 嵐
+ramp-signal-3 = 襤
+ramp-signal-4 = 蠟
+
+format-disconnected = <label-disconnected>
+
+label-disconnected = 郎
+label-disconnected-padding = 1
+label-disconnected-foreground = ${colors.color15}
+label-disconnected-background = ${colors.color1}
+
+[module/keyboard]
+type = internal/xkeyboard
+
+format = <label-layout>
+format-spacing = 0
+
+label-layout = %layout%
+label-layout-padding = 1
+label-layout-background = ${colors.color4}
+label-layout-foreground = ${colors.background}
+
+label-indicator = "[%name%]"
+label-indicator-padding = 1
+label-indicator-underline = ${colors.color1}
+
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:40:...%
@@ -120,24 +146,19 @@ type = internal/mpd
 host = 127.0.0.1 
 port = 6600
 
-; Seconds to sleep between progressbar/song timer sync
-; Default: 1
 interval = 1
 
-;format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <label-time>  <label-song>"
-format-online = " <label-song> <label-time> "
+format-online = "<label-song><label-time>"
 
-; Available tokens:
-;   %artist%
-;   %album%
-;   %date%
-;   %title%
-; Default: %artist% - %title%
-label-song = " %artist% - %title%"
+label-song = " %artist% - %title%"
+label-song-padding = 1
+label-time = "[%elapsed%|%total%]"
+label-time-padding = 1
 
 format-offline = <label-offline>
 
-label-offline = "  mpd: offline  "
+label-offline = " offline"
+label-offline-padding = 4
 
 ; Only applies if <icon-X> is used
 icon-play = ⏵
@@ -156,12 +177,6 @@ icon-repeatone = 
 toggle-on-foreground = #ff
 toggle-off-foreground = #55
 
-; Only applies if <bar-progress> is used
-bar-progress-width = 10
-bar-progress-indicator = |
-bar-progress-fill = ─
-bar-progress-empty = ─
-
 label-song-maxlen = 35
 label-song-ellipsis = true
 
@@ -170,24 +185,26 @@ type = internal/xbacklight
 card = intel_backlight
 enable-scroll = false
 format = <ramp> <label>
-format-underline = ${colors.underline}
+format-padding = 1
+format-background = ${colors.color4}
+format-foreground = ${colors.background}
 
-label = "%percentage%% "
+label = "%percentage%%"
 
-ramp-0 = " 🌕"
-ramp-1 = " 🌔"
-ramp-2 = " 🌓"
-ramp-3 = " 🌒"
-ramp-4 = " 🌑"
+ramp-0 = "🌕"
+ramp-1 = "🌔"
+ramp-2 = "🌓"
+ramp-3 = "🌒"
+ramp-4 = "🌑"
 
-[module/filesystem]
-type = internal/fs
-interval = 25
-mount-0 = /
-mount-1 = /home
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.secondary}
+;bar-indicator = 
+;bar-width = 10
+;bar-fill = ""
+;bar-fill-font = 1
+;bar-fill-foreground = ${colors.color7}
+;bar-empty = ""
+;bar-empty-font = 1
+;bar-empty-foreground = ${colors.color15}
 
 [module/battery]
 type = internal/battery
@@ -196,115 +213,101 @@ battery = BAT0
 adapter = ADP1
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors.underline}
-label-charging = "%percentage%% "
+format-charging-padding = 1
+format-charging-background = ${colors.color1}
+label-charging = "%percentage%%"
 
 ; Only applies if <animation-charging> is used
-animation-charging-0 = " "
-animation-charging-1 = " "
-animation-charging-2 = " "
-animation-charging-3 = " "
-animation-charging-4 = " "
+animation-charging-0 = ""
+animation-charging-1 = ""
+animation-charging-2 = ""
+animation-charging-3 = ""
+animation-charging-4 = ""
 ; Framerate in milliseconds
 animation-charging-framerate = 750
 
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-underline = ${colors.underline}
-label-discharging = "%percentage%% "
+format-discharging-padding = 1
+format-discharging-background = ${colors.color4}
+label-discharging-foreground = ${colors.background}
+label-discharging = "%percentage%%"
 
 ; Only applies if <ramp-capacity> is used
-ramp-capacity-0 = " "
-ramp-capacity-1 = " "
-ramp-capacity-2 = " "
-ramp-capacity-3 = " "
-ramp-capacity-4 = " "
+ramp-capacity-0 = ""
+ramp-capacity-1 = ""
+ramp-capacity-2 = ""
+ramp-capacity-3 = ""
+ramp-capacity-4 = ""
 ramp-capacity-0-foreground = ${colors.color1}
 ramp-capacity-1-foreground = ${colors.color3}
+ramp-capacity-foreground = ${colors.background}
 
-format-full = <ramp-capacity> <label-full>
-label-full = Fully charged
-format-full-underline = ${colors.underline}
+format-full = <label-full>
+label-full = "🔌 Full"
+format-full-background = ${colors.color2}
 
-[module/cpu]
-type = internal/cpu
-interval = 2
+[module/bluetooth]
+type = custom/script
+exec = $HOME/.scripts/bt
+click-left = exec bluetooth toggle
+click-right = exec blueberry &
+label = %output%
+label-padding = 1
+label-foreground = ${colors.background}
+label-background = ${colors.color4}
 format = <label>
-format-prefix = "  "
-format-underline = ${colors.underline}
-label = %percentage%%
 
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-;format-prefix = " "
-format-underline = ${colors.underline}
-label = %percentage_used%%
+[module/redshift]
+type = custom/script
+exec = ~/.config/polybar/redshift.sh
+label-background = ${colors.color4}
+label-foreground = ${colors.background}
+interval = 10
 
 [module/date]
 type = internal/date
 interval = 1
-;date = %a. %b. %d,
-;date-alt = " %a. %b. %d"
-date = " %a. %b. %d"
+;date = " %a. %b. %d"
+date-alt = " %a. %b. %d"
 time = " %I:%M %p"
 ;time-alt = %H:%M:%S
-label = " %date%   %time% "
-format-underline = ${colors.underline}
+label = "%date%%time%"
+label-padding = 1
+format-background = ${colors.color4}
+format-foreground = ${colors.background}
 
 [module/volume]
 type = internal/volume
 master-mixer = Master
+
 format-volume = <ramp-volume> <label-volume>
-format-muted = "   "
-label-volume = "%percentage%% "
-label-volume-underline = ${colors.underline}
-format-volume-underline = ${colors.underline}
-label-muted-underline = ${colors.underline}
-format-muted-underline = ${colors.underline}
-label-muted = %percentage%%
-ramp-volume-0 = " "
-ramp-volume-1 = " "
-ramp-volume-2 = " "
-ramp-volume-3 = " "
+format-volume-padding = 1
+label-volume = "%percentage%%"
+label-volume-underline = ${colors.color4}
 
-; Only applies if <bar-progress> is used
-bar-volume-width = 8
-bar-volume-indicator = |
-bar-volume-fill = ─
-bar-volume-empty = ─
-bar-volume-empty-foreground = #c0c0c0
+format-volume-background = ${colors.color4}
+format-volume-foreground = ${colors.background}
 
-[module/wired]
-type = internal/network
-interface = eth0
-format-connected = <label-connected>
-format-connected-underline = ${colors.underline}
-format-disconnected = <label-disconnected>
-label-connected =  %local_ip%
-label-disconnected = 
+format-muted = <label-muted>
+format-muted-padding = 1
+format-muted-background = ${colors.color1}
+format-muted-foreground = ${colors.color15}
 
-[module/powermenu]
-type = custom/menu
-label-active-font = 1
-format-spacing = 1
-label-open = "    "
-label-open-foreground = #BF616A
-label-open-underline = ${colors.underline}
-label-close = 
-label-close-foreground = #E20049
-label-separator = |
-label-separator-foreground = ${colors.secondary}
+label-muted = ""
 
-menu-0-0 = Reboot
-menu-0-0-foreground = #ffcc66
-menu-0-0-exec = systemctl reboot
-menu-0-1 = Logout
-menu-0-1-foreground = #FFCC66
-menu-0-1-exec = i3-msg exit
-menu-0-2 = Power Off
-menu-0-2-foreground = #FFCC66
-menu-0-2-exec = systemctl poweroff
+ramp-volume-0 = ""
+ramp-volume-1 = ""
+ramp-volume-2 = ""
+ramp-volume-3 = ""
+
+;bar-volume-indicator =
+;bar-volume-width = 10
+;bar-volume-fill = ""
+;bar-volume-fill-font = 1
+;bar-volume-fill-foreground = ${colors.color10}
+;bar-volume-empty = ""
+;bar-volume-empty-font = 1
+;bar-volume-empty-foreground = ${colors.color7}
 
 [settings]
 screenchange-reload = true
@@ -313,8 +316,3 @@ screenchange-reload = true
 margin-top = 5
 margin-bottom = 5
 
-[module/redshift]
-type = custom/script
-exec = ~/.config/polybar/redshift.sh
-label-underline = ${colors.underline}
-interval = 5

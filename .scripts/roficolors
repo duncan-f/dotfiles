@@ -1,0 +1,21 @@
+#!/bin/bash
+
+eval $(xres2var)
+FONT=$(xrdb -query | grep 'Rofi.font:' | awk -F'font:' '{print $NF}')
+
+# Launch rofi with custom configuration
+rofi -show run -sidebar-mode \
+    -font "$FONT"       \
+    -combi-modi run,window,ssh \
+    -color-enabled true \
+    -color-window "$background,$color0,$color0" \
+    -color-normal "$background,$foreground,$background,$color4,$background" \
+    -color-active "$background,$color5,$background,$background,$color4" \
+    -color-urgent "$background,$color2,$background,$background,$color4"
+
+# Theming help
+# color window = background, border, separator
+# color normal = background, foreground, background-alt, highlight-background, highlight-foreground
+# color active = background, foreground, background-alt, highlight-background, highlight-foreground
+# color urgent = background, foreground, background-alt, highlight-background, highlight-foreground
+

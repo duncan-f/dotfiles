@@ -1,15 +1,17 @@
 #!/bin/sh
 
+eval $(xres2var)
+
 if [ "$(pgrep -x redshift)" ]; then
     temp=$(redshift -p 2> /dev/null | grep temp | cut -d " " -f 3 | tr -d "[:alpha:]")
 
     if [ -z "$temp" ]; then
-        echo "%{F#65737E}  "
+        echo "%{F$foreground}  "
     elif [ "$temp" -ge 5000 ]; then
-        echo "%{F#8FA1B3}  "
+        echo "%{F$color0}  "
     elif [ "$temp" -ge 4000 ]; then
-        echo "%{F#EBCB8B}  "
+        echo "%{F$color3}  "
     else
-        echo "%{F#D08770}  "
+        echo "%{F$color9}  "
     fi
 fi

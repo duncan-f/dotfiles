@@ -1,5 +1,25 @@
-#auto-reload         yes
-external-url-viewer "urlview"
+# colors
+color background           color255 default
+color listnormal           color255 default
+color listfocus            color255 color4 bold
+color listnormal_unread    color255 default bold
+color listfocus_unread     color8 color4 bold
+#color info                 color31 default
+color info                 white default
+color article color255 default
 
-browser             firefox
-macro w set browser "mpv %u" ; open-in-browser ; set browser "firefox"
+# general
+auto-reload             yes
+external-url-viewer     "qutebrowser"
+player                  mpv
+browser                 qutebrowser
+notify-program          notify-send
+
+# highlights
+highlight article "^(Feed|Title|Link|Date|Author):.*$" color4 default 
+highlight article "https?://[^ ]+" yellow default protect
+
+bind-key j down
+bind-key k up
+
+macro y set browser "youtube-viewer %u"; open-in-browser ; set browser "$BROWSER %u"

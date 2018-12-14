@@ -1,5 +1,0 @@
-#!/bin/bash
-
-mpd || killall mpd
-
-mpd-notification || killall mpd-notification

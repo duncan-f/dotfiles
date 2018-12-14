@@ -1,0 +1,10 @@
+URxvt.font:                     xft:xos4terminus:regular:pixelsize=12
+URxvt.boldFont:                 xft:xos4terminus:bold:pixelsize=12
+URxvt.italicFont:               xft:xos4terminus:italic:pixelsize=12
+URxvt.boldItalicFont:           xft:xos4terminus:bold italic:pixelsize=12
+St.font:                        xos4terminus:pixelsize=12:antialias=true:autohint=true
+Rofi.font:                      xos4terminus 10
+Dunst.font:                     xos4terminus 10
+i3wm.font:                      xos4terminus 10
+Polybar.font:                   xos4terminus:size=10;2
+Dmenu.font:                     xos4terminus:size=10

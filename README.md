@@ -1,4 +1,3 @@
-
 # i3 Rice
 
 ![Alt](/screenshots/i3rice.png "i3 rice")
@@ -7,7 +6,7 @@
 
 ### Installed Packages
 
-This is an non-exhaustive list of the packages installed on my machine, you'll find some config files of my rice here.
+This is an non-exhaustive list of the packages installed on my computer, you'll find some config files of my rice here.
 
 * i3-gaps
 * ncmpcpp
@@ -40,7 +39,7 @@ $ sudo mv composer.phar /usr/local/bin/composer
 ```
 ### Bash colors (Terminal)
 
-Setup .bashrc file
+Setup .bashrc file, here's a link to customize your $PS1 variable :
 
 [Bash colors and formatting](http://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
