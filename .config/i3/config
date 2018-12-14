@@ -298,16 +298,16 @@ set $workspace10 "10"
 
 
 # Assign applications to workspaces
-assign [class="Gnome-terminal|Xfce4-terminal"] $workspace1
 assign [class="Firefox|Google-chrome|qutebrowser|Surf"] $workspace2
 assign [class="Subl3|Code|Atom|Squeak"] $workspace3
-assign [class="Nautilus|Thunar"] $workspace4
-assign [class="libreoffice-writer|libreoffice-calc|libreoffice-impress|libreoffice-math|libreoffice-startcenter|Acroread|Mousepad|Gimp|krita|grafx2"] $workspace5
-assign [class="qBittorrent|Wine|wow.exe|Tor Browser"] $workspace6
-assign [class="obs|Cheese|Arandr"] $workspace7
-assign [class="Hexchat|skypeforlinux|ViberPC"] $workspace8
-assign [class="Steam|Mainwindow.py"] $workspace9
-assign [class="Rhythmbox|Gnome-music|Vlc|vlc|ProjectM-pulseaudio"] $workspace10
+assign [class="Acroread|Mousepad|Gimp|krita|grafx2"] $workspace4
+assign [class="obs|Cheese|Arandr"] $workspace5
+assign [class="Hexchat|skypeforlinux|ViberPC"] $workspace6
+assign [class="Steam|Wine|wow.exe|Mainwindow.py"] $workspace7
+assign [class="Rhythmbox|Gnome-music|Vlc|vlc|ProjectM-pulseaudio"] $workspace8
+assign [class="qBittorrent|Tor Browser"] $workspace9
+
+for_window [class="Firefox|Google-chrome|qutebrowser|Surf"] focus
 
 for_window [window_role="gimp-dock"] floating disable; move left; resize shrink width 50 px or 50 ppt
 for_window [window_role="gimp-toolbox"] floating disable; move right; resize grow width 30 px or 30 ppt
@@ -316,6 +316,7 @@ for_window [window_role="GtkFileChooserDialog"] resize shrink height 10 px
 for_window [class="Arandr"] floating enabled
 for_window [class="Arandr"] resize set 640 480
 for_window [class="Arandr"] move position center
+for_window [class="Arandr"] focus
 
 bindsym $mod+Home workspace $workspace1
 bindsym $mod+Shift+Home move container to workspace $workspace1
