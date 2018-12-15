@@ -1,16 +1,46 @@
 #!/bin/sh
 
-choices="laptop\nlaptopdual\nVGA\nHDMI\nManual selection"
+connected=$(xrandr -q | grep 'connected')
+screens=$(xrandr -q | grep ' connected' | awk '{print $1}')
+chosen=$(echo -e "$screens\nMulti-Monitor\nManual Selection" | dmenurun "Select" 5)
 
-chosen=$(echo -e "$choices" | dmenurun "Select" 5)
+dualmonitor() {
+    primary=$(echo -e "$screens" | dmenurun "Primary Monitor?" 2)
+    if [ "$primary" == "" ]; then exit ; fi
+    secondary=$(echo "$screens" | grep -v -x "$primary")
+    direction=$(echo -e "left\nright" | dmenurun "Direction for $secondary" 2)
+    if [ "$direction" == "" ]; then exit ; fi
+    xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto
+}
+
+multimonitor() {
+    # for now this function works for only 3 monitors
+    primary=$(echo -e "$screens" | dmenurun "Primary Monitor?" 5)
+    if [ "$primary" == "" ]; then exit ; fi
+    secondary=$(echo -e "$screens" | grep -v -x "$primary" | dmenurun "Secondary?" 5)
+    if [ "$secondary" == "" ]; then exit ; fi
+    direction=$(echo -e "left\nright" | dmenurun "Direction for $secondary" 2)
+    if [ "$direction" == "" ]; then exit ; fi
+    tertiary=$(echo -e "$screens" | grep -v -x "$primary" | grep -v -x "$secondary" | dmenurun "Tertiary?" 5)
+    xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto --output "$tertiary" --"$(echo -e "left\nright" | grep -v -x "$direction")"-of "$primary" --auto
+}
+
+multimon() {
+    case "$(echo "$screens" | wc -l)" in
+        1) xrandr -q | grep 'primary' | awk '{print "--output", $1, "--auto"}' ;;
+        2) dualmonitor ;;
+        *) multimonitor ;;
+    esac
+}
 
 case "$chosen" in
-	laptopdual) xrandr --output eDP1 --auto --output DP1 --auto --right-of eDP1 ;;
-	laptop) xrandr --output eDP1 --auto --output DP1 --off ;;
-	VGA) xrandr --output DP1 --auto --output eDP1 --off ;;
-	HDMI) xrandr --output HDMI1 --auto --output eDP1 --off ;;
-	"Manual selection") arandr ;;
+    "Multi-Monitor") multimon ;;
+	"Manual Selection") arandr ; exit ;;
+    "") exit ;;
+    *) xrandr --output "$chosen" --auto $(echo "$screens" | grep -v -x "$chosen" | awk '{print "--output", $1, "--off"}' | tr '\n' ' ') ;;
 esac
 
 # Relaunch polybar if there was a selection.
-[ "$chosen" == "" ] || ~/.config/polybar/launch.sh
+[ "$chosen" == "" ] || "$HOME/.config/polybar/launch.sh"
+# Reapply wallpaper in case of image distortion
+[ "$chosen" == "" ] || feh --bg-fill "$HOME/.config/wallpaper.png"

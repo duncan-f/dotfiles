@@ -1,26 +1,18 @@
-" Vundle Setup
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype off
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jreybert/vimagit'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'PotatoesMaster/i3-vim-syntax'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-" filetype plugin on
+Plugin 'vim-airline/vim-airline'
+Plugin 'airblade/vim-gitgutter'
+call vundle#end()
+filetype plugin on
 
 set encoding=utf-8
 set mouse=a
@@ -29,7 +21,6 @@ syntax on
 set ruler                         " show row and column in footer
 set number relativenumber	      " show line numbers
 set scrolloff=2                   " minimum lines above/below cursor
-set laststatus=2                  " always show status bar
 set clipboard=unnamed             " use the system clipboard
 set hlsearch                      " highlight all search matches
 set tabstop=4
@@ -48,9 +39,15 @@ map <F11>   :PluginUpdate<cr>
 map <F12>   :PluginClean<cr>
 
 " map keys for Copy/Pasting
-map <C-c> "+y
-map <C-x> "+d
-map <C-v> "+P
+vnoremap    <C-c> "+y
+vnoremap    <C-x> "+d
+map         <C-v> "+P
+
+" map navigation keys
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 " Luke Smith's keybindings for editing
 " Navigating with guides
