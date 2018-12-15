@@ -12,15 +12,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'jreybert/vimagit'
 Plugin 'xuhdev/vim-latex-live-preview'
-Plugin 'vim-latex/vim-latex'
-Bundle 'tobyS/vmustache'
-Bundle 'tobyS/pdv'
 Plugin 'PotatoesMaster/i3-vim-syntax'
 
 " All of your Plugins must be added before the following line
@@ -34,8 +27,7 @@ set mouse=a
 syntax on
 
 set ruler                         " show row and column in footer
-set number		                  " show line numbers
-set relativenumber			      " show line numbers
+set number relativenumber	      " show line numbers
 set scrolloff=2                   " minimum lines above/below cursor
 set laststatus=2                  " always show status bar
 set clipboard=unnamed             " use the system clipboard
@@ -44,14 +36,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" put git status, column/row number, total lines, and percentage in status
-set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]\ %y
-
-"colorscheme dracula
-"colorscheme monokai-phoenix
-
-hi Normal ctermbg=none
-" hi StatusLine ctermbg=8 ctermfg=4 cterm=none
+let g:livepreview_previewer = 'mupdf'
+let g:livepreview_engine = 'pdflatex'
+let g:livepreview_cursorhold_recompile = 0
+let g:tex_flavor = 'latex'
 
 map <F8>    :NERDTreeToggle<cr>
 map <F9>    :LLPStartPreview<cr>
@@ -59,17 +47,16 @@ map <F10>   :PluginInstall<cr>
 map <F11>   :PluginUpdate<cr>
 map <F12>   :PluginClean<cr>
 
-let g:livepreview_previewer = 'mupdf'
-let g:livepreview_engine = 'pdflatex'
-let g:livepreview_cursorhold_recompile = 0
-let g:tex_flavor = 'latex'
-let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+" map keys for Copy/Pasting
+map <C-c> "+y
+map <C-x> "+d
+map <C-v> "+P
 
 " Luke Smith's keybindings for editing
 " Navigating with guides
-inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
-vnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
-map <Space><Space> <Esc>/<++><Enter>"_c4l
+inoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
+vnoremap <Space><Tab> <Esc>/<++><Enter>"_c4l
+map <Space><Tab> <Esc>/<++><Enter>"_c4l
 inoremap ;gui <++>
 
 "" tex
