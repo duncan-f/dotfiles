@@ -1,8 +1,0 @@
-#!/bin/bash
-
-updates=$(pacman -Qu | wc -l 2> /dev/null)
-
-if [[ $updates -gt 0 ]]; then
-    echo $updates
-fi
-

@@ -21,7 +21,7 @@ set_from_resource $darkblack        color0      #073642
 set_from_resource $darkred          color1      #dc322f
 set_from_resource $darkgreen        color2
 set_from_resource $darkyellow       color3
-set_from_resource $darkblue         color4
+set_from_resource $darkblue         color4      #0000ff
 set_from_resource $darkpurple       color5
 set_from_resource $darkcyan         color6
 set_from_resource $darkwhite        color7
@@ -42,7 +42,6 @@ set $screencast --no-startup-id screencast
 set $audio      --no-startup-id audio
 set $camcode    --no-startup-id cam
 set $stoprec    --no-startup-id killall ffmpeg & killall screenkey
-set $dmenurun   --no-startup-id dmenu_run -fn "$dmenu_font" -nb "$bg" -nf "$fg" -sb "$darkblue" -sf "$bg" -p "Run" 
 
 # systemd NetworkManager
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
@@ -71,22 +70,6 @@ set $middle    --no-startup-id amixer sset Master 50%
 set $low       --no-startup-id amixer sset Master 15%
 set $truemute  --no-startup-id amixer sset Master toggle
 set $micmute   --no-startup-id amixer sset Capture toggle    #mute microphone
-
-### Alsa/amixer ###
-#set $increase  --no-startup-id volume -yn -i 5
-#set $decrease  --no-startup-id volume -yn -d 5
-#set $middle    --no-startup-id volume -yn -v 50
-#set $low       --no-startup-id volume -yn -v 15
-#set $truemute  --no-startup-id volume -ynm
-#set $micmute   --no-startup-id amixer sset Capture toggle    #mute microphone
-
-### PulseAudio/pactl ###
-#set $increase   --no-startup-id pactl set-sink-volume 0 +5%     #increase sound volume
-#set $decrease   --no-startup-id pactl set-sink-volume 0 -5%     #decrease sound volume
-#set $middle     --no-startup-id pactl set-sink-volume 0 50%     #put volume to 50%
-#set $low        --no-startup-id pactl set-sink-volume 0 15%     #put volume to 15%
-#set $truemute   --no-startup-id pactl set-sink-mute 0 toggle    #mute volume
-#set $micmute    --no-startup-id pactl set-source-mute 1 toggle  #mute microphone
 
 #      autostart 
 #    -------------
@@ -125,8 +108,8 @@ font pango:$i3_font
 floating_modifier $mod
 
 ### Basic bindings ###
+
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return split h; exec $term
 bindsym $mod+Shift+Return split v; exec $term
 
@@ -137,7 +120,6 @@ bindsym asciitilde [instance="math"] scratchpad show; move position center
 bindsym $mod+asciitilde [instance="console"] scratchpad show; move position center
 
 #get a dropdown terminal using tmux
-#bindsym $mod+Delete exec $truemute; exec $pause; workspace $workspace9; exec --no-startup-id lockscreen -l dim
 bindsym $mod+Delete exec --no-startup-id prompt "Exit i3?" "i3-msg exit"
 bindsym $mod+shift+Delete exec $truemute; exec $pause; workspace $workspace9; exec $term -e tmux; exec $term -e htop
 
@@ -145,7 +127,8 @@ bindsym $mod+shift+Delete exec $truemute; exec $pause; workspace $workspace9; ex
 bindsym $mod+KP_Add gaps inner current plus 5; gaps outer current plus 5
 bindsym $mod+KP_Subtract gaps inner current minus 5; gaps outer current minus 5
 
-bindsym $mod+KP_Divide split h; exec --no-startup-id notify-send "Notification" "Tile horizontally"
+bindsym $mod+KP_Divide split v; exec --no-startup-id notify-send "Notification" "Tile vertically"
+bindsym $mod+equal split h; exec --no-startup-id notify-send "Notification" "Tile horizontally"
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -199,7 +182,7 @@ bindsym $mod+$alt+b exec $seekb
 bindsym $mod+c exec $term -e weechat
 bindsym $mod+Shift+c exec $term -e calcurse
 
-bindsym $mod+d exec --no-startup-id roficolors 
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "$dmenu_font" -nb "$bg" -nf "$fg" -sb "$darkblue" -sf "$bg" -p "Run"
 bindsym $mod+Shift+d exec --no-startup-id displayselect
 
 bindsym $mod+e layout toggle split
@@ -258,7 +241,7 @@ bindsym $mod+Shift+t exec --no-startup-id torrents
 bindsym $mod+u exec $term -e nmtui
 bindsym $mod+Shift+u exec --no-startup-id killall -q polybar
 
-bindsym $mod+v split v; exec --no-startup-id notify-send "Notification" "Tile vertically"
+#bindsym $mod+v 
 bindsym $mod+Shift+v exec $term -e ranger ~/Programming/projects/webdev/
 
 bindsym $mod+w exec $netrefresh
@@ -273,17 +256,6 @@ bindsym $mod+Shift+y exec $movef
 bindsym $mod+z layout tabbed
 bindsym $mod+Shift+z gaps inner current set 0; gaps outer current set 0
 
-#set $workspace1 "&#xf120;"
-#set $workspace2 "&#xf0ac;"
-#set $workspace3 "&#xf121;"
-#set $workspace4 "&#xf07b;"
-#set $workspace5 "&#xf0c5;"
-#set $workspace6 "&#xf128;"
-#set $workspace7 "&#xf03d;"
-#set $workspace8 "&#xf086;"
-#set $workspace9 "&#xf1b6;"
-#set $workspace10 "&#xf008;"
-
 # Put only numbers so it can be recognized by polybar
 set $workspace1 "1"
 set $workspace2 "2"
@@ -296,13 +268,12 @@ set $workspace8 "8"
 set $workspace9 "9"
 set $workspace10 "10"
 
-
 # Assign applications to workspaces
 assign [class="Firefox|Google-chrome|qutebrowser|Surf"] $workspace2
 assign [class="Subl3|Code|Atom|Squeak"] $workspace3
 assign [class="Acroread|Mousepad|Gimp|krita|grafx2"] $workspace4
 assign [class="obs|Cheese|Arandr"] $workspace5
-assign [class="Hexchat|skypeforlinux|ViberPC"] $workspace6
+assign [class="Hexchat|skypeforlinux|ViberPC|Skype"] $workspace6
 assign [class="Steam|Wine|wow.exe|Mainwindow.py"] $workspace7
 assign [class="Rhythmbox|Gnome-music|Vlc|vlc|ProjectM-pulseaudio"] $workspace8
 assign [class="qBittorrent|Tor Browser"] $workspace9
@@ -348,32 +319,6 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+ccedilla move container to workspace $workspace9
 bindsym $mod+Shift+agrave move container to workspace $workspace10
 
-# resize window (you can also use the mouse for that)
-set $mode_resize " resize"
-mode $mode_resize {
-        # These bindings trigger as soon as you enter the resize mode
-
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-
-
 ### Function Keys ###
 #bindsym F1
 #bindsym F2
@@ -398,7 +343,7 @@ bindsym $mod+F7     exec $netrefresh
 bindsym $mod+F8     exec $micmute
 bindsym $mod+F9     exec --no-startup-id dmenumount
 bindsym $mod+F10    exec --no-startup-id dmenuumount
-bindsym $mod+F11    exec --no-startup-id dmenurecord
+#bindsym $mod+F11
 #bindsym $mod+F12
 
 bindsym $alt+F4 kill
@@ -439,17 +384,6 @@ bindsym XF86MonBrightnessUp             exec --no-startup-id xbacklight -inc 5 #
 bindsym XF86MonBrightnessDown           exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
 bindsym $mod+XF86MonBrightnessUp        exec --no-startup-id xbacklight -inc 10 # increase screen brightness
 bindsym $mod+XF86MonBrightnessDown      exec --no-startup-id xbacklight -dec 10 # decrease screen brightness
-
-# Touchpad controls
-bindsym XF86TouchpadToggle              exec --no-startup-id toggletouchpad # toggle touchpad
-#bindsym XF86TouchpadOn                 exec --no-startup-id toggletouchpad # toggle touchpad
-#bindsym XF86TouchpadOff                exec --no-startup-id toggletouchpad # toggle touchpad
-
-# Media player controls
-bindsym XF86AudioPlay                   exec $play
-bindsym XF86AudioPause                  exec $pause
-bindsym XF86AudioNext                   exec $next
-bindsym XF86AudioPrev                   exec $prev
 
 # force keyboard layout
 exec_always --no-startup-id setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle'

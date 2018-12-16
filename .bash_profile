@@ -20,12 +20,4 @@ export TERMINAL="st"
 export READER="zathura"
 export BIB="$HOME/Documents/LaTeX/bibliography.bib"
 
-#spare_modifier="Hyper_R"
-#xmodmap -e "keycode 23 = $spare_modifier"
-#xmodmap -e "remove mod1 = $spare_modifier"
-#xmodmap -e "add Mod4 = $spare_modifier"
-#xmodmap -e "keycode any = Tab"
-#[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
-#xcape -e "$spare_modifier=Tab"
-
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx

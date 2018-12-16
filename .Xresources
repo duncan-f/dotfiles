@@ -4,7 +4,7 @@
 *secondary:                     #3a3a3a
 *underline:                     #0094ce
 *active:                        #aa0000
-#include                        ".themes/colors/mikazuki"
+#include                        ".themes/colors/nord"
 #include                        ".themes/fonts/tamzen"
 
 ! ------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ URxvt.intensityStyles:          false
 URxvt.colorUL:                  #ff0adc
 
 !! Extensions
-URxvt.perl-ext-common:          mikazuki,matcher,resize-font,url-select,keyboard-select
+URxvt.perl-ext-common:          default,matcher,resize-font,url-select,keyboard-select
 !! url-select
 URxvt.keysym.M-u:               perl:url-select:select_next
 URxvt.url-select.launcher:      /usr/bin/xdg-open
@@ -48,7 +48,7 @@ URxvt.matcher.button:           1
 ! ------------------------------------------------------------------------------
 
 Xft.autohint: 0
-Xft.lcdfilter: lcdmikazuki
+Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
