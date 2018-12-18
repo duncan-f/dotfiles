@@ -10,9 +10,9 @@ color article color255 default
 
 # general
 auto-reload             yes
-external-url-viewer     "qutebrowser"
+external-url-viewer     $BROWSER
 player                  mpv
-browser                 qutebrowser
+browser                 $BROWSER
 notify-program          notify-send
 
 # highlights

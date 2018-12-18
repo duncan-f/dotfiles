@@ -49,7 +49,7 @@ function git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-PS1="[$GREEN_COLOR\u$RESET_COLOR@$PURPLE_COLOR\h$RESET_COLOR]$BLUE_COLOR\w\$(git_color)\$(git_branch)$RESET_COLOR\n\$ "
+PS1="[$GREEN_COLOR\u$RESET_COLOR@$RED_COLOR\h$RESET_COLOR] $BLUE_COLOR\w\$(git_color)\$(git_branch)$RESET_COLOR\n\$ "
 
 # some more aliases
 alias ls='ls -hN --color=auto --group-directories-first'
@@ -82,6 +82,7 @@ alias cdp="cd ~/Programming/projects/webdev/phpframework/ && ls -a"
 alias cdw="cd ~/Programming/projects/webdev/ && ls -a"
 alias cdg="cd ~/Programming/projects/gamedev/ && ls -a"
 alias cdm="cd ~/Programming/projects/mobiledev/ && ls -a"
+alias cdd="cd ~/Programming/dotfiles"
 alias cds="cd ~/.scripts/ && ls -a"
 alias cdl="cd ~/Documents/LaTeX/ && ls -a"
 alias cpa="cp $HOME/Documents/LaTeX/article.tex"
