@@ -41,7 +41,7 @@ function git_color() {
     elif [[ $git_status =~ "nothing to commit" ]]; then
         echo -e $GREEN_COLOR
     else
-        echo -e $LPURPLE_COLOR
+        echo -e $PURPLE_COLOR
     fi
 }
 
@@ -51,62 +51,10 @@ function git_branch() {
 
 PS1="[$GREEN_COLOR\u$RESET_COLOR@$RED_COLOR\h$RESET_COLOR] $BLUE_COLOR\w\$(git_color)\$(git_branch)$RESET_COLOR\n\$ "
 
-# some more aliases
-alias ls='ls -hN --color=auto --group-directories-first'
-alias lla='ls -hla --color=auto --group-directories-first'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
+[ -f "$HOME/.bash_shortcuts" ] && source "$HOME/.bash_shortcuts"
+[ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
 
-alias starwars="telnet towel.blinkenlights.nl"
-
-alias vcfg='vim ~/.vimrc'
-alias bcfg='vim ~/.bashrc'
-alias bsrc='source ~/.bashrc'
-alias icfg='vim ~/.config/i3/config'
-alias pcfg='vim ~/.config/polybar/config'
-alias xcfg='vim ~/.Xresources'
-alias xsrc='xrdb ~/.Xresources'
-alias tcfg='vim ~/.tmux.conf'
-alias rcfg='vim ~/.config/ranger/rc.conf'
-alias ccfg='vim ~/.config/compton.conf'
-alias calcfg='vim ~/.calcurse/conf'
-alias ncfg='vim ~/.newsboat/config'
-alias qcfg='vim ~/.config/qutebrowser/config.py'
-alias macfg='vim ~/.config/mutt/aliases'
-alias mcfg='vim ~/.config/mutt/muttrc'
-alias dcfg='vim ~/.config/dunst/dunstrc'
-alias fcfg='vim ~/.config/rofi/config'
-
-alias cdp="cd ~/Programming/projects/webdev/phpframework/ && ls -a"
-alias cdw="cd ~/Programming/projects/webdev/ && ls -a"
-alias cdg="cd ~/Programming/projects/gamedev/ && ls -a"
-alias cdm="cd ~/Programming/projects/mobiledev/ && ls -a"
-alias cdd="cd ~/Programming/dotfiles"
-alias cds="cd ~/.scripts/ && ls -a"
-alias cdl="cd ~/Documents/LaTeX/ && ls -a"
-alias cpa="cp $HOME/Documents/LaTeX/article.tex"
-alias cpb="cp $HOME/Documents/LaTeX/beamer.tex"
-alias cph="cp $HOME/Documents/LaTeX/handout.tex"
-
-alias phps="php -S localhost:8000 -t public/ -d display_errors=1"
-
-alias upgrade="sudo pacman -Syu"
-alias downgrade="sudo pacman -U"
-alias pac="sudo pacman"
-alias dpac="sudo pacman -Rnsdd"
-alias yrt="yaourt -Sy --noconfirm"
-alias fullup="yaourt -Syu --aur --noconfirm"
-alias yt="youtube-dl --add-metadata -ic"
-alias yta="youtube-dl --add-metadata -xic"
-alias v="vim"
-alias sv="sudo vim"
-alias r="ranger"
-alias sr="sudo ranger"
-alias trc="transmission-remote-cli"
-
-alias bw="wal -i $XDG_CONFIG_HOME/wallpaper.png"
- 
+# ruby location
 if which ruby >/dev/null && which gem >/dev/null; then
-    PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+    PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi

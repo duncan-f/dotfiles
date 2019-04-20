@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+eval $(xres2var)
+
+# Pass the password in the block instance
+if [[ -n $BLOCK_INSTANCE ]]; then
+    password=("-h" "$BLOCK_INSTANCE@localhost")
+fi
+
+filter() {
+    if [ -z "$(mpc ${password} status | sed "/^volume:/d")" ]; then
+        tr '\n' ' ' | sed -e "s/^.*/<span font_weight=\"bold\">stopped<\\/span>/g"
+    else
+        sed "/^volume:/d" | tac | tr '\n' ' ' | cut -d' ' -f4- | awk '/\([0-9]+%\)/{ for (i = 3; i <= NF; i++){a=a$i" "} print a"["$1"]"}' | sed "s/\\&/&amp;/g" | tr -d '\n'
+        #sed "/^volume:/d" | tac | sed -e "s/\\&/&amp;/g;s/\\[paused\\].*/<span color=\"$color7\" font_style=\"italic\">/g;s/\\[playing\\].*/<span>/g" | tr -d '\n' | sed -e "s/$/<\\/span>/g"
+    fi
+}
+
+case $BLOCK_BUTTON in
+    1) mpc $password toggle | filter ;;  # right click, pause/unpause
+    2) mpdnotif &>/dev/null ;;
+    3) $TERMINAL -e ncmpcpp &>/dev/null ;;
+    4) mpc $password prev   | filter ;;  # scroll up, previous
+    5) mpc $password next   | filter ;;  # scroll down, next
+    *) mpc $password status | filter ;;
+esac

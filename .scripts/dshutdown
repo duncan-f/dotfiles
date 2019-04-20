@@ -16,4 +16,3 @@ case "$menu" in
     Shutdown) systemctl poweroff ;;
 esac
 
-[ "$menu" == "" ] || ~/.config/polybar/launch.sh

@@ -7,4 +7,4 @@ Rofi.font:                      Tamzen 11
 Dmenu.font:                     Tamzen:size=11
 Dunst.font:                     Tamzen 11
 Polybar.font:                   tamzen:size=12;2
-i3wm.font:                      Tamzen 11
+i3wm.font:                      Tamzen 10

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pass=$(gpg -dq ~/.config/mutt/creds/$1.gpg)
+
+echo "set smtp_pass=\"$pass\""
+echo "set imap_pass=\"$pass\""

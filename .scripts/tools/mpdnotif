@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+if [ $(pgrep -x mpd) ]; then
+    killall mpd
+    killall mpd-notificatio
+    state="killed"
+else
+    mpd
+    mpd-notification &
+    state="started"
+fi
+
+
+dunstify -r 4000 "MPD" "Music player $state."
+

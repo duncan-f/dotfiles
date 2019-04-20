@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+rm -Rf ~/.local/share/Trash/files/* 
+rm -Rf ~/.local/share/Trash/info/* 
+notify-send -i "$HOME/.scripts/tools/trash_2.png" "Trash" "Trash empty"
+aplay ~/.sounds/trash.wav
+exit 0
+

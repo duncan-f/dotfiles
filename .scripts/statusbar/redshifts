@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+eval $(xres2var)
+
+if [ "$(pgrep -x redshift)" ]; then
+    temp=$(redshift -p 2> /dev/null | grep temp | cut -d " " -f 3 | tr -d "[:alpha:]")
+
+    if [ -z "$temp" ]; then
+        color="$foreground"
+    elif [ "$temp" -ge 5000 ]; then
+        color="$color8"
+    elif [ "$temp" -ge 4000 ]; then
+        color="$color3"
+    else
+        color="$color9"
+    fi
+    printf '<span color="%s">%s</span>' "$color" ""   #"💡" 
+fi
+

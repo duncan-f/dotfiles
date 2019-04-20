@@ -1,0 +1,16 @@
+cfv       ~/.vimrc
+cfb       ~/.bashrc
+cfi       ~/.config/i3/config
+cfp       ~/.config/polybar/config
+cfx       ~/.Xresources
+cft       ~/.tmux.conf
+cfr       ~/.config/ranger/rc.conf
+cfc       ~/.config/compton.conf
+cfcal     ~/.calcurse/conf
+cfn       ~/.config/newsboat/config
+cfma      ~/.config/mutt/aliases
+cfm       ~/.config/mutt/muttrc
+cfd       ~/.config/dunst/dunstrc
+cff       ~/.config/rofi/config
+cfvf      ~/.config/vifm/vifmrc
+cfblk     ~/.config/i3blocks/config

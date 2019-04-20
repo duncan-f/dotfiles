@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+
+case "$1" in
+    -s) scrot -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
+    -f | --focused) scrot -u -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
+    -r | --region) scrot -s -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
+    *) scrot -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
+esac
+
+aplay "$HOME/.sounds/screen.wav" &
+dunstify -i "$HOME/.scripts/tools/camera_2.png" -r 3000 "Screenshot" "Screenshot saved"

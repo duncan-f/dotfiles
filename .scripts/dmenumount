@@ -7,7 +7,7 @@
 
 pgrep -x dmenu && exit
 
-mountable=$(lsblk -lp | grep "part $" | awk '{print $1, "(" $4 ")"}')
+mountable=$(lsblk -lp | grep "part $" | grep -v '/dev/sda1' | awk '{print $1, "(" $4 ")"}')
 [[ "$mountable" = "" ]] && exit 1
 chosen=$(echo "$mountable" | dmenurun "Mount which drive?" 5 | awk '{print $1}')
 [[ "$chosen" = "" ]] && exit 1

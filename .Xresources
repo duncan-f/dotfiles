@@ -1,11 +1,57 @@
 ! ------------------------------------------------------------------------------
 ! Colors
 ! ------------------------------------------------------------------------------
+#include                        ".themes/colors/vulvy"
+#include                        ".themes/fonts/input"
+
 *secondary:                     #3a3a3a
 *underline:                     #0094ce
 *active:                        #aa0000
-#include                        ".themes/colors/nord"
-#include                        ".themes/fonts/tamzen"
+
+! special
+*.foreground:   fgbase
+*.background:   bgbase
+*.cursorColor:  cursor
+
+! black
+*.color0:       dark_black
+*.color8:       light_black
+
+! red
+*.color1:       dark_red
+*.color9:       light_red
+
+! green
+*.color2:       dark_green
+*.color10:      light_green
+
+! yellow
+*.color3:       dark_yellow
+*.color11:      light_yellow
+
+! blue
+*.color4:       dark_blue
+*.color12:      light_blue
+
+! magenta
+*.color5:       dark_magenta
+*.color13:      light_magenta
+
+! cyan
+*.color6:       dark_cyan
+*.color14:      light_cyan
+
+! white
+*.color7:       dark_white
+*.color15:      light_white
+
+
+dwm.normfgcolor:                fgbase
+dwm.normbgcolor:                bgbase
+dwm.normbordercolor:            dark_black
+dwm.selfgcolor:                 bgbase
+dwm.selbgcolor:                 dark_blue
+dwm.selbordercolor:             dark_blue
 
 ! ------------------------------------------------------------------------------
 ! St

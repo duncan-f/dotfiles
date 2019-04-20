@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+playing=$(mpc current)
+status=$(mpc status | sed "/^volume:/d" | tac | tr '\n' ' ' | awk -F' ' '{print $1}')
+
+dunstify -r 5000 "Now Playing 🎵" "$playing"

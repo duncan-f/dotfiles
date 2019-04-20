@@ -1,33 +1,20 @@
-! ------------------------------------------------------------------------------
-! Solarized colors
-! ------------------------------------------------------------------------------
+#define     fgbase          #839496
+#define     bgbase          #002b36
+#define     cursor          #93a1a1
+#define     dark_black      #002b36
+#define     light_black     #657b83
+#define     dark_red        #dc322f
+#define     light_red       #dc322f
+#define     dark_green      #859900
+#define     light_green     #859900
+#define     dark_yellow     #b58900
+#define     light_yellow    #b58900
+#define     dark_blue       #268bd2
+#define     light_blue      #268bd2
+#define     dark_magenta    #6c71c4
+#define     light_magenta   #6c71c4
+#define     dark_cyan       #2aa198
+#define     light_cyan      #2aa198
+#define     dark_white      #93a1a1
+#define     light_white     #fdf6e3
 
-!! special
-*foreground:        #839496
-*background:        #002b36
-*cursorColor:       #93a1a1
-!! black
-*color0:	        #073642
-*color8:	        #002b36
-!! red
-*color1:	        #dc322f
-*color9:	        #cb4b16
-!! green
-*color2:	        #859900
-*color10:	        #586e75
-!! yellow
-*color3:	        #b58900
-*color11:	        #657b83
-!! blue
-*color4:	        #268bd2
-*color12:      	    #839496
-!! purple
-*color5:       	    #d33682
-*color13:      	    #6c71c4
-!! cyan
-*color6:       	    #2aa198
-*color14:      	    #93a1a1
-!! grey
-*color7:       	    #eee8d5
-*color15:      	    #fdf6e3
- 

@@ -1,9 +1,0 @@
-#!/bin/bash
-
-if  [ ! -n "$1" ]; then
-    echo "You have to specify an image!"
-    exit 1
-fi
-
-echo "Setting up wallpaper..."
-convert "$1" "$HOME/.config/wallpaper.png"

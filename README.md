@@ -1,7 +1,3 @@
-# i3 Rice
-
-![Alt](/screenshots/i3rice.png "i3 rice")
-
 # Install Notes
 
 ### Installed Packages
@@ -22,12 +18,6 @@ This is an non-exhaustive list of the packages installed on my computer, you'll 
 * ranger
 * compton
 * ...
-
-I keep track of the packages i have to install in the file packages
-
-```shell
-$ cat packages | xargs yaourt -S --needed --noconfirm
-```
 
 ### Install Composer (Debian Distros)
 

@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+eval $(xres2var)
+font=$(xrdb -query | grep 'Dunst.font:'| awk -F'font:' '{print $NF}')
+
+# Autostart section
+#slstatus &
+feh --bg-fill $HOME/.config/wallpaper.png &
+synclient TapButton1=1 &
+numlockx on &
+$HOME/.scripts/tools/lockscreen -i &
+xautolock -time 15 -locker "lockscreen -l dimblur" & 
+dunst -font "$font" -lb "$color7" -lf "$color0" -lfr "$color15" -nb "$background" -nf "$foreground" -nfr "$color0" -cb "$color1" -cf "$color15" -cfr "$color9" &
+compton &
+[ -z $(pgrep -x xfce4-volumed-p) ] && xfce4-volumed-pulse &
+[ -z $(pgrep -x redshift) ] && redshift &
+
+# Statusbar loop
+while true; do
+   xsetroot -name "$(dwmstatus)"
+   sleep 1s
+done &
+

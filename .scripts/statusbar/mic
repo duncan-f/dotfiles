@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+eval $(xres2var)
+
+case "$BLOCK_BUTTON" in
+    1) amixer sset Capture toggle >/dev/null ;;
+esac
+
+if [ -z $BLOCK_INSTANCE ]; then
+    instance="Capture"
+else
+    instance="$BLOCK_INSTANCE"
+fi
+
+
+if [ $(amixer sget ${instance} | grep Capture | tail -n 1 | awk '{print $NF}') = "[off]" ]; then
+    printf '<span color="%s" font="MaterialDesignIcons">%s</span>' "$color9" ""
+else
+    printf '<span color="%s" font="MaterialDesignIcons">%s</span>' "$color2" ""
+fi
+

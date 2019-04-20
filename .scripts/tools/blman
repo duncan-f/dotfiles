@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+[ -z "$2" ] && num="15%" || num="$2%"
+
+case "$1" in
+    inc) xbacklight -inc "$num" ;;
+    dec) xbacklight -dec "$num" ;;
+    set) xbacklight -set "$num" ;;
+    *) xbacklight -get ;;
+esac
+
+pkill -RTMIN+9 i3blocks

@@ -1,0 +1,31 @@
+#!/usr/bin/env sh
+
+case $BLOCK_BUTTON in
+    4) xbacklight -inc 5% ;;
+    5) xbacklight -dec 5% ;;
+esac
+
+if [[ -n $BLOCK_INSTANCE ]]; then
+	light="$BLOCK_INSTANCE"
+else
+	light="intel_backlight"
+fi
+
+brightness=$(cat /sys/class/backlight/$light/brightness) || exit
+max=$(cat /sys/class/backlight/$light/max_brightness)
+
+backlight=$(bc -l <<< "$brightness*100/$max")
+
+if [ $brightness -gt 796 ]; then
+	icon="🌑"
+elif [ $brightness -gt 656 ]; then
+	icon="🌒"
+elif [ $brightness -gt 375 ]; then
+	icon="🌓"
+elif [ $brightness -gt 134 ]; then
+	icon="🌔"
+else
+	icon="🌕"
+fi
+
+printf '%s %.0f%%' "$icon" "$backlight"

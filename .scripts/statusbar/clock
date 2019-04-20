@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+eval $(xres2var)
+
+case "$BLOCK_BUTTON" in
+	1) dunstify -r 2000 "Calendar" "$(cal --color=always | sed "s/..7m/<b><span color=\"$color4\">/;s/..27m/<\/span><\/b>/")" && dunstify -r 2001 "Appointments" "$(calcurse -d3)" ;;
+    2) printf '%s %s' "📅" "$(date "+%a, %d %b")" ;;
+	3) "$TERMINAL" -e calcurse & ;;
+esac
+
+printf '%s %s' "⏰" "$(date "+%I:%M %p")"
+#printf '%s %s' "" "$(date "+%I:%M %p")"
+#printf '%s %s' "" "$(date "+%a, %d %b")"
+#printf '%s %s' "📅" "$(date "+%a, %d %b")"
+#"⏰📅"

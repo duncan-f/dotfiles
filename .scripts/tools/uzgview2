@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+source "`ueberzug library`"
+
+# process substitution example:
+ImageLayer 0< <(
+    ImageLayer::add [identifier]="example0" [x]="$1" [y]="$2" [width]="$3" [height]="$4" [path]="$5"
+    read
+)
+

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Folder locations
+shell="$HOME/.bash_shortcuts"
+ranger="$HOME/.config/ranger/shortcuts.conf"
+vifm="$HOME/.config/vifm/shortcuts"
+
+# Prepare files
+rm -f "$ranger" 2>/dev/null
+printf "# vim: filetype=sh\\nalias " > "$shell"
+printf "\" vim: filetype=vim\\n" > "$vifm"
+
+# Format the `bookmarks` file in the correct syntax and sent it to all three configs.
+sed "s/\s*#.*$//;/^\s*$/d" "$HOME/.bookmarks" | tee >(awk '{print $1"=\"cd "$2" && ls -a\" \\"}' >> "$shell") \
+	>(awk '{print "map g" $1, ":cd", $2 "<CR>\nmap t" $1, "<tab>:cd", $2 "<CR><tab>\nmap M" $1, "<tab>:cd", $2 "<CR><tab>:mo<CR>\nmap Y" $1, "<tab>:cd", $2 "<CR><tab>:co<CR>" }' >> "$vifm") \
+	| awk '{print "map g"$1" cd "$2"\nmap t"$1" tab_new "$2"\nmap m"$1" shell mv -v %s "$2"\nmap Y"$1" shell cp -rv %s "$2}' >> "$ranger"
+
+# Format `cfgfiles` file in the correct syntax and send it to all the files
+sed "s/\s*#.*$//;/^\s*$/d" "$HOME/.cfgfiles" | tee >(awk '{print $1"=\"$EDITOR "$2"\" \\"}' >> "$shell") \
+    >(awk '{print "map", $1, ":e", $2 "<CR>" }' >> "$vifm") \
+    | awk '{print "map "$1" shell $EDITOR "$2}' >> "$ranger"

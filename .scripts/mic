@@ -1,9 +1,0 @@
-#!/usr/bin/env sh
-
-eval $(xres2var)
-
-if [ $(amixer sget Capture | grep Capture | tail -n 1 | awk '{print $NF}') = "[off]" ]; then
-    echo "%{F$foreground}%{B$color9} "
-else
-    echo "%{F$background}%{B$color4} "
-fi

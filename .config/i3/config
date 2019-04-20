@@ -40,8 +40,8 @@ set $term       --no-startup-id $TERMINAL
 set $video      --no-startup-id video
 set $screencast --no-startup-id screencast
 set $audio      --no-startup-id audio
-set $camcode    --no-startup-id cam
-set $stoprec    --no-startup-id killall ffmpeg & killall screenkey
+set $camcode    --no-startup-id camcode
+set $stoprec    --no-startup-id dmenurecord kill
 
 # systemd NetworkManager
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
@@ -49,42 +49,44 @@ set $netstop    --no-startup-id sudo -A systemctl stop NetworkManager
 
 ### Audio/mpc ###
 set $music      --no-startup-id $TERMINAL -e ncmpcpp
-set $play       --no-startup-id mpc play
-set $pause      --no-startup-id mpc pause
-set $stop       --no-startup-id mpc stop
-set $next       --no-startup-id mpc next
-set $prev       --no-startup-id mpc prev
-set $toggle     --no-startup-id mpc toggle
-set $shuffle    --no-startup-id mpc random
-set $repeat     --no-startup-id mpc repeat
-set $seekf      --no-startup-id mpc seek +10
-set $seekb      --no-startup-id mpc seek -10
-set $movef      --no-startup-id mpc seek +120
-set $moveb      --no-startup-id mpc seek -120
-set $start      --no-startup-id mpc seek 0%
+set $play       --no-startup-id volman play
+set $pause      --no-startup-id volman pause
+set $stop       --no-startup-id volman stop
+set $next       --no-startup-id volman next
+set $prev       --no-startup-id volman prev
+set $toggle     --no-startup-id volman toggle
+set $shuffle    --no-startup-id volman random
+set $repeat     --no-startup-id volman repeat
+set $seekf      --no-startup-id volman seekf 10
+set $seekb      --no-startup-id volman seekb 10
+set $start      --no-startup-id volman restart
 
 ### Alsa/amixer ###
-set $increase  --no-startup-id amixer sset Master 5%+
-set $decrease  --no-startup-id amixer sset Master 5%-
-set $middle    --no-startup-id amixer sset Master 50%
-set $low       --no-startup-id amixer sset Master 15%
-set $truemute  --no-startup-id amixer sset Master toggle
-set $micmute   --no-startup-id amixer sset Capture toggle    #mute microphone
+set $increase  --no-startup-id volman inc
+set $decrease  --no-startup-id volman dec
+set $middle    --no-startup-id volman middle
+set $low       --no-startup-id volman low
+set $truemute  --no-startup-id volman mute
+set $micmute   --no-startup-id volman micmute
 
 #      autostart 
 #    -------------
-
-exec --no-startup-id feh --bg-fill ~/.config/wallpaper.png
+exec --no-startup-id feh --bg-fill "$HOME/.config/wallpaper.png" &
+exec --no-startup-id xautolock -time 15 -locker "lockscreen -l dimblur" &
+exec --no-startup-id dunst -font "$dunst_font" -lb "$darkwhite" -lf "$darkblack" -lfr "$lightwhite" -nb "$bg" -nf "$fg" -nfr "$darkblack" -cb "$darkred" -cf "$lightwhite" -cfr "$lightred" &
+exec --no-startup-id xfce4-volumed-pulse &
+exec --no-startup-id synclient TapButton1=1 &
+exec_always --no-startup-id numlockx on &
+exec_always --no-startup-id mpdupdate &
+# force keyboard layout
+exec_always --no-startup-id setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle' &
+exec --no-startup-id compton &
+exec --no-startup-id redshift &
+# lockscreen initialization
+#exec --no-startup-id lockscreen -i
 #exec --no-startup-id nm-applet
 #exec --no-startup-id blueberry-tray
-exec --no-startup-id xautolock -time 15 -locker "lockscreen -l dimblur"
-exec --no-startup-id compton
-exec --no-startup-id dunst -font "$dunst_font" -lb "$darkwhite" -lf "$darkblack" -lfr "$lightwhite" -nb "$bg" -nf "$fg" -nfr "$darkblack" -cb "$darkred" -cf "$darkwhite" -cfr "$lightred"
-exec --no-startup-id xfce4-volumed-pulse
-exec --no-startup-id synclient TapButton1=1
-exec --no-startup-id redshift # -l 43.610769:3.876716 -t 6500:3500 -l manual
-exec_always --no-startup-id numlockx on
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Bindings to make the webcam float and stick.
 for_window [title="mpvfloat"] floating enable
@@ -102,7 +104,7 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="Pavucontrol"] resize 640 480
 for_window [class="Pavucontrol"] move position center
 
-font pango:$i3_font
+font pango:FontAwesome, $i3_font
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -110,25 +112,23 @@ floating_modifier $mod
 ### Basic bindings ###
 
 # start a terminal
-bindsym $mod+Return split h; exec $term
-bindsym $mod+Shift+Return split v; exec $term
+bindsym $mod+Return exec $term
+bindsym $mod+Shift+Return exec $term
 
-bindsym Ctrl+$alt+Tab exec --no-startup-id displayselect
+bindsym Ctrl+$alt+Tab exec --no-startup-id dmenuemoji
 
-#get a dropdown calculator from R
 bindsym asciitilde [instance="math"] scratchpad show; move position center
 bindsym $mod+asciitilde [instance="console"] scratchpad show; move position center
 
-#get a dropdown terminal using tmux
-bindsym $mod+Delete exec --no-startup-id prompt "Exit i3?" "i3-msg exit"
+bindsym $mod+Delete exec --no-startup-id emptytrash
 bindsym $mod+shift+Delete exec $truemute; exec $pause; workspace $workspace9; exec $term -e tmux; exec $term -e htop
 
 # add/remove gaps
 bindsym $mod+KP_Add gaps inner current plus 5; gaps outer current plus 5
 bindsym $mod+KP_Subtract gaps inner current minus 5; gaps outer current minus 5
 
-bindsym $mod+KP_Divide split v; exec --no-startup-id notify-send "Notification" "Tile vertically"
-bindsym $mod+equal split h; exec --no-startup-id notify-send "Notification" "Tile horizontally"
+bindsym $mod+KP_Divide split v; exec $term
+bindsym $mod+equal split h; exec $term
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -136,26 +136,35 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-bindsym $mod+Tab workspace next
-bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Home workspace $workspace1
+bindsym $mod+Shift+Home move container to workspace $workspace1
 
-bindsym $mod+BackSpace exec --no-startup-id prompt "Shutdown?" "systemctl poweroff"
-bindsym $mod+Shift+BackSpace exec --no-startup-id prompt "Reboot?" "i3exit reboot"
+bindsym $mod+End workspace $workspace10
+bindsym $mod+Shift+End move container to workspace $workspace10
+
+bindsym $mod+Next workspace next
+bindsym $mod+Shift+Next move container to workspace next
+bindsym $mod+Prior workspace prev
+bindsym $mod+Shift+Prior move container to workspace prev
+
+bindsym $mod+Tab workspace back_and_forth
+#bindsym $mod+Shift+Tab 
+
+bindsym $mod+BackSpace workspace prev
+bindsym $mod+Shift+BackSpace exec --no-startup-id prompt "Reboot?" "systemctl reboot"
 
 bindsym $mod+Escape exec --no-startup-id dshutdown
-bindsym $mod+shift+Escape exec --no-startup-id prompt "Hibernate?" "i3exit hibernate"
+bindsym $mod+shift+Escape exec --no-startup-id prompt "Hibernate?" "systemctl hibernate"
 
 # Screenshot
-bindsym Print exec --no-startup-id scrot -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'; exec --no-startup-id notify-send "Notification" "Screenshot Saved"
-bindsym $mod+Print exec --no-startup-id scrot -u -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'; exec --no-startup-id notify-send "Notification" "Screenshot Saved"
-bindsym --release $mod+Shift+Print exec --no-startup-id scrot -s -z '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'; exec --no-startup-id notify-send "Notification" "Screenshot Saved"
+bindsym Print exec --no-startup-id screenshot
+bindsym $mod+Print exec --no-startup-id screenshot -f
+bindsym --release $mod+Shift+Print exec --no-startup-id screenshot -r
 
 # Screencasting
-bindsym Insert exec $camcode; exec --no-startup-id notify-send "Notification" "Start camcoding"
-bindsym Shift+Insert exec $audio; exec --no-startup-id notify-send "Notification" "Start recording audio"
-bindsym $mod+Insert exec $video; exec --no-startup-id notify-send "Notification" "Start recording video"
-bindsym $mod+Shift+Insert exec $screencast; exec --no-startup-id notify-send "Notification" "Start Screencasting"
-bindsym $mod+Pause exec $stoprec; exec --no-startup-id notify-send "Notification" "Recording Stopped"
+bindsym Insert exec --no-startup-id dmenurecord
+
+bindsym Pause exec $stoprec
 
 ### Arrows bindings ###
 # alternatively, you can use the cursor keys:
@@ -192,7 +201,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+f exec --no-startup-id flash
 
 bindsym $mod+g exec --no-startup-id gimp
-bindsym $mod+Shift+g exec --no-startup-id $HOME/.config/polybar/launch.sh
+#bindsym $mod+Shift+g
 
 bindsym $mod+h focus left
 bindsym $mod+Shift+h move left
@@ -223,32 +232,32 @@ bindsym $mod+$alt+n exec $seekf
 bindsym $mod+o exec --no-startup-id camtoggle
 bindsym $mod+Shift+o gaps inner current set 5; gaps outer current set 8
 
-bindsym $mod+p exec $toggle
+bindsym $mod+p exec --no-startup-id displayselect
 bindsym $mod+Shift+p exec --no-startup-id mpdnotif
 
-bindsym $mod+q exec --no-startup-id qutebrowser
+bindsym $mod+q exec --no-startup-id prompt "Shutdown ?" "systemctl poweroff"
 bindsym $mod+Shift+q kill
 
 bindsym $mod+r exec $term -e ranger
 bindsym $mod+Shift+r exec $term -e sudo ranger /mnt
 
-bindsym $mod+s layout stacking
-bindsym $mod+Shift+s exec $stop
+bindsym $mod+s exec $stop
+bindsym $mod+Shift+s layout stacking
 
 bindsym $mod+t exec $term -e transmission-remote-cli
 bindsym $mod+Shift+t exec --no-startup-id torrents
 
 bindsym $mod+u exec $term -e nmtui
-bindsym $mod+Shift+u exec --no-startup-id killall -q polybar
+bindsym $mod+Shift+u exec --no-startup-id surf-open
 
-#bindsym $mod+v 
-bindsym $mod+Shift+v exec $term -e ranger ~/Programming/projects/webdev/
+bindsym $mod+v exec $term -e vifmrun
+bindsym $mod+Shift+v exec $toggle
 
 bindsym $mod+w exec $netrefresh
 bindsym $mod+Shift+w exec $netstop
 
 bindsym $mod+x exec --no-startup-id lockscreen -l dim
-bindsym $mod+Shift+x exec  --no-startup-id ~/Documents/Browser/start-tor-browser
+bindsym $mod+Shift+x exec --no-startup-id sh -c ~/dl/tor-browser_en-US/Browser/start-tor-browser --detach
 
 bindsym $mod+y split toggle
 bindsym $mod+Shift+y exec $movef
@@ -267,33 +276,19 @@ set $workspace7 "7"
 set $workspace8 "8"
 set $workspace9 "9"
 set $workspace10 "10"
+set $workspace11 "11"
 
 # Assign applications to workspaces
 assign [class="Firefox|Google-chrome|qutebrowser|Surf"] $workspace2
 assign [class="Subl3|Code|Atom|Squeak"] $workspace3
-assign [class="Acroread|Mousepad|Gimp|krita|grafx2"] $workspace4
+assign [class="Acroread|Mousepad|Gimp|krita|grafx2|Inkscape"] $workspace4
 assign [class="obs|Cheese|Arandr"] $workspace5
-assign [class="Hexchat|skypeforlinux|ViberPC|Skype"] $workspace6
-assign [class="Steam|Wine|wow.exe|Mainwindow.py"] $workspace7
-assign [class="Rhythmbox|Gnome-music|Vlc|vlc|ProjectM-pulseaudio"] $workspace8
-assign [class="qBittorrent|Tor Browser"] $workspace9
-
-for_window [class="Firefox|Google-chrome|qutebrowser|Surf"] focus
-
-for_window [window_role="gimp-dock"] floating disable; move left; resize shrink width 50 px or 50 ppt
-for_window [window_role="gimp-toolbox"] floating disable; move right; resize grow width 30 px or 30 ppt
-for_window [window_role="GtkFileChooserDialog"] resize shrink height 10 px
+assign [class="qBittorrent|Tor Browser"] $workspace10
 
 for_window [class="Arandr"] floating enabled
 for_window [class="Arandr"] resize set 640 480
 for_window [class="Arandr"] move position center
 for_window [class="Arandr"] focus
-
-bindsym $mod+Home workspace $workspace1
-bindsym $mod+Shift+Home move container to workspace $workspace1
-
-bindsym $mod+End workspace $workspace10
-bindsym $mod+Shift+End move container to workspace $workspace10
 
 # switch to workspace
 bindsym $mod+ampersand workspace $workspace1
@@ -306,6 +301,7 @@ bindsym $mod+egrave workspace $workspace7
 bindsym $mod+underscore workspace $workspace8
 bindsym $mod+ccedilla workspace $workspace9
 bindsym $mod+agrave workspace $workspace10
+bindsym $mod+parenright workspace $workspace11
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -318,6 +314,7 @@ bindsym $mod+Shift+egrave move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+ccedilla move container to workspace $workspace9
 bindsym $mod+Shift+agrave move container to workspace $workspace10
+bindsym $mod+Shift+parenright move container to workspace $workspace11
 
 ### Function Keys ###
 #bindsym F1
@@ -340,7 +337,7 @@ bindsym $mod+F3     exec $middle
 bindsym $mod+F5     restart
 #bindsym $mod+F6
 bindsym $mod+F7     exec $netrefresh
-bindsym $mod+F8     exec $micmute
+bindsym $mod+F8     exec $micmute; exec --no-startup-id pkill -RTMIN+6 i3blocks
 bindsym $mod+F9     exec --no-startup-id dmenumount
 bindsym $mod+F10    exec --no-startup-id dmenuumount
 #bindsym $mod+F11
@@ -371,6 +368,24 @@ exec $term -n console -e tmuxinit
   client.placeholder      $bg         $bg            $fg         $bg       $bg
   client.background       $bg
 
+bar {
+	status_command i3blocks
+	position  top
+	#height 25
+
+	colors {
+		background $bg
+		statusline $fg
+		separator $bg
+#					            border		background	text
+	        focused_workspace	$bg     	$bg		    $darkblue
+	        active_workspace	$darkyellow	$bg		    $darkyellow
+        	inactive_workspace	$bg     	$bg     	$fg
+		    urgent_workspace	$darkblack	$darkblue	$bg
+        	binding_mode		$darkblack	$darkyellow	$bg
+	}
+}
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume            exec $increase
 bindsym XF86AudioLowerVolume            exec $decrease
@@ -378,16 +393,15 @@ bindsym XF86AudioMute                   exec $truemute
 bindsym $mod+XF86AudioRaiseVolume       exec $middle
 bindsym $mod+XF86AudioLowerVolume       exec $low
 bindsym $mod+XF86AudioMute              exec $micmute
+bindsym XF86AudioNext			exec $next
+bindsym XF86AudioPause			exec $toggle
+bindsym XF86AudioPlay			exec $toggle
+bindsym XF86AudioPrev 			exec $prev
+bindsym XF86AudioStop			exec $stop 
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp             exec --no-startup-id xbacklight -inc 5 # increase screen brightness
-bindsym XF86MonBrightnessDown           exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
-bindsym $mod+XF86MonBrightnessUp        exec --no-startup-id xbacklight -inc 10 # increase screen brightness
-bindsym $mod+XF86MonBrightnessDown      exec --no-startup-id xbacklight -dec 10 # decrease screen brightness
-
-# force keyboard layout
-exec_always --no-startup-id setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle'
-
-# lockscreen initialization
-exec --no-startup-id lockscreen -i
+bindsym XF86MonBrightnessUp             exec --no-startup-id blman inc 5
+bindsym XF86MonBrightnessDown           exec --no-startup-id blman dec 5
+bindsym $mod+XF86MonBrightnessUp        exec --no-startup-id blman inc 10
+bindsym $mod+XF86MonBrightnessDown      exec --no-startup-id blman dec 10
 

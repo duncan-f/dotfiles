@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+choice=$(cat "$HOME/.emoji" | dmenurun "Select" 15)
+
+[ -n "$choice" ] || exit
+
+icon=$(echo "$choice" | sed 's/ .*//')
+echo "$icon" | tr -d '\n' | xclip -selection clipboard
+notify-send "$icon copied to clipboard." &
+
+unicode=$(echo "$choice" | sed 's/.*; //' | awk '{ print $1 }')
+echo "$unicode" | tr -d '\n' | xclip -selection primary
+notify-send "$unicode copied to primary." &
