@@ -1,0 +1,44 @@
+#!/bin/sh
+
+connected=$(xrandr -q | grep 'connected')
+screens=$(xrandr -q | grep ' connected' | awk '{print $1}')
+chosen=$(printf "$screens\nMulti-Monitor\nManual Selection" | dmenurun "Select" 5)
+
+dualmonitor() {
+    primary=$(printf "$screens" | dmenurun "Primary Monitor?" 2)
+    if [ "$primary" == "" ]; then exit ; fi
+    secondary=$(echo "$screens" | grep -v -x "$primary")
+    direction=$(printf "left\nright" | dmenurun "Direction for $secondary" 2)
+    if [ "$direction" == "" ]; then exit ; fi
+    xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto
+}
+
+multimonitor() {
+    # for now this function works for only 3 monitors
+    primary=$(printf "$screens" | dmenurun "Primary Monitor?" 5)
+    if [ "$primary" == "" ]; then exit ; fi
+    secondary=$(printf "$screens" | grep -v -x "$primary" | dmenurun "Secondary?" 5)
+    if [ "$secondary" == "" ]; then exit ; fi
+    direction=$(printf "left\nright" | dmenurun "Direction for $secondary" 2)
+    if [ "$direction" == "" ]; then exit ; fi
+    tertiary=$(printf "$screens" | grep -v -x "$primary" | grep -v -x "$secondary" | dmenurun "Tertiary?" 5)
+    xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto --output "$tertiary" --"$(printf "left\nright" | grep -v -x "$direction")"-of "$primary" --auto
+}
+
+multimon() {
+    case "$(echo "$screens" | wc -l)" in
+        1) xrandr -q | grep 'primary' | awk '{print "--output", $1, "--auto"}' ;;
+        2) dualmonitor ;;
+        *) multimonitor ;;
+    esac
+}
+
+case "$chosen" in
+    "Multi-Monitor") multimon ;;
+	"Manual Selection") arandr ; exit ;;
+    "") exit ;;
+    *) xrandr --output "$chosen" --auto $(echo "$screens" | grep -v -x "$chosen" | awk '{print "--output", $1, "--off"}' | tr '\n' ' ') ;;
+esac
+
+# Reapply wallpaper in case of image distortion
+[ "$chosen" == "" ] || feh --bg-fill "$HOME/.config/wallpaper.png"

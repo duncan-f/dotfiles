@@ -1,25 +1,35 @@
 # colors
-color background           color255 default
-color listnormal           color255 default
-color listfocus            color255 color4 bold
-color listnormal_unread    color255 default bold
-color listfocus_unread     color7 color4 bold
-#color info                 color31 default
-color info                 white default
-color article color255 default
+color background           	default default
+color listnormal           	color15 default
+color listfocus            	color0 color4
+color listnormal_unread    	color6 default bold
+color listfocus_unread     	color0 color4 bold
+color info                 	color3 default
+color article              	color7 default
 
 # general
-auto-reload             yes
-external-url-viewer     $BROWSER
-player                  mpv
-browser                 $BROWSER
-notify-program          notify-send
+auto-reload             	yes
+external-url-viewer     	$BROWSER
+player                  	mpv
+browser                 	$BROWSER
+notify-program          	notify-send
 
 # highlights
-highlight article "^(Feed|Title|Link|Date|Author):.*$" color4 default 
-highlight article "https?://[^ ]+" yellow default protect
+highlight article "^(Feed|Title|Link|Date|Author):.*$" color7 default
+highlight article "https?://[^ ]+" color9 default protect
 
 bind-key j down
 bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key l open
+bind-key h quit
+bind-key g home
+bind-key G end
+bind-key u pageup
+bind-key d pagedown
 
-macro y set browser "mpv %u"; open-in-browser ; set browser "$BROWSER %u"
+macro y set browser "setsid mpv --no-terminal %u >/dev/null &" ; open-in-browser ; set browser "$BROWSER %u"
+macro t set browser "torrentadd %u" ; open-in-browser ; set browser "$BROWSER %u"

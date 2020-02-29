@@ -1,0 +1,11 @@
+URxvt.font:                     xft:mono:regular:pixelsize=12
+URxvt.boldFont:                 xft:mono:bold:pixelsize=12
+URxvt.italicFont:               xft:mono:italic:pixelsize=12
+URxvt.boldItalicFont:           xft:mono:bold italic:pixelsize=12
+St.font:                        mono:pixelsize=12:antialias=true:autohint=true
+Rofi.font:                      mono 10
+Dunst.font:                     mono 10
+i3wm.font:                      mono 9
+Polybar.font:                   mono:size=10;2
+Dmenu.font:                     mono:size=10
+bspwm.font:                     mono:size=9

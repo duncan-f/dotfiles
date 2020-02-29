@@ -1,0 +1,37 @@
+! special
+#define      fgbase   #d0c8c6
+#define      bgbase   #3b3228
+#define      cursor  #d0c8c6
+
+! black
+#define      darkblack       #3b3228
+#define      lightblack       #7e705a
+
+! red
+#define      darkred       #cb6077
+#define      lightred       #cb6077
+
+! green
+#define      darkgreen       #beb55b
+#define      lightgreen      #beb55b
+
+! yellow
+#define      darkyellow       #f4bc87
+#define      lightyellow      #f4bc87
+
+! blue
+#define      darkblue       #8ab3b5
+#define      lightblue      #8ab3b5
+
+! magenta
+#define      darkmagenta       #a89bb9
+#define      lightmagenta      #a89bb9
+
+! cyan
+#define      darkcyan       #7bbda4
+#define      lightcyan      #7bbda4
+
+! white
+#define      darkwhite       #d0c8c6
+#define      lightwhite      #f5eeeb
+

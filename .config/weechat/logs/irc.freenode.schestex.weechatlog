@@ -1,0 +1,24 @@
+2018-07-16 15:45:32	schestex	hey
+2018-07-16 15:45:43	schestex	sry has nothing to do with your question
+2018-07-16 15:45:53	schestex	but why u can write in main chan of weechat and me not?
+2018-07-16 15:46:43	duncan213	should i ?
+2018-07-16 15:47:29	schestex	[16:47:05] * Copenhagen_Bram (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has joined #weechat
+2018-07-16 15:47:29	schestex	[16:47:22] <schestex> test
+2018-07-16 15:47:29	schestex	[16:47:22] #weechat Cannot send to channel
+2018-07-16 15:47:32	schestex	yes u can
+2018-07-16 15:47:37	schestex	[16:39:16] * acksys (~acksys@ip72-208-121-9.ph.ph.cox.net) has joined #weechat
+2018-07-16 15:47:37	schestex	[16:39:21] <duncan213> guys is it possible to change the destination location for xfer plugin ?
+2018-07-16 15:47:37	schestex	[16:41:13] * eb0t_ is now known as eblip
+2018-07-16 15:48:00	duncan213	yeah i found out how thnx :)
+2018-07-16 15:48:51	schestex	and you can tell me why i can't write in weechat main chan?
+2018-07-16 15:49:02	schestex	possible you can help me
+2018-07-16 15:49:05	schestex	i wrote a perl script
+2018-07-16 15:49:10	schestex	when i do load/unload
+2018-07-16 15:49:11	schestex	i get
+2018-07-16 15:49:12	duncan213	ohh you must be registred on rizon
+2018-07-16 15:49:18	schestex	[16:28:12] <schestex> Subroutine TIEHANDLE redefined at (eval 17) line 1.
+2018-07-16 15:49:18	schestex	[16:28:12] <schestex> Subroutine PRINT redefined at (eval 17) line 1.
+2018-07-16 15:49:18	schestex	[16:28:12] <schestex> Subroutine PRINTF redefined at (eval 17) line 1.
+2018-07-16 15:49:28	schestex	okay cool
+2018-07-16 15:49:31	schestex	i did now
+2018-07-16 15:49:32	schestex	works fine

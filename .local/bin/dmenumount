@@ -1,0 +1,50 @@
+#!/usr/bin/env sh
+
+# Gives a dmenu prompt to mount unmounted drives.
+# If they're in /etc/fstab, they'll be mounted automatically.
+# Otherwise, you'll be prompted to give a mountpoint from already existsing directories.
+# If you input a novel directory, it will prompt you to create that directory.
+
+pgrep -x dmenu && exit
+
+device=$(printf "Android\nUSB Device" | dmenurun "Mount which device?" 2)
+[ "$device" = "" ] && exit 1
+
+getmountpoint() {
+    # You may want to change the line below for more suggestions for mounting.
+    # I.e. you can increase the depth of the search, or add directories.
+    # This will increase the load time briefly though.
+    mountpoint=$(find $1 | dmenurun "Type in mount point." 5)
+    [ "$mountpoint" = "" ] && exit 1
+    if [ ! -d "$mountpoint" ]; then
+	    mkdiryn=$(printf "No\nYes" | dmenurun "$mountpoint does not exist. Create it?" 2)
+	    [ "$mkdiryn" = Yes ] && sudo -A mkdir -p "$mountpoint"
+    fi
+}
+
+usbstick() {
+    mountable=$(lsblk -lp | grep "part $" | grep -v '/dev/sda1' | awk '{print $1, "(" $4 ")"}')
+    [ "$mountable" = "" ] && exit 1
+    chosen=$(echo "$mountable" | dmenurun "Mount which drive?" 5 | awk '{print $1}')
+    [ "$chosen" = "" ] && exit 1
+    sudo -A mount "$chosen" && notify-send "💻 $chosen mounted." && exit 0
+    getmountpoint "/mnt /home -maxdepth 5 -type d"
+    sudo -A mount $chosen $mountpoint && pgrep -x dunst && notify-send "💻 $chosen mounted on $mountpoint."
+}
+
+android() {
+    mountable=$(simple-mtpfs -l 2>/dev/null)
+    [ "$mountable" = "" ] && exit 1
+    chosen=$(echo "$mountable" | dmenurun "Mount which android device?" 5 | awk -F: '{ print $1 }')
+    [ "$chosen" = "" ] && exit 1
+    getmountpoint "$HOME -maxdepth 3 -type d"
+    simple-mtpfs --device "$chosen" "$mountpoint" && pgrep -x dunst && notify-send "🤖 Android device mounted on $mountpoint."
+
+
+}
+
+case $device in
+    Android) android ;;
+    "USB Device") usbstick ;;
+esac
+

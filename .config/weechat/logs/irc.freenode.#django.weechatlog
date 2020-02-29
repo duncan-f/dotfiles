@@ -1,0 +1,134 @@
+2018-03-16 07:51:43	-->	duncan213 (~duncan@105.98.205.179) has joined #django
+2018-03-16 07:51:43	--	Topic for #django is "Welcome to #django || New security release: https://www.djangoproject.com/weblog/2018/feb/01/security-releases/ || Please provide code and __full__ traceback in a pastebin || Pastebin at: http://dpaste.de/ -- do not use pastebin.com! || Logs at: https://botbot.me/freenode/django/"
+2018-03-16 07:51:43	--	Topic set by apollo13 (apollo13@django/committer/apollo13) on Sat, 03 Feb 2018 18:28:14
+2018-03-16 07:51:44	--	Channel #django: 476 nicks (1 op, 10 voices, 465 normals)
+2018-03-16 07:51:45	--	Channel created on Sun, 26 Nov 2006 07:42:41
+2018-03-16 07:56:57	-->	sidx64 (~sidx64@123.63.30.29) has joined #django
+2018-03-16 07:57:27	<--	greg_f (~greg@altlinux/developer/greg) has quit (Ping timeout: 240 seconds)
+2018-03-16 07:59:45	<--	SpeakerToMeat_ (~SpeakerTo@prgmr/customer/SpeakerToMeat) has quit (Ping timeout: 248 seconds)
+2018-06-02 00:15:36	-->	duncan213 (~duncan@105.98.139.164) has joined #django
+2018-06-02 00:15:36	--	Topic for #django is "Welcome to #django || Please provide code and __full__ traceback in a pastebin || Pastebin at: http://dpaste.de/ -- do not use pastebin.com! || Logs at: https://botbot.me/freenode/django/ || Django CoC applies: https://www.djangoproject.com/conduct/ || Django 2.0.6 https://www.djangoproject.com/weblog/2018/jun/01/bugfix-release/"
+2018-06-02 00:15:36	--	Topic set by MarkusH on Fri, 01 Jun 2018 16:40:00
+2018-06-02 00:15:36	--	Channel #django: 448 nicks (1 op, 11 voices, 436 normals)
+2018-06-02 00:15:38	--	Channel created on Sun, 26 Nov 2006 07:42:41
+2018-06-02 00:15:45	duncan213	hello everyone!
+2018-06-02 00:17:07	duncan213	can anyone please tell how i can override the reset password feature of django ?
+2018-06-02 00:18:59	duncan213	the view/form are easy  but i can't figure out how to send the email 
+2018-06-02 00:19:05	-->	Xiti (~Xiti-@unaffiliated/xiti) has joined #django
+2018-06-02 00:19:27	duncan213	on my settings.py file everything is as it should
+2018-06-02 00:19:59	duncan213	should i override the send_mail function too ?
+2018-06-02 00:20:05	-->	coderphive (~coderphiv@unaffiliated/coderphive) has joined #django
+2018-06-02 00:21:53	-->	Slaiyer (~Slaiyer@199-195-151-205.dyn.novuscom.net) has joined #django
+2018-06-02 00:24:08	<--	Willis (Willis@107.161.160.241) has quit (Ping timeout: 255 seconds)
+2018-06-02 00:26:12	<--	newdimension (~newdimens@toroon12-3096785076.sdsl.bell.ca) has quit (Read error: Connection reset by peer)
+2018-06-02 00:26:13	<--	connor_goodwolf (~connor_go@107.161.169.109) has quit (Ping timeout: 268 seconds)
+2018-06-02 00:26:46	-->	connor_goodwolf (~connor_go@107.161.169.109) has joined #django
+2018-06-02 00:27:31	-->	newdimension (~newdimens@toroon12-3096785076.sdsl.bell.ca) has joined #django
+2018-06-02 00:29:36	-->	Willis (Willis@107.161.160.241) has joined #django
+2018-06-02 00:29:55	<--	Slaiyer (~Slaiyer@199-195-151-205.dyn.novuscom.net) has quit (Remote host closed the connection)
+2018-06-02 00:34:27	<--	EyePulp (~eyepulp@c-71-239-4-144.hsd1.il.comcast.net) has quit (Remote host closed the connection)
+2018-06-02 00:39:01	<--	Haudegen (~quassel@178.115.237.87) has quit (Read error: Connection reset by peer)
+2018-06-02 00:41:07	-->	solomonix (~solomonix@2607:fcc8:a285:9f00:e04b:863e:49b4:ed61) has joined #django
+2018-06-02 00:46:55	-->	nimbiotics (~nimbiotic@2601:582:c500:d99d::b2a4) has joined #django
+2018-06-02 00:47:00	<--	amirpro (~amirpro@41.235.0.35) has quit (Quit: amirpro)
+2018-06-02 00:47:17	-->	amirpro (~amirpro@41.235.0.35) has joined #django
+2018-06-02 00:48:21	nimbiotics	Hello. I need to run some functional tests over a specific port. How can I indicate the port when executing manmage.py test?? TIA!
+2018-06-02 00:51:34	<--	amirpro (~amirpro@41.235.0.35) has quit (Client Quit)
+2018-06-02 00:51:55	-->	amirpro (~amirpro@41.235.0.35) has joined #django
+2018-06-02 01:00:31	<--	lavalamp (~lavalamp@unaffiliated/lavalamp) has quit (Quit: (> '.' )>)
+2018-06-02 01:01:37	<--	newdimension (~newdimens@toroon12-3096785076.sdsl.bell.ca) has quit (Ping timeout: 248 seconds)
+2018-06-02 01:04:21	<--	amirpro (~amirpro@41.235.0.35) has quit (Ping timeout: 240 seconds)
+2018-06-02 01:04:43	-->	andyhoang1 (~andyhoang@14.187.132.142) has joined #django
+2018-06-02 01:06:18	<--	Ikoru (~Ikoru@host86-155-120-225.range86-155.btcentralplus.com) has quit (Ping timeout: 268 seconds)
+2018-06-02 01:07:30	<--	__peke__ (~peke@radium.atom.fi) has quit (Excess Flood)
+2018-06-02 01:08:03	-->	__peke__ (~peke@radium.atom.fi) has joined #django
+2018-06-02 01:09:27	<--	andyhoang1 (~andyhoang@14.187.132.142) has quit (Ping timeout: 240 seconds)
+2018-06-02 01:11:54	-->	amirpro (~amirpro@41.235.0.35) has joined #django
+2018-06-02 01:15:15	<--	BPL (~BPL@76.0.60.213.dynamic.reverse-mundo-r.com) has quit (Ping timeout: 260 seconds)
+2018-06-02 01:16:22	-->	BPL (~BPL@76.0.60.213.dynamic.reverse-mundo-r.com) has joined #django
+2018-06-02 01:26:31	-->	jessamynsmith (~jessamyns@2605:a601:53c:4000:ec4b:eb4c:626a:31b9) has joined #django
+2018-06-02 01:28:05	<--	subleq (~gavin@207.173.246.52) has quit (Ping timeout: 256 seconds)
+2018-06-02 01:29:43	-->	subleq (~gavin@207.173.246.52) has joined #django
+2018-06-02 01:35:47	-->	kmctown (~textual@ip68-225-92-160.cl.ri.cox.net) has joined #django
+2018-06-02 01:38:17	<--	bpietro_ (~pietro@2-228-138-60.ip191.fastwebnet.it) has quit (Ping timeout: 256 seconds)
+2018-06-02 01:50:28	<--	codejunky (~jan@x4dbb133b.dyn.telefonica.de) has quit (Ping timeout: 244 seconds)
+2018-06-02 01:52:25	<--	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has quit (Remote host closed the connection)
+2018-06-02 01:52:41	-->	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has joined #django
+2018-06-02 01:53:59	nimbiotics	Hello. I need to run some functional tests over a specific port. How can I indicate the port when executing manmage.py test?? TIA!
+2018-06-02 01:59:13	<--	safwan (uid93576@gateway/web/irccloud.com/x-bkxoxllojxltwlzh) has quit (Quit: Connection closed for inactivity)
+2018-06-02 02:00:45	-->	Slaiyer (~Slaiyer@199-195-151-205.dyn.novuscom.net) has joined #django
+2018-06-02 02:05:27	-->	andyhoang1 (~andyhoang@14.187.132.142) has joined #django
+2018-06-02 02:10:25	<--	andyhoang1 (~andyhoang@14.187.132.142) has quit (Ping timeout: 248 seconds)
+2018-06-02 02:11:04	<--	lolidunno (~lolidunno@cpe-45-50-100-24.socal.res.rr.com) has quit (Quit: Leaving)
+2018-06-02 02:17:40	-->	lolidunno (~lolidunno@cpe-45-50-100-24.socal.res.rr.com) has joined #django
+2018-06-02 02:19:23	-->	andyhoang1 (~andyhoang@14.187.132.142) has joined #django
+2018-07-01 14:41:34	-->	duncan213 (~duncan@105.98.196.137) has joined #django
+2018-07-01 14:41:34	--	Topic for #django is "Welcome to #django || Please provide code and __full__ traceback in a pastebin || Pastebin at: http://dpaste.de/ -- do not use pastebin.com! || Logs at: https://botbot.me/freenode/django/ || Django CoC applies: https://www.djangoproject.com/conduct/ || Django 2.0.6 https://www.djangoproject.com/weblog/2018/jun/01/bugfix-release/"
+2018-07-01 14:41:34	--	Topic set by MarkusH on Fri, 01 Jun 2018 16:40:00
+2018-07-01 14:41:34	--	Channel #django: 452 nicks (1 op, 13 voices, 438 normals)
+2018-07-01 14:41:36	--	Channel created on Sun, 26 Nov 2006 07:42:41
+2018-07-01 14:41:43	duncan213	hello evryone
+2018-07-01 14:43:32	-->	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has joined #django
+2018-07-01 14:44:22	<--	shangxiao (~davids@115.146.75.10) has quit (Ping timeout: 245 seconds)
+2018-07-01 14:46:45	-->	k0mpa (~k0mpa@gateway/tor-sasl/k0mpa) has joined #django
+2018-07-01 14:48:02	<--	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2018-07-01 14:53:00	-->	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has joined #django
+2018-07-01 14:53:42	<--	roadie (~user@2a02:8108:f40:17f1:bcc7:c9a3:a8b8:fcb3) has quit (Ping timeout: 256 seconds)
+2018-07-01 14:55:54	-->	converge (~converge@unaffiliated/joaop) has joined #django
+2018-07-01 14:59:15	<--	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has quit (Ping timeout: 240 seconds)
+2018-07-01 14:59:15	converge	My verification-> if form.is_valid() is returning false, how could I display the form error message ?
+2018-07-01 14:59:15	converge	This is my sign_up view https://gist.github.com/converge/b79261f1d511eeb350bbe30161c351b0
+2018-07-01 15:01:44	-->	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has joined #django
+2018-07-01 15:04:51	<--	brainproxy (~michael@pdpc/supporter/gold/brainproxy) has quit (Ping timeout: 240 seconds)
+2018-07-01 15:06:54	converge	Just fixed it
+2018-07-01 15:07:59	<--	Perkol (~Perkol@nat2-minsk-pool-46-53-195-89.telecom.by) has quit (Remote host closed the connection)
+2018-07-01 15:08:11	<--	mnemonicj (~mnemonicj@114-32-59-180.HINET-IP.hinet.net) has quit (Quit: bye!)
+2018-07-01 15:10:13	-->	mnemonicj (~mnemonicj@114-32-59-180.HINET-IP.hinet.net) has joined #django
+2018-07-01 15:14:47	-->	jessamynsmith (~jessamyns@2605:a601:53c:4000:994a:694:e71b:a08b) has joined #django
+2018-07-01 15:14:49	<--	xcm (~xcm@ipa210.225.tellas.gr) has quit (Remote host closed the connection)
+2018-07-01 15:15:25	-->	rjdp9736 (~rjdp9736@183.82.18.55) has joined #django
+2018-07-01 15:16:17	-->	xcm (~xcm@ipa210.225.tellas.gr) has joined #django
+2018-07-01 15:22:00	-->	traira (~Adium@187-78-39-12.user.veloxzone.com.br) has joined #django
+2018-07-01 15:27:08	-->	woodunderroot (~sam1nt@151.254.49.215) has joined #django
+2018-07-01 15:27:46	woodunderroot	Hi, I have a bit of confusion about Views and Models.
+2018-07-01 15:28:02	woodunderroot	I have a model That have Courses and Homework
+2018-07-01 15:29:24	woodunderroot	I want the Admin to register the Teacher and The Student and Assign Each user to it's need, However, their views depend on their permission
+2018-07-01 15:29:43	woodunderroot	However, I can't Figure it Out in the View section.
+2018-07-01 15:30:45	-->	amirpro (~amirpro@41.235.183.31) has joined #django
+2018-07-01 15:30:48	-->	firebird_ (~firebird_@unaffiliated/firebird/x-239087) has joined #django
+2018-07-01 15:32:43	-->	Xaldafax (~Xaldafax@cpe-104-35-100-124.socal.res.rr.com) has joined #django
+2018-07-01 15:33:04	<--	woodunderroot (~sam1nt@151.254.49.215) has quit (Quit: Leaving)
+2018-07-01 15:33:48	<--	firebird_ (~firebird_@unaffiliated/firebird/x-239087) has quit (Client Quit)
+2018-07-01 15:34:42	-->	firebird_ (~firebird_@unaffiliated/firebird/x-239087) has joined #django
+2018-07-01 15:35:38	-->	azuri5 (~azuri5@103.87.57.237) has joined #django
+2018-07-01 15:39:49	-->	shangxiao (~davids@115.146.75.10) has joined #django
+2018-07-01 15:39:53	<--	rjdp9736 (~rjdp9736@183.82.18.55) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2018-07-01 15:40:03	-->	brainproxy (~michael@pdpc/supporter/gold/brainproxy) has joined #django
+2018-07-01 15:40:41	<--	Lcstyle (~Lcstyle@gateway/tor-sasl/lcstyle) has quit (Ping timeout: 250 seconds)
+2018-07-01 15:44:22	-->	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has joined #django
+2018-07-01 15:44:45	<--	shangxiao (~davids@115.146.75.10) has quit (Ping timeout: 264 seconds)
+2018-07-01 15:45:51	-->	Lcstyle (~Lcstyle@gateway/tor-sasl/lcstyle) has joined #django
+2018-07-01 15:48:48	-->	roadie (~user@2a02:8108:f40:17f1:bcc7:c9a3:a8b8:fcb3) has joined #django
+2018-07-01 15:48:48	<--	rpkilby (~rpkilby@cpe-76-182-45-76.nc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2018-07-01 15:53:13	<--	Info-Screen (~Info-Scre@p5DDB28F0.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2018-07-01 15:54:03	-->	wildlander (~wildlande@unaffiliated/wildlander) has joined #django
+2018-07-01 15:54:33	<--	Lcstyle (~Lcstyle@gateway/tor-sasl/lcstyle) has quit (Ping timeout: 250 seconds)
+2018-07-01 15:55:13	-->	rjdp9736 (~rjdp9736@183.82.18.55) has joined #django
+2018-07-01 15:55:48	-->	Info-Screen (~Info-Scre@p5DDB2952.dip0.t-ipconnect.de) has joined #django
+2018-07-01 16:02:45	<--	brainproxy (~michael@pdpc/supporter/gold/brainproxy) has quit (Ping timeout: 264 seconds)
+2018-07-01 16:09:10	<--	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has quit (Ping timeout: 260 seconds)
+2018-07-01 16:09:56	-->	ashc (~textual@162.249.163.237) has joined #django
+2018-07-01 16:10:00	<--	amirpro (~amirpro@41.235.183.31) has quit (Quit: amirpro)
+2018-07-01 16:11:46	-->	amirpro (~amirpro@41.235.183.31) has joined #django
+2018-07-01 16:12:19	<--	jessamynsmith (~jessamyns@2605:a601:53c:4000:994a:694:e71b:a08b) has quit (Remote host closed the connection)
+2018-07-01 16:12:36	-->	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has joined #django
+2018-07-01 16:13:02	<--	lorddaedra (~lorddaedr@37.58.58.232) has quit (Remote host closed the connection)
+2018-07-01 16:13:17	<--	rjdp9736 (~rjdp9736@183.82.18.55) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2018-07-01 16:13:20	-->	lorddaedra (~lorddaedr@37.58.58.232) has joined #django
+2018-07-01 16:13:30	-->	Lcstyle (~Lcstyle@gateway/tor-sasl/lcstyle) has joined #django
+2018-07-01 16:15:54	-->	rjdp9736 (~rjdp9736@183.82.18.55) has joined #django
+2018-07-01 16:16:26	<--	amirpro (~amirpro@41.235.183.31) has quit (Ping timeout: 265 seconds)
+2018-07-01 16:16:57	<--	fikka (~fikka@5403BEC5.catv.pool.telekom.hu) has quit (Ping timeout: 240 seconds)
+2018-07-01 16:19:01	<--	roadie (~user@2a02:8108:f40:17f1:bcc7:c9a3:a8b8:fcb3) has quit (Ping timeout: 256 seconds)
+2018-07-01 16:19:23	-->	amirpro (~amirpro@41.235.183.31) has joined #django
+2018-07-01 16:20:16	<--	xcm (~xcm@ipa210.225.tellas.gr) has quit (Remote host closed the connection)

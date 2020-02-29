@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+eval "$(xres2var)"
+font=$(xrdb -query | grep 'Dunst.font:'| awk -F'font:' '{print $NF}')
+
+# Autostart section
+setwallpaper &
+#sxhkd &
+synclient TapButton1=1 &
+numlockx on &
+xautolock -time 15 -locker "lockscreen -l dimblur" & 
+setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle' & 
+[ -z "$(pgrep -x redshift)" ] && redshift &
+[ -z "$(pgrep -x compton)" ] && compton &
+dunstrun &
+
+# Statusbar loop
+while true; do
+   xsetroot -name "$(dwmbar | tr -d '\n')"
+   sleep 1s
+done &
+

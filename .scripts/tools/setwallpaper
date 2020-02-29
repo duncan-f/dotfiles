@@ -1,9 +1,0 @@
-#!/bin/bash
-
-[ ! -n "$1" ] && echo "You have to specify an image!" &&  exit
-
-echo "Setting up wallpaper..."
-convert "$1" "$HOME/.config/wallpaper.png"
-feh --bg-fill "$HOME/.config/wallpaper.png"
-
-notify-send -i "$HOME/.config/wallpaper.png" "Wallpaper" "Wallpaper applied."

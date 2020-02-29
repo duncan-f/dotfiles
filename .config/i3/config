@@ -69,12 +69,10 @@ set $low       --no-startup-id volman low
 set $truemute  --no-startup-id volman mute
 set $micmute   --no-startup-id volman micmute
 
-#      autostart 
+#      autostart
 #    -------------
-exec --no-startup-id feh --bg-fill "$HOME/.config/wallpaper.png" &
+exec --no-startup-id setwallpaper &
 exec --no-startup-id xautolock -time 15 -locker "lockscreen -l dimblur" &
-exec --no-startup-id dunst -font "$dunst_font" -lb "$darkwhite" -lf "$darkblack" -lfr "$lightwhite" -nb "$bg" -nf "$fg" -nfr "$darkblack" -cb "$darkred" -cf "$lightwhite" -cfr "$lightred" &
-exec --no-startup-id xfce4-volumed-pulse &
 exec --no-startup-id synclient TapButton1=1 &
 exec_always --no-startup-id numlockx on &
 exec_always --no-startup-id mpdupdate &
@@ -82,11 +80,8 @@ exec_always --no-startup-id mpdupdate &
 exec_always --no-startup-id setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle' &
 exec --no-startup-id compton &
 exec --no-startup-id redshift &
-# lockscreen initialization
-#exec --no-startup-id lockscreen -i
+exec --no-startup-id dunstrun &
 #exec --no-startup-id nm-applet
-#exec --no-startup-id blueberry-tray
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Bindings to make the webcam float and stick.
 for_window [title="mpvfloat"] floating enable
@@ -104,6 +99,20 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="Pavucontrol"] resize 640 480
 for_window [class="Pavucontrol"] move position center
 
+for_window [instance="math"] border pixel 2
+for_window [instance="math"] floating enable
+for_window [instance="math"] resize set 640 480
+for_window [instance="math"] move position center
+for_window [instance="math"] move scratchpad
+exec $term -n math -e R -q
+
+for_window [instance="console"] border pixel 2
+for_window [instance="console"] floating enable
+for_window [instance="console"] resize set 640 480
+for_window [instance="console"] move position center
+for_window [instance="console"] move scratchpad
+exec $term -n console -e tmuxinit
+
 font pango:FontAwesome, $i3_font
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -113,9 +122,9 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec $term
-bindsym $mod+Shift+Return exec $term
+bindsym $mod+Shift+Return exec $term -e tmuxsess
 
-bindsym Ctrl+$alt+Tab exec --no-startup-id dmenuemoji
+bindsym Ctrl+$alt+Tab exec --no-startup-id dmenuicons
 
 bindsym asciitilde [instance="math"] scratchpad show; move position center
 bindsym $mod+asciitilde [instance="console"] scratchpad show; move position center
@@ -148,7 +157,7 @@ bindsym $mod+Prior workspace prev
 bindsym $mod+Shift+Prior move container to workspace prev
 
 bindsym $mod+Tab workspace back_and_forth
-#bindsym $mod+Shift+Tab 
+#bindsym $mod+Shift+Tab
 
 bindsym $mod+BackSpace workspace prev
 bindsym $mod+Shift+BackSpace exec --no-startup-id prompt "Reboot?" "systemctl reboot"
@@ -184,7 +193,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+a focus parent
 bindsym $mod+Shift+a focus child
 
-bindsym $mod+b exec --no-startup-id $BROWSER
+#bindsym $mod+b exec --no-startup-id $BROWSER
 bindsym $mod+Shift+b exec $prev
 bindsym $mod+$alt+b exec $seekb
 
@@ -200,15 +209,15 @@ bindsym $mod+Shift+e mode $mode_resize
 bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+f exec --no-startup-id flash
 
-bindsym $mod+g exec --no-startup-id gimp
+#bindsym $mod+g exec --no-startup-id gimp
 #bindsym $mod+Shift+g
 
 bindsym $mod+h focus left
 bindsym $mod+Shift+h move left
 bindsym $mod+$alt+h resize shrink width 10 px or 10 ppt
 
-bindsym $mod+i exec $term -e htop
-bindsym $mod+Shift+i exec --no-startup-id gmtp
+#bindsym $mod+i exec $term -e htop
+#bindsym $mod+Shift+i exec --no-startup-id gmtp
 
 bindsym $mod+j focus down
 bindsym $mod+Shift+j move down
@@ -229,11 +238,11 @@ bindsym $mod+n exec $term -e newsboat
 bindsym $mod+Shift+n exec $next
 bindsym $mod+$alt+n exec $seekf
 
-bindsym $mod+o exec --no-startup-id camtoggle
+bindsym $mod+o exec --no-startup-id cam-toggle
 bindsym $mod+Shift+o gaps inner current set 5; gaps outer current set 8
 
 bindsym $mod+p exec --no-startup-id displayselect
-bindsym $mod+Shift+p exec --no-startup-id mpdnotif
+bindsym $mod+Shift+p exec --no-startup-id mpd-toggle
 
 bindsym $mod+q exec --no-startup-id prompt "Shutdown ?" "systemctl poweroff"
 bindsym $mod+Shift+q kill
@@ -241,20 +250,20 @@ bindsym $mod+Shift+q kill
 bindsym $mod+r exec $term -e ranger
 bindsym $mod+Shift+r exec $term -e sudo ranger /mnt
 
-bindsym $mod+s exec $stop
-bindsym $mod+Shift+s layout stacking
+bindsym $mod+s layout stacking
+#bindsym $mod+Shift+s
 
 bindsym $mod+t exec $term -e transmission-remote-cli
-bindsym $mod+Shift+t exec --no-startup-id torrents
+bindsym $mod+Shift+t exec --no-startup-id td-toggle
 
 bindsym $mod+u exec $term -e nmtui
 bindsym $mod+Shift+u exec --no-startup-id surf-open
 
 bindsym $mod+v exec $term -e vifmrun
-bindsym $mod+Shift+v exec $toggle
+#bindsym $mod+Shift+v
 
-bindsym $mod+w exec $netrefresh
-bindsym $mod+Shift+w exec $netstop
+bindsym $mod+w exec $BROWSER
+#bindsym $mod+Shift+w exec $netstop
 
 bindsym $mod+x exec --no-startup-id lockscreen -l dim
 bindsym $mod+Shift+x exec --no-startup-id sh -c ~/dl/tor-browser_en-US/Browser/start-tor-browser --detach
@@ -279,7 +288,7 @@ set $workspace10 "10"
 set $workspace11 "11"
 
 # Assign applications to workspaces
-assign [class="Firefox|Google-chrome|qutebrowser|Surf"] $workspace2
+assign [class="firefox|Google-chrome|qutebrowser|Surf"] $workspace2
 assign [class="Subl3|Code|Atom|Squeak"] $workspace3
 assign [class="Acroread|Mousepad|Gimp|krita|grafx2|Inkscape"] $workspace4
 assign [class="obs|Cheese|Arandr"] $workspace5
@@ -322,7 +331,7 @@ bindsym $mod+Shift+parenright move container to workspace $workspace11
 #bindsym F3
 #bindsym F4
 #bindsym F5
-#bindsym F6
+bindsym F6          exec $toggle
 #bindsym F7
 #bindsym F8
 #bindsym F9
@@ -333,9 +342,9 @@ bindsym $mod+Shift+parenright move container to workspace $workspace11
 #bindsym $mod+F1
 bindsym $mod+F2     exec $low
 bindsym $mod+F3     exec $middle
-#bindsym $mod+F4
+bindsym $mod+F4     exec --no-startup-id prompt "Logout?" "i3-msg exit"
 bindsym $mod+F5     restart
-#bindsym $mod+F6
+bindsym $mod+F6     exec $stop
 bindsym $mod+F7     exec $netrefresh
 bindsym $mod+F8     exec $micmute; exec --no-startup-id pkill -RTMIN+6 i3blocks
 bindsym $mod+F9     exec --no-startup-id dmenumount
@@ -345,19 +354,24 @@ bindsym $mod+F10    exec --no-startup-id dmenuumount
 
 bindsym $alt+F4 kill
 
-for_window [instance="math"] border pixel 2
-for_window [instance="math"] floating enable
-for_window [instance="math"] resize set 640 480
-for_window [instance="math"] move position center
-for_window [instance="math"] move scratchpad
-exec $term -n math -e R -q
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume            exec $increase
+bindsym XF86AudioLowerVolume            exec $decrease
+bindsym XF86AudioMute                   exec $truemute
+bindsym $mod+XF86AudioRaiseVolume       exec $middle
+bindsym $mod+XF86AudioLowerVolume       exec $low
+bindsym $mod+XF86AudioMute              exec $micmute
+bindsym XF86AudioNext			        exec $next
+bindsym XF86AudioPause			        exec $toggle
+bindsym XF86AudioPlay			        exec $toggle
+bindsym XF86AudioPrev 			        exec $prev
+bindsym XF86AudioStop			        exec $stop
 
-for_window [instance="console"] border pixel 2
-for_window [instance="console"] floating enable
-for_window [instance="console"] resize set 640 480
-for_window [instance="console"] move position center
-for_window [instance="console"] move scratchpad
-exec $term -n console -e tmuxinit
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp             exec --no-startup-id blman inc 5
+bindsym XF86MonBrightnessDown           exec --no-startup-id blman dec 5
+bindsym $mod+XF86MonBrightnessUp        exec --no-startup-id blman inc 10
+bindsym $mod+XF86MonBrightnessDown      exec --no-startup-id blman dec 10
 
 # window_colors
 #                         border      background     text        indicator
@@ -377,31 +391,12 @@ bar {
 		background $bg
 		statusline $fg
 		separator $bg
-#					            border		background	text
-	        focused_workspace	$bg     	$bg		    $darkblue
-	        active_workspace	$darkyellow	$bg		    $darkyellow
-        	inactive_workspace	$bg     	$bg     	$fg
-		    urgent_workspace	$darkblack	$darkblue	$bg
-        	binding_mode		$darkblack	$darkyellow	$bg
+#					            border		    background	    text
+        focused_workspace	$lightblue	    $darkblue       $bg
+        active_workspace	$darkyellow	    $lightyellow    $bg
+		inactive_workspace	$bg     	    $bg     	    $fg
+		urgent_workspace	$lightred	    $darkred	    $fg
+		binding_mode		$darkblack	    $darkyellow	    $bg
 	}
 }
-
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume            exec $increase
-bindsym XF86AudioLowerVolume            exec $decrease
-bindsym XF86AudioMute                   exec $truemute
-bindsym $mod+XF86AudioRaiseVolume       exec $middle
-bindsym $mod+XF86AudioLowerVolume       exec $low
-bindsym $mod+XF86AudioMute              exec $micmute
-bindsym XF86AudioNext			exec $next
-bindsym XF86AudioPause			exec $toggle
-bindsym XF86AudioPlay			exec $toggle
-bindsym XF86AudioPrev 			exec $prev
-bindsym XF86AudioStop			exec $stop 
-
-# Sreen brightness controls
-bindsym XF86MonBrightnessUp             exec --no-startup-id blman inc 5
-bindsym XF86MonBrightnessDown           exec --no-startup-id blman dec 5
-bindsym $mod+XF86MonBrightnessUp        exec --no-startup-id blman inc 10
-bindsym $mod+XF86MonBrightnessDown      exec --no-startup-id blman dec 10
 

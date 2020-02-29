@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+eval "$(xres2var)"
+font=$(xrdb -query | grep 'Dmenu.font:'| awk -F'font:' '{print $NF}')
+
+dmenu_run -fn "$font" -nb "$background" -nf "$foreground" -sb "$color4" -sf "$background" -i -p "Run"

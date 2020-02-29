@@ -1,0 +1,10 @@
+URxvt.font:                     xft:Roboto:regular:pixelsize=11
+URxvt.boldFont:                 xft:Roboto:bold:pixelsize=11
+URxvt.italicFont:               xft:Roboto:italic:pixelsize=11
+URxvt.boldItalicFont:           xft:Roboto:bold italic:pixelsize=11
+St.font:                        Roboto:pixelsize=11:antialias=true:autohint=true
+Rofi.font:                      Roboto 11
+Dmenu.font:                     Roboto:size=11
+Dunst.font:                     Roboto 11
+Polybar.font:                   Roboto:size=12;2
+i3wm.font:                      Roboto 10

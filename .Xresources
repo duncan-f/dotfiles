@@ -1,62 +1,28 @@
 ! ------------------------------------------------------------------------------
 ! Colors
 ! ------------------------------------------------------------------------------
-#include                        ".themes/colors/vulvy"
-#include                        ".themes/fonts/input"
+#include                        ".local/share/themes/colors/dracula"
+#include                        ".local/share/themes/fonts/iosevka"
 
-*secondary:                     #3a3a3a
-*underline:                     #0094ce
-*active:                        #aa0000
+*.secondary:                     #C0C0C0
+*.underline:                     #D0D0D0
+*.active:                        #DC21AD
 
-! special
-*.foreground:   fgbase
-*.background:   bgbase
-*.cursorColor:  cursor
-
-! black
-*.color0:       dark_black
-*.color8:       light_black
-
-! red
-*.color1:       dark_red
-*.color9:       light_red
-
-! green
-*.color2:       dark_green
-*.color10:      light_green
-
-! yellow
-*.color3:       dark_yellow
-*.color11:      light_yellow
-
-! blue
-*.color4:       dark_blue
-*.color12:      light_blue
-
-! magenta
-*.color5:       dark_magenta
-*.color13:      light_magenta
-
-! cyan
-*.color6:       dark_cyan
-*.color14:      light_cyan
-
-! white
-*.color7:       dark_white
-*.color15:      light_white
-
-
-dwm.normfgcolor:                fgbase
-dwm.normbgcolor:                bgbase
-dwm.normbordercolor:            dark_black
-dwm.selfgcolor:                 bgbase
-dwm.selbgcolor:                 dark_blue
-dwm.selbordercolor:             dark_blue
+! ---------------
+!dwm.normfgcolor:                fgbase
+!dwm.normbgcolor:                bgbase
+!dwm.normbordercolor:            lightblack
+!dwm.selfgcolor:                 darkblack
+!dwm.selbgcolor:                 darkblue
+!dwm.selbordercolor:             lightblue
+!----------------
 
 ! ------------------------------------------------------------------------------
 ! St
 ! ------------------------------------------------------------------------------
-St.alpha:                       232
+st.alpha:                       0.95
+!st.termname:					"screen-256color"
+st.borderpx:					4
 
 ! ------------------------------------------------------------------------------
 ! URxvt
@@ -68,11 +34,11 @@ URxvt.utf8:                     true
 URxvt.cursorBlink:              true
 URxvt.cursorUnderline:          true
 URxvt.depth:                    32
-URxvt.urxvt:                    screen-256color
-!URxvt.letterSpace:              -1
+URxvt.urxvt:                    rxvt-unicode-256color
+URxvt.letterSpace:              -1
 URxvt.intensityStyles:          false
 !URxvt.inheritPixmap:            true
-URxvt.colorUL:                  #ff0adc
+URxvt.colorUL:                  #D0D0D0
 
 !! Extensions
 URxvt.perl-ext-common:          default,matcher,resize-font,url-select,keyboard-select
@@ -93,10 +59,11 @@ URxvt.matcher.button:           1
 ! Xft Font Configuration
 ! ------------------------------------------------------------------------------
 
-Xft.autohint: 0
-Xft.lcdfilter: lcddefault
-Xft.hintstyle: hintslight
-Xft.hinting: 1
-Xft.antialias: 1
+!Xft.dpi:						192
+Xft.autohint: 					true
+Xft.lcdfilter: 					lcddefault
+Xft.hintstyle: 					hintslight
+Xft.hinting: 					true
+Xft.antialias: 					true
 Xft.rgba: rgb
 

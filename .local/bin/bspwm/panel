@@ -1,0 +1,111 @@
+#!/bin/sh
+
+PANEL_FIFO=/tmp/panel-fifo
+PANEL_HEIGHT=24
+PANEL_FONT=$(xrdb -query | grep 'bspwm.font:'| awk -F'font:\t' '{print $NF}')
+PANEL_WM_NAME=bspwm_panel
+#export PANEL_FIFO PANEL_HEIGHT PANEL_FONT PANEL_WM_NAME
+
+if xdo id -a "$PANEL_WM_NAME" > /dev/null ; then
+	printf "%s\n" "The panel is already running." >&2
+	exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+. panel_colors
+
+music()
+{
+    while true; do
+		music="$(mpc -f "[[%artist% - ]%title%]|[%file%]" 2>/dev/null | grep -v "volume:" | head -n 1)"
+		echo "M $music "
+        sleep 1
+    done
+}
+
+internet()
+{
+    while true; do
+        signal=$(grep "^\s*w" /proc/net/wireless | awk '{ print int($3 * 100 / 70) "%" }')
+
+        [ "$(cat /sys/class/net/w*/operstate)" = "down" ] && signal="X"
+
+        printf 'I %s%s \n' "$signal" "$(cat /sys/class/net/e*/operstate | sed "s/down/X/;s/up/E/")"
+        sleep 30
+    done
+}
+
+volume()
+{
+    while true; do
+        volume=$(amixer get Master | tail -n 1 | awk -F'[' '{print $2 }' | tr '%]\n' ' ' | tr -d '[:space:]') || exit
+
+        state=$(amixer get Master | tail -n 1 | awk -F'[' '{print $3 }' | tr ']\n' ' ')
+
+        printf 'V %s%s \n' "$(echo $state | sed "s/off/[M]/;s/on//")" "$(echo $volume | sed 's/$/%/')"
+        sleep 1
+    done
+}
+
+battery()
+{
+while true; do
+    capacity=$(cat /sys/class/power_supply/BAT0/capacity)
+    status=$(cat /sys/class/power_supply/BAT0/status)
+
+	case "$status" in
+		'Charging') echo "B +$capacity% " ;;
+		'Discharging')
+			case "$capacity" in
+				3[0-9]|2[0-9]) echo "B%{B$color3}%{F$background} -$capacity% %{F-}%{B-}" ;;
+				1[0-9]|[0-9]) echo "B%{B$color1}%{F$foreground} -$capacity% %{F-}%{B-}" ;;
+				*) echo "B -$capacity% " ;;
+			esac
+			;;
+		'Full') echo "B%{B$background}%{F$color2} $capacity% %{F-}%{B-}" ;;
+	esac
+
+    sleep 6
+done
+}
+
+backlight()
+{
+    while true; do
+        brightness=$(cat /sys/class/backlight/intel_backlight/brightness)
+        max=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+
+        backlight=$(echo "$brightness*100/$max" | bc -l)
+
+        printf 'L %.0f%% \n' "${backlight}"
+        sleep 1
+    done
+}
+
+clock()
+{
+    while true; do
+        date +"S %a, %d %b %I:%M %p "
+        sleep 1
+    done
+}
+
+music > "$PANEL_FIFO" &
+internet > "$PANEL_FIFO" &
+volume > "$PANEL_FIFO" &
+battery > "$PANEL_FIFO" &
+#xtitle -sf 'T%s\n' > "$PANEL_FIFO" &
+backlight > "$PANEL_FIFO" &
+clock > "$PANEL_FIFO" &
+bspc subscribe report > "$PANEL_FIFO" &
+
+panel_bar < "$PANEL_FIFO" | lemonbar -a 32 -u 2 -n "$PANEL_WM_NAME" -g x$PANEL_HEIGHT -f "$PANEL_FONT" -f "Siji:size=10" -f "FontAwesome:pixelsize=14" -F "$COLOR_DEFAULT_FG" -B "$COLOR_DEFAULT_BG" | sh &
+
+wid=$(xdo id -m -a "$PANEL_WM_NAME")
+xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" "$wid"
+
+wait

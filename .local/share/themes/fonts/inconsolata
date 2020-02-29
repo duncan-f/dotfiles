@@ -1,0 +1,11 @@
+URxvt.font:                     xft:Inconsolata:regular:pixelsize=14
+URxvt.boldFont:                 xft:Inconsolata:bold:pixelsize=14
+URxvt.italicFont:               xft:Inconsolata:italic:pixelsize=14
+URxvt.boldItalicFont:           xft:Inconsolata:bold italic:pixelsize=14
+St.font:                        Inconsolata:pixelsize=14:antialias=true:autohint=true
+Rofi.font:                      Inconsolata 10
+Dunst.font:                     Inconsolata 10
+i3wm.font:                      Inconsolata 9
+Polybar.font:                   Inconsolata:size=11;2
+Dmenu.font:                     Inconsolata:size=9
+bspwm.font:                     Inconsolata:size=9

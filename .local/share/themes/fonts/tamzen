@@ -1,0 +1,11 @@
+URxvt.font:                     xft:tamzen:regular:pixelsize=14
+URxvt.boldFont:                 xft:tamzen:bold:pixelsize=14
+URxvt.italicFont:               xft:tamzen:italic:pixelsize=14
+URxvt.boldItalicFont:           xft:tamzen:bold italic:pixelsize=14
+St.font:                        tamzen:pixelsize=14:antialias=true:autohint=true
+Rofi.font:                      Tamzen 11
+Dmenu.font:                     Tamzen:size=11
+Dunst.font:                     Tamzen 11
+Polybar.font:                   tamzen:size=12;2
+i3wm.font:                      Tamzen 10
+bspwm.font:                     tamzen:size=10

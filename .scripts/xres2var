@@ -1,3 +1,0 @@
-#!/bin/bash
-
-xrdb -query | grep -E 'foreground|background|cursorColor|color[0-9]' | tr -d :.* | awk '{print $1"=\""$2"\""}'

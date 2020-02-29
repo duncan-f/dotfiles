@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+ping -q -c1 1.1.1.1 >/dev/null || exit
+
+notify-send "📦 Update packages" "Checking for packages to update..."
+
+sudo pacman -Syyuw --noconfirm || { notify-send "Error occured during update."; exit; }
+
+if pacman -Qu | grep -v "\[ignored\]"
+then
+    notify-send "There's new updates to install."
+else
+    notify-send "No updates available."
+fi

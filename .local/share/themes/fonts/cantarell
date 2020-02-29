@@ -1,0 +1,10 @@
+URxvt.font:                     xft:cantarell:regular:pixelsize=11
+URxvt.boldFont:                 xft:cantarell:bold:pixelsize=11
+URxvt.italicFont:               xft:cantarell:italic:pixelsize=11
+URxvt.boldItalicFont:           xft:cantarell:bold italic:pixelsize=11
+St.font:                        cantarell:pixelsize=11:antialias=true:autohint=true
+Rofi.font:                      cantarell 10
+Dunst.font:                     cantarell 10
+i3wm.font:                      cantarell 9
+Polybar.font:                   cantarell:size=10;2
+Dmenu.font:                     cantarell:size=10

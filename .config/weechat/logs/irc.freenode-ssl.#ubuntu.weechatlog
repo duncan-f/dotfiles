@@ -1,0 +1,86 @@
+2018-07-18 21:37:51	-->	duncan213 (~duncan@105.98.199.85) has joined #ubuntu
+2018-07-18 21:37:51	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: https://ubottu.com/y/gl | #ubuntu supports Ubuntu and official flavors; versions 14.04, 16.04, 17.10, and 18.04 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: https://ubottu.com/y/irc | Pastes to https://paste.ubuntu.com/ | Download: https://ubottu.com/y/dl"
+2018-07-18 21:37:51	--	Topic set by dax (dax@freenode/staff/dax) on Sat, 28 Apr 2018 00:12:46
+2018-07-18 21:37:53	--	Channel #ubuntu: 1748 nicks (2 ops, 0 voices, 1746 normals)
+2018-07-18 21:37:53	--	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged at irclogs.ubuntu.com. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2018-07-18 21:37:53	--	URL for #ubuntu: http://www.ubuntu.com
+2018-07-18 21:37:53	--	Channel created on Sun, 26 Nov 2006 07:42:41
+2018-07-18 21:38:00	-->	ShapeShifter499 (~ShapeShif@unaffiliated/shapeshifter499) has joined #ubuntu
+2018-07-18 21:38:11	-->	Luthor731 (~Luthor731@151.70.233.127) has joined #ubuntu
+2018-07-18 21:38:15	<--	fraggle_laptop (~fraggle@eth-west-pareq2-46-193-0-224.wb.wifirst.net) has quit (Remote host closed the connection)
+2018-07-18 21:38:15	p1l0t	nacc: blackflow: Thanks for the help I did finally get it all working. On top of your suggestions I had to reinstall my grub with lvm enabled and then the magestic Bionic Beaver appeared.
+2018-07-18 21:38:15	<--	beaver (~none@gateway/tor-sasl/beaver) has quit (Remote host closed the connection)
+2018-07-18 21:38:32	TJ-	dunnousernamefn: right, because that include file is *private*, not meant to be used externally
+2018-07-18 21:38:46	Deus402	TJ- yes, two arrays
+2018-07-18 21:38:47	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2018-07-18 21:38:48	dunnousernamefn	that's weird because it's mentioned in the README as a feature
+2018-07-18 21:38:49	blackflow	p1l0t: yw
+2018-07-18 21:38:54	dunnousernamefn	yet that feature cannot be accessed from outside
+2018-07-18 21:39:00	Deus402	blackflow: status of what service? mdadm?
+2018-07-18 21:39:15	<--	sbanwart (~sbanwart@192.182.255.2) has quit (Remote host closed the connection)
+2018-07-18 21:39:28	TJ-	Deus402: both arrays are Stripes (RAID-0) ?
+2018-07-18 21:39:33	blackflow	Deus402: yeh but I misread that output, it's .device, not service.  so anything in dmesg? why did it fail?
+2018-07-18 21:40:06	<--	Luke (~luke@unaffiliated/luke) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2018-07-18 21:40:07	TJ-	Deus402: have you checked both arrays for integrity using mdadm ?
+2018-07-18 21:40:21	-->	jason85 (~jason@dslb-188-100-240-148.188.100.pools.vodafone-ip.de) has joined #ubuntu
+2018-07-18 21:40:22	Deus402	i just created them, it all works fine until i reboot.
+2018-07-18 21:40:45	Deus402	https://paste.ubuntu.com/p/p3k7BCGHVD/
+2018-07-18 21:41:48	-->	gambl0r3 (~gambl0re@94.14.223.113) has joined #ubuntu
+2018-07-18 21:41:49	blackflow	Deus402: yeah device disappeared, but why. is theere an error in dmesg?
+2018-07-18 21:41:51	-->	kali-chewy (kalichewy@gateway/vpn/privateinternetaccess/kalichewy) has joined #ubuntu
+2018-07-18 21:42:17	Deus402	lemme check
+2018-07-18 21:42:36	<--	mnemonic (~semeion@unaffiliated/semeion) has quit (Read error: Connection reset by peer)
+2018-07-18 21:42:38	<--	ImageJPEG (~ImageJPEG@74.221.46.242) has quit (Quit: Leaving)
+2018-07-18 21:43:35	<--	led_ir22 (~Thunderbi@hotspot10.rywasoft.net) has quit (Ping timeout: 260 seconds)
+2018-07-18 21:43:42	TJ-	Deus402: what are the underlying devices? real disks, LVM LVs, iSCSI network storage, something else?
+2018-07-18 21:43:49	-->	mnemonic (~semeion@unaffiliated/semeion) has joined #ubuntu
+2018-07-18 21:43:59	<--	gambl0re (~gambl0re@unaffiliated/gambl0re) has quit (Ping timeout: 276 seconds)
+2018-07-18 21:44:15	-->	Luke (~luke@unaffiliated/luke) has joined #ubuntu
+2018-07-18 21:44:32	<--	Luthor731 (~Luthor731@151.70.233.127) has quit (Quit: Sto andando via)
+2018-07-18 21:44:45	<--	kali-chewy (kalichewy@gateway/vpn/privateinternetaccess/kalichewy) has quit (Client Quit)
+2018-07-18 21:45:04	--	CptLuxx is now known as SirLuxx
+2018-07-18 21:45:23	-->	Darkhero (~Darkhero@unaffiliated/darkhero) has joined #ubuntu
+2018-07-18 21:45:32	-->	crmlt (~crmlt@ip-17-213.skvelynet.cz) has joined #ubuntu
+2018-07-18 21:45:49	<--	crmlt (~crmlt@ip-17-213.skvelynet.cz) has quit (Remote host closed the connection)
+2018-07-18 21:45:49	Whiskey	How do i get autologin work on Ubuntu 18.04 Mate?
+2018-07-18 21:45:55	<--	msalvatore (~msalvator@c-75-75-133-125.hsd1.pa.comcast.net) has quit (Ping timeout: 260 seconds)
+2018-07-18 21:46:06	<--	fooctrl (~havoc@92-109-78-37.cable.dynamic.v4.ziggo.nl) has quit (Ping timeout: 256 seconds)
+2018-07-18 21:46:45	oerheks	https://ubuntu-mate.community/t/auto-login-to-my-account/11277
+2018-07-18 21:46:46	-->	fooctrl (~havoc@92-109-78-37.cable.dynamic.v4.ziggo.nl) has joined #ubuntu
+2018-07-18 21:46:47	<--	Darkhero (~Darkhero@unaffiliated/darkhero) has quit (Client Quit)
+2018-07-18 21:46:49	Deus402	blackflow, TJ- : underlying devices are sata hdd's conected to lsi 9211-8i cards, and i don't see anythign that jumps out at me in dmesg, but here is all of it in case i missed something: https://paste.ubuntu.com/p/DZZNbSTftY/
+2018-07-18 21:46:57	<--	mnemonic (~semeion@unaffiliated/semeion) has quit (Client Quit)
+2018-07-18 21:47:00	oerheks	so easy to find
+2018-07-18 21:47:47	Whiskey	i have try that
+2018-07-18 21:47:47	Deus402	and here is my original work creating the arrays: https://paste.ubuntu.com/p/KmwsZCFKtW/
+2018-07-18 21:48:03	<--	mibo (~mibo@ip-89-176-205-18.net.upcbroadband.cz) has quit (Remote host closed the connection)
+2018-07-18 21:48:33	<--	lanoxx (~lanoxx@84-112-38-115.cable.dynamic.surfer.at) has quit (Ping timeout: 248 seconds)
+2018-07-18 21:48:56	-->	led_ir22 (~Thunderbi@hotspot10.rywasoft.net) has joined #ubuntu
+2018-07-18 21:49:41	Whiskey	like
+2018-07-18 21:49:43	blackflow	Deus402: you have five drives in Raid0? So those will store data that can disappear at any moment with no consequence to it?
+2018-07-18 21:49:50	Whiskey	- /etc/lightdm/lightdm.conf is empty
+2018-07-18 21:50:02	-->	lanoxx (~lanoxx@84-112-38-115.cable.dynamic.surfer.at) has joined #ubuntu
+2018-07-18 21:50:15	-->	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has joined #ubuntu
+2018-07-18 21:50:23	TJ-	Deus402: ahhh, the drives are in an external enclosure?
+2018-07-18 21:50:31	oerheks	Whiskey, don't edit that, just change "password: ask on login..."
+2018-07-18 21:51:00	<--	nosco (~nosco@2003:e0:672e:4d00:7974:6c3a:25ed:d8c0) has quit (Quit: Ex-Chat)
+2018-07-18 21:51:02	<--	chrmhoffmann (~chrmhoffm@christianhoffmann.info) has quit (Read error: Connection reset by peer)
+2018-07-18 21:51:08	Whiskey	i have
+2018-07-18 21:51:10	Whiskey	but i have 2 users
+2018-07-18 21:51:13	oerheks	and please don't ask how to do this on terminal
+2018-07-18 21:51:15	Whiskey	root and my desktop user
+2018-07-18 21:51:23	-->	isomorphismes (~isomorphi@69.174.160.96) has joined #ubuntu
+2018-07-18 21:51:39	Deus402	TJ-, no, drives are internal. i have a silly case.
+2018-07-18 21:51:43	Whiskey	on the login window one needs password other one don´t but its not auto-login
+2018-07-18 21:51:51	oerheks	..root? oh, that is disabled.
+2018-07-18 21:52:14	<--	amcsi (~amcsi@20014C4C195F220011C5CEBE3B57035C.catv.pool.telekom.hu) has quit (Ping timeout: 265 seconds)
+2018-07-18 21:52:29	<--	abx1_ (uid103467@gateway/web/irccloud.com/x-sukfjkorlyffpdzu) has quit (Quit: Connection closed for inactivity)
+2018-07-18 21:52:33	isomorphismes	really basic linux question, sorry. I am doing sudo chgrp programmers `pwd`; sudo chmod g+w `pwd`; but then touch a in `pwd` fails due to permissions
+2018-07-18 21:52:40	<--	czesmir (~stefan@egj92.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2018-07-18 21:53:44	Whiskey	so no one knows then
+2018-07-18 21:53:44	blackflow	Deus402: what's /proc/mdstat now, after that failure? Are the devices listed? Can you try rescan and reassemble them?
+2018-07-18 21:53:47	Deus402	blackflow, i have a total of 11 drives in raid 0, i like to live dangerously.
+2018-07-18 21:53:54	TJ-	Deus402: ahhh, I ask because the driver looks to be doing some port multiplexing, is that the case, or is each drive on a separate SATA header ?
+2018-07-18 21:54:23	Deus402	tj-: sas -> sata forward breakout cables
+2018-07-18 21:54:23	TJ-	Deus402: can you show us "pastebinit <( sudo lsblk )"
+2018-07-18 21:54:38	<--	duncan213 (~duncan@105.98.199.85) has left #ubuntu ("WeeChat 2.1")

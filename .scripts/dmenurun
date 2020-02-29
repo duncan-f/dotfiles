@@ -1,8 +1,0 @@
-#!/bin/bash
-
-[ -z "$2" ] && num="5" || num="$2"
-
-eval $(xres2var)
-font=$(xrdb -query | grep 'Dmenu.font:'| awk -F'font:' '{print $NF}')
-
-dmenu -fn "$font" -nb "$background" -nf "$foreground" -sb "$color4" -sf "$background" -i -p "$1" -l "$num"

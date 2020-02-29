@@ -1,0 +1,55 @@
+#!/usr/bin/env sh
+
+music()
+{
+    mpc -f "[[%artist% - ]%title%]|[%file%]" 2>/dev/null | grep -v "volume:" | head -n 1
+}
+
+internet()
+{
+    signal=$(grep "^\s*w" /proc/net/wireless | awk '{ print "W:" int($3 * 100 / 70) "%" }')
+
+    [ "$(cat /sys/class/net/w*/operstate)" = "down" ] && signal="X"
+
+    printf '%s%s' "$signal" "$(cat /sys/class/net/e*/operstate | sed "s/down/X/;s/up/E/")" 
+}
+
+
+volume()
+{
+    volume=$(amixer get Master | tail -n 1 | awk -F'[' '{print $2 }' | tr '%]\n' ' ' | tr -d '[:space:]') || exit
+
+    state=$(amixer get Master | tail -n 1 | awk -F'[' '{print $3 }' | tr ']\n' ' ')
+	
+    printf '%s:%s' "$(echo $state | sed "s/off/M/;s/on/V/")" "$(echo $volume | sed 's/$/%/')"
+}
+
+
+backlight()
+{
+    brightness=$(cat /sys/class/backlight/intel_backlight/brightness) || exit
+    max=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+
+    #backlight=$(expr "$brightness*100/$max")
+    backlight=$(echo "$brightness*100/$max" | bc -l)
+
+    printf 'B:%.0f%%' "$backlight"
+}
+
+
+battery()
+{
+    capacity=$(cat /sys/class/power_supply/BAT0/capacity) || exit
+    status=$(cat /sys/class/power_supply/BAT0/status)
+
+    [ $capacity -lt 18 ] && warn="!"
+    [ -z "$warn" ] && warn=":"
+
+    [ $status = "Charging" ] && warn=":" 
+	
+    printf '%s%s%s' "$(echo $status | sed "s/Charging/+/;s/Discharging/-/;s/Unknown/?/;s/Full/B/")" "$warn" "$(echo $capacity | sed 's/$/%/')"
+}
+
+date=$(date +" %a, %d %b  %I:%M %p")
+
+printf "%s  %s  %s  %s  %s  %s" "$(music)" "$(internet)" "$(volume)" "$(backlight)" "$(battery)" "$date"

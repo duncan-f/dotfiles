@@ -1,0 +1,215 @@
+#
+# wm independent hotkeys
+#
+
+super + {_,shift + }b
+	{$BROWSER,volman seekb 20}
+
+# chat
+super + {_,shift + }c
+	{$TERMINAL -e weechat,cam-toggle}
+
+# program launcher
+super + d
+	dmenulauncher
+
+# neomutt
+super + {_,shift + }m
+	{$TERMINAL -e neomutt,$TERMINAL -e ncmpcpp}
+
+super + {_,shift + }n
+	{$TERMINAL -e newsboat,volman seekf 20}
+
+super + {_,shift + }p
+	{displayselect,mpd-toggle}
+
+super + {_,shift + ,alt + }q
+	{prompt "Shutdown?" "systemctl poweroff",bspc node -k,bspc quit}
+
+super + {_,alt + }r
+	{$TERMINAL -e ranger,pkill -x panel; bspc wm -r; notify-send "bspwm reloaded!"}
+
+super + {_,shift + }s
+	{volman stop,"$HOME/docs/tor-browser_en-US/Browser/start-tor-browser" --detach}
+
+# torrent
+super + {_,shift + }t
+	{$TERMINAL -e transmission-remote-cli,td-toggle}
+
+super + {_,shift + }v
+	{$TERMINAL -e vifmrun,$TERMINAL -e calcurse -D ~/.config/calcurse}
+
+# browser
+super + {_,shift + }w
+	{$TERMINAL -e nmtui,sudo -A systemctl restart NetworkManager}
+
+# lock screen
+super + x
+	lockscreen -l blur
+
+# make sxhkd reload its configuration files:
+super + shift + Delete
+	pkill -USR1 -x sxhkd; notify-send "sxhkd reloaded!"
+
+super + BackSpace
+	prompt "Reboot?" "systemctl reboot"
+
+# terminal emulator
+super + {_,shift + }Return
+	{$TERMINAL,$TERMINAL -e tmux new -s Default}
+
+super + Escape
+	dmenushutdown
+
+ctrl + alt + Tab
+	dmenuicons
+
+#Menu
+#	dmenuicons
+
+#
+# bspwm hotkeys
+#
+
+# close and kill
+alt + F4
+	bspc node -c
+
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+#
+# state/flags
+#
+
+# set the window state
+super + {alt + t,ctrl + t,alt + f,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + alt + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# Switch to the {next,previous} monitor.  This brings focus to that
+# monitor's active desktop.
+super + {_,shift + }comma
+	bspc monitor -f {next,prev}
+
+# focus the next/previous node in the current desktop
+super + {_,shift + }a
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + shift + {1-9,0}
+	bspc node -d '^{1-9,10}'
+
+super + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+	bspc desktop -f '^{1,2,3,4,5,6,7,8,9,10}'
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,left 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + ctrl + {h,j,k,l}
+	bspc node -z {right 20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+## Volume control
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	volman {inc,dec,mute}
+
+super + XF86Audio{RaiseVolume,LowerVolume,Mute}
+	volman {next,prev,toggle}
+
+super + shift + XF86AudioMute
+	volman stop
+
+## Music control
+XF86Audio{Next,Prev,Play,Stop}
+	volman {next,prev,toggle,stop}
+
+## brightness control
+XF86MonBrightness{Up,Down}
+	blman {inc 5,dec 5}
+
+super + XF86MonBrightness{Up,Down}
+	blman {set 100,set 15}
+
+## screenshots
+{_,super + }Print
+	{screenshot,screenshot -f}
+
+## Function keys
+super + F9
+	dmenumount
+
+super + F10
+	dmenuumount
+
+# Screencasting
+Insert
+	dmenurecord
+
+Pause
+	dmenurecord kill
+
+

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Using neovim instead of vim
+command -v nvim >/dev/null && alias vim="nvim"
+
+# Colorize commands
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	lla="ls -hla --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	fgrep="fgrep --color=auto" \
+	egrep="egrep --color=auto" \
+	diff="diff --color=auto"
+
+# Pacman commands
+alias \
+	upgrade="sudo pacman -Syu" \
+	downgrade="sudo pacman -U" \
+	pac="sudo pacman" \
+	spac="pacman -Ss" \
+	dpac="sudo pacman -Rnsdd"
+	#orphans="sudo pacman -Rns $(pacman -Qtdq)"
+
+# Paths related
+alias \
+	cpa="cp $HOME/docs/latex/article.tex" \
+	cpb="cp $HOME/docs/latex/beamer.tex" \
+	cph="cp $HOME/docs/latex/handout.tex" \
+	xsrc="xrdb ~/.Xresources" \
+	bsrc="source ~/.bashrc" \
+	zsrc="source ~/.zshrc" \
+	ref="shortcuts >/dev/null && source $HOME/.config/shortcutsrc"
+
+# Apps commands
+alias \
+	starwars="telnet towel.blinkenlights.nl" \
+	phps="php -S localhost:8000 -t public/ -d display_errors=1" \
+	yt="youtube-dl --add-metadata -i" \
+	yta="youtube-dl --add-metadata -xif bestaudio/best" \
+	e="$EDITOR" \
+	sv="sudo $EDITOR" \
+	r="ranger" \
+	sr="sudo ranger" \
+	trc="transmission-remote-cli" \
+	ka="killall"

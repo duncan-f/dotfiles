@@ -1,0 +1,12 @@
+URxvt.font:                     xft:FiraGo:regular:pixelsize=12
+URxvt.boldFont:                 xft:FiraGo:bold:pixelsize=12
+URxvt.italicFont:               xft:FiraGo:italic:pixelsize=12
+URxvt.boldItalicFont:           xft:FiraGo:bold italic:pixelsize=12
+St.font:                        FiraGo:pixelsize=12:antialias=true:autohint=true
+Rofi.font:                      FiraGo 11
+Dunst.font:                     FiraGo 11
+i3wm.font:                      FiraGo 9
+Polybar.font:                   FiraGo:size=10;2
+Dmenu.font:                     FiraGo:size=11
+bspwm.font:                     FiraGo:size=10
+

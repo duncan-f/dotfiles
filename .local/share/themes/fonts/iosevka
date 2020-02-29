@@ -1,0 +1,11 @@
+URxvt.font:                     xft:iosevka:regular:size=11
+URxvt.boldFont:                 xft:iosevka:bold:size=11
+URxvt.italicFont:               xft:iosevka:italic:size=11
+URxvt.boldItalicFont:           xft:iosevka:bold italic:size=11
+St.font:                        Iosevka Medium:pixelsize=12:antialias=true:autohint=true
+Rofi.font:                      iosevka 10
+Dunst.font:                     iosevka 10
+i3wm.font:                      iosevka 9
+Polybar.font:                   iosevka:size=10:antialias=true;2
+Dmenu.font:                     iosevka:size=9
+bspwm.font:                     iosevka:size=9

@@ -1,0 +1,632 @@
+2018-10-19 19:54:55	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 19:54:56	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 19:54:56	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2018-10-19 19:54:56	--	irc: disconnecting from server...
+2018-10-19 19:54:56	--	irc: disconnected from server
+2018-10-19 19:54:56	--	irc: reconnecting to server in 10 seconds
+2018-10-19 19:55:06	--	irc: reconnecting to server...
+2018-10-19 19:55:06	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 19:55:06	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 19:55:06	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2018-10-19 19:55:06	--	irc: disconnecting from server...
+2018-10-19 19:55:06	--	irc: disconnected from server
+2018-10-19 19:55:06	--	irc: reconnecting to server in 20 seconds
+2018-10-19 19:55:26	--	irc: reconnecting to server...
+2018-10-19 19:55:26	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 19:55:26	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 19:55:26	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2018-10-19 19:55:26	--	irc: disconnecting from server...
+2018-10-19 19:55:26	--	irc: disconnected from server
+2018-10-19 19:55:26	--	irc: reconnecting to server in 40 seconds
+2018-10-19 19:56:06	--	irc: reconnecting to server...
+2018-10-19 19:56:06	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 19:56:06	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 19:56:27	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2018-10-19 19:56:27	--	irc: disconnecting from server...
+2018-10-19 19:56:27	--	irc: disconnected from server
+2018-10-19 19:56:27	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-10-19 19:57:37	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 19:57:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 19:57:37	--	gnutls: receiving 1 certificate
+2018-10-19 19:57:37	--	 - certificate[1] info:
+2018-10-19 19:57:37	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 19:57:37	=!=	gnutls: certificate has expired
+2018-10-19 19:57:37	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 19:57:37	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 19:57:37	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 19:57:37	=!=	irc: TLS handshake failed
+2018-10-19 19:57:37	=!=	irc: error: Error in the certificate.
+2018-10-19 19:57:37	--	irc: reconnecting to server in 10 seconds
+2018-10-19 19:57:47	--	irc: reconnecting to server...
+2018-10-19 19:57:47	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 19:57:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 19:57:47	--	gnutls: receiving 1 certificate
+2018-10-19 19:57:47	--	 - certificate[1] info:
+2018-10-19 19:57:47	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 19:57:47	=!=	gnutls: certificate has expired
+2018-10-19 19:57:47	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 19:57:47	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 19:57:47	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 19:57:47	=!=	irc: TLS handshake failed
+2018-10-19 19:57:47	=!=	irc: error: Error in the certificate.
+2018-10-19 19:57:47	--	irc: reconnecting to server in 20 seconds
+2018-10-19 19:58:07	--	irc: reconnecting to server...
+2018-10-19 19:58:07	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 19:58:07	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 19:58:07	--	gnutls: receiving 1 certificate
+2018-10-19 19:58:07	--	 - certificate[1] info:
+2018-10-19 19:58:07	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 19:58:07	=!=	gnutls: certificate has expired
+2018-10-19 19:58:07	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 19:58:07	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 19:58:07	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 19:58:07	=!=	irc: TLS handshake failed
+2018-10-19 19:58:07	=!=	irc: error: Error in the certificate.
+2018-10-19 19:58:07	--	irc: reconnecting to server in 40 seconds
+2018-10-19 19:58:47	--	irc: reconnecting to server...
+2018-10-19 19:58:47	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 19:58:48	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 19:58:48	--	gnutls: receiving 1 certificate
+2018-10-19 19:58:48	--	 - certificate[1] info:
+2018-10-19 19:58:48	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 19:58:48	=!=	gnutls: certificate has expired
+2018-10-19 19:58:48	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 19:58:48	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 19:58:48	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 19:58:48	=!=	irc: TLS handshake failed
+2018-10-19 19:58:48	=!=	irc: error: Error in the certificate.
+2018-10-19 19:58:48	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-10-19 20:00:08	--	irc: reconnecting to server...
+2018-10-19 20:00:08	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 20:00:08	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 20:00:08	--	gnutls: receiving 1 certificate
+2018-10-19 20:00:08	--	 - certificate[1] info:
+2018-10-19 20:00:08	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 20:00:08	=!=	gnutls: certificate has expired
+2018-10-19 20:00:08	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 20:00:08	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 20:00:08	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 20:00:08	=!=	irc: TLS handshake failed
+2018-10-19 20:00:08	=!=	irc: error: Error in the certificate.
+2018-10-19 20:00:08	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-10-19 20:00:28	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 20:00:28	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 20:00:28	--	gnutls: receiving 1 certificate
+2018-10-19 20:00:28	--	 - certificate[1] info:
+2018-10-19 20:00:28	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 20:00:28	=!=	gnutls: certificate has expired
+2018-10-19 20:00:28	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 20:00:28	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 20:00:28	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 20:00:28	=!=	irc: TLS handshake failed
+2018-10-19 20:00:28	=!=	irc: error: Error in the certificate.
+2018-10-19 20:00:28	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:55:13	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:55:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:55:15	--	gnutls: receiving 1 certificate
+2018-10-19 21:55:15	--	 - certificate[1] info:
+2018-10-19 21:55:15	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:55:15	=!=	gnutls: certificate has expired
+2018-10-19 21:55:15	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:55:15	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:55:15	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:55:15	=!=	irc: TLS handshake failed
+2018-10-19 21:55:15	=!=	irc: error: Error in the certificate.
+2018-10-19 21:55:15	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:55:25	--	irc: reconnecting to server...
+2018-10-19 21:55:25	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:55:26	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:55:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:55:27	--	gnutls: receiving 1 certificate
+2018-10-19 21:55:27	--	 - certificate[1] info:
+2018-10-19 21:55:27	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:55:27	=!=	gnutls: certificate has expired
+2018-10-19 21:55:27	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:55:27	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:55:27	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:55:27	=!=	irc: TLS handshake failed
+2018-10-19 21:55:27	=!=	irc: error: Error in the certificate.
+2018-10-19 21:55:27	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:55:37	--	irc: reconnecting to server...
+2018-10-19 21:55:37	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:55:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:55:38	--	gnutls: receiving 1 certificate
+2018-10-19 21:55:38	--	 - certificate[1] info:
+2018-10-19 21:55:38	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:55:38	=!=	gnutls: certificate has expired
+2018-10-19 21:55:38	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:55:38	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:55:38	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:55:38	=!=	irc: TLS handshake failed
+2018-10-19 21:55:38	=!=	irc: error: Error in the certificate.
+2018-10-19 21:55:38	--	irc: reconnecting to server in 20 seconds
+2018-10-19 21:56:12	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:56:12	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:56:12	--	gnutls: receiving 1 certificate
+2018-10-19 21:56:12	--	 - certificate[1] info:
+2018-10-19 21:56:12	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:56:12	=!=	gnutls: certificate has expired
+2018-10-19 21:56:12	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:56:12	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:56:12	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:56:12	=!=	irc: TLS handshake failed
+2018-10-19 21:56:12	=!=	irc: error: Error in the certificate.
+2018-10-19 21:56:12	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:56:22	--	irc: reconnecting to server...
+2018-10-19 21:56:22	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:56:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:56:22	--	gnutls: receiving 1 certificate
+2018-10-19 21:56:22	--	 - certificate[1] info:
+2018-10-19 21:56:22	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:56:22	=!=	gnutls: certificate has expired
+2018-10-19 21:56:22	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:56:22	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:56:22	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:56:22	=!=	irc: TLS handshake failed
+2018-10-19 21:56:22	=!=	irc: error: Error in the certificate.
+2018-10-19 21:56:22	--	irc: reconnecting to server in 20 seconds
+2018-10-19 21:56:50	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 21:56:50	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 21:56:50	=!=	irc: reading data on socket: error 11 (connection closed by peer)
+2018-10-19 21:56:50	--	irc: disconnecting from server...
+2018-10-19 21:56:50	--	irc: disconnected from server
+2018-10-19 21:56:50	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:57:00	--	irc: reconnecting to server...
+2018-10-19 21:57:00	--	irc: connecting to server irc.discutea.net/6697...
+2018-10-19 21:57:00	--	irc: connected to irc.discutea.net/6697 (193.19.210.21)
+2018-10-19 21:57:21	=!=	irc: reading data on socket: error 11 (connection closed by peer)
+2018-10-19 21:57:21	--	irc: disconnecting from server...
+2018-10-19 21:57:21	--	irc: disconnected from server
+2018-10-19 21:57:21	--	irc: reconnecting to server in 20 seconds
+2018-10-19 21:57:42	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:57:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:57:43	--	gnutls: receiving 1 certificate
+2018-10-19 21:57:43	--	 - certificate[1] info:
+2018-10-19 21:57:43	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:57:43	=!=	gnutls: certificate has expired
+2018-10-19 21:57:43	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:57:43	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:57:43	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:57:43	=!=	irc: TLS handshake failed
+2018-10-19 21:57:43	=!=	irc: error: Error in the certificate.
+2018-10-19 21:57:43	--	irc: reconnecting to server in 10 seconds
+2018-10-19 21:57:53	--	irc: reconnecting to server...
+2018-10-19 21:57:53	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:57:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:57:54	--	gnutls: receiving 1 certificate
+2018-10-19 21:57:54	--	 - certificate[1] info:
+2018-10-19 21:57:54	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:57:54	=!=	gnutls: certificate has expired
+2018-10-19 21:57:54	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:57:54	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:57:54	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:57:54	=!=	irc: TLS handshake failed
+2018-10-19 21:57:54	=!=	irc: error: Error in the certificate.
+2018-10-19 21:57:54	--	irc: reconnecting to server in 20 seconds
+2018-10-19 21:58:14	--	irc: reconnecting to server...
+2018-10-19 21:58:14	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:58:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:58:15	--	gnutls: receiving 1 certificate
+2018-10-19 21:58:15	--	 - certificate[1] info:
+2018-10-19 21:58:15	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:58:15	=!=	gnutls: certificate has expired
+2018-10-19 21:58:15	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:58:15	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:58:15	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:58:15	=!=	irc: TLS handshake failed
+2018-10-19 21:58:15	=!=	irc: error: Error in the certificate.
+2018-10-19 21:58:15	--	irc: reconnecting to server in 40 seconds
+2018-10-19 21:58:55	--	irc: reconnecting to server...
+2018-10-19 21:58:55	--	irc: connecting to server irc.discutea.net/6697 (SSL)...
+2018-10-19 21:58:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 21:58:56	--	gnutls: receiving 1 certificate
+2018-10-19 21:58:56	--	 - certificate[1] info:
+2018-10-19 21:58:56	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 21:58:56	=!=	gnutls: certificate has expired
+2018-10-19 21:58:56	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.net"
+2018-10-19 21:58:56	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 21:58:56	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 21:58:56	=!=	irc: TLS handshake failed
+2018-10-19 21:58:56	=!=	irc: error: Error in the certificate.
+2018-10-19 21:58:56	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-10-19 22:06:16	--	irc: connecting to server irc.discutea.fr/6697 (SSL)...
+2018-10-19 22:06:19	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 22:06:19	--	gnutls: receiving 1 certificate
+2018-10-19 22:06:19	--	 - certificate[1] info:
+2018-10-19 22:06:19	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 22:06:19	=!=	gnutls: certificate has expired
+2018-10-19 22:06:19	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.fr"
+2018-10-19 22:06:19	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 22:06:19	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 22:06:19	=!=	irc: TLS handshake failed
+2018-10-19 22:06:19	=!=	irc: error: Error in the certificate.
+2018-10-19 22:06:19	--	irc: reconnecting to server in 10 seconds
+2018-10-19 22:06:29	--	irc: reconnecting to server...
+2018-10-19 22:06:29	--	irc: connecting to server irc.discutea.fr/6697 (SSL)...
+2018-10-19 22:06:29	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-10-19 22:06:29	--	gnutls: receiving 1 certificate
+2018-10-19 22:06:29	--	 - certificate[1] info:
+2018-10-19 22:06:29	--	   - subject `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', issuer `EMAIL=irc@europnet.org,CN=irc.europnet.org,OU=EuropNet,O=EuropNet,L=Paris,ST=France,C=FR', serial 0x00c8a66a3d174eb811, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-12-31 12:53:44 UTC', expires `2017-12-31 12:53:44 UTC', pin-sha256="SAtIuuvXpVnnwy7a5emx4bVspMnidO0A+0bz4B+WI/E="
+2018-10-19 22:06:29	=!=	gnutls: certificate has expired
+2018-10-19 22:06:29	=!=	gnutls: the hostname in the certificate does NOT match "irc.discutea.fr"
+2018-10-19 22:06:29	=!=	gnutls: peer's certificate is NOT trusted
+2018-10-19 22:06:29	=!=	gnutls: peer's certificate issuer is unknown
+2018-10-19 22:06:29	=!=	irc: TLS handshake failed
+2018-10-19 22:06:29	=!=	irc: error: Error in the certificate.
+2018-10-19 22:06:29	--	irc: reconnecting to server in 20 seconds
+2018-10-19 22:06:52	--	irc: connecting to server irc.discutea.fr/6697...
+2018-10-19 22:06:53	--	irc: connected to irc.discutea.fr/6697 (193.19.210.21)
+2018-10-19 22:06:53	=!=	irc: reading data on socket: error 11 (connection closed by peer)
+2018-10-19 22:06:53	--	irc: disconnecting from server...
+2018-10-19 22:06:53	--	irc: disconnected from server
+2018-10-19 22:06:53	--	irc: reconnecting to server in 10 seconds
+2018-10-19 22:07:03	--	irc: reconnecting to server...
+2018-10-19 22:07:03	--	irc: connecting to server irc.discutea.fr/6697...
+2018-10-19 22:07:03	--	irc: connected to irc.discutea.fr/6697 (193.19.210.21)
+2018-10-19 22:07:03	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2018-10-19 22:07:03	--	irc: disconnecting from server...
+2018-10-19 22:07:03	--	irc: disconnected from server
+2018-10-19 22:07:03	--	irc: reconnecting to server in 20 seconds
+2018-10-19 22:07:23	--	irc: reconnecting to server...
+2018-10-19 22:07:23	--	irc: connecting to server irc.discutea.fr/6697...
+2018-10-19 22:07:23	--	irc: connected to irc.discutea.fr/6697 (193.19.210.21)
+2018-10-19 22:07:40	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-19 22:07:40	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-19 22:07:40	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-19 22:07:40	--	irc: nickname "duncan" is already in use, trying nickname "duncan1"
+2018-10-19 22:07:40	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.98.59.221) instead.
+2018-10-19 22:07:40	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG @mRQAYIHF\ or /raw PONG @mRQAYIHF\ now.
+2018-10-19 22:07:41	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-19 22:07:41	--	Welcome to the EuropNet IRC Network duncan1!duncan@105.98.59.221
+2018-10-19 22:07:41	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-19 22:07:41	--	This server was created 14:36:14 Jan  1 2018
+2018-10-19 22:07:41	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-19 22:07:41	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-19 22:07:41	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-19 22:07:41	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-19 22:07:41	--	42YACOHBC :your unique ID
+2018-10-19 22:07:41	--	librenet.europnet.org message of the day
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    <> Serveur de        :   ENiX
+2018-10-19 22:07:41	--	-    <> Adresse           :   hub.europnet.org
+2018-10-19 22:07:41	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-19 22:07:41	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    _______________[      Contacts       ]________________
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    _______________[     Informations     ]_______________
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-19 22:07:41	--	-    <> Informations      :   http://www.europnet.org
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-19 22:07:41	--	-    http://www.europnet.org/regles.php
+2018-10-19 22:07:41	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-19 22:07:41	--	-    immediatement.
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-19 22:07:41	--	-
+2018-10-19 22:07:41	--	End of message of the day.
+2018-10-19 22:07:41	--	There are 124 users and 1924 invisible on 7 servers
+2018-10-19 22:07:41	--	27 :operator(s) online
+2018-10-19 22:07:41	--	1 :unknown connections
+2018-10-19 22:07:41	--	640 :channels formed
+2018-10-19 22:07:41	--	I have 736 clients and 1 servers
+2018-10-19 22:07:41	--	Current Local Users: 736  Max: 988
+2018-10-19 22:07:41	--	Current Global Users: 2048  Max: 2336
+2018-10-19 22:07:41	--	masked-s3d.01o.98.105.IP :is now your displayed host
+2018-10-19 22:07:41	--	User mode [+xi] by duncan1
+2018-10-19 22:07:41	--	CTCP requested by StatServ: VERSION
+2018-10-19 22:07:41	--	CTCP reply to StatServ: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-19 22:07:41	--	CTCP requested by Stats: VERSION
+2018-10-19 22:07:41	--	CTCP reply to Stats: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-19 22:07:52	--	dunCan: Nickname is already in use.
+2018-10-19 22:08:08	--	You are now known as dunCan
+2018-10-20 18:48:34	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-20 18:48:34	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-20 18:48:34	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-20 18:48:34	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.98.91.148) instead.
+2018-10-20 18:48:34	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG mCb?zkHD_~ or /raw PONG mCb?zkHD_~ now.
+2018-10-20 18:48:35	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-20 18:48:35	--	Welcome to the EuropNet IRC Network duncan!duncan@105.98.91.148
+2018-10-20 18:48:35	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-20 18:48:35	--	This server was created 14:36:14 Jan  1 2018
+2018-10-20 18:48:35	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-20 18:48:35	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-20 18:48:35	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-20 18:48:35	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-20 18:48:35	--	42YACOY40 :your unique ID
+2018-10-20 18:48:35	--	librenet.europnet.org message of the day
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    <> Serveur de        :   ENiX
+2018-10-20 18:48:35	--	-    <> Adresse           :   hub.europnet.org
+2018-10-20 18:48:35	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-20 18:48:35	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    _______________[      Contacts       ]________________
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    _______________[     Informations     ]_______________
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-20 18:48:35	--	-    <> Informations      :   http://www.europnet.org
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-20 18:48:35	--	-    http://www.europnet.org/regles.php
+2018-10-20 18:48:35	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-20 18:48:35	--	-    immediatement.
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-20 18:48:35	--	-
+2018-10-20 18:48:35	--	End of message of the day.
+2018-10-20 18:48:35	--	There are 124 users and 1411 invisible on 7 servers
+2018-10-20 18:48:35	--	28 :operator(s) online
+2018-10-20 18:48:35	--	601 :channels formed
+2018-10-20 18:48:35	--	I have 558 clients and 1 servers
+2018-10-20 18:48:35	--	Current Local Users: 558  Max: 988
+2018-10-20 18:48:35	--	Current Global Users: 1535  Max: 2336
+2018-10-20 18:48:35	--	masked-k5n.god.98.105.IP :is now your displayed host
+2018-10-20 18:48:35	--	User mode [+xi] by duncan
+2018-10-20 18:48:35	--	CTCP requested by StatServ: VERSION
+2018-10-20 18:48:35	--	CTCP reply to StatServ: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-20 18:48:35	--	CTCP requested by Stats: VERSION
+2018-10-20 18:48:35	--	CTCP reply to Stats: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-20 19:01:15	--	You are now known as dousaviol
+2018-10-20 19:01:43	--	You are now known as dunCan
+2018-10-21 20:12:13	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-21 20:12:13	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-21 20:12:13	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-21 20:12:13	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG n|?DXDAM@O or /raw PONG n|?DXDAM@O now.
+2018-10-21 20:12:13	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.98.20.224) instead.
+2018-10-21 20:12:14	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-21 20:12:14	--	Welcome to the EuropNet IRC Network duncan!duncan@105.98.20.224
+2018-10-21 20:12:14	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-21 20:12:14	--	This server was created 14:36:14 Jan  1 2018
+2018-10-21 20:12:14	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-21 20:12:14	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-21 20:12:14	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-21 20:12:14	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-21 20:12:14	--	42YACPMFU :your unique ID
+2018-10-21 20:12:14	--	librenet.europnet.org message of the day
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    <> Serveur de        :   ENiX
+2018-10-21 20:12:14	--	-    <> Adresse           :   hub.europnet.org
+2018-10-21 20:12:14	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-21 20:12:14	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    _______________[      Contacts       ]________________
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    _______________[     Informations     ]_______________
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-21 20:12:14	--	-    <> Informations      :   http://www.europnet.org
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-21 20:12:14	--	-    http://www.europnet.org/regles.php
+2018-10-21 20:12:14	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-21 20:12:14	--	-    immediatement.
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-21 20:12:14	--	-
+2018-10-21 20:12:14	--	End of message of the day.
+2018-10-21 20:12:14	--	There are 124 users and 1771 invisible on 7 servers
+2018-10-21 20:12:14	--	28 :operator(s) online
+2018-10-21 20:12:14	--	2 :unknown connections
+2018-10-21 20:12:14	--	625 :channels formed
+2018-10-21 20:12:14	--	I have 708 clients and 1 servers
+2018-10-21 20:12:14	--	Current Local Users: 708  Max: 988
+2018-10-21 20:12:14	--	Current Global Users: 1895  Max: 2336
+2018-10-21 20:12:14	--	masked-jmi.2hg.98.105.IP :is now your displayed host
+2018-10-21 20:12:14	--	User mode [+xi] by duncan
+2018-10-21 20:12:15	--	CTCP requested by StatServ: VERSION
+2018-10-21 20:12:15	--	CTCP reply to StatServ: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-21 20:12:15	--	CTCP requested by Stats: VERSION
+2018-10-21 20:12:15	--	CTCP reply to Stats: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-21 20:31:36	--	MSG(Discuter16): comment cava dousavior ?
+2018-10-23 20:08:28	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-23 20:08:28	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-23 20:08:28	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-23 20:08:28	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG SfFu^{aBXH or /raw PONG SfFu^{aBXH now.
+2018-10-23 20:08:28	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.98.86.129) instead.
+2018-10-23 20:08:29	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-23 20:08:29	--	Welcome to the EuropNet IRC Network duncan!duncan@105.98.86.129
+2018-10-23 20:08:29	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-23 20:08:29	--	This server was created 14:36:14 Jan  1 2018
+2018-10-23 20:08:29	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-23 20:08:29	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-23 20:08:29	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-23 20:08:29	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-23 20:08:29	--	42YACQWDK :your unique ID
+2018-10-23 20:08:29	--	librenet.europnet.org message of the day
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    <> Serveur de        :   ENiX
+2018-10-23 20:08:29	--	-    <> Adresse           :   hub.europnet.org
+2018-10-23 20:08:29	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-23 20:08:29	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    _______________[      Contacts       ]________________
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    _______________[     Informations     ]_______________
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-23 20:08:29	--	-    <> Informations      :   http://www.europnet.org
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-23 20:08:29	--	-    http://www.europnet.org/regles.php
+2018-10-23 20:08:29	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-23 20:08:29	--	-    immediatement.
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-23 20:08:29	--	-
+2018-10-23 20:08:29	--	End of message of the day.
+2018-10-23 20:08:29	--	There are 123 users and 1710 invisible on 7 servers
+2018-10-23 20:08:29	--	28 :operator(s) online
+2018-10-23 20:08:29	--	1 :unknown connections
+2018-10-23 20:08:29	--	627 :channels formed
+2018-10-23 20:08:29	--	I have 668 clients and 1 servers
+2018-10-23 20:08:29	--	Current Local Users: 668  Max: 988
+2018-10-23 20:08:29	--	Current Global Users: 1833  Max: 2336
+2018-10-23 20:08:29	--	masked-lmc.05g.98.105.IP :is now your displayed host
+2018-10-23 20:08:29	--	User mode [+xi] by duncan
+2018-10-23 20:08:29	--	CTCP requested by StatServ: VERSION
+2018-10-23 20:08:29	--	CTCP reply to StatServ: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-23 20:08:29	--	CTCP requested by Stats: VERSION
+2018-10-23 20:08:29	--	CTCP reply to Stats: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-10-26 10:59:34	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-26 10:59:34	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-26 10:59:34	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-26 10:59:34	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.99.152.163) instead.
+2018-10-26 10:59:34	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG Iwq`]ZZC~@ or /raw PONG Iwq`]ZZC~@ now.
+2018-10-26 10:59:35	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-26 10:59:35	--	Welcome to the EuropNet IRC Network duncan!duncan@105.99.152.163
+2018-10-26 10:59:35	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-26 10:59:35	--	This server was created 14:36:14 Jan  1 2018
+2018-10-26 10:59:35	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-26 10:59:35	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-26 10:59:35	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-26 10:59:35	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-26 10:59:35	--	42YACSINI :your unique ID
+2018-10-26 10:59:35	--	librenet.europnet.org message of the day
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    <> Serveur de        :   ENiX
+2018-10-26 10:59:35	--	-    <> Adresse           :   hub.europnet.org
+2018-10-26 10:59:35	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-26 10:59:35	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    _______________[      Contacts       ]________________
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    _______________[     Informations     ]_______________
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-26 10:59:35	--	-    <> Informations      :   http://www.europnet.org
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-26 10:59:35	--	-    http://www.europnet.org/regles.php
+2018-10-26 10:59:35	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-26 10:59:35	--	-    immediatement.
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-26 10:59:35	--	-
+2018-10-26 10:59:35	--	End of message of the day.
+2018-10-26 10:59:35	--	There are 125 users and 1174 invisible on 7 servers
+2018-10-26 10:59:35	--	28 :operator(s) online
+2018-10-26 10:59:35	--	596 :channels formed
+2018-10-26 10:59:35	--	I have 456 clients and 1 servers
+2018-10-26 10:59:35	--	Current Local Users: 456  Max: 988
+2018-10-26 10:59:35	--	Current Global Users: 1299  Max: 2336
+2018-10-26 10:59:35	--	masked-pvj.ddj.99.105.IP :is now your displayed host
+2018-10-26 10:59:35	--	User mode [+xi] by duncan
+2018-10-26 10:59:35	--	CTCP requested by StatServ: VERSION
+2018-10-26 10:59:35	--	CTCP reply to StatServ: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-10-26 10:59:35	--	CTCP requested by Stats: VERSION
+2018-10-26 10:59:35	--	CTCP reply to Stats: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-10-26 10:59:43	--	You are now known as douara
+2018-10-26 11:10:42	--	MSG(Lisa19): Bonjour
+2018-10-26 11:19:12	--	MSG(Sylvie64): qu'est-ce qui t'ennuis comme ça ?
+2018-10-26 11:24:35	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2018-10-26 11:24:35	--	irc: disconnecting from server...
+2018-10-26 11:24:35	--	irc: disconnected from server
+2018-10-26 11:24:35	--	irc: reconnecting to server in 10 seconds
+2018-10-26 11:24:45	--	irc: reconnecting to server...
+2018-10-26 11:24:45	--	irc: connecting to server irc.discutea.fr/6667...
+2018-10-26 11:24:45	--	irc: connected to irc.discutea.fr/6667 (193.19.210.21)
+2018-10-26 11:24:45	--	librenet.europnet.org: *** Looking up your hostname...
+2018-10-26 11:24:45	--	irc: nickname "douara" is already in use, trying nickname "duncan"
+2018-10-26 11:24:45	--	librenet.europnet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (105.99.153.77) instead.
+2018-10-26 11:24:45	--	librenet.europnet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG I_AuTo`sS} or /raw PONG I_AuTo`sS} now.
+2018-10-26 11:24:46	--	librenet.europnet.org: Welcome to EuropNet!
+2018-10-26 11:24:46	--	Welcome to the EuropNet IRC Network duncan!duncan@105.99.153.77
+2018-10-26 11:24:46	--	Your host is librenet.europnet.org, running version InspIRCd-2.0
+2018-10-26 11:24:46	--	This server was created 14:36:14 Jan  1 2018
+2018-10-26 11:24:46	--	librenet.europnet.org InspIRCd-2.0 BDILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxz FHIJLWXYZabdefghjkloqvwx
+2018-10-26 11:24:46	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZabegqw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCGNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-10-26 11:24:46	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=EuropNet NICKLEN=27 OPERLOG OVERRIDE PREFIX=(Yohv)!@%+ :are supported by this server
+2018-10-26 11:24:46	--	REMOVE SILENCE=32 SSL=[::]:6660 STARTTLS STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-10-26 11:24:46	--	42YACSIZ3 :your unique ID
+2018-10-26 11:24:46	--	librenet.europnet.org message of the day
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    _______________[ hub.europnet.org ]_______________
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    <> Serveur de        :   ENiX
+2018-10-26 11:24:46	--	-    <> Adresse           :   hub.europnet.org
+2018-10-26 11:24:46	--	-    <> Admin contact     :   Elephantman<elephantman@europnet.org>
+2018-10-26 11:24:46	--	-    <> Ports Availables  :   6667, , 6660,[SSL], 7001,[SSL]
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    _______________[      Contacts       ]________________
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    <> IrcAdmin       :   Elephantman - elephantman@europnet.org
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    _______________[     Informations     ]_______________
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    <> Canaux officiels  :   #aide & #fr-opers
+2018-10-26 11:24:46	--	-    <> Informations      :   http://www.europnet.org
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    Les regles precises du reseau sont disponibles a l'adresse:
+2018-10-26 11:24:46	--	-    http://www.europnet.org/regles.php
+2018-10-26 11:24:46	--	-    si vous n'acceptez pas ces regles, deconnectez vous
+2018-10-26 11:24:46	--	-    immediatement.
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	-    _______[ Merci de votre visite, bon sejour ;)  ]_______
+2018-10-26 11:24:46	--	-
+2018-10-26 11:24:46	--	End of message of the day.
+2018-10-26 11:24:46	--	There are 124 users and 1184 invisible on 7 servers
+2018-10-26 11:24:46	--	28 :operator(s) online
+2018-10-26 11:24:46	--	595 :channels formed
+2018-10-26 11:24:46	--	I have 456 clients and 1 servers
+2018-10-26 11:24:46	--	Current Local Users: 456  Max: 988
+2018-10-26 11:24:46	--	Current Global Users: 1308  Max: 2336
+2018-10-26 11:24:46	--	masked-cvb.1t7.99.105.IP :is now your displayed host
+2018-10-26 11:24:46	--	User mode [+xi] by duncan
+2018-10-26 11:24:46	--	CTCP requested by StatServ: VERSION
+2018-10-26 11:24:46	--	CTCP reply to StatServ: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-10-26 11:24:46	--	CTCP requested by Stats: VERSION
+2018-10-26 11:24:46	--	CTCP reply to Stats: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)

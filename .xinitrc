@@ -1,13 +1,9 @@
 #!/bin/sh
 
-[[ -f ~/.Xresources ]] && xrdb ~/.Xresources
+[ -f "$HOME/.Xresources" ] && xrdb "$HOME/.Xresources"
+[ -f "$HOME/.Xmodmap" ] && xmodmap "$HOME/.Xmodmap"
 
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+xset +fp "$HOME/.local/share/fonts" && xset fp rehash &
+setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle' &
 
-setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle'
-
-xcape -e "Hyper_R=Tab"
-xset +fp /home/duncan/.local/share/fonts
-xset fp rehash
-#exec dwm
-exec i3
+exec bspwm

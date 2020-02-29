@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ -n "$1" ] && convert "$1" "$HOME/.config/wallpaper.png" && notify-send -i "$HOME/.config/wallpaper.png" "Wallpaper applied."
+feh --bg-fill "$HOME/.config/wallpaper.png"
+

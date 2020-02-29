@@ -1,0 +1,11 @@
+URxvt.font:                     xft:hack:regular:pixelsize=12
+URxvt.boldFont:                 xft:hack:bold:pixelsize=12
+URxvt.italicFont:               xft:hack:italic:pixelsize=12
+URxvt.boldItalicFont:           xft:hack:bold italic:pixelsize=12
+St.font:                        hack:pixelsize=12:antialias=true:autohint=true
+Rofi.font:                      hack 10
+Dunst.font:                     hack 10
+i3wm.font:                      hack 9
+Polybar.font:                   hack:size=10;2
+Dmenu.font:                     hack:size=9
+bspwm.font:                     hack:size=9

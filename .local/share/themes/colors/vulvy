@@ -1,0 +1,20 @@
+#define     fgbase          #fafafa
+#define     bgbase          #222d32
+#define     cursor          #9575cd
+#define     darkblack      #4c4c4c
+#define     lightblack     #6b6b6b
+#define     darkred        #f50057
+#define     lightred       #ff4081
+#define     darkgreen      #7cb342
+#define     lightgreen     #8bc34a
+#define     darkyellow     #ffca28
+#define     lightyellow    #ffd54f
+#define     darkblue       #42a5f5
+#define     lightblue      #64b5f6
+#define     darkmagenta    #7986cb
+#define     lightmagenta   #9fa8da
+#define     darkcyan       #26a69a
+#define     lightcyan      #4db6ac
+#define     darkwhite      #bdbdbd
+#define     lightwhite     #e0e0e0
+

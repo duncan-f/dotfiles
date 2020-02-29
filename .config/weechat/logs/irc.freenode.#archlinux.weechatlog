@@ -1,0 +1,91 @@
+2018-07-01 15:55:10	-->	duncan213 (~duncan@105.98.196.137) has joined #archlinux
+2018-07-01 15:55:10	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: https://ptpb.pw https://gist.github.com https://bpaste.net | Become an official Arch Tester: https://goo.gl/48qpvG | If you didn't read the topic you will be eaten by a grue | Check your .pacnew ( https://www.archlinux.org/news/627 ) | http://freenode.net/news/security-update-rpa"
+2018-07-01 15:55:10	--	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Fri, 29 Jun 2018 12:58:04
+2018-07-01 15:55:11	--	Channel #archlinux: 1736 nicks (2 ops, 0 voices, 1734 normals)
+2018-07-01 15:55:12	--	Channel created on Sun, 15 Feb 2004 06:08:31
+2018-07-01 15:55:57	duncan213	guys is it possible to install arch without systemd ?
+2018-07-01 15:56:19	thrice	hm, so iwd is the hot new wireless daemon; it seems NM has it available as an optdep, but still hard-deps on wpa_supplicant
+2018-07-01 15:56:30	thrice	I guess there's not a great way to do that
+2018-07-01 15:56:38	thrice	duncan213: no, not practically
+2018-07-01 15:56:44	Namarrgon	duncan213: it's possible but you're pretty much on your own with it
+2018-07-01 15:57:03	duncan213	ok thnx
+2018-07-01 15:57:54	<--	chap (~chap@unaffiliated/chap) has quit (Ping timeout: 276 seconds)
+2018-07-01 15:58:05	duncan213	is it even worth it  to change another distro just to change the system init ?
+2018-07-01 15:58:16	-->	xlx (~xlx@unaffiliated/xlx) has joined #archlinux
+2018-07-01 15:58:22	thrice	well, why do you dislike systemd so much?
+2018-07-01 15:58:36	Namarrgon	pick a distro that doesn't use systemd out of the box
+2018-07-01 15:58:38	thrice	if it's because people on the internet told you should, then the answer is no
+2018-07-01 15:59:56	duncan213	ok then i think i'll stick to systemd and read about it more :)
+2018-07-01 16:00:42	thrice	most of the anti-systemd stuff comes from trolls.  it's not perfect, but it's pretty solid, it's best to decide for yourself
+2018-07-01 16:00:42	earnestly	duncan213: If you want arch without systemd, use void
+2018-07-01 16:00:55	<--	rustbuckett (~rustbucke@66-90-198-142.dyn.grandenetworks.net) has quit (Quit: rustbuckett)
+2018-07-01 16:00:57	guestkato	isn't void dead?
+2018-07-01 16:01:04	earnestly	I wouldn't bother trying to change arch to use something else
+2018-07-01 16:01:13	earnestly	guestkato: No?
+2018-07-01 16:01:27	guestkato	oh, it took them a month but they seem to be back on track
+2018-07-01 16:01:38	guestkato	their bus-factor of one caught up with them
+2018-07-01 16:01:49	-->	urodna (~urodna@unaffiliated/urodna) has joined #archlinux
+2018-07-01 16:02:06	earnestly	guestkato: They never had a bus factor of one though
+2018-07-01 16:02:22	hoshineko	you can have arch with openrc if you do some dirty work
+2018-07-01 16:02:32	hoshineko	there's even artix
+2018-07-01 16:02:40	earnestly	hoshineko: Why would you want to go from a good init to a shit one?
+2018-07-01 16:02:46	earnestly	At least void is sensible here
+2018-07-01 16:03:05	-->	jancoow_ (~jancoow@dhcp-077-251-034-091.chello.nl) has joined #archlinux
+2018-07-01 16:03:24	<--	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Ping timeout: 256 seconds)
+2018-07-01 16:03:42	hoshineko	what's wrong with openrc?
+2018-07-01 16:03:53	earnestly	why why why why
+2018-07-01 16:04:07	duncan213	sorry for re-launching the debate i was just asking !
+2018-07-01 16:04:07	hoshineko	?
+2018-07-01 16:04:19	--	jancoow_ is now known as jancoow
+2018-07-01 16:04:34	<--	voidead (~voidead@unaffiliated/voidead) has quit (Quit: dead)
+2018-07-01 16:05:05	-->	cdown (~cdown@88.98.208.5) has joined #archlinux
+2018-07-01 16:05:25	thrice	lol
+2018-07-01 16:05:43	<--	kenden (~dsps@79-67-159-106.dynamic.dsl.as9105.com) has quit (Quit: leaving)
+2018-07-01 16:05:45	guestkato	anyway, void's runit is pretty nice. but arch's systemd does work.
+2018-07-01 16:06:01	hoshineko	runit is good
+2018-07-01 16:06:04	hoshineko	void is terrible
+2018-07-01 16:06:20	hoshineko	and i'm saying this from experience
+2018-07-01 16:06:32	thrice	all distros suck, just pick the setup you find sucks the least
+2018-07-01 16:07:05	hoshineko	nah, some are specially shitty
+2018-07-01 16:07:10	strive	Why's it terrible?
+2018-07-01 16:07:17	-->	voidead (~voidead@unaffiliated/voidead) has joined #archlinux
+2018-07-01 16:07:40	-->	nbardiuk (~nbardiuk@195.181.167.148) has joined #archlinux
+2018-07-01 16:08:15	<--	urodna (~urodna@unaffiliated/urodna) has quit (Ping timeout: 255 seconds)
+2018-07-01 16:08:22	-->	fedux (~fedux@ip5f5bd6d4.dynamic.kabel-deutschland.de) has joined #archlinux
+2018-07-01 16:08:26	tijko	ive been searching but cant seem to find the command to list systemd feature support
+2018-07-01 16:08:34	hoshineko	well one of the things that happened when i was on void was that the mirror ran out of space (lol) which lead to a broken update which somehow made xbps segfault
+2018-07-01 16:08:41	<--	p71 (~chatzilla@68-187-65-81.dhcp.ftwo.tx.charter.com) has quit (Read error: Connection reset by peer)
+2018-07-01 16:08:42	hoshineko	and left me with an unbootable system
+2018-07-01 16:08:46	tijko	(ie +PAM -ACL...etc)
+2018-07-01 16:08:55	<--	fedux (~fedux@ip5f5bd6d4.dynamic.kabel-deutschland.de) has quit (Client Quit)
+2018-07-01 16:09:22	Khorne	tijko, systemctl --version
+2018-07-01 16:09:31	Khorne	You didnt look very far I assume
+2018-07-01 16:09:38	strive	hoshineko: Ouch.
+2018-07-01 16:10:05	tijko	Khorne thx, i gave it -v
+2018-07-01 16:10:14	<--	stwrt (~MessedUpH@213.205.198.223) has quit (Quit: Leaving)
+2018-07-01 16:11:17	-->	Beau (~Beau@ip68-108-195-218.ph.ph.cox.net) has joined #archlinux
+2018-07-01 16:11:32	-->	p71 (~chatzilla@68-187-65-81.dhcp.ftwo.tx.charter.com) has joined #archlinux
+2018-07-01 16:11:36	hoshineko	and that was only the last drop, i had a lot other issues which i have forgotten by now, broken fonts for example
+2018-07-01 16:11:47	hoshineko	it's just a broken distro in general
+2018-07-01 16:12:15	-->	vrakfall (~vrakfall@host-85-201-213-17.dynamic.voo.be) has joined #archlinux
+2018-07-01 16:12:42	strive	:(
+2018-07-01 16:13:09	<--	sublimination (~sublimina@gateway/tor-sasl/sublimination) has quit (Remote host closed the connection)
+2018-07-01 16:13:30	<--	atamisk (~atamisk@pool-68-131-17-52.nrflva.fios.verizon.net) has quit (Quit: WeeChat 2.1)
+2018-07-01 16:14:42	<--	ironwrk (~irongeeks@2604:6000:1001:e3:8992:be14:7422:393b) has quit (Quit: Leaving)
+2018-07-01 16:16:37	<--	jrpie (~jrpie@p4FE50D80.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2018-07-01 16:16:56	<--	remitamine (~remitamin@102.159.88.170) has quit (Quit: remitamine)
+2018-07-01 16:17:42	<--	methyl (~methyl@unaffiliated/methyl) has quit (Remote host closed the connection)
+2018-07-01 16:17:45	<--	orivej (~orivej@193.138.218.165) has quit (Ping timeout: 264 seconds)
+2018-07-01 16:18:06	-->	irongeeks (~irongeeks@2604:6000:1001:e3:e8b8:f0f8:cd34:153b) has joined #archlinux
+2018-07-01 16:19:03	-->	Fulgen_ (~Fulgen@078132040206.public.t-mobile.at) has joined #archlinux
+2018-07-01 16:19:11	-->	AnySomebody (~AnySomebo@x59cc8bb4.dyn.telefonica.de) has joined #archlinux
+2018-07-01 16:19:14	<--	Fulgen (~Fulgen@078132040206.public.t-mobile.at) has quit (Read error: Connection reset by peer)
+2018-07-01 16:19:20	RetardedOnion	!docker
+2018-07-01 16:19:22	@phrik	https://www.flockport.com/sleepwalking-into-a-monoculture-lock-in-with-linux-containers/
+2018-07-01 16:19:34	RetardedOnion	does not exist anymore. can anybody recommend an alternative?
+2018-07-01 16:19:49	MrElendig	official docker docs
+2018-07-01 16:20:22	-->	fedux (~fedux@ip5f5bd6d4.dynamic.kabel-deutschland.de) has joined #archlinux
+2018-07-01 16:20:30	RetardedOnion	MrElendig: for someone who says "docker is aweseome". the docker docs wont scare him
+2018-07-01 16:20:31	Scimmia	Based on the URL, I don't think the official docs would talk about that
+2018-07-01 16:20:48	<--	Beau (~Beau@ip68-108-195-218.ph.ph.cox.net) has quit (Quit: leaving)
+2018-07-01 16:21:26	RetardedOnion	"If security is a concern, why are all the big players like Google, Microsoft and Amazon adopting it?" i feel like i need to throw up

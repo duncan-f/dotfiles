@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+menu=$(printf "Logout\nReboot\nSuspend\nHibernate\nShutdown" | dmenurun "Select" 5)
+
+case "$menu" in
+    Logout) 
+        [ -n "$(pgrep -x i3)" ] && i3-msg exit
+        [ -n "$(pgrep -x dwm)" ] && killall dwm
+        [ -n "$(pgrep -x bspwm)" ] && bspc quit
+        ;;
+    Reboot) systemctl reboot ;;
+    Suspend) 
+        lockscreen -l blur 
+        systemctl suspend 
+        ;;
+    Hibernate) 
+        lockscreen -l blur
+        systemctl hibernate 
+        ;;
+    Shutdown) systemctl poweroff ;;
+esac
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+prompt=$(printf "Yes\nNo" | dmenurun "$1" 0)
+
+if [ $prompt = "Yes" ]; then
+    exec $2 ;
+else
+    exit ;
+fi
+
