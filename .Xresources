@@ -2,64 +2,21 @@
 ! Colors
 ! ------------------------------------------------------------------------------
 #include                        ".local/share/themes/colors/dracula"
-#include                        ".local/share/themes/fonts/iosevka"
-
-*.secondary:                     #C0C0C0
-*.underline:                     #D0D0D0
-*.active:                        #DC21AD
-
-! ---------------
-!dwm.normfgcolor:                fgbase
-!dwm.normbgcolor:                bgbase
-!dwm.normbordercolor:            lightblack
-!dwm.selfgcolor:                 darkblack
-!dwm.selbgcolor:                 darkblue
-!dwm.selbordercolor:             lightblue
-!----------------
+#include                        ".local/share/themes/fonts/monospace"
 
 ! ------------------------------------------------------------------------------
-! St
+! St Configuration
 ! ------------------------------------------------------------------------------
-st.alpha:                       0.95
+st.font:						monospace:pixelsize=12:antialias=true:autohint=true
+st.alpha:                       0.8
 !st.termname:					"screen-256color"
 st.borderpx:					4
-
-! ------------------------------------------------------------------------------
-! URxvt
-! ------------------------------------------------------------------------------
-URxvt.scrollBar:                false
-URxvt.visualBell:               false
-URxvt.urgentOnBell:             false
-URxvt.utf8:                     true
-URxvt.cursorBlink:              true
-URxvt.cursorUnderline:          true
-URxvt.depth:                    32
-URxvt.urxvt:                    rxvt-unicode-256color
-URxvt.letterSpace:              -1
-URxvt.intensityStyles:          false
-!URxvt.inheritPixmap:            true
-URxvt.colorUL:                  #D0D0D0
-
-!! Extensions
-URxvt.perl-ext-common:          default,matcher,resize-font,url-select,keyboard-select
-!! url-select
-URxvt.keysym.M-u:               perl:url-select:select_next
-URxvt.url-select.launcher:      /usr/bin/xdg-open
-URxvt.url-select.underline:     true
-!! keyboard-select:
-URxvt.keysym.M-Escape:          perl:keyboard-select:activate
-!! resize-font
-URxvt.resize-font.smaller:      C-Down
-URxvt.resize-font.bigger:       C-Up
-!! Matcher
-URxvt.url-launcher:             /usr/bin/xdg-open
-URxvt.matcher.button:           1
 
 ! ------------------------------------------------------------------------------
 ! Xft Font Configuration
 ! ------------------------------------------------------------------------------
 
-!Xft.dpi:						192
+Xft.dpi:						96
 Xft.autohint: 					true
 Xft.lcdfilter: 					lcddefault
 Xft.hintstyle: 					hintslight

@@ -1,7 +1,6 @@
 #!/bin/sh
 
 eval "$(xres2var)"
-font=$(xrdb -query | grep 'Dunst.font:'| awk -F'font:' '{print $NF}')
 
-[ -n "$(pidof dunst)" ] || dunst -font "${font}" -lb "${color7}" -lf "${color0}" -lfr "${color15}" -nb "${background}" -nf "${foreground}" -nfr "${color0}" -cb "${color1}" -cf "${color15}" -cfr "${color9}" &
+[ -n "$(pidof dunst)" ] || dunst -font "Monospace 11" -lb "${color7}" -lf "${color0}" -lfr "${color15}" -nb "${background}" -nf "${foreground}" -nfr "${color8}" -cb "${color1}" -cf "${color15}" -cfr "${color9}" &
 

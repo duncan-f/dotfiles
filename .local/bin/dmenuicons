@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-choice=$(grep -v "#" -h "$HOME/.config/emoticones" | dmenurun "Select" 15)
+choice=$(grep -v "#" -h "$HOME/.config/emoticones" | dmenu -i -l 15 -p "Select")
 
 [ -n "$choice" ] || exit
 

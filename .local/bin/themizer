@@ -4,60 +4,48 @@
 resource="$HOME/.Xresources"
 res_theme="$HOME/.local/share/themes/colors/"
 res_font="$HOME/.local/share/themes/fonts/"
-tmp_seq="/tmp/sequence"
+tmp_seq="/tmp/sequence-$(date +"%s")"
 
-if [ -z "$1" ]; then
-    echo "No argument passed."
-    exit 1
-fi
+[ -z "$1" ] && echo "No argument passed." && exit 1
 
 change_theme() {
-    OLD_THEME=$(grep "colors" "$resource" | awk -F'/' '/[a-z]/{print $NF}' | awk -F'\"' '{print $1}')
+	OLD_THEME=$(grep "colors" "$resource" | awk -F'/' '/[a-z]/{print $NF}' | awk -F'\"' '{print $1}')
 
-    if [ ! -f "$res_theme""$1" ]; then
-        echo "Resources for theme \"$1\" not found."
-        exit 1
-    fi
+	[ ! -f "$res_theme""$1" ] && echo "Resources for theme \"$1\" not found." && exit 1
 
-    sed -i "s/$OLD_THEME/$1/g" "$resource"
+	sed -i "s/$OLD_THEME/$1/g" "$resource"
 }
 
 change_font() {
-    OLD_FONT=$(grep "fonts" "$resource" | awk -F'/' '/[a-z]/{print $NF}' | awk -F'\"' '{print $1}')
+	OLD_FONT=$(grep "fonts" "$resource" | awk -F'/' '/[a-z]/{print $NF}' | awk -F'\"' '{print $1}')
 
-    if [ ! -f "$res_font""$1" ]; then
-        echo "Font \"$1\" not found."
-        exit 1
-    fi
+	[ ! -f "$res_font""$1" ] && echo "Font \"$1\" not found." && exit 1
 
-    sed -i "s/$OLD_FONT/$1/g" "$resource"
+	sed -i "s/$OLD_FONT/$1/g" "$resource"
 }
 
 preapply() {
-    [ -n "$(pgrep -x dunst)" ] && killall dunst
+	[ -n "$(pgrep -x dunst)" ] && killall dunst
 }
 
 apply() {
-    echo "Applying theme..."
-    xrdb "$resource"
+	echo "Applying theme..."
+	xrdb -merge "$resource"
 
-    # get colors
-    eval "$(xres2var)"
-    font=$(xrdb -query | grep -i 'Dunst.font:'| awk -F'font:' '{print $NF}')
+	# get colors
+	eval "$(xres2var)"
 }
 
 postapply() {
-    dunst -font "$font" -lb "$color7" -lf "$color0" -lfr "$color15" -nb "$background" -nf "$foreground" -nfr "$color0" -cb "$color1" -cf "$color7" -cfr "$color9" &
+	dunst -font "Monospace 10" -lb "$color7" -lf "$color0" -lfr "$color15" -nb "$background" -nf "$foreground" -nfr "$color8" -cb "$color1" -cf "$color7" -cfr "$color9" & >/dev/null
 }
 
 cast_sequence() {
-    sequence="]4;0;$color0\\]4;1;$color1\\]4;2;$color2\\]4;3;$color3\\]4;4;$color4\\]4;5;$color5\\]4;6;$color6\\]4;7;$color7\\]4;8;$color8\\]4;9;$color9\\]4;10;$color10\\]4;11;$color11\\]4;12;$color12\\]4;13;$color13\\]4;14;$color14\\]4;15;$color15\\]10;$foreground\\]11;$background\\]12;$cursorColor\\]13;$foreground\\]17;$foreground\\]19;$background\\]4;232;$background\\[s[1000H[8m]708;$background\\[u]13;$cursorColor\\"
+	sequence="]4;0;$color0\\]4;1;$color1\\]4;2;$color2\\]4;3;$color3\\]4;4;$color4\\]4;5;$color5\\]4;6;$color6\\]4;7;$color7\\]4;8;$color8\\]4;9;$color9\\]4;10;$color10\\]4;11;$color11\\]4;12;$color12\\]4;13;$color13\\]4;14;$color14\\]4;15;$color15\\]10;$foreground\\]11;$background\\]12;$cursorColor\\]13;$foreground\\]17;$foreground\\]19;$background\\]4;232;$background\\[s[1000H[8m]708;$background\\[u]13;$cursorColor\\"
 
-    echo "$sequence" > "$tmp_seq"
-
-    echo "Applying colors..."
-    cat "$tmp_seq"
-    #echo "$sequence"
+	echo "$sequence" > "$tmp_seq"
+	echo "Applying colors..."
+	cat "$tmp_seq"
 }
 
 

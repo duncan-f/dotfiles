@@ -61,7 +61,7 @@ camcode()
 
 askrecord()
 {
-    choice=$(printf "Screencast\nVideo Only\nAudio Only\nWebcam" | dmenurun "Select" 5)
+    choice=$(printf "Screencast\nVideo Only\nAudio Only\nWebcam" | dmenu -i -l 5 -p "Select")
     case "$choice" in
         Screencast) screencast ;;
         "Video Only") video ;;
@@ -74,7 +74,7 @@ askrecord()
 
 askend()
 {
-    choice=$(printf "No\nYes" | dmenurun "Stop recording ?" 0)
+    choice=$(printf "No\nYes" | dmenu -i -p "Stop recording ?")
     [ "$choice" = "Yes" ] && killrecording || echo "$choice"
 }
 
