@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+dir="$HOME/.local/bin"
+
+function set_wallpaper {
+	feh --bg-fill "$dir/themes/mechanical/battery_$1.png"
+}
+
+function animate_charging {
+	for i in {1..4}; do
+		set_wallpaper $i; sleep 0.8
+	done
+}
+
+while true; do
+	capacity=$(cat /sys/class/power_supply/BAT0/capacity)
+	state=$(cat /sys/class/power_supply/BAT0/status)
+
+	case "$state" in
+		Full)
+			feh --bg-fill "$HOME/.config/wallpaper.png"
+			notify-send "Battery full!"
+			;;
+		Charging)
+			#feh --bg-fill "$dir/themes/mechanical/charge.png"
+			animate_charging
+			;;
+		Discharging)
+			num=$(($capacity/25+1))
+			set_wallpaper $num; sleep 5
+			;;
+		*)
+			feh --bg-fill "$HOME/.config/wallpaper.png"
+			;;
+	esac
+done

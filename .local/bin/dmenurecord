@@ -11,7 +11,7 @@ killrecording()
     sleep 2
     kill -9 "$recpid" >&2
     [ -n "$(pgrep -x screenkey)" ] && killall screenkey
-    dunstify -r 3500 "ffmpeg" "Recording ended."
+    notify-send "ffmpeg" "Recording ended."
 }
 
 screencast()
@@ -69,7 +69,7 @@ askrecord()
         Webcam) camcode ;;
     esac
 
-    [ -n "$choice" ] && dunstify -r 3500 "ffmpeg" "Recording started."
+    [ -n "$choice" ] && notify-send "ffmpeg" "Recording started."
 }
 
 askend()

@@ -2,26 +2,26 @@
 
 connected=$(xrandr -q | grep 'connected')
 screens=$(xrandr -q | grep ' connected' | awk '{print $1}')
-chosen=$(printf "$screens\nMulti-Monitor\nManual Selection" | dmenurun "Select" 5)
+chosen=$(printf "$screens\nMulti-Monitor\nManual Selection" | dmenu -i -l 5 -p "Select")
 
 dualmonitor() {
-    primary=$(printf "$screens" | dmenurun "Primary Monitor?" 2)
+    primary=$(printf "$screens" | dmenu -i -l 2 -p "Primary Monitor?")
     if [ "$primary" == "" ]; then exit ; fi
     secondary=$(echo "$screens" | grep -v -x "$primary")
-    direction=$(printf "left\nright" | dmenurun "Direction for $secondary" 2)
+    direction=$(printf "left\nright" | dmenu -i -l 2 -p "Direction for $secondary")
     if [ "$direction" == "" ]; then exit ; fi
     xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto
 }
 
 multimonitor() {
     # for now this function works for only 3 monitors
-    primary=$(printf "$screens" | dmenurun "Primary Monitor?" 5)
+    primary=$(printf "$screens" | dmenu -i -l 5 -p "Primary Monitor?")
     if [ "$primary" == "" ]; then exit ; fi
-    secondary=$(printf "$screens" | grep -v -x "$primary" | dmenurun "Secondary?" 5)
+    secondary=$(printf "$screens" | grep -v -x "$primary" | dmenu -i -l 5 -p "Secondary?")
     if [ "$secondary" == "" ]; then exit ; fi
-    direction=$(printf "left\nright" | dmenurun "Direction for $secondary" 2)
+    direction=$(printf "left\nright" | dmenu -i -l 2 -p "Direction for $secondary")
     if [ "$direction" == "" ]; then exit ; fi
-    tertiary=$(printf "$screens" | grep -v -x "$primary" | grep -v -x "$secondary" | dmenurun "Tertiary?" 5)
+    tertiary=$(printf "$screens" | grep -v -x "$primary" | grep -v -x "$secondary" | dmenu -i -l 5 -p "Tertiary?")
     xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto --output "$tertiary" --"$(printf "left\nright" | grep -v -x "$direction")"-of "$primary" --auto
 }
 

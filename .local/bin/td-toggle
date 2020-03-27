@@ -1,9 +1,9 @@
 #!/bin/sh
 
 if [ -n "$(pgrep -x transmission-da)" ]; then
-    killall transmission-da && dunstify -r 2323 "Transmission killed!"
+    killall transmission-da && notify-send "Transmission killed!"
 else
-    transmission-daemon && dunstify -r 2323 "Transmission started." & 
+    transmission-daemon && notify-send "Transmission started." &
 fi
 
 pkill -RTMIN+7 i3blocks

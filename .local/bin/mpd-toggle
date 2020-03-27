@@ -11,5 +11,4 @@ else
 fi
 
 
-dunstify -r 4000 "mpd $state"
-
+notify-send "mpd $state"

@@ -4,8 +4,6 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin:$(du "$HOME/.local/bin" | c
 
 ## Default programs
 export EDITOR="nvim"
-export VISUAL="nvim"
-export FILE="vifm"
 export BROWSER="brave"
 export TERMINAL="st"
 export READER="zathura"
@@ -13,12 +11,13 @@ export READER="zathura"
 ## Settings paths
 export SUDO_ASKPASS="$HOME/.local/bin/dmenupass"
 export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DESKTOP_DIR="$HOME/Desktop"
-export XDG_DOCUMENTS_DIR="$HOME/docs"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DESKTOP_DIR="$HOME/dex"
+export XDG_DOCUMENTS_DIR="$HOME/dox"
 export XDG_DOWNLOAD_DIR="$HOME/dl"
-export XDG_PICTURES_DIR="$HOME/pics"
+export XDG_PICTURES_DIR="$HOME/pix"
 export XDG_MUSIC_DIR="$HOME/music"
-export XDG_VIDEOS_DIR="$HOME/videos"
+export XDG_VIDEOS_DIR="$HOME/vids"
 export BIB="$HOME/docs/latex/bibliography.bib"
 
 ## Location change
@@ -29,6 +28,8 @@ export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export INPUTRC="$XDG_CONFIG_HOME/inputrc"
 export WEECHAT_HOME="$XDG_CONFIG_HOME/weechat"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export XDG_DATA_HOME="$HOME/.local/share"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 export LESS=-R
 export LESS_TERMCAP_mb="$(printf '%b' '[1;31m')"

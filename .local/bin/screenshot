@@ -1,12 +1,11 @@
 #!/usr/bin/env sh
 
-
 case "$1" in
-    -s) scrot -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
-    -f | --focused) scrot -u -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
-    -r | --region) scrot -s -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
-    *) scrot -z 'screenshot-%Y%m%d%H%M%S-$wx$h.png' -e 'mv $f ~/pics/screenshots' ;;
+	-s) scrot -z "$XDG_PICTURES_DIR/screenshots/screenshot-$(date +"%Y%m%d%H%M%S").png" ;;
+    -f | --focused) scrot -u -z "$XDG_PICTURES_DIR/screenshots/screenshot-$(date +"%Y%m%d%H%M%S").png" ;;
+    -r | --region) scrot -s -z "$XDG_PICTURES_DIR/screenshots/screenshot-$(date +"%Y%m%d%H%M%S").png" ;;
+    *) scrot -z "$XDG_PICTURES_DIR/screenshots/screenshot-$(date +"%Y%m%d%H%M%S").png" ;;
 esac
 
-notify-send -i "$HOME/.local/bin/camera_2.png" "Screenshot saved" && aplay "$HOME/.local/share/sounds/screen.wav"
+notify-send -i "$HOME/.local/bin/camera.png" "Screenshot saved" && aplay "$HOME/.local/share/sounds/screen.wav"
 

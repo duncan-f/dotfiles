@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prompt=$(printf "Yes\nNo" | dmenurun "$1" 0)
+prompt=$(printf "Yes\nNo" | dmenu -i -p "$1")
 
 if [ $prompt = "Yes" ]; then
     exec $2 ;

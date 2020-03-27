@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
+export DISPLAY=:0
+
+[ "$(date +"%H%M%S")" = "170000" ] && xbacklight -set 50%
+[ "$(date +"%H%M%S")" = "190000" ] && xbacklight -set 15%
+

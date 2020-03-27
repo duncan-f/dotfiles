@@ -19,7 +19,6 @@ alias \
 	pac="sudo pacman" \
 	spac="pacman -Ss" \
 	dpac="sudo pacman -Rnsdd"
-	#orphans="sudo pacman -Rns $(pacman -Qtdq)"
 
 # Paths related
 alias \

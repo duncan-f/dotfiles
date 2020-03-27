@@ -1,23 +1,22 @@
-# Install Notes
+# Rice
 
 ### Installed Packages
 
-This is an non-exhaustive list of the packages installed on my computer, you'll find some config files of my rice here.
+This is a list of the packages installed on my computer, you'll find my config files here.
 
-* i3-gaps
-* ncmpcpp
-* newsboat
-* calcurse
-* feh
-* mpd
-* mpv
-* mutt
-* neofetch
-* polybar
-* qutebrowser
-* ranger
-* compton
-* ...
+* i3-gaps/bspwm/[dwm](https://github.com/duncan-f/dwm) (window managers)
+* mpd/ncmpcpp (music)
+* bash/zsh (shell)
+* sxhkd (keybindings)
+* newsboat (rss reader)
+* calcurse (calendar)
+* feh (image viewer)
+* mpv (video player)
+* neomutt (e-mail client)
+* i3blocks/polybar (status bar)
+* ranger/vifm (file managers)
+* compton/xcompmgr (compositor)
+* tmux (terminal multiplexer)
 
 ### Install Composer (Debian Distros)
 
@@ -27,30 +26,10 @@ $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"
 $ sudo mv composer.phar /usr/local/bin/composer
 ```
-### Bash colors (Terminal)
+### Suckless tools
 
-Setup .bashrc file, here's a link to customize your $PS1 variable :
+These are some suckless tools including dwm window manager:
 
-[Bash colors and formatting](http://misc.flogisoft.com/bash/tip_colors_and_formatting)
-
-| Code | Color                    |
-|------|--------------------------|
-| 39   | Default foreground color |
-| 30   | Black                    |
-| 31   | Red                      |
-| 32   | Green                    |
-| 33   | Yellow                   |
-| 34   | Blue                     |
-| 35   | Magenta                  |
-| 36   | Cyan                     |
-| 37   | Light gray               |
-| 90   | Dark gray                |
-| 91   | Light red                |
-| 92   | Light green              |
-| 93   | Light yellow             |
-| 94   | Light blue               |
-| 95   | Light magenta            |
-| 96   | Light cyan               |
-| 97   | White                    |
-
-
+* [dwm](https://github.com/duncan-f/dwm) (config i use for my window manager)
+* [st](https://github.com/duncan-f/st) (suckless terminal)
+* [dmenu](https://github.com/duncan-f/dmenu) (menu launcher that i use as password prompt too)

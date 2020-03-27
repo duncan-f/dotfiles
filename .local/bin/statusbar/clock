@@ -3,7 +3,7 @@
 eval $(xres2var)
 
 case "$BLOCK_BUTTON" in
-	1) dunstify -r 2000 "Calendar" "$(cal --color=always | sed "s/..7m/<b><span color=\"$color4\">/;s/..27m/<\/span><\/b>/")" && dunstify -r 2001 "Appointments" "$(calcurse -d3)" ;;
+	1) notify-send "Calendar" "$(cal --color=always | sed "s/..7m/<b><span color=\"$color4\">/;s/..27m/<\/span><\/b>/")" && notify-send "Appointments" "$(calcurse -d3)" ;;
     2) printf '%s %s' "📅" "$(date "+%a, %d %b")" ;;
 	3) "$TERMINAL" -e calcurse & ;;
 esac

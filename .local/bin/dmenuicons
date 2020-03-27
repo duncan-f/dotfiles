@@ -1,8 +1,7 @@
 #!/usr/bin/env sh
 
 choice=$(grep -v "#" -h "$HOME/.config/emoticones" | dmenu -i -l 15 -p "Select")
-
-[ -n "$choice" ] || exit
+[ "$choice" = "" ] && exit
 
 icon=$(echo "$choice" | sed 's/ .*//')
 echo "$icon" | tr -d '\n' | xclip -selection clipboard

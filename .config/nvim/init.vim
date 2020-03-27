@@ -1,6 +1,10 @@
 let mapleader = ','
 
 if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
+	if !executable("curl")
+		autocmd VimLeavePre * call confirm("You must install curl!")
+		execute "q!"
+	endif
 	echo "Downloading junegunn/vim-plug to manage plugins..."
 	silent !mkdir -p ~/.config/nvim/autoload/
 	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
@@ -86,5 +90,4 @@ autocmd FileType php,html inoremap ;u <u></u><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;em <em></em><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;p <p></p><Space><++><Esc>FbT>i
 autocmd FileType php,html inoremap ;div <div></div><Space><++><Esc>FbT>i
-
 

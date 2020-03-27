@@ -8,7 +8,7 @@ cfc       	~/.config/compton.conf
 cfd       	~/.config/dunst/dunstrc
 cff      	~/.config/vifm/vifmrc
 cfi       	~/.config/i3/config
-cfin      	~/.xinitrc
+xx      	~/.xinitrc
 cfk       	~/.config/sxhkd/sxhkdrc
 cfl     	~/.calcurse/conf
 cfm       	~/.config/mutt/muttrc
