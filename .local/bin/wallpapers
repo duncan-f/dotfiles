@@ -23,8 +23,8 @@
 
 
 # Variable (you can change any of these to your liking)
-real_wall_dir="$HOME/pics/wallpapers/wallhaven"
-temp_wall_dir="/tmp/wallpaper_wallhaven"
+real_wall_dir="$XDG_PICTURES_DIR/wallpapers/wallhaven"
+temp_wall_dir="/tmp/wallhaven"
 expire_wall_date=30
 
 # create folders

@@ -6,8 +6,6 @@ eval "$(xres2var)"
 sxhkd &
 setwallpaper &
 xsetroot -cursor_name left_ptr &
-#[ -e "$PANEL_FIFO" ] && bspc subscribe report > "$PANEL_FIFO" &
-#pgrep -x panel >/dev/null || panel &
 $HOME/.config/polybar/launch.sh &
 
 mainmon=$(xrandr | grep primary | awk '{print $1}')
@@ -63,7 +61,7 @@ bspc rule -a Zathura state=tiled
 numlockx on &
 synclient TapButton1=1 &
 xautolock -time 10 -locker "lockscreen -l dimblur" &
-[ -n "$(pgrep -x picom)" ] && picom &
-[ -n "$(pgrep -x dunst)" ] && dunstrun &
+[ -n "$(pgrep -x xcompmgr)" ] && xcompmgr &
 [ -n "$(pgrep -x redshift)" ] && redshift &
+[ -n "$(pgrep -x dunst)" ] && dunstrun &
 

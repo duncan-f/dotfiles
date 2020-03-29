@@ -1,8 +1,8 @@
 ! ------------------------------------------------------------------------------
 ! Colors
 ! ------------------------------------------------------------------------------
-#include                        ".local/share/themes/colors/dracula"
-#include                        ".local/share/themes/fonts/monospace"
+#include                        "../.local/share/themes/colors/dracula"
+#include                        "../.local/share/themes/fonts/monospace"
 
 ! ------------------------------------------------------------------------------
 ! St Configuration

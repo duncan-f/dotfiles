@@ -15,6 +15,6 @@ shopt -s checkwinsize
 
 PS1="\[$(tput bold)\]\[$(tput setaf 3)\][\[$(tput setaf 2)\]\u\[$(tput sgr0)\]@\[$(tput bold)\]\[$(tput setaf 1)\]\h \[$(tput setaf 4)\]\W\[$(tput setaf 3)\]] \[$(tput sgr0)\]\$ "
 
-[ -f "$HOME/.bash_shortcuts" ] && . "$HOME/.bash_shortcuts"
-[ -f "$HOME/.bash_aliases" ] && . "$HOME/.bash_aliases"
+[ -f "$HOME/.config/shortcutsrc" ] && . "$HOME/.config/shortcutsrc"
+[ -f "$HOME/.config/aliasrc" ] && . "$HOME/.config/aliasrc"
 

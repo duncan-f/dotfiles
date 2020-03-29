@@ -12,8 +12,7 @@ device=$(printf "Android\nUSB Device" | dmenu -i -p "Unmount which device?")
 [ "$device" = "" ] && exit 1
 
 usbstick() {
-	exclusionregex="\(/boot\|/home\|/\)$"
-	drives=$(lsblk -lp | grep "t /" | grep -v "$exclusionregex" | awk '{print $1, "(" $4 ")", "on", $7}')
+	drives=$(lsblk -nrpo "name,type,size,mountpoint" | awk '$2=="part"&&$4!~/\/boot|\/home$|SWAP/&&length($4)>1{printf "%s (%s)\n",$4,$3}')
 	[ -z "$drives" ] && exit
 	chosen=$(echo "$drives" | dmenu -i -p "Unmount which drive?" | awk '{print $1}')
 	[ -z "$chosen" ] && exit

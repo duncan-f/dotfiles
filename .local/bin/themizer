@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # set folders
-resource="$HOME/.Xresources"
+resource="$HOME/.config/Xresources"
 res_theme="$HOME/.local/share/themes/colors/"
 res_font="$HOME/.local/share/themes/fonts/"
 tmp_seq="/tmp/sequence-$(date +"%s")"
@@ -37,7 +37,7 @@ apply() {
 }
 
 postapply() {
-	dunst -font "Monospace 10" -lb "$color7" -lf "$color0" -lfr "$color15" -nb "$background" -nf "$foreground" -nfr "$color8" -cb "$color1" -cf "$color7" -cfr "$color9" & >/dev/null
+	dunst -font "Monospace 10" -lb "$color7" -lf "$color0" -lfr "$color15" -nb "$background" -nf "$foreground" -nfr "$color8" -cb "$color1" -cf "$color7" -cfr "$color9" & 2>/dev/null
 }
 
 cast_sequence() {
@@ -73,6 +73,6 @@ done
 apply
 postapply
 cast_sequence
-[ -n "$(pgrep -x i3)" ] && i3-msg reload >/dev/null
-[ -n "$(pgrep -x bspwm)" ] && bspc wm -r >/dev/null
+[ -n "$(pgrep -x i3)" ] && i3-msg reload 2>/dev/null
+[ -n "$(pgrep -x bspwm)" ] && bspc wm -r 2>/dev/null
 notify-send "Theme applied!"
