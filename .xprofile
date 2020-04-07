@@ -1,0 +1,15 @@
+#!/bin/sh
+
+eval "$(xres2var)"
+font=$(xrdb -query | grep 'Dunst.font:'| awk -F'font:' '{print $NF}')
+
+slstatus &
+setwallpaper &
+synclient TapButton1=1 &
+numlockx on &
+xautolock -time 10 -locker "lockscreen -l dimblur" &
+setxkbmap -layout fr,ar -option 'grp:alt_shift_toggle' &
+xset +fp "$HOME/.local/share/fonts" && xset fp rehash &
+redshift &
+xcompmgr &
+dunstrun &
