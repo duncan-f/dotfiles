@@ -1,0 +1,50 @@
+-- http://projects.haskell.org/xmobar/
+-- install xmobar with these flags: --flags="with_alsa" --flags="with_mpd" --flags="with_xft"  OR --flags="all_extensions"
+-- you can find weather location codes here: http://weather.noaa.gov/index.html
+
+Config { font    = "xft:monospace:pixelsize=12:antialias=true:hinting=true"
+       , additionalFonts = [ "xft:FontAwesome:pixelsize=13" ]
+       , bgColor = "#020202"
+       , fgColor = "#c0c0c0"
+       , position = Top
+       , lowerOnStart = True
+       , hideOnStart = False
+       , allDesktops = True
+       , persistent = True
+       , iconRoot = "/home/duncan/.xmonad/xpm/"  -- default: "."
+       , commands = [
+                      -- Time and date
+                      Run Date "%a, %d %b \xf133 %I:%M %p" "date" 50
+					  -- Battery monitor
+					, Run Battery ["-t", "\xf0bb <acstatus>"
+							 , "--Low"      , "10"        -- units: %
+                             , "--High"     , "80"        -- units: %
+                             , "--low"      , "darkred"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkgreen"
+
+                             , "--" -- battery specific options
+                                       -- discharging status
+                                       , "-o"	, "<left>%"
+                                       -- AC "on" status
+                                       , "-O"	, "<fc=#dAA520>Charging</fc>"
+                                       -- charged status
+                                       , "-i"	, "<fc=#006000>Full</fc>"
+									   , "-a", "notify-send -u critical 'Battery critically low!!'"] 50
+					  -- Backlight monitor
+					, Run Brightness ["-t", "\xf0cd <percent>%", "--", "-D", "intel_backlight"] 60
+                      -- Network up and down
+                    , Run Network "wlp3s0" ["-t", "\xf0aa <rx>kb \xf0ab <tx>kb"] 20
+					  -- MPD module
+					, Run MPD ["-t", "<state>: <artist> - <track>"] 10
+					  -- volume monitor
+					, Run Volume "default" "Master" [] 10
+                      -- Prints out the left side items such as workspaces, layout, etc.
+                      -- The workspaces are 'clickable' in my configs.
+                    , Run UnsafeStdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = " <icon=haskell_20.xpm/> %UnsafeStdinReader% }{ %mpd% %wlp3s0% %volume% %bright% %battery% %date% "
+       }
+
