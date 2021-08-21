@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # set folders
-resource="$HOME/.config/Xresources"
+resource="$XDG_CONFIG_HOME/Xresources"
 res_theme="$HOME/.local/share/themes/colors/"
 res_font="$HOME/.local/share/themes/fonts/"
 tmp_seq="/tmp/sequence-$(date +"%s")"

@@ -10,7 +10,7 @@ signal=$(grep "^\s*w" /proc/net/wireless | awk '{ print "📶", int($3 * 100 / 7
 
 if [ "$(bluetooth)" = "bluetooth = on" ]
 then
-    bluetooth="🔷"
+    bluetooth="🔵"
 else
     bluetooth="🔹"
 fi

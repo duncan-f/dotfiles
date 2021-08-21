@@ -2,4 +2,4 @@
 
 pgrep -x transmission-da || (transmission-daemon && notify-send "Transmission started" && sleep 3)
 
-transmission-remote -a "$@" && notify-send "✅ Torrent added successfully"
+transmission-remote -a "$@" && notify-send -i emblem-ok "Torrent" "Torrent added successfully"

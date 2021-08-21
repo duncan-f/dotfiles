@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-eval $(xres2var)
-
 if [[ -n $BLOCK_INSTANCE ]]; then
 	bat="$BLOCK_INSTANCE"
 else
@@ -11,23 +9,10 @@ fi
 capacity=$(cat /sys/class/power_supply/$bat/capacity) || exit
 status=$(cat /sys/class/power_supply/$bat/status)
 
-if [ $capacity -gt 85 ]; then
-	color="$color7"
-elif [ $capacity -gt 70 ]; then
-	color="$color7"
-elif [ $capacity -gt 38 ]; then
-	color="$color7"
-elif [ $capacity -gt 18 ]; then
-	color="$color3"
-else
-    warn="❗"
-	color="$color1"
-fi
+[ $capacity -lt 10 ] &&	warn="❗"
 
 [ -z "$warn" ] && warn=" "
 
-[ $status = "Charging" ] && color="$color15" && warn=" " 
-	
-[ $status = "Full" ] && color="$color2"
+[ $status = "Charging" ] && warn=" "
 
-printf '<span color="%s">%s%s%s</span>\n' "$color" "$(echo $status | sed "s/Charging/🔌/;s/Discharging/🔋/;s/Not Charging/🛑/;s/Unknown/♻/;s/Full/⚡/")" "$warn" "$(echo $capacity | sed 's/$/%/')"
+printf '%s%s%s\n' "$(echo $status | sed "s/Charging/🔌/;s/Discharging/🔋/;s/Not Charging/🛑/;s/Unknown/♻/;s/Full/⚡/")" "$warn" "$(echo $capacity | sed 's/$/%/')"

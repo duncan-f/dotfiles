@@ -1,12 +1,8 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
-# author: Luke Smith
-
-[ "$(pgrep -x "$(basename "$0")" | wc -l)" -gt 2 ] && exit
+# This loop will update the mpd statusbar module whenever a command changes the
+# music player's status. mpd must be running on X's start for this to work.
 
 while : ; do
-	pgrep -x mpd || exit
-	mpc idle > /dev/null
-	pkill -RTMIN+11 i3blocks ;
+	mpc idle >/dev/null && kill -45 "$(pidof "${STATUSBAR:-dwmblocks}")" || break
 done
-

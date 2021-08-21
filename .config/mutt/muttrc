@@ -1,6 +1,6 @@
 # vim: filetype=neomuttrc
 
-set sort = 'reverse-date'
+set sort = 'reverse-threads'
 set editor = $EDITOR
 set signature = ~/.config/mutt/signature
 set markers = no
@@ -74,6 +74,6 @@ source ~/.config/mutt/aliases
 source ~/.config/mutt/accounts/homerc
 
 macro index,pager i1 '<sync-mailbox><enter-command>source ~/.config/mutt/accounts/homerc<enter><change-folder>!<enter>;<check-stats>' "switch to fmokhtari@mail.ru"
-macro index,pager i2 '<sync-mailbox><enter-command>source ~/.config/mutt/accounts/workrc<enter><change-folder>!<enter>;<check-stats>' "switch to faroukmokh@gmail.com"
-macro index,pager i3 '<sync-mailbox><enter-command>source ~/.config/mutt/accounts/hotmailrc<enter><change-folder>!<enter>;<check-stats>' "switch to f0uad.f@hotmail.com"
+macro index,pager i2 '<sync-mailbox><enter-command>source ~/.config/mutt/accounts/hotmailrc<enter><change-folder>!<enter>;<check-stats>' "switch to f0uad.f@hotmail.com"
+#macro index,pager i3 '<sync-mailbox><enter-command>source ~/.config/mutt/accounts/workrc<enter><change-folder>!<enter>;<check-stats>' "switch to faroukmokh@gmail.com"
 

@@ -6,6 +6,6 @@ RSSFILE="$HOME/.config/newsboat/urls"
 if awk '{print $1}' "$RSSFILE" | grep "^$1$" >/dev/null; then
 	notify-send "You already have this RSS feed."
 else
-	echo "$1" >> "$RSSFILE" && notify-send "RSS feed added."
+	echo "$1" >> "$RSSFILE" && notify-send -i emblem-ok "RSS feed" "RSS feed added."
 fi
 

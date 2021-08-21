@@ -22,12 +22,9 @@ alias \
 
 # Paths related
 alias \
-	cpa="cp $HOME/docs/latex/article.tex" \
-	cpb="cp $HOME/docs/latex/beamer.tex" \
-	cph="cp $HOME/docs/latex/handout.tex" \
-	xsrc="xrdb ~/.Xresources" \
+	xsrc="xrdb $XDG_CONFIG_HOME/Xresources" \
 	bsrc="source ~/.bashrc" \
-	zsrc="source ~/.zshrc" \
+	zsrc="source $XDG_CONFIG_HOME/zsh/.zshrc" \
 	ref="shortcuts >/dev/null && source $HOME/.config/shortcutsrc"
 
 # Apps commands
@@ -37,8 +34,23 @@ alias \
 	yt="youtube-dl --add-metadata -i" \
 	yta="youtube-dl --add-metadata -xif bestaudio/best" \
 	e="$EDITOR" \
-	sv="sudo $EDITOR" \
-	r="ranger" \
 	sr="sudo ranger" \
 	trc="transmission-remote-cli" \
 	ka="killall"
+
+# ----------------------
+# Git Aliases
+# ----------------------
+alias \
+	ga='git add' \
+	gaa='git add .' \
+	gaaa='git add -A' \
+	gc='git commit' \
+	gcm='git commit -m' \
+	gd='git diff' \
+	gi='git init' \
+	gl='git log' \
+	gp='git pull' \
+	gpsh='git push' \
+	gss='git status -s' \
+	gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status' \

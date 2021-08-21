@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ "$(stat -c %y ~/.cache/corona 2>/dev/null | cut -d' ' -f1 )" != "$(date +'%Y-%m-%d')" ] || [[ "$(date +'%H:%M')" > "17:00" ]] && curl -s "https://corona-stats.online/DZ" > "$HOME/.cache/corona"
+
+grep "Algeria" "$HOME/.cache/corona" | sed "s/\s*//g;s/║//g;s/│/;/g;s/\x1B\[[0-9;]*[JKmsu]//g" | awk -F';' '$6!="" {print "😷" $3,"☠", $5, "("$6")"} $6=="" {print "😷" $3,"☠", $5}'

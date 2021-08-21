@@ -6,17 +6,16 @@
 # suffer the consequences of weird color issues. use "mutt -v" to check this.
 
 # basic colors ---------------------------------------------------------
-color normal        default		    default         
-color error         red             default         
-color tilde         black           default         
-color message       cyan            default         
-color markers       red             white           
-color attachment    white           default         
-color search        brightmagenta   default         
-color status        brightblack     default        
-color status        brightyellow    black           
-color indicator     brightblack     yellow          
-color tree          yellow          default                                     # arrow in threads
+color normal        default		    default
+color error         red             default
+color tilde         black           default
+color message       blue            default
+color markers       red             white
+color attachment    green           default
+color search        brightmagenta   default
+color status        brightblue	    black
+color indicator     brightwhite		blue
+color tree          blue			default                                     # arrow in threads
 
 # basic monocolor screen
 mono  bold          bold
@@ -26,14 +25,14 @@ mono  error         bold
 
 # index ----------------------------------------------------------------
 
-color index			yellow			default			".*"
-color index_author	red				default			".*"
-color index_number	cyan			default
-color index_subject	cyan			default			".*"
-#color index_date	blue			default
+color index			white			default			".*"
+color index_number	magenta			default
+color index_author	cyan			default			".*"
+color index_subject	white			default			".*"
+color index_date	yellow			default
 
 # New mail is boldened:
-color index 		brightyellow 	black 			"~N"
+color index 		brightwhite 	black 			"~N"
 color index_author 	brightred 		black 			"~N"
 color index_subject brightblue 		black 			"~N"
 
@@ -48,20 +47,17 @@ color hdrdefault    brightblue	    default
 color header		blue			default			".*"
 color header        brightmagenta   default         "^(From)"
 color header        brightcyan      default         "^(Subject)"
-color header        brightwhite     default         "^(CC|BCC)"
+color header        brightred		default         "^(CC|BCC)"
 
 # body -----------------------------------------------------------------
 
-color quoted        blue            default         
-color quoted1       cyan            default         
-color quoted2       yellow          default         
-color quoted3       red             default         
-color quoted4       brightred       default         
+color quoted        blue            default
+color quoted1       cyan            default
+color quoted2       yellow          default
+color quoted3       red             default
+color quoted4       brightred       default
 
-color signature     green			default         
-color bold          black           default         
-color underline     black           default         
-color normal        default         default         
+color signature     blue			default
 #
 color body          brightcyan      default         "[;:][-o][)/(|]"    # emoticons
 color body          brightcyan      default         "[;:][)(|]"         # emoticons
@@ -84,8 +80,8 @@ mono  body          bold                            "^gpg: BAD signature from.*"
 # yes, an insance URL regex
 color body          red             default         "([a-z][a-z0-9+-]*://(((([a-z0-9_.!~*'();:&=+$,-]|%[0-9a-f][0-9a-f])*@)?((([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?|[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)(:[0-9]+)?)|([a-z0-9_.!~*'()$,;:@&=+-]|%[0-9a-f][0-9a-f])+)(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?(#([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?|(www|ftp)\\.(([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?(:[0-9]+)?(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?(#([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?)[^].,:;!)? \t\r\n<>\"]"
 
-color sidebar_highlight			red					default
-color sidebar_divider			brightyellow		black
+color sidebar_highlight			magenta				default
+color sidebar_divider			brightblue			black
 color sidebar_flagged			yellow				default
 color sidebar_new				brightgreen			default
 

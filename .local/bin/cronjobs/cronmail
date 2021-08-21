@@ -1,17 +1,23 @@
 #!/usr/bin/env sh
 
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
-export DBUS_SESSION_BUS_ADDRESS
 export DISPLAY=:0.0
+export GNUPGHOME="$HOME/.local/share/gnupg"
 
 pgrep -x mbsync >/dev/null && { echo "mbsync: An instance is running."; exit; }
 
-ping -q -c1 1.1.1.1 >/dev/null || { echo "No internet connection!"; exit; }
+ping -q -c1 8.8.8.8 >/dev/null || { echo "No internet connection!"; exit; }
 command -v notify-send >/dev/null || echo "Note that \`libnotify\` or \`libnotify-send\` should be installed for pop-up mail notifications with this script."
 
-mbsync -a -c ~/.config/mbsyncrc
-#new=$(find "$HOME/.mail/*/INBOX/new/" "$HOME/.mail/*/Inbox/new/" "$HOME/.mail/*/inbox/new/" -type f 2> /dev/null)
-#newcount=$(echo "$new" | sed '/^\s*$/d' | wc -l)
-#accounts=$(awk '/^IMAPAccount/ {print $2}' "$HOME/.mbsyncrc")
-notify-send "📫 Mailboxes synced successfully." && aplay "$HOME/.local/share/sounds/not.wav" >/dev/null
+accounts=$(awk '/^IMAPAccount/ {print $2}' "$HOME/.config/mbsyncrc")
+for x in $accounts; do
+	mbsync -c "$HOME/.config/mbsyncrc" $x
+	new=$(find "$HOME/.local/share/mail/$x/INBOX/new/" "$HOME/.local/share/mail/$x/Inbox/new/" "$HOME/.local/share/mail/$x/inbox/new/" -type f 2> /dev/null)
+	newcount=$(echo "$new" | sed '/^\s*$/d' | wc -l)
+	[ $newcount -gt 0 ] && notify-send -i mail-message-new "New emails" "account $x has $newcount new email(s)"
+done
+notify-send -i mail-unread "Email" "Mailboxes synced successfully."
+
+#mail-unread
+#mail-send
+#mail-read

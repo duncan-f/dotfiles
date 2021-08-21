@@ -1,29 +1,56 @@
-https://www.journals.elsevier.com/precambrian-research/rss
-https://www.investigaction.net/fr/feed/rss/
-https://www.menadefense.net/en/feed/
-http://www.voltairenet.org/spip.php?page=backend&id_secteur=1110&lang=fr
-https://www.egaliteetreconciliation.fr/spip.php?page=backend
-http://feeds.aps.dz/aps-algerie?format=xml
-http://passion-gto.net/news.rss
-http://www.horriblesubs.info/rss.php?res=1080
-https://www.archlinux.org/feeds/news/
-https://www.archlinux.org/feeds/planet/
-https://www.debian.org/News/news
-http://feeds.feedburner.com/Grafikart
-http://lukesmith.xyz/rss.xml
-https://www.i-bsd.com/feed.xml
-https://n-o-d-e.net/rss/rss.xml
-https://filmsbykris.com/rss.xml
-https://www.reddit.com/r/unixporn.rss
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~DistroTube (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCj_iGliGCkLcHSZ8eqVNPDQ "~Grafikart (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "~gotbletu (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWEHue8kksIaktO8KTTN_zg "~CFE (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA "~Traversy Media (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvrLvII5oxSWEMEkszrxXEA "~N O D E (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA "~LearnLinux.tv (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCfV36TX5AejfAGIbtwTc7Zw "~Chris Hawkes (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "~Ben Eater (YouTube)"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw "~The Cyber Mentor (YouTube)"
-https://feeds.feedburner.com/yourewelcomewithchaelsonnen
+# YouTube Channels
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw "~The Cyber Mentor (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q "~HackerSploit (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "~IppSec (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6J_GnSAi7F2hY4RmnMcWJw "~NetSecNow (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQN2DsjnYH60SFBIA6IkNwg "~STÖK (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPiN9NPjIer8Do9gUFxKv7A "~InsiderPhD (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3CZ9NpBkkEFxQPTOvN1W9g "~Stryker (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo1NHk_bgbAbDBc4JinrXww "~Bugcrowd (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfV36TX5AejfAGIbtwTc7Zw "~Chris Hawkes (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "~Ben Eater (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ "~sentdex (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCj_iGliGCkLcHSZ8eqVNPDQ "~Grafikart (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "~gotbletu (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWEHue8kksIaktO8KTTN_zg "~CFE (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA "~Traversy Media (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvrLvII5oxSWEMEkszrxXEA "~N O D E (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA "~LearnLinux.tv (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvB3solmhqtgDeLpD-yTtfg "~hickok45 (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~DistroTube (YouTube)" "YouTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~ThePrimeagen (YouTube)" "YouTube"
+
+# Sports feeds
+https://feeds.feedburner.com/yourewelcomewithchaelsonnen "Sports"
+
+# Scientific feeds
+https://www.journals.elsevier.com/precambrian-research/rss "Science"
+
+# Technology related feeds
+https://rss.packetstormsecurity.com/ "Tech"
+http://shell-storm.org/rss.xml "Tech"
+https://landchad.net/rss.xml "Tech"
+https://www.archlinux.org/feeds/news/ "Tech"
+https://www.archlinux.org/feeds/planet/ "Tech"
+https://www.debian.org/News/news "Tech"
+http://lukesmith.xyz/rss.xml "Tech"
+https://www.i-bsd.com/feed.xml "Tech"
+https://n-o-d-e.net/rss/rss.xml "Tech"
+https://filmsbykris.com/rss.xml "Tech"
+http://feeds.feedburner.com/Grafikart "Tech"
+
+# News feeds
+https://www.investigaction.net/fr/feed/rss/ "News"
+http://www.voltairenet.org/spip.php?page=backend&id_secteur=1110&lang=fr "News"
+https://www.menadefense.net/en/feed/ "News"
+http://feeds.aps.dz/aps-algerie?format=xml "News"
+
+# Anime/Mangas feeds
+http://www.horriblesubs.info/rss.php?res=1080 "Anime/Mangas"
+https://nyaa.si/?page=rss "Anime/Mangas"
+http://passion-gto.net/news.rss "Anime/Mangas"
+
+https://based.cooking/rss.xml "Cooking"
+
+https://www.reddit.com/r/unixporn.rss "Misc"

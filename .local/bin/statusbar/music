@@ -1,18 +1,10 @@
 #!/usr/bin/env sh
 
-#eval $(xres2var)
-
-# Pass the password in the block instance
-#if [[ -n $BLOCK_INSTANCE ]]; then
-#    password=("-h" "$BLOCK_INSTANCE@localhost")
-#fi
-
 filter() {
     if [ -z "$(mpc status | sed "/^volume:/d")" ]; then
-        tr '\n' ' ' | sed -e "s/^.*/<span font_weight=\"bold\">stopped<\\/span>/g"
+        tr '\n' ' ' | sed -e "s/^.*/Music stopped/g"
     else
         sed "/^volume:/d" | tac | tr '\n' ' ' | cut -d' ' -f4- | awk '/\([0-9]+%\)/{ for (i = 3; i <= NF; i++){a=a$i" "} print a"["$1"]"}' | sed "s/\\&/&amp;/g" #| tr -d '\n'
-        #sed "/^volume:/d" | tac | sed -e "s/\\&/&amp;/g;s/\\[paused\\].*/<span color=\"$color7\" font_style=\"italic\">/g;s/\\[playing\\].*/<span>/g" | tr -d '\n' | sed -e "s/$/<\\/span>/g"
     fi
 }
 

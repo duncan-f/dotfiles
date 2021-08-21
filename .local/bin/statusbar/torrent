@@ -1,6 +1,6 @@
 #!/bin/sh
 
-transmission-remote -l | grep % |
+printf "%s\n" "$(transmission-remote -l | grep % |
 	sed " # This first sed command is to ensure a desirable order with sort
 	s/.*Stopped.*/A/g;
 	s/.*Seeding.*/Z/g;
@@ -14,10 +14,11 @@ transmission-remote -l | grep % |
 				s/L/🔼/g;
 				s/M/🔽/g;
 				s/N/✅/g;
-				s/Z/🌱/g" | awk '{print $2, $1}' | sed -e "s/ $//g" #| tr '\n' ' ' 
+				s/Z/🌱/g" | awk '{print $2, $1}' | sed -e "s/ $//g" | tr '\n' ' ')"
 
 case $BLOCK_BUTTON in
-    1) $TERMINAL -e transmission-remote-cli & ;;
+    1) $TERMINAL -e tremc & ;;
+	2) td-toggle ;;
     3) pgrep -x dunst >/dev/null && notify-send "Torrent module" "🛑: paused
 ⏳: idle (seeds needed)
 🔼: uploading (unfinished)

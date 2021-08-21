@@ -1,0 +1,35 @@
+#!/usr/bin/env sh
+
+WORKING_DIR="$HOME/dev/projects/webdev"
+
+if [[ $# -eq 1 ]]; then
+    SELECTED=$1
+else
+    ITEMS=`find "${WORKING_DIR}" -maxdepth 1 -mindepth 1 -type d`
+    ITEMS+=("${WORKING_DIR}")
+    SELECTED=`echo "${ITEMS}" | fzf`
+fi
+
+#while [ "$#" -gt 0 ];
+#do
+#	case "$1" in
+#		-d | --working-dir)
+#			shift 2
+#			;;
+#		*)
+#			shift
+#			echo "Bad argument"
+#			exit 1
+#			;;
+#	esac
+#done
+
+SESSION_NAME=`basename $SELECTED | tr . _`
+
+tmux switch-client -t $SESSION_NAME
+if [[ $? -eq 0 ]]; then
+    exit 0
+fi
+
+tmux new-session -c $SELECTED -d -s $SESSION_NAME && tmux switch-client -t $SESSION_NAME || tmux new -c $SELECTED -A -s $SESSION_NAME
+

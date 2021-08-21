@@ -3,6 +3,8 @@
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%{$fg[yellow]%}[%{$fg[green]%}%B%n%b%{$reset_color%}@%{$fg[red]%}%B%m %{$fg[blue]%}%c%b%{$fg[yellow]%}]%{$reset_color%}%B$%b "
+setopt autocd		# Automatically cd into typed directory.
+stty stop undef		# Disable ctrl-s to freeze terminal.
 
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -65,8 +67,11 @@ preexec() { echo -ne '\e[5 q' ;}
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#7d7d7d"
+
 [ -f "$HOME/.config/shortcutsrc" ] && source "$HOME/.config/shortcutsrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source "$HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" 2>/dev/null
+

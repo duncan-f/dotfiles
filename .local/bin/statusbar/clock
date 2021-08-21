@@ -8,7 +8,4 @@ case "$BLOCK_BUTTON" in
 	3) "$TERMINAL" -e calcurse & ;;
 esac
 
-printf '%s %s\n' "🕓" "$(date "+%I:%M %p")"
-#printf '%s %s' "" "$(date "+%I:%M %p")"
-#printf '%s %s' "" "$(date "+%a, %d %b")"
-#printf '%s %s' "📅" "$(date "+%a, %d %b")"
+printf '%s\n' "$(date "+📅%a, %d %b 🕓%I:%M %p")"

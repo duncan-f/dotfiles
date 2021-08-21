@@ -1,13 +1,15 @@
-#!/usr/bin/env sh                                                                                                   
+#!/usr/bin/env sh
 
-SESSIONNAME="webdev"
+WORKING_DIR="${HOME}/dev/projects/webdev"
+
+[ $# -eq 1 ] && SESSIONNAME="$1"
 tmux has-session -t $SESSIONNAME >/dev/null 2>&1
 
 if [ -z "$?" ]
 then
-    tmux new-session -s $SESSIONNAME -n server -c "$HOME/programming/projects/webdev" -d
-    tmux new-window -n development -c "$HOME/programming/projects/webdev"
-    #tmux send-keys -t $SESSIONNAME "$HOME/.script/somescript" C-m 
+    tmux new-session -s $SESSIONNAME -n server -c "$WORKING_DIR" -d
+    tmux new-window -n editor -c "$WORKING_DIR"
+    #tmux send-keys -t $SESSIONNAME "$HOME/.script/somescript" C-m
 fi
 
 tmux attach -t $SESSIONNAME
