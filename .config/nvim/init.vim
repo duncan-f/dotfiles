@@ -11,15 +11,25 @@ if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/plugged')
+Plug 'ap/vim-css-color'
+"Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+Plug 'mattn/emmet-vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-Plug 'jreybert/vimagit'
-Plug 'vim-airline/vim-airline'
-Plug 'ctrlpvim/ctrlp.vim'
+
 Plug 'mbbill/undotree'
-Plug 'ycm-core/YouCompleteMe'
+Plug 'jreybert/vimagit'
+Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ycm-core/YouCompleteMe'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'mattn/emmet-vim'
 call plug#end()
 
 syntax on
@@ -29,7 +39,7 @@ set nocompatible
 set exrc
 set mouse=a
 set clipboard+=unnamedplus
-set encoding=utf-8
+set encoding=UTF-8
 set wildmode=longest,list,full
 "set termguicolors
 
@@ -47,13 +57,28 @@ set hlsearch
 set splitbelow splitright
 set colorcolumn=80
 
+"set showtabline=2
+"set noshowmode
+
 colorscheme dracula
 set bg=dark
 
-hi ColorColumn ctermbg=0 guibg=lightgrey
+hi ColorColumn ctermbg=7 guibg=lightgrey
 hi Search cterm=NONE ctermfg=black ctermbg=blue guibg=blue guifg=black
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+if exists("g:loaded_webdevicons")
+	call webdevicons#refresh()
+endif
+
+let g:airine_theme='dracula'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+let g:airline#extensions#coc#enabled = 1
+let g:airline#extensions#coc#error_symbol = 'E:'
+let g:airline#extensions#coc#warning_symbol = 'W:'
 
 let mapleader = ','
 map <leader>n	:NERDTreeToggle<cr>
@@ -61,9 +86,12 @@ map <leader>u	:UndotreeToggle<cr>
 map <leader>g	:Magit<cr>
 map <leader>pi	:PlugInstall<cr>
 map <leader>pu	:PlugUpdate<cr>
+map <leader>pU	:PlugUpgrade<cr>
 map <leader>pc	:PlugClean<cr>
 
 " map keys for Copy/Pasting
+nnoremap    <leader>y "+y
+nnoremap    <leader>Y gg"+yG
 vnoremap    <C-c> "+y
 vnoremap    <C-x> "+d
 map         <leader>v "+p
