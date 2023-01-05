@@ -1,16 +1,18 @@
-if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
+let mapleader = ','
+
+if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim"'))
 	if !executable("curl")
 		autocmd VimLeavePre * call confirm("You must install curl!")
 		execute "q!"
 	endif
 	echo "Downloading junegunn/vim-plug to manage plugins..."
-	silent !mkdir -p ~/.config/nvim/autoload/
-	silent !mkdir -p ~/.config/nvim/undodir/
-	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
+	silent !mkdir -p ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/
+	silent !mkdir -p ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/undodir/
+	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim
 	autocmd VimEnter * PlugInstall
 endif
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
 Plug 'morhetz/gruvbox'
 Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
@@ -20,6 +22,7 @@ Plug 'nvim-treesitter/playground'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'mbbill/undotree'
+Plug 'jreybert/vimagit'
 Plug 'phelipetls/vim-hugo'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
@@ -84,8 +87,8 @@ let g:airline#extensions#tabline#enabled = 1
 " Emmet remap
 let g:user_emmet_leader_key='<C-s>'
 
-let mapleader = ','
 map <leader>n	:Ex<cr>
+map <leader>g	:Magit<cr>
 map <leader>u	:UndotreeToggle<cr>
 
 " Plug keymapping
@@ -124,6 +127,7 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
 lsp.ensure_installed({
+  'cssls',
   'tsserver',
   'eslint',
   'sumneko_lua',
