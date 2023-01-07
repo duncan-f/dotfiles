@@ -13,19 +13,25 @@ if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autolo
 endif
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
+" Themes & Colors
 Plug 'morhetz/gruvbox'
 Plug 'ap/vim-css-color'
+Plug 'phelipetls/vim-hugo'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'nvim-treesitter/playground'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+" Utilities
 Plug 'mbbill/undotree'
 Plug 'jreybert/vimagit'
-Plug 'phelipetls/vim-hugo'
+
+" Fuzzy finding
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+
+" Highlighting
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/playground'
 
 " LSP Support
 Plug 'neovim/nvim-lspconfig'
@@ -70,7 +76,7 @@ set incsearch
 set nohlsearch
 set splitbelow splitright
 set colorcolumn=80
-
+set termguicolors
 colorscheme gruvbox
 set bg=dark
 
@@ -87,15 +93,23 @@ let g:airline#extensions#tabline#enabled = 1
 " Emmet remap
 let g:user_emmet_leader_key='<C-s>'
 
+" Global remaps
 map <leader>n	:Ex<cr>
 map <leader>g	:Magit<cr>
 map <leader>u	:UndotreeToggle<cr>
+map <leader>pg	:TSPlaygroundToggle<cr>
 
 " Plug keymapping
 map <leader>pi	:PlugInstall<cr>
 map <leader>pu	:PlugUpdate<cr>
 map <leader>pU	:PlugUpgrade<cr>
 map <leader>pc	:PlugClean<cr>
+
+" Tabs
+map <leader>nt	:tabnew<cr>
+map <leader>ct	:tabclose<cr>
+map <leader>pt	:tabprevious<cr>
+map <leader>nn	:tabnext<cr>
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -123,6 +137,29 @@ map <C-S-n> :bn
 map <C-S-p> :bp
 
 lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  -- A list of parser names, or "all"
+  ensure_installed = { "javascript", "typescript", "html", "c", "lua", "rust" },
+
+  -- Install parsers synchronously (only applied to `ensure_installed`)
+  sync_install = false,
+
+  -- Automatically install missing parsers when entering buffer
+  -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
+  auto_install = true,
+
+  highlight = {
+    -- `false` will disable the whole extension
+    enable = true,
+
+    -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
+    -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
+    -- Using this option may slow down your editor, and you may see some duplicate highlights.
+    -- Instead of true it can also be a list of languages
+    additional_vim_regex_highlighting = false,
+  },
+}
+
 local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
@@ -132,6 +169,26 @@ lsp.ensure_installed({
   'eslint',
   'sumneko_lua',
   'rust_analyzer',
+})
+
+lsp.auto_install = true
+
+local cmp = require('cmp')
+local cmp_select = {behavior = cmp.SelectBehavior.Select}
+local cmp_mappings = lsp.defaults.cmp_mappings({
+  ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
+  ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
+  ['<C-y>'] = cmp.mapping.confirm({ select = true }),
+  ["<C-Space>"] = cmp.mapping.complete(),
+})
+
+-- disable completion with tab
+-- this helps with copilot setup
+cmp_mappings['<Tab>'] = nil
+cmp_mappings['<S-Tab>'] = nil
+
+lsp.setup_nvim_cmp({
+  mapping = cmp_mappings
 })
 
 lsp.on_attach(function(client, bufnr)
