@@ -31,7 +31,6 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 " Highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'nvim-treesitter/playground'
 
 " LSP Support
 Plug 'neovim/nvim-lspconfig'
@@ -97,7 +96,6 @@ let g:user_emmet_leader_key='<C-s>'
 map <leader>n	:Ex<cr>
 map <leader>g	:Magit<cr>
 map <leader>u	:UndotreeToggle<cr>
-map <leader>pg	:TSPlaygroundToggle<cr>
 
 " Plug keymapping
 map <leader>pi	:PlugInstall<cr>
@@ -113,7 +111,8 @@ map <leader>nn	:tabnext<cr>
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+"nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fg <cmd>Telescope grep_string<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <leader>gg <cmd>Telescope git_files<cr>
@@ -139,7 +138,7 @@ map <C-S-p> :bp
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { "javascript", "typescript", "html", "c", "lua", "rust" },
+  ensure_installed = { "help", "javascript", "typescript", "html", "c", "lua", "python" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
