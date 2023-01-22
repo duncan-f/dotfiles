@@ -1,13 +1,19 @@
 # The following lines were added by compinstall
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
 
 # Enable colors and change prompt:
 autoload -U colors && colors
-PS1="%{$fg[yellow]%}[%{$fg[green]%}%B%n%b%{$reset_color%}@%{$fg[red]%}%B%m %{$fg[blue]%}%c%b%{$fg[yellow]%}]%{$reset_color%}%B$%b "
+PS1="%{$fg[yellow]%}[%{$fg[green]%}%B%n%b%{$reset_color%}@%{$fg[red]%}%B%m %{$fg[blue]%}%c%b%{$fg[yellow]%}]%{$reset_color%}%B%(#.#.$)%b ${vcs_info_msg_0_}"
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 
 autoload -U compinit
 zstyle ':completion:*' menu select
+zstyle ':vcs_info:*' actionformats ' %F{3}[%F{7}%b%F{6}|%F{1}%a%F{3}]%f '
+zstyle ':vcs_info:*' formats ' %F{3}[%F{7}%b%F{3}]%f'
+zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
 zmodload zsh/complist
 compinit
 
@@ -20,6 +26,10 @@ HISTFILE="$HOME/.cache/zsh/history"
 HISTSIZE=50000
 SAVEHIST=10000
 # End of lines configured by zsh-newuser-install
+
+setopt PROMPT_SUBST
+#PROMPT='%{$fg[green]%}%B%n%b@%{$fg[red]%}%B%m %{$fg[blue]%}%c%b %{$reset_color%}%(#.#.$) '
+RPROMPT=\$vcs_info_msg_0_
 
 bindkey -v
 export KEYTIMEOUT=1
